@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 000
+  number: '000'
   date: 2015-12-12
   title: Meça suas pesquisas
   description: Tonho, Bachega e Dalton discutem sobre os problemas na ciência brasileira e a urgência acerca da divulgação científica. 

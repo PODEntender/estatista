@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 005
+  number: '005'
   date: 2016-04-14
   title: Sobre saúde mental infantil e autismo
   description: Como interagir com uma criança que não quer se relacionar? Como as expectativas que temos e criamos para a infância podem gerar sofrimento? Seu filho não consegue se concentrar nas aulas? Será que ele precisa de ajuda? O que é, como identificar e como lidar com sinais de autismo em crianças? 

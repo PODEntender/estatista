@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 001
+  number: '001'
   date: 2016-01-12
   title: Sobre evolução de proteínas
   description: Por alguma razão, duas enzimas foram cruciais nesse processo e descobrir o que aconteceu ao longo da história evolutiva dessas enzimas é o trabalho do Dalton (Fabio Neves).

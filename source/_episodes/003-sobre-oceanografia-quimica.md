@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 003
+  number: '003'
   date: 2016-03-17
   title: Sobre oceanografia química
   description: Entenda como é identificada a poluição invisível e como agrotóxicos e outros poluentes foram parar em uma ilha há centenas de quilômetros do litoral brasileiro. 

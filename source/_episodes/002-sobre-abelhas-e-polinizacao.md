@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 002
+  number: '002'
   date: 2016-02-19
   title: Sobre abelhas e polinização
   description: Saiba mais sobre o desaparecimento das abelhas ao redor do mundo e a triste consequência apocalíptica que se aproxima. 

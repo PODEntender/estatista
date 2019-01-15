@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 006
+  number: '006'
   date: 2016-04-28
   title: '[NEWS] Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde' 
   description: Comentamos sobre a importância do Santos Dummond, o maior supercomputador da América Latina, a aprovação do uso da fosfoetanolamina por parte do nosso governo, uma matéria sobre a brasileira que ganhou um prêmio de fotografia científica e o aplicativo de vigilância participativa Guardiões da Saúde.  

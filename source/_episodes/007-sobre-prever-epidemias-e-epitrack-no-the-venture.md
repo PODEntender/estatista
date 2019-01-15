@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 007
+  number: '007'
   date: 2016-05-12
   title: Sobre prever epidemias e Epitrack no The Venture
   description: Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.

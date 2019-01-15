@@ -2,7 +2,7 @@
 extends: _layouts.episode
 section: content
 episode:
-  number: 004
+  number: '004'
   date: 2016-03-31
   title: Sobre crowdfunding para diagnóstico de Zika vírus
   description: Uma equipe de pesquisadores lançou ma campanha de crowdfunding para desenvolver um método de diagnóstico do vírus.  
