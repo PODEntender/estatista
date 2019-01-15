@@ -6,6 +6,7 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+.DS_Store
 
 # Optional ignores
 # /build_staging/
