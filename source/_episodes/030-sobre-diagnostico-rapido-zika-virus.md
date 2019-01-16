@@ -5,7 +5,7 @@ episode:
   number: '030'
   date: 2018-04-21
   title: '[DROPS] Sobre diagnóstico rápido do Zika Vírus'
-  description: 
+  description: Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia? Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3
 tags:
   - podcast
