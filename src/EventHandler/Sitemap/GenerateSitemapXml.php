@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nawarian
- * Date: 2019-01-17
- * Time: 15:31
- */
 
 namespace PODEntender\EventHandler\Sitemap;
 
