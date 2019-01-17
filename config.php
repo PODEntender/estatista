@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:8080',
     'collections' => [
         'episodes' => [
             'path' => new \PODEntender\Slug\Episode(),

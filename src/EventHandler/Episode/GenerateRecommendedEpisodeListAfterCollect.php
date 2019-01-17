@@ -11,7 +11,7 @@ class GenerateRecommendedEpisodeListAfterCollect implements HandlerInterface
 {
     const NUMBER_OF_RECOMMENDATIONS = 3;
 
-    public function handle(Jigsaw $jigsaw)
+    public function handle(Jigsaw $jigsaw): void
     {
         $jigsaw
             ->getCollection('episodes')

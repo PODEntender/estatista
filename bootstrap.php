@@ -1,6 +1,7 @@
 <?php
 
 use PODEntender\EventHandler\Episode\GenerateRecommendedEpisodeListAfterCollect;
+use PODEntender\EventHandler\Sitemap\GenerateSitemapXml;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
@@ -18,4 +19,8 @@ use PODEntender\EventHandler\Episode\GenerateRecommendedEpisodeListAfterCollect;
 
 $events->afterCollections([
     $container->make(GenerateRecommendedEpisodeListAfterCollect::class),
+]);
+
+$events->afterBuild([
+    $container->make(GenerateSitemapXml::class),
 ]);
