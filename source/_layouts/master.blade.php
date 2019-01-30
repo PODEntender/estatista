@@ -8,5 +8,6 @@
     </head>
     <body>
         @yield('body')
+        @yield('footer')
     </body>
 </html>
