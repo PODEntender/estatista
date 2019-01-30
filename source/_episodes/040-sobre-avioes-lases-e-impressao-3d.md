@@ -7,6 +7,9 @@ episode:
   title: 'Sobre aviões, lasers e impressão 3D'
   description: Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato “padrão” com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases poluentes e sejam mais silenciosos.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender40.mp3
+  cover:
+    url: '/assets/images/episode/040/040-capa.jpg'
+    title: 'Capa do episódio: Física e Motores de Avião com Tamy Guimarães'
 tags:
   - podcast
   - Aviação
@@ -26,9 +29,6 @@ links:
   'Sorria, você está na Polônia!': https://www.onomedissoemundo.com/2018/11/ondem-171-polonia/
   'Post sobre avião baleinha': https://www1.grc.nasa.gov/aeronautics/bli/
 ---
-
-![Capa do episódio: Física e Motores de Avião com Tamy Guimarães](/assets/images/episode/040/040-capa.jpg)
-
 Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato
 "padrão" com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é
 focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases

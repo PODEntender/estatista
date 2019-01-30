@@ -7,6 +7,9 @@ episode:
   title: '[DROPS] Sobre diagnóstico rápido do Zika Vírus'
   description: Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia? Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3
+  cover:
+    url: '/assets/images/episode/030/030-capa.jpg'
+    title: 'Capa do episódio: Série Pesquisa Zika no Brasil, episódio 2'
 tags:
   - podcast
   - podcast de ciência
@@ -30,9 +33,6 @@ links:
   'Ciência Todo Dia': https://www.youtube.com/CienciaTodoDia
   'Link para o Maior grupo em linha reta da América Latina do Facebook': http://bit.ly/OMaiorGrupo
 ---
-
-![Capa do episódio: Série Pesquisa Zika no Brasil, episódio 2](/assets/images/episode/030/030-capa.jpg)
-
 Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia?
 Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?
 

@@ -7,6 +7,9 @@ episode:
   title: '[DROPS] Sobre células-tronco, câncer e inteligência artificial'
   description: Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células cancerígenas.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_39.mp3
+  cover:
+    url: '/assets/images/episode/039/039-capa.jpg'
+    title: 'Capa do episódio: Machine Learning e Câncer, com Tathiane Malta'
 tags:
   - podcast
   - drops
@@ -22,9 +25,6 @@ links:
   'Vídeo Ciência USP': https://www.youtube.com/watch?v=fKCiEPX_OWY
   'Banco de dados TCGA': https://cancergenome.nih.gov/
 ---
-
-![Capa do episódio: Machine Learning e Câncer, com Tathiane Malta](/assets/images/episode/039/039-capa.jpg)
-
 Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças
 entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise
 e classificação de centenas de amostras. Para a nossa alegria (~olha a revolução das máquinas chegando~),

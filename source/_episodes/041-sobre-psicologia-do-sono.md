@@ -7,6 +7,9 @@ episode:
   title: 'Sobre a psicologia do sono'
   description: Você já se questionou por que nós precisamos dormir? Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3
+  cover:
+    url: '/assets/images/episode/041/041-capa.jpg'
+    title: 'Capa do episódio: Psicologia do Sono, com Altay de Souza'
 tags:
   - podcast
   - podcast de ciência
@@ -23,9 +26,6 @@ links:
   'Nova temporada do Projeto Humanos': https://www.projetohumanos.com.br/
   'Pixel Dailies': https://twitter.com/Pixel_Dailies
 ---
-
-![Capa do episódio: Psicologia do Sono, com Altay de Souza](/assets/images/episode/041/041-capa.jpg)
-
 Você já se questionou por que nós precisamos dormir? Infelizmente, não temos uma resposta definitiva,
 mas existem pesquisadores(as) tentando responder essa pergunta e neste episódio você vai conhecer um deles.
 

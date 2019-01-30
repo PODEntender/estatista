@@ -6,13 +6,13 @@ episode:
   date: 2017-07-13
   title: 'Sobre ecologia evolutiva'
   description: Vários fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores é um trabalho para a Ecologia Evolutiva.  
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_026_ecologia_evolutiva.mp3  
+  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_026_ecologia_evolutiva.mp3
+  cover:
+    url: '/assets/images/episode/026/026-capa.png'
+    title: 'Capa do episódio: Ecologia Evolutiva com prof. Bruno Spacek da Universidade Federal do Pará'  
 tags:
   - podcast
 ---
-
-![Capa do episódio: Ecologia Evolutiva com prof. Bruno Spacek da Universidade Federal do Pará](/assets/images/episode/026/026-capa.png)
-
 Vários fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses
 fatores é um trabalho para a Ecologia Evolutiva.
 

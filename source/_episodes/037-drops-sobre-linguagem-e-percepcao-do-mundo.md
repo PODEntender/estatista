@@ -7,6 +7,9 @@ episode:
   title: '[DROPS] Sobre linguagem e percepção do mundo'
   description: A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma relação entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta relação? Como essa relação se expressa nos outros animais? Qual é a diferença entre linguagem e comunicação?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_37.mp3
+  cover:
+    url: '/assets/images/episode/037/037-capa.jpg'
+    title: 'Capa do episódio: Linguagem e Percepção do Mundo, com Mariana Fogaça'
 tags:
   - podcast
   - drops
@@ -26,9 +29,6 @@ links:
   'Série Maniac': https://www.youtube.com/watch?v=L6cDDmk-O5A
   'Jogo Freedom Wars (PS Vita)': https://www.youtube.com/watch?v=TcGDRGZ960s
 ---
-
-![Capa do episódio: Linguagem e Percepção do Mundo, com Mariana Fogaça](/assets/images/episode/037/037-capa.jpg)
-
 A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto,
 é razoável supor que existe uma **relação entre o processo evolutivo e as necessidades da linguagem**.
 Como podemos estudar esta relação? Como essa relação se expressa nos outros animais?
