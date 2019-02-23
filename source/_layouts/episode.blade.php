@@ -9,6 +9,7 @@
 @section('body')
     @include('_partials.layout.header.navbar')
     @include('_partials.episode.cover.main')
+    @include('_partials.layout.sidemenu.sidemenu')
     @include('_partials.episode.content.main')
     @include('_partials.episode.recommendations.main')
     @include('_partials.layout.footer.footer')
