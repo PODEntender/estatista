@@ -20,4 +20,11 @@ return [
 
     // Helper methods
     'url' => new \PODEntender\Helper\Url(),
+
+    'assets' => [
+        'logo' => '/assets/images/logo.png',
+        'icons' => [
+            'menu' => '/assets/images/icons/menu.svg',
+        ],
+    ],
 ];
