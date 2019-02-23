@@ -8,5 +8,8 @@
         "psr-4": {
             "PODEntender\\": "src/"
         }
+    },
+    "scripts": {
+        "dev": "jigsaw build && npm install && npm run watch"
     }
 }
