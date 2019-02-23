@@ -1,3 +1,0 @@
-<article>
-    @yield('content')
-</article>
