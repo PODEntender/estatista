@@ -1,0 +1,38 @@
+@import '../../colors';
+
+.footer {
+  background-color: $primary-title-color;
+  color: $website-background-color;
+  text-align: center;
+  margin-top: 6em;
+  padding: 2em;
+
+  &__copy::before {
+    display: inline-block;
+    position: relative;
+    content: ' ';
+    border-top: 1px solid $website-background-color;
+    transform: translateX(-50%);
+    width: 100%;
+    left: 50%;
+    margin: 1em auto;
+  }
+
+  &__copy {
+    position: relative;
+    bottom: 0;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  &__menu {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+  }
+
+  &__menu-group {
+    flex: 1;
+  }
+}

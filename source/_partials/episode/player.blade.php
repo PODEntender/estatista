@@ -1,5 +1,5 @@
 <section class="player-card">
-    <audio controls>
+    <audio class="player-card__player" controls>
         <source src="#">
     </audio>
 

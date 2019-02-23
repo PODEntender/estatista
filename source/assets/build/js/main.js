@@ -97,6 +97,17 @@
 
 /***/ }),
 
+/***/ "./source/_assets/sass/episode/main.scss":
+/*!***********************************************!*\
+  !*** ./source/_assets/sass/episode/main.scss ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./source/_assets/sass/main.scss":
 /*!***************************************!*\
   !*** ./source/_assets/sass/main.scss ***!
@@ -109,14 +120,15 @@
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************!*\
-  !*** multi ./source/_assets/js/main.js ./source/_assets/sass/main.scss ***!
-  \*************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** multi ./source/_assets/js/main.js ./source/_assets/sass/main.scss ./source/_assets/sass/episode/main.scss ***!
+  \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+module.exports = __webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/sass/episode/main.scss */"./source/_assets/sass/episode/main.scss");
 
 
 /***/ })

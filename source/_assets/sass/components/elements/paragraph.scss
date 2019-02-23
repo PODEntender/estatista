@@ -1,0 +1,28 @@
+@import '../../colors';
+
+$font-size-primary-text: 18px;
+
+.paragraph {
+  margin: 20px 0;
+  font-size: $font-size-primary-text;
+  color: $primary-text-color;
+  letter-spacing: 0.072px;
+  line-height: 28px;
+  font-weight: 300;
+
+  &--left {
+    text-align: left;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--justified {
+    text-align: justify;
+  }
+
+  &--bold {
+    font-weight: 700;
+  }
+}

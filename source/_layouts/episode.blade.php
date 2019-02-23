@@ -12,4 +12,6 @@
     @include('_partials.episode.main')
     @include('_partials.episode.recommendations.main')
     @include('_partials.layout.footer.footer')
+
+    <link rel="stylesheet" href="/assets/build/css/main.css">
 @endsection
