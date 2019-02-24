@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'http://localhost:8080',
+    'baseUrl' => 'http://localhost:3000',
     'menu' => [
         'items' => [
             'Todos' => '/tag/all',
