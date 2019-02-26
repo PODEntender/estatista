@@ -7,6 +7,9 @@ episode:
   title: Sobre oceanografia química
   description: Entenda como é identificada a poluição invisível e como agrotóxicos e outros poluentes foram parar em uma ilha há centenas de quilômetros do litoral brasileiro. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_003_sobre_oceanografia_quimica.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - podcast
   - destaque

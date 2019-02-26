@@ -7,6 +7,9 @@ episode:
   title: '[DROPS] Sobre Creative Commons e Inovação'
   description: Neste episódio, conversamos com **Laure Stelmastchuk**, doutoranda em Física Aplicada do IFSC-USP, sobre as vantagens e desvantagens do modelo de patentes e como licenças como Creative Commons podem ser uma boa alternativa para pesquisadores brasileiros.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_010_DROPS_creative_commons_e_inovacao.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - podcast
   - podcast de ciência
