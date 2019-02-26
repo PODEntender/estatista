@@ -94,8 +94,23 @@
 /***/ (function(module, exports) {
 
 window.toggleMenu = function () {
-  return document.querySelector('.side-menu').classList.toggle("side-menu--visible");
+  return document.querySelector('.side-menu').classList.toggle('side-menu--visible');
 };
+
+window.imagesObserver = new IntersectionObserver(function (entries, observer) {
+  entries.filter(function (entry) {
+    return entry.isIntersecting;
+  }).forEach(function (entry) {
+    var target = entry.target;
+    target.setAttribute('src', target.getAttribute('data-src'));
+    observer.unobserve(target);
+  });
+}, {
+  rootMargin: '-30px'
+});
+document.querySelectorAll('img[data-src]').forEach(function (img) {
+  return window.imagesObserver.observe(img);
+});
 
 /***/ }),
 

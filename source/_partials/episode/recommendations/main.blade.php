@@ -7,7 +7,7 @@
         @foreach($page->recommended as $recommendation)
             <li>
                 <a role="article" href="{{ $recommendation->getUrl() }}" class="episode-card">
-                    <img class="episode-card__cover" src="{{ $page->baseUrl . $recommendation->episode['cover']['url'] }}">
+                    <img class="episode-card__cover" data-src="{{ $page->baseUrl . $recommendation->episode['cover']['url'] }}">
                     <h2 class="episode-card__title">
                         PODEntender #{{ $recommendation->episode['number'] }} - {{ $recommendation->episode['title'] }}
                     </h2>
