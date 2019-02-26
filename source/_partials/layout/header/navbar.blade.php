@@ -18,7 +18,7 @@
     </h1>
     <section class="header_bar__menu">
         <button class="header_bar__menu__icon">
-            <img src="{{ $page->assets->icons->menu }}"/>
+            <img src="{{ $page->baseUrl . $page->assets->icons->menu }}"/>
         </button>
     </section>
 </header>
