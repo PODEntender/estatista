@@ -7,6 +7,9 @@ episode:
   title: Sobre a história da biologia estrutural
   description: Talvez você não tenha reparado, mas hoje é possível saber as posições dos átomos de moléculas que compõem os seres vivos.  
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_012_DROPS_historia_da_biologia_estrutural.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - podcast
   - biologia estrutural

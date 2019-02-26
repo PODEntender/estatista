@@ -7,6 +7,9 @@ episode:
   title: Sobre biologia do desenvolvimento
   description: Um dos fenômenos mais complexos que existem no universo é o nascimento de um novo ser vivo. Uma sinfonia molecular incrivelmente complexa ocorre todos os dias no nosso planeta para que uma célula seja capaz de se tornar uma criança com uma vida inteira pela frente.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_011_sobre_Biologia_do_desenvolvimento.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - podcast
 links:

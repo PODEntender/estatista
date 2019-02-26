@@ -7,6 +7,9 @@ episode:
   title: Sobre evolução de proteínas
   description: Por alguma razão, duas enzimas foram cruciais nesse processo e descobrir o que aconteceu ao longo da história evolutiva dessas enzimas é o trabalho do Dalton (Fabio Neves).
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_001_sobre_evoluo_de_proteinas.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - ciência
   - ciências biológicas

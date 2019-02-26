@@ -6,7 +6,10 @@ episode:
   date: 2017-02-15
   title: '[NEWS] Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul'
   description: Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_017_NEWS_fix.mp3  
+  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_017_NEWS_fix.mp3
+  cover:
+      url: '#'
+      title: ''  
 tags:
   - podcast
   - news

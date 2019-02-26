@@ -7,6 +7,9 @@ episode:
   title: Meça suas pesquisas
   description: Tonho, Bachega e Dalton discutem sobre os problemas na ciência brasileira e a urgência acerca da divulgação científica. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender-000.mp3
+  cover:
+    url: '#'
+    title: ''
 tags:
   - ciência
   - divulgação científica

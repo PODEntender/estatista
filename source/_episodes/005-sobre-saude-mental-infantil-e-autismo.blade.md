@@ -7,6 +7,9 @@ episode:
   title: Sobre saúde mental infantil e autismo
   description: Como interagir com uma criança que não quer se relacionar? Como as expectativas que temos e criamos para a infância podem gerar sofrimento? Seu filho não consegue se concentrar nas aulas? Será que ele precisa de ajuda? O que é, como identificar e como lidar com sinais de autismo em crianças? 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_005_sobre_saude_mental_e_autismo.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - podcast
 links:

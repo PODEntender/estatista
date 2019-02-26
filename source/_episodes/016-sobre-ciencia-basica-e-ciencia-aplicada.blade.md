@@ -6,7 +6,10 @@ episode:
   date: 2017-02-01
   title: '[DROPS] Sobre ciência básica e ciência aplicada'
   description: Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3  
+  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3
+  cover:
+      url: '#'
+      title: ''  
 tags:
   - podcast
   - drops

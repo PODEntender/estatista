@@ -6,7 +6,10 @@ episode:
   date: 2017-05-03
   title: '[DROPS] Sobre Zika Vírus e o artigo brasileiro na Nature'
   description: Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença? 
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3 
+  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3
+  cover:
+      url: '#'
+      title: '' 
 tags:
   - podcast
   - ciência

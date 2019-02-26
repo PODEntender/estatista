@@ -7,6 +7,9 @@ episode:
   title: 'Sobre Deep Learning'
   description: O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3
+  cover:
+      url: '#'
+      title: ''
 tags:
   - podcast
 links:
