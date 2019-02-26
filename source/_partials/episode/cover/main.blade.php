@@ -10,5 +10,5 @@
         | em <span class="episode__cover__details--bold">{{ $page->category }}</span>
     </small>
 
-    <img src="{{ $page->getBaseUrl() }}{{ $page->episode['cover']['url'] }}" alt="{{ $page->episode['cover']['title'] }}" title="{{ $page->episode['cover']['title'] }}" class="episode__cover__image">
+    <img src="{{ $page->episode['cover']['url'] }}" alt="{{ $page->episode['cover']['title'] }}" title="{{ $page->episode['cover']['title'] }}" class="episode__cover__image">
 </header>
