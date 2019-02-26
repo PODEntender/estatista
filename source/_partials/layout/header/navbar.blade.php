@@ -14,7 +14,7 @@
 
 <header class="header_bar">
     <h1 class="header_bar__logo">
-        <img src="{{ $page->assets->logo }}" alt="PODEntender" />
+        <img src="{{ $page->baseUrl . $page->assets->logo }}" alt="PODEntender" />
     </h1>
     <section class="header_bar__menu">
         <button class="header_bar__menu__icon">
