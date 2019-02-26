@@ -1,0 +1,19 @@
+language: php
+php:
+  - 7.1
+install:
+  - composer install
+
+script:
+  - composer run build
+  - mv build_production/ public_html/
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  verbose: true
+  target-branch: gh-pages
+  on:
+    branch: master

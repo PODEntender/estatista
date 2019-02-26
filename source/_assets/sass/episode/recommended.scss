@@ -1,0 +1,54 @@
+@import '../colors';
+
+.episode__recommended {
+
+  margin-top: 6em;
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+
+    &::before {
+      display: block;
+      border: 1px solid $accent-color;
+      margin: .5em auto;
+      content: " ";
+      max-width: 20px;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.episode-card {
+  margin-top: .5em;
+  flex: 1;
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+  color: $primary-text-color;
+
+  &:hover {
+    color: lighten($primary-text-color, 10%);
+  }
+
+  &__cover {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  &__title {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  &__release-date {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}

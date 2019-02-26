@@ -1,0 +1,25 @@
+@import '../reset';
+@import '../components/top-nav/top-nav';
+@import '../components/header/header';
+@import '../components/side-menu/side-menu';
+@import '../components/footer/footer';
+@import '../components/elements/heading';
+@import '../components/elements/paragraph';
+@import '../components/elements/links';
+@import '../components/elements/images';
+@import './content-heading';
+@import './player-card';
+@import './recommended';
+@import '../colors';
+@import '../spacing';
+
+
+$episode-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
+
+
+.episode {
+  padding: $website-content-padding;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: $episode-max-width;
+}
