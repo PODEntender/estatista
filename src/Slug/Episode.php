@@ -10,7 +10,7 @@ class Episode
 
     public function __invoke(PageVariable $page)
     {
-        if ($page->episode['slug']) {
+        if ($page->episode['slug'] ?? null) {
             return self::PREFIX . $page->episode['slug'];
         }
 
