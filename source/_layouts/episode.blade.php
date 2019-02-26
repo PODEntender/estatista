@@ -13,4 +13,5 @@
     @include('_partials.layout.footer.footer')
 
     <link rel="stylesheet" href="{{ $page->getBaseUrl() }}/assets/build/css/main.css">
+    <script src="{{ $page->getBaseUrl() }}/assets/build/js/main.js" async></script>
 @endsection

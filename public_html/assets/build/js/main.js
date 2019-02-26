@@ -93,7 +93,9 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+window.toggleMenu = function () {
+  return document.querySelector('.side-menu').classList.toggle("side-menu--visible");
+};
 
 /***/ }),
 

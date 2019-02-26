@@ -134,6 +134,9 @@ table {
   background-color: #fff;
   box-shadow: -20vw 0 0 0 rgba(0, 0, 0, 0.7);
 }
+.side-menu--visible {
+  display: block;
+}
 .side-menu__item {
   font-size: 15px;
   padding-top: 1em;
