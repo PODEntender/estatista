@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
   number: '020'
   date: 2017-04-05
@@ -8,8 +9,8 @@ episode:
   description: Como o machismo influencia a vida acadêmica e o dia a dia de cientistas dentro de seus espaços de trabalho? Será que essa realidade é diferente das outras profissões?  Como enxergar e combater as agressões e a rotina assustadora e desnecessariamente mais difícil e presente na vida das mulheres.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_020_machismo_na_ciencia_brasileira.mp3
   cover:
-      url: '#'
-      title: ''
+    url: '/assets/images/episode/020/020-capa.png'
+    title: 'Capa do episódio: PODEntender #020 - Machismo na ciência Brasileira'
 tags:
   - podcast
   - drops

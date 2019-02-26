@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
   number: '022'
   date: 2017-05-03
@@ -8,8 +9,8 @@ episode:
   description: Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença? 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3
   cover:
-      url: '#'
-      title: '' 
+    url: '/assets/images/episode/022/022-capa.png'
+    title: 'Capa do episódio: PODEntender #022 - Série pesquisas: Zika no Brasil, episódio 1' 
 tags:
   - podcast
   - ciência

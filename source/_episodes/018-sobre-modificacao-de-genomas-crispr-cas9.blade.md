@@ -2,14 +2,15 @@
 extends: _layouts.episode
 section: content
 episode:
+  category: Entrevista
   number: '018'
   date: 2017-03-01
   title: 'Sobre modificação de genomas e CRISPR/Cas9'
   description: Venha descobrir como saber se uma mitocôndria está respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e não se assuste com esse nome!
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_018_CRISPR_e_modificacao_de_genomas.mp3
   cover:
-      url: '#'
-      title: ''
+    url: '/assets/images/episode/018/018-capa.png'
+    title: 'Capa do episódio: PODEntender #018 - Modificação de Genomas CRISPR/Cas9 com Angela Saito do Laboratório Nacional de Biociências'
 tags:
   - podcast
 links:

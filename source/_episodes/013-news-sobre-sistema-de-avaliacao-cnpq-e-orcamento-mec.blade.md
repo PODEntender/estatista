@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: News
 episode:
   number: '013'
   date: 2016-10-10
@@ -8,8 +9,8 @@ episode:
   description: Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_013_NEWS_avaliacao_CNPq_orcamento_MEC.mp3
   cover:
-      url: '#'
-      title: '' 
+    url: '/assets/images/episode/013/013-capa.png'
+    title: 'Capa do episódio: PODEntender #013 - Avaliação do CNPq & Orçamento do MEC' 
 tags:
   - podcast
   - mec
