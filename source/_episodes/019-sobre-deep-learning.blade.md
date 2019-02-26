@@ -2,16 +2,18 @@
 extends: _layouts.episode
 section: content
 episode:
+  category: Drops
   number: '019'
   date: 2017-03-22
-  title: 'Sobre Deep Learning'
+  title: '[DROPS] Sobre Deep Learning'
   description: O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3
   cover:
-      url: '#'
-      title: ''
+    url: '/assets/images/episode/019/019-capa.png'
+    title: 'Capa do episódio: PODEntender #019 - Deep Learning'
 tags:
   - podcast
+  - drops
 links:
   'Ana Maria Braga conhecendo carros autonomos': https://www.youtube.com/watch?v=Puh46qh-XSs
   'Marcha pela ciência': http://marchapelacienciasp.com/index

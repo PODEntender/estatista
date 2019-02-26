@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: News
 episode:
   number: '021'
   date: 2017-04-20
@@ -8,8 +9,8 @@ episode:
   description: Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3
   cover:
-      url: '#'
-      title: ''
+    url: '/assets/images/episode/021/021-capa.png'
+    title: 'Capa do episódio: PODEntender #021 - Corrupção na ciência Brasileira, Assédio e agressão envolvendo professor da UFJF e Novo Instituto privado para apoio à ciência Brasileira'
 tags:
   - podcast
   - news

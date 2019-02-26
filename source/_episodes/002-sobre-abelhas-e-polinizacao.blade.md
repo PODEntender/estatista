@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
   number: '002'
   date: 2016-02-19
@@ -8,8 +9,8 @@ episode:
   description: Saiba mais sobre o desaparecimento das abelhas ao redor do mundo e a triste consequência apocalíptica que se aproxima. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_002_sobre_abelhas_e_polinizao.mp3
   cover:
-      url: '#'
-      title: ''
+    url: '/assets/images/episode/002/002-capa.jpg'
+    title: 'Capa do episódio: PODEntender #002 - Abelhas e Polinização com Patrícia Nunes'
 tags:
   - podcast
 links:
