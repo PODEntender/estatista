@@ -1,5 +1,5 @@
 <section class="player-card">
-    <audio class="player-card__player" controls>
+    <audio class="player-card__player" controls preload="none">
         <source src="{{ $page->episode['blubrry'] }}">
     </audio>
 
