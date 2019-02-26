@@ -4,4 +4,5 @@
     <section class="episode__content">
         @yield('content')
     </section>
+    @include('_partials.episode.recommendations.main')
 </article>

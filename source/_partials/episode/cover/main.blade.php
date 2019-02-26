@@ -5,7 +5,7 @@
 
     <small class="episode__cover__details">
         <time property="na:datePublished" datetime="{{ $page->episode['date'] }}" pubdate="pubdate">
-            {{ $page->episode['date'] }}
+            {{ date('d \d\e F \d\e Y', $page->episode['date']) }}
         </time>
         | em <span class="episode__cover__details--bold">{{ $page->category }}</span>
     </small>
