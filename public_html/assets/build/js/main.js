@@ -97,20 +97,28 @@ window.toggleMenu = function () {
   return document.querySelector('.side-menu').classList.toggle('side-menu--visible');
 };
 
-window.imagesObserver = new IntersectionObserver(function (entries, observer) {
-  entries.filter(function (entry) {
-    return entry.isIntersecting;
-  }).forEach(function (entry) {
-    var target = entry.target;
-    target.setAttribute('src', target.getAttribute('data-src'));
-    observer.unobserve(target);
+if (typeof IntersectionObserver != 'undefined') {
+  window.imagesObserver = new IntersectionObserver(function (entries, observer) {
+    entries.filter(function (entry) {
+      return entry.isIntersecting;
+    }).forEach(function (entry) {
+      var target = entry.target;
+      target.setAttribute('src', target.getAttribute('data-src'));
+      observer.unobserve(target);
+    });
+  }, {
+    rootMargin: '-30px'
   });
-}, {
-  rootMargin: '-30px'
-});
-document.querySelectorAll('img[data-src]').forEach(function (img) {
-  return window.imagesObserver.observe(img);
-});
+  document.querySelectorAll('img[data-src]').forEach(function (img) {
+    return window.imagesObserver.observe(img);
+  });
+} else {
+  setTimeout(function () {
+    document.querySelectorAll('img[data-src]').forEach(function (img) {
+      return img.setAttribute('src', img.getAttribute('data-src'));
+    });
+  }, 400);
+}
 
 /***/ }),
 
@@ -143,9 +151,9 @@ document.querySelectorAll('img[data-src]').forEach(function (img) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/js/main.js */"./source/_assets/js/main.js");
-__webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
-module.exports = __webpack_require__(/*! /Users/nawarian/PhpstormProjects/podentender_jigsaw/source/_assets/sass/episode/main.scss */"./source/_assets/sass/episode/main.scss");
+__webpack_require__(/*! /Users/nsilva/RG/blog/source/_assets/js/main.js */"./source/_assets/js/main.js");
+__webpack_require__(/*! /Users/nsilva/RG/blog/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+module.exports = __webpack_require__(/*! /Users/nsilva/RG/blog/source/_assets/sass/episode/main.scss */"./source/_assets/sass/episode/main.scss");
 
 
 /***/ })

@@ -19,5 +19,5 @@ if (typeof IntersectionObserver != 'undefined') {
 } else {
   setTimeout(() => {
     document.querySelectorAll('img[data-src]').forEach((img) => img.setAttribute('src', img.getAttribute('data-src')));
-  }, 300);
+  }, 400);
 }
