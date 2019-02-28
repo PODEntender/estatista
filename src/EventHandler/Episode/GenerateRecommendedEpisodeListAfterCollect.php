@@ -46,11 +46,7 @@ class GenerateRecommendedEpisodeListAfterCollect implements HandlerInterface
                 }
 
                 $episodeTags = $episode->tags ?? [];
-                if (count(array_intersect($episodeTags, $tags)) > 0) {
-                    return true;
-                }
-
-                return false;
+                return count(array_intersect($episodeTags, $tags)) > 0;
             })
             // Order by amount of matching tags
             ->sortByDesc(function (PageVariable $episode) use ($tags) {
