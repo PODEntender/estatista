@@ -12,7 +12,15 @@ episode:
     url: '/assets/images/episode/023/023-capa.png'
     title: 'Capa do episódio: PODEntender #023 - Telômeros & Falência da Medula com Fernanda Gutierrez da Universidade de São Paulo' 
 tags:
-  - podcast
+  - biologia
+  - genetica
+  - telomeros
+  - medula ossea
+  - usp
+  - fernanda gutierrez
+  - tonho
+  - katarina
+  - carol
 links:
   'The Dictator’s Handbook: Why Bad Behavior Is Almost Always Good Politics': #
   'History of the entire world, I guess': https://www.youtube.com/watch?v=xuCn8ux2gbs&

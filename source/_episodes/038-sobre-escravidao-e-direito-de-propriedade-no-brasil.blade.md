@@ -12,14 +12,15 @@ episode:
     url: '/assets/images/episode/038/038-capa.jpg'
     title: 'Capa do episódio: Escravidão e Direito de Propriedade no Brasil, com Mariana Armond'
 tags:
-  - podcast
-  - Direito
-  - Direito de Propriedade
-  - Escravidão
-  - Mariana Armond
-  - Max-Planck
-  - Podcast de Ciência
-  - USP
+  - historia
+  - direito
+  - propriedade
+  - escravidao
+  - racismo
+  - max-planck
+  - usp
+  - ufmg
+  - mariana armond dias paes
 links:
   'Currículo Lattes de Mariana': http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4243571U4
   'Academia.edu de Mariana': http://rg-mpg.academia.edu/MarianaArmondDiasPaes

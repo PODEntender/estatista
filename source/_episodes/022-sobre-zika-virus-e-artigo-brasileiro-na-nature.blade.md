@@ -12,14 +12,18 @@ episode:
     url: '/assets/images/episode/022/022-capa.png'
     title: 'Capa do episódio: PODEntender #022 - Série pesquisas: Zika no Brasil, episódio 1' 
 tags:
-  - podcast
-  - ciência
-  - divulgação científica
   - nature
+  - proteina
   - NS5
-  - Zika Virus
-  - ZIKV
-  - drops
+  - zika
+  - zikv
+  - serie zikv
+  - virus
+  - andre godoy
+  - tonho
+  - dalton
+  - bachega
+  - edson oliveira
 links:
   'Artigo da Nature sobre proteína NS5 do ZIKV': https://www.nature.com/articles/ncomms14764
   'Altmetric do artigo brasileiro': https://www.altmetric.com/details/18166448

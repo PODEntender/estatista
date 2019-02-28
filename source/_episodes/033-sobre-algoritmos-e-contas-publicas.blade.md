@@ -12,17 +12,21 @@ episode:
     url: '/assets/images/episode/033/033-capa.jpg'
     title: 'Capa do episódio: Algorítmos e contas públicas com Jéssica Temporal'
 tags:
-  - podcast
-  - drops
-  - algorítmos
-  - ciência de dados
-  - contas públicas
+  - algoritmos
+  - dados
+  - inteligencia artificial
+  - contas
   - github
-  - Jessica Temporal
-  - operação serenata de amor
+  - serenata de amor
   - pizza de dados
-  - programação
+  - programacao
   - pyladies
+  - nasa
+  - jessica temporal
+  - tonho
+  - dalton
+  - carol
+  - bachega
 links:
   'Site de Jessica': http://jtemporal.com/
   'Site do Serenata de Amor': http://serenata.ai/

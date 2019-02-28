@@ -12,12 +12,14 @@ episode:
     url: '/assets/images/episode/034/034-capa.jpg'
     title: 'Capa do episódio: Sobre a simulação da ONU'
 tags:
-  - podcast
-  - drops
-  - Ana Luisa
+  - politica
   - internacional
-  - ONU
-  - política
+  - onu
+  - apocalipse
+  - ana luisa demoraes campos
+  - tonho
+  - bachega
+  - katarina
 links:
   'Site da ONU Brasil': http://www.onu.org.br/
   'Twitter de Ana Luisa Demoraes (@onululu)': https://twitter.com/onululu

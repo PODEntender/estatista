@@ -12,16 +12,19 @@ episode:
     url: '/assets/images/episode/037/037-capa.jpg'
     title: 'Capa do episódio: Linguagem e Percepção do Mundo, com Mariana Fogaça'
 tags:
-  - podcast
-  - drops
-  - Comunicação
-  - Divulgação Científica
-  - Etologia
-  - Linguagem
-  - Mariana Fogaça
-  - Podcast de Ciência
-  - Psicologia Experimental
-  - USP
+  - comunicacao
+  - biologia
+  - letras
+  - linguas
+  - linguagem
+  - etologia
+  - evolucao
+  - psicologia
+  - usp
+  - mariana fogaca
+  - tonho
+  - catol
+  - katarina
 links:
   'Currículo Lattes de Mariana': http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4257371H8
   'Instagram de Mariana': https://www.instagram.com/maridfogaca/

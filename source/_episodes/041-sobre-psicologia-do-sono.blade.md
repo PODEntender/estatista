@@ -12,13 +12,17 @@ episode:
     url: '/assets/images/episode/041/041-capa.jpg'
     title: 'Capa do episódio: Psicologia do Sono, com Altay de Souza'
 tags:
-  - podcast
-  - podcast de ciência
-  - Altay de Souza
-  - Ciências Humanas
-  - Psicologia Experimental
-  - Sono
-  - USP
+  - psicologia
+  - filosofia
+  - crossover
+  - sono
+  - naruhodo
+  - usp
+  - altay lino de souza
+  - tonho
+  - dalton
+  - carol
+  - bachega
 links:
   'Currículo Lattes de Altay': http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4702840H9
   'Twitter de Altay': https://twitter.com/altayals

@@ -12,15 +12,17 @@ episode:
     url: '/assets/images/episode/029/029-capa.jpg'
     title: 'Capa do episódio: Manuscritos do mar morto e demonologia com Tupá Guerra'
 tags:
-  - podcast
-  - ciências humanas
+  - historia
   - demonologia
-  - divulgação científica
-  - história
   - manuscritos do mar morto
-  - pesquisa científica
-  - podcast
-  - podcast de ciência
+  - manuscrito
+  - transcricao
+  - mar morto
+  - tupa guerra
+  - tonho
+  - carol
+  - dalton
+  - katarina
 links:
   'Artigo do doutorado de Tupá Guerra': https://www.academia.edu/13536929/Demonic_and_the_feminine_in_the_Dead_Sea_Scrolls?auto=download
   'Episódio do Mundo Freak com Tupá Guerra': http://www.mundofreak.com.br/2017/12/22/mundo-freak-confidencial-183-entrevista-com-doutora-guerra/

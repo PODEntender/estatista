@@ -12,13 +12,16 @@ episode:
     url: '/assets/images/episode/039/039-capa.jpg'
     title: 'Capa do episódio: Machine Learning e Câncer, com Tathiane Malta'
 tags:
-  - podcast
-  - drops
-  - Câncer
-  - Células Tronco
-  - Inteligência Artificial
-  - Machine Learning
-  - USP
+  - cancer
+  - celulas tronco
+  - inteligencia artifical
+  - machine learning
+  - cell
+  - usp
+  - tathiane malta
+  - tonho
+  - dalton
+  - katarina
 links:
   'Tathi Malta': https://twitter.com/tathimalta
   'Artigo na Cell': http://www.cell.com/cell/fulltext/S0092-8674%2818%2930358-1#.WsZ88J8Lqmg.facebook

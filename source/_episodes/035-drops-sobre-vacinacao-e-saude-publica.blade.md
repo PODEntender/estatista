@@ -12,12 +12,16 @@ episode:
     url: '/assets/images/episode/035/035-capa.jpg'
     title: 'Capa do episódio: Vacinação e Saúde Pública, com Rafaela Cavalcanti'
 tags:
-  - podcast
-  - drops
-  - Rafaela Cavalcanti
-  - Saúde Pública
-  - Vacinação
-  - Vacinas
+  - vacinacao
+  - vacina
+  - saude
+  - publica
+  - coletiva
+  - poliomielite
+  - rafaela cavalcanti
+  - tonho
+  - carol
+  - bachega
 links:
   'Instagram de Rafaela': https://www.instagram.com/rafacavalcantiprof/
   'Vídeo da Palhaça sobre vacinas causarem autismo': https://www.youtube.com/watch?v=NIrAcrtPVRQ
