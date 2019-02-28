@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
-  category: Drops
   number: '016'
   date: 2017-02-01
   title: '[DROPS] Sobre ciência básica e ciência aplicada'

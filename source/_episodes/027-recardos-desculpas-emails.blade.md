@@ -12,7 +12,10 @@ episode:
     url: '/assets/images/episode/027/027-capa.png'
     title: 'Capa do episódio: PODEntender #027 - Recados, desculpas & e-mails'
 tags:
-  - podcast
+  - tonho
+  - katarina
+  - carol
+  - bachega
 links:
   'Link com gírias do Amazonas': http://g1.globo.com/am/amazonas/noticia/2014/06/g1-lanca-desafio-em-manaus-e-gringos-se-arriscam-em-girias-do-amazones.htm
   'Música "Cadê minha morena" por AlaídeNegão': https://www.youtube.com/watch?v=8CRIM_i2QFI

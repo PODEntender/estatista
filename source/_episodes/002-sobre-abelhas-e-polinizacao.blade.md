@@ -12,7 +12,17 @@ episode:
     url: '/assets/images/episode/002/002-capa.jpg'
     title: 'Capa do episódio: PODEntender #002 - Abelhas e Polinização com Patrícia Nunes'
 tags:
-  - podcast
+  - biologia
+  - abelhas
+  - polinizacao
+  - agronegocio
+  - apocalipse
+  - puc
+  - pucrs
+  - tonho
+  - dalton
+  - carol
+  - patricia nunes
 links:
   Currículo Lattes de Patrícia Nunes: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4770646E4
 ---
@@ -41,4 +51,3 @@ laboratórios que estudam abelhas.
 ![Sistema de marcação das abelhas](/assets/images/episode/002/sistema-marcacao-abelhas.jpg)
 
 ![Patrícia na chuva e de olho nas abelhas](/assets/images/episode/002/patricia-observando-abelhas.png)
- 

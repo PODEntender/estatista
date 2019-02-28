@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: News
 episode:
   number: '031'
   date: 2018-05-07
@@ -11,8 +12,14 @@ episode:
     url: '/assets/images/episode/031/031-capa.png'
     title: 'Capa do episódio: Vacina contra câncer, melhorada enzima que degrada plástico, e reprodutibilidade da ciência brasileira'
 tags:
-  - podcast
-  - news
+  - enzima
+  - 3d
+  - vacina
+  - cancer
+  - tonho
+  - carol
+  - dalton
+  - bachega
 links:
   'Enzima que degrada plástico é melhorada': http://agencia.fapesp.br/pesquisa_melhora_enzima_que_degrada_plastico/27651/
   'Pesquisadora brasileira desenvolve pele impressa em 3D para substituir animais em testes de cosméticos': https://g1.globo.com/pr/parana/noticia/brasileira-vira-destaque-internacional-com-projeto-que-substitui-animais-por-pele-3d-em-testes-com-cosmeticos.ghtml

@@ -12,8 +12,14 @@ episode:
     url: '/assets/images/episode/028/028-capa.png'
     title: 'Capa do episódio: PODEntender #028 - Matemática: Brasil é aprovado como membro de grupo de elite. Febre Amarela: vírus é detectado em novo tipo de mosquito. 477 milhões: orçamento da ciência e tecnologia bloqueado.'
 tags:
-  - podcast
-  - news
+  - matematica
+  - virus
+  - febre amarela
+  - orcamento
+  - MCTIC
+  - tonho
+  - dalton
+  - katarina
 links:
   'Matéria sobre a aprovação do Brasil como membro do grupo de elite da União Matemática Internacional': https://oglobo.globo.com/sociedade/brasil-entra-para-grupo-de-elite-da-uniao-matematica-internacional-22328145
   'Candidatura do Brasil ao grupo de elite da União Matemática Internacional': https://impa.br/wp-content/uploads/2018/01/Brazilian_Mathematics_2018.pdf

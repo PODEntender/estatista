@@ -12,8 +12,18 @@ episode:
     url: '/assets/images/episode/003/003-capa.jpg'
     title: 'Capa do episódio: PODEntender #013 - Oceanografia Química com Patrick Simões Dias'
 tags:
-  - podcast
-  - destaque
+  - oceanografia
+  - quimica
+  - biologia
+  - agrotoxico
+  - poluicao
+  - antartida
+  - usp
+  - tonho
+  - dalton
+  - bachega
+  - carol
+  - patrick simoes
 links:
   Currículo Lattes de Patric Simões: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4262622Y4
   Matéria da revista FAPESP sobre o trabalho de Patrick Simões Dias: http://revistapesquisa.fapesp.br/2013/07/26/poluicao-que-vem-de-longe/

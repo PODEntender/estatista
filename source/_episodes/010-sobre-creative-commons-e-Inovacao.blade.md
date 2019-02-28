@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
-  category: Drops
   number: '010'
   date: 2016-06-26
   title: '[DROPS] Sobre Creative Commons e Inovação'

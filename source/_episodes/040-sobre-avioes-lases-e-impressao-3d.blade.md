@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
   number: '040'
   date: 2018-11-25
@@ -11,13 +12,21 @@ episode:
     url: '/assets/images/episode/040/040-capa.jpg'
     title: 'Capa do episódio: Física e Motores de Avião com Tamy Guimarães'
 tags:
-  - podcast
-  - Aviação
-  - Aviões
-  - Impressão 3D
-  - Lasers
-  - Nasa
-  - Tamara Guimarães
+  - engenharia
+  - matematica
+  - fisica
+  - avioes
+  - 3d
+  - laser
+  - nasa
+  - boeing
+  - motor
+  - ufabc
+  - tamara guimaraes
+  - tonho
+  - carol
+  - dalton
+  - katarina
 links:
   'Currículo Lattes de Tamara': http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4275423J6
   'Google Scholar de Tamara': https://scholar.google.com/citations?user=Kpy4ylQAAAAJ&hl=uk

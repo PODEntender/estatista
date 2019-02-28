@@ -12,14 +12,17 @@ episode:
     url: '/assets/images/episode/024/024-capa.png'
     title: 'Capa do episódio: PODEntender #024 - Cientista Brasileira entre as pessoas mais influentes do mundo, maconha considerada planta medicinal pela anvisa, Sirius aguarda liberação de recursos'
 tags:
-  - podcast
   - cannabis sativa
-  - Celina Turchi
-  - CNPEM
   - maconha
+  - celina turchi
+  - CNPEM
   - nature
   - sirius
   - time
+  - anvisa
+  - tonho
+  - carol
+  - dalton
 links:
   'Cientista Celina Turchi entre as 100 pessoas mais influentes do mundo': http://agenciabrasil.ebc.com.br/pesquisa-e-inovacao/noticia/2017-04/cientista-brasileira-esta-entre-cem-pessoas-mais-influentes-do
   'Lista com 100 mais influentes da Time': http://time.com/collection/2017-time-100/

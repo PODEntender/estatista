@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
   number: '032'
   date: 2018-05-27
@@ -11,16 +12,19 @@ episode:
     url: '/assets/images/episode/032/032-capa.jpg'
     title: 'Capa do episódio: Genômica e envelhecimento com Michel Naslavsky'
 tags:
-  - podcast
-  - podcast de ciência
   - biologia
-  - ciência
-  - ciências da saúde
-  - divulgação científica
+  - genetica
+  - saude
   - envelhecimento
-  - genômica
-  - pesquisa científica
-  - USP
+  - genomica
+  - mutacao
+  - ABraOM
+  - usp
+  - michel naslavsky
+  - tonho
+  - carol
+  - dalton
+  - katarina
 links:
   'Site do Arquivo Brasileiro Online de Mutações (ABraOM)': http://abraom.ib.usp.br/
   'Página do Google Scholar de Michel': https://scholar.google.co.uk/citations?user=Lnkb1SUAAAAJ&hl=en

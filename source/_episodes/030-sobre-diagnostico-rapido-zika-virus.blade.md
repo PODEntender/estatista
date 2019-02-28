@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
   number: '030'
   date: 2018-04-21
@@ -11,20 +12,20 @@ episode:
     url: '/assets/images/episode/030/030-capa.jpg'
     title: 'Capa do episódio: Série Pesquisa Zika no Brasil, episódio 2'
 tags:
-  - podcast
-  - podcast de ciência
-  - drops
-  - arboviroses
-  - ciência
-  - diagnóstico
-  - divulgação científica
-  - doutorado
-  - lika
-  - pesquisa científica
-  - ufpe
+  - arbovirose
+  - virus
   - zika
-  - zika vírus
+  - zika
+  - zika virus
   - zikv
+  - diagnostico
+  - lika
+  - ufpe
+  - andriu catena
+  - tonho
+  - carol
+  - dalton
+  - katarina
 links:
   'Como funciona a técnica LAMP': http://www.wikiwand.com/en/Reverse_Transcription_Loop-mediated_Isothermal_Amplification
   'Artigo na Nature': https://www.nature.com/articles/s41598-017-13836-9

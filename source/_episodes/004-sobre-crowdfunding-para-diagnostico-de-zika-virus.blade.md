@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
   number: '004'
   date: 2016-03-31
@@ -11,7 +12,13 @@ episode:
     url: '/assets/images/episode/004/004-capa.jpg'
     title: 'Capa do episódio: Crowdfunding para desenvolvimento de diagnóstico do Zika vírus'
 tags:
-  - podcast
+  - zika
+  - dengue
+  - chicungunha
+  - crowdfunding
+  - virus
+  - ufpe
+  - maria amelia borba
 links:
   Currículo Lattes de Maria Amélia Borba: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4490046D6
   Site do Laboratório de Imunopatologia Keizo Asami da UFPE: http://www.lika.ufpe.br/

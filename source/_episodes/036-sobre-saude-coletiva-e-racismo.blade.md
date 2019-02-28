@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
   number: '036'
   date: 2018-08-10
@@ -11,11 +12,13 @@ episode:
     url: '/assets/images/episode/036/036-capa.jpg'
     title: 'Capa do episódio: Vacinação e Saúde Pública, com Rafaela Cavalcanti'
 tags:
-  - podcast
-  - Emanuelle Goes
-  - Racismo
-  - Saúde Coletiva
-  - Saúde Pública
+  - saude
+  - racismo
+  - preconceito
+  - coletiva
+  - publica
+  - ufba
+  - emanuelle goes
 links:
   'Blog de Emanuelle sobre população negra e saúde': http://populacaonegraesaude.blogspot.com/
   'Site do IBGE': https://www.ibge.gov.br/

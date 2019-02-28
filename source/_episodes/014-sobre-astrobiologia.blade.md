@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
-  category: Entrevista
   number: '014'
   date: 2016-11-26
   title: 'Sobre astrobiologia'

@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
-  category: Drops
   number: '019'
   date: 2017-03-22
   title: '[DROPS] Sobre Deep Learning'

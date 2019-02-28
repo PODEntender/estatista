@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
-  category: Drops
   number: '007'
   date: 2016-05-12
   title: Sobre prever epidemias e Epitrack no The Venture
@@ -12,10 +12,12 @@ episode:
     url: '/assets/images/episode/007/007-capa.jpg'
     title: 'Capa do episódio: PODEntender #007 - Prevendo epidemias & Epitrack no the venture'
 tags:
-  - ciência
-  - divulgação científica
-  - podcast
-  - podcast de ciência
+  - epitrack
+  - epidemia
+  - zumbi
+  - start-up
+  - crowdsourcing
+  - onicio leal neto
 links:
   VOTE EPITRACK NO THE VENTURE CLICANDO AQUI: https://www.theventure.com/br/pt-br/finalists/epitrack
   Site da Epitrack: https://www.epitrack.tech/

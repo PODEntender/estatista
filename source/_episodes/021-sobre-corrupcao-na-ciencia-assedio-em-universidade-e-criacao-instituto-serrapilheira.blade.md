@@ -12,12 +12,13 @@ episode:
     url: '/assets/images/episode/021/021-capa.png'
     title: 'Capa do episódio: PODEntender #021 - Corrupção na ciência Brasileira, Assédio e agressão envolvendo professor da UFJF e Novo Instituto privado para apoio à ciência Brasileira'
 tags:
-  - podcast
-  - news
-  - assédio
-  - ciência
-  - corrupção
+  - assedio
+  - ciencia
+  - corrupcao
   - serrapilheira
+  - carol
+  - dalton
+  - bachega
 links:
   'Corrupção na Fundação Butantã': http://politica.estadao.com.br/blogs/fausto-macedo/empresa-laranja-recebeu-da-fundacao-butanta-fortuna-26-mil-vezes-maior-que-seu-capital-social/
   'Desvio de recursos na UFPR': http://g1.globo.com/pr/parana/noticia/2017/02/pf-cumpre-operacao-contra-desvio-de-recursos-publicos-destinados-ufpr.html

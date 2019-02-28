@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
-  category: Entrevista
   number: '008'
   date: 2016-05-29
   title: Sobre neurociência e calcificação cerebral

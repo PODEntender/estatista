@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
-  category: Entrevista
   number: '001'
   date: 2016-01-12
   title: Sobre evolução de proteínas
@@ -12,14 +12,13 @@ episode:
     url: '/assets/images/episode/001/001-capa.jpg'
     title: 'Capa do episódio: PODEntender #001 - Crowdfunding para Desenvolvimento de Diagnóstico do Zika'
 tags:
-  - ciência
-  - ciências biológicas
-  - divulgação científica
-  - evolução
-  - pesquisa científica
-  - podcast
-  - podcast de ciência
-  - proteínas
+  - biologia
+  - evolucao
+  - proteinas
+  - tonho
+  - dalton
+  - bachega
+  - patricia nunes
 ---
 
 O que será que aconteceu para que vertebrados pudessem desenvolver ossos e invertebrados não?

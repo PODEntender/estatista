@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
   number: '026'
   date: 2017-07-13
@@ -11,7 +12,15 @@ episode:
     url: '/assets/images/episode/026/026-capa.png'
     title: 'Capa do episódio: Ecologia Evolutiva com prof. Bruno Spacek da Universidade Federal do Pará'  
 tags:
-  - podcast
+  - biologia
+  - ecologia
+  - evolucao
+  - ufpa
+  - barata
+  - bruno spacek
+  - tonho
+  - carol
+  - katarina
 ---
 Vários fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses
 fatores é um trabalho para a Ecologia Evolutiva.

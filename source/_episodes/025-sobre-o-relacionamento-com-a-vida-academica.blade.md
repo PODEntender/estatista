@@ -12,11 +12,13 @@ episode:
     url: '/assets/images/episode/025/025-capa.png'
     title: 'Capa do episódio: PODEntender #025 - Discutindo a relação com a vida acadêmica' 
 tags:
-  - podcast
-  - drops
-  - depressão
-  - vida acadêmica
+  - depressao
+  - vida academica
   - vida profissional
+  - tonho
+  - carol
+  - dalton
+  - katarina
 links:
   'Alguns dados sobre depressão na academia': http://www.anpg.org.br/estresse-e-depressao-na-pos-graduacao-uma-realidade-que-a-academia-insiste-em-nao-ver/
   'The Handmaid’s Tale': http://www.imdb.com/title/tt5834204/
