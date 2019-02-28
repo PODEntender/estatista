@@ -37,18 +37,27 @@ class GenerateRecommendedEpisodeListAfterCollect implements HandlerInterface
         int $maximumAmount
     ): Collection
     {
-        $recommended = collect([
-            $episodes->pop(),
-            $episodes->pop(),
-            $episodes->pop(),
-        ]);
+        $tags = $page->tags ?? [];
+        return $episodes
+            ->filter(function (PageVariable $episode) use ($page, $tags) {
+                // Never recommend current page
+                if ($episode->getUrl() === $page->getUrl()) {
+                    return false;
+                }
 
-        return $recommended
-            ->filter(function ($item) {
-                return !is_null($item);
+                $episodeTags = $episode->tags ?? [];
+                if (count(array_intersect($episodeTags, $tags)) > 0) {
+                    return true;
+                }
+
+                return false;
             })
-            ->filter(function ($item) use ($page) {
-                return !($item === $page);
+            // Order by amount of matching tags
+            ->sortByDesc(function (PageVariable $episode) use ($tags) {
+                return count(array_intersect($episode->tags ?? [], $tags));
+            })
+            ->sortByDesc(function (PageVariable $episode) {
+                return (int) $episode->episode['number'];
             })
             ->take($maximumAmount);
     }
