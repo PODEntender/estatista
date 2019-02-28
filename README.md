@@ -9,6 +9,13 @@ Neste projeto encontram-se os posts do site no formato `.blade.md`. Ao atualizar
 qualquer um dos arquivos, o site será gerado novamente através do `Travis CI` e
 publicado no branch [gh-pages](https://github.com/PODEntender/blog/tree/gh-pages). 
 
+## Páginas disponíveis
+
+Para visitar as páginas existentes, recomenda-se (por enquanto) utilizar
+o endereço `/sitemap.xml`. Lá estão listadas as páginas públicas do projeto.
+
+No `gh-pages` o endereço é [public_html/sitemap.xml](https://podentender.github.io/blog/public_html/sitemap.xml). 
+
 ### Tecnologias
 
 O projeto utiliza o gerador estático de páginas [Jigsaw](https://jigsaw.tighten.co/).
