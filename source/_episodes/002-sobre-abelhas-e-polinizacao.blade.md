@@ -12,7 +12,7 @@ episode:
     url: '/assets/images/episode/002/002-capa.jpg'
     title: 'Capa do episódio: PODEntender #002 - Abelhas e Polinização com Patrícia Nunes'
 tags:
-    - biologia
+  - biologia
   - abelhas
   - polinizacao
   - agronegocio
