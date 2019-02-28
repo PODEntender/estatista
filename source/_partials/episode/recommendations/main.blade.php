@@ -1,10 +1,10 @@
-@if($page->recommended->count() > 0)
+@if(count($recommendations) > 0)
 <section class="episode__recommended">
     <h1 class="episode__recommended__title">
-        Você também pode gostar
+        {{ $title  }}
     </h1>
     <ul class="episode__recommended__cards">
-        @foreach($page->recommended as $recommendation)
+        @foreach($recommendations as $recommendation)
             <li>
                 <a role="article" href="{{ $recommendation->getUrl() }}" class="episode-card">
                     <img class="episode-card__cover" data-src="{{ $page->baseUrl . $recommendation->episode['cover']['url'] }}">
