@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: News
 episode:
   number: '006'
   date: 2016-04-28
@@ -11,8 +12,15 @@ episode:
     url: '/assets/images/episode/006/006-capa.png'
     title: 'Capa do episódio: news sobre supercomputador, fosfoetonalamina, prêmio fotografia e guardiões da saúde'
 tags:
-  - podcast
-  - news
+  - computador
+  - fosfoetanolamina
+  - fotografia
+  - aplicativo
+  - saude
+  - pesquisa
+  - autismo
+  - politica
+  - epitrack
 links:
   Site do supercomputador: http://sdumont.lncc.br/
   Lista dos 500 maiores supercomputadores do mundo: http://www.top500.org/

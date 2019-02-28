@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: News
 episode:
-  category: News
   number: '017'
   date: 2017-02-15
   title: '[NEWS] Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul'

@@ -1,6 +1,7 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
   number: '005'
   date: 2016-04-14
@@ -11,7 +12,18 @@ episode:
     url: '/assets/images/episode/005/005-capa.jpg'
     title: 'Capa do episódio: PODEntender #005 - Saúde mental infantil e autismo'
 tags:
-  - podcast
+  - psicologia
+  - psicanalise
+  - saude mental
+  - infantil
+  - autismo
+  - criancas
+  - ufu
+  - aline acciolly sieiro
+  - tonho
+  - dalton
+  - bachega
+  - caol
 links:
   Curriculum Lattes de Aline Acciolly: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4281405U8
   Site de Aline Acciolly: http://www.alinesieiro.com.br/

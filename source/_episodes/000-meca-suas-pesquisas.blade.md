@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Drops
 episode:
-  category: Drops
   number: '000'
   date: 2015-12-12
   title: Meça suas pesquisas
@@ -12,10 +12,12 @@ episode:
     url: '/assets/images/episode/000/000-capa.jpg'
     title: 'Capa do episódio: PODEntender #000 - Meça suas Pesquisas'
 tags:
-  - ciência
-  - divulgação científica
-  - podcast
-  - podcast de ciência
+  - ciencia
+  - pesquisa
+  - educacao
+  - tonho
+  - dalton
+  - bachega
 ---
 
 Junte-se a Tonho (Antonio Marinho), Dalton (Fabio Neves) e

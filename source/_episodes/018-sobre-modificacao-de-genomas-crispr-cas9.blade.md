@@ -1,8 +1,8 @@
 ---
 extends: _layouts.episode
 section: content
+category: Entrevista
 episode:
-  category: Entrevista
   number: '018'
   date: 2017-03-01
   title: 'Sobre modificação de genomas e CRISPR/Cas9'
