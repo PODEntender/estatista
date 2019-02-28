@@ -52,6 +52,7 @@ class GenerateRecommendedEpisodeListAfterCollect implements HandlerInterface
             ->sortByDesc(function (PageVariable $episode) use ($tags) {
                 return count(array_intersect($episode->tags ?? [], $tags));
             })
+            // Latest episodes first
             ->sortByDesc(function (PageVariable $episode) {
                 return (int) $episode->episode['number'];
             })
