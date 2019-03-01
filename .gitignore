@@ -1,4 +1,5 @@
 /build_local/
+/source/assets/build/
 /cache/
 /node_modules/
 /vendor/
