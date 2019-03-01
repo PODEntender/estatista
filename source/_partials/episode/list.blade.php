@@ -13,6 +13,7 @@ $field = function (string $name, string $value, string $default = '') use ($show
 };
 @endphp
 
+@if(count($episodes) > 0)
 <section class="episode-card-list">
     @if($title)
     <h1 class="episode-card-list__title">
@@ -39,3 +40,4 @@ $field = function (string $name, string $value, string $default = '') use ($show
         @endforeach
     </ul>
 </section>
+@endif
