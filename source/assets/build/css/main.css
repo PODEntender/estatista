@@ -323,25 +323,38 @@ table {
 /* Title-related colors */
 /* Textual elements -related colors */
 /* Accent color */
-.episode__recommended {
+.recommended-episodes {
   margin-top: 6em;
 }
-.episode__recommended__title {
+.recommended-episodes__title {
   font-size: 30px;
   text-align: center;
 }
-.episode__recommended__title::before {
+.recommended-episodes__title::before {
   display: block;
   border: 1px solid #ff8237;
   margin: 0.5em auto;
   content: " ";
   max-width: 20px;
 }
-.episode__recommended__cards {
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
+.episode-card-list__title {
+  font-size: 30px;
+  text-align: center;
+}
+.episode-card-list__list {
   display: flex;
   flex-direction: column;
 }
 
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
 .episode-card {
   margin-top: 0.5em;
   flex: 1;
@@ -360,6 +373,7 @@ table {
 .episode-card__title {
   font-size: 15px;
   font-weight: 700;
+  margin-top: 20px;
 }
 .episode-card__release-date {
   text-transform: uppercase;

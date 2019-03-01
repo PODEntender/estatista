@@ -1,23 +1,10 @@
 @if(count($recommendations) > 0)
-<section class="episode__recommended">
-    <h1 class="episode__recommended__title">
-        {{ $title  }}
-    </h1>
-    <ul class="episode__recommended__cards">
-        @foreach($recommendations as $recommendation)
-            <li>
-                <a role="article" href="{{ $recommendation->getUrl() }}" class="episode-card">
-                    <img class="episode-card__cover" data-src="{{ $page->baseUrl . $recommendation->episode['cover']['url'] }}">
-                    <h2 class="episode-card__title">
-                        PODEntender #{{ $recommendation->episode['number'] }} - {{ $recommendation->episode['title'] }}
-                    </h2>
-                    <time  class="episode-card__release-date" property="na:datePublished" datetime="2018-10-19" pubdate="pubdate">
-                        {{ date('d \d\e F \d\e Y', $recommendation->episode['date']) }}
-                    </time>
-                    <p class="paragraph">{{ $recommendation->episode['description'] }}</p>
-                </a>
-            </li>
-        @endforeach
-    </ul>
+<section class="recommended-episodes">
+    <h1 class="recommended-episodes__title">Para você continuar entendendo</h1>
+
+    @include('_partials.episode.list', [
+        'episodes' => $recommendations,
+        'hidden' => ['description']
+    ])
 </section>
 @endif

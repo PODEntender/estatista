@@ -9,13 +9,13 @@
 @import '../components/elements/images';
 @import './content-heading';
 @import './player-card';
-@import './recommended';
+@import './recommended-episodes';
+@import './episode-card-list';
+@import './episode-card';
 @import '../colors';
 @import '../spacing';
 
-
 $episode-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
-
 
 .episode {
   padding: $website-content-padding;
