@@ -398,6 +398,8 @@ table {
   font-weight: 700;
 }
 .episode-card-compact__release-date {
+  display: block;
+  margin-top: 10px;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 400;
@@ -441,6 +443,8 @@ table {
   margin-top: 20px;
 }
 .episode-card__release-date {
+  display: block;
+  margin-top: 10px;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 400;

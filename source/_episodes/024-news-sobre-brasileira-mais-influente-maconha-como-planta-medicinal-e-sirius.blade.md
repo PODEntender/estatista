@@ -5,7 +5,7 @@ category: News
 episode:
   number: '024'
   date: 2017-06-04
-  title: '[NEWS] Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius'
+  title: 'Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius'
   description: Quer saber qual é a brasileira, cientista, que tem maior influência no mundo? Ou talvez descobrir que até o maior empreendimento científico brasileiro está correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avanço.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_024_NEWS.mp3
   cover:

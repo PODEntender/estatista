@@ -5,7 +5,7 @@ category: News
 episode:
   number: '028'
   date: 2018-03-10
-  title: '[NEWS] Sobre Brasil na elite da matemática, febre amarela e novo bloqueio do orçamento'
+  title: 'Sobre Brasil na elite da matemática, febre amarela e novo bloqueio do orçamento'
   description: Brasil foi aprovado para o fazer parte do grupo de elite da União Internacional de Matemática, pesquisadores brasileiros detectaram o vírus da febre amarela e um novo bloqueio de verbas do orçamento do Ministério de Ciência, Tecnologia e Comunicação foi feito.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_28_NEWS.mp3
   cover:

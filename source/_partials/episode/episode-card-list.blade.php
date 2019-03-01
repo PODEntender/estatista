@@ -31,7 +31,7 @@ $field = function (string $name, string $value, string $default = '') use ($show
                         'timestamp' => $field('timestamp', $episode->episode['date']),
                         'title' => $field(
                             'title',
-                            "PODEntender #{$episode->episode['number']} - {$episode->episode['title']}"
+                            "Episódio #{$episode->episode['number']} - {$episode->episode['title']}"
                         ),
                         'description' => $field('description', $episode->episode['description']),
                     ],

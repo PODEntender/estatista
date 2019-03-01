@@ -9,7 +9,7 @@ $episodes = [
 
 <section class="content">
     @include('_partials.episode.episode-card-list', [
-        'title' => 'Destaque',
+        'title' => 'Em destaque',
         'episodes' => [$lastEpisode],
         'hidden' => ['description']
     ])
