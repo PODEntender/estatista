@@ -107,7 +107,7 @@ if (typeof IntersectionObserver != 'undefined') {
       observer.unobserve(target);
     });
   }, {
-    rootMargin: '-30px'
+    rootMargin: '-20px'
   });
   document.querySelectorAll('img[data-src]').forEach(function (img) {
     return window.imagesObserver.observe(img);

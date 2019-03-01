@@ -1,6 +1,6 @@
 <a role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card {{ implode(' ', $classes) }}">
     @if($episode['image'])
-    <img class="episode-card__cover" src="{{ $episode['image'] }}">
+    <img class="episode-card__cover" data-src="{{ $episode['image'] }}">
     @endif
 
     @if($episode['title'])

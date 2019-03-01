@@ -2,7 +2,7 @@
     <div class="episode-card-compact__cover-container">
         <div class="episode-card-compact__cover-image-container">
             @if($episode['image'])
-                <img class="episode-card-compact__cover-image" src="{{ $episode['image'] }}">
+                <img class="episode-card-compact__cover-image" data-src="{{ $episode['image'] }}">
             @endif
         </div>
 
