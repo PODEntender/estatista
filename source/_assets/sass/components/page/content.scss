@@ -1,0 +1,11 @@
+@import '../../font-sizes';
+@import '../../spacing';
+
+$content-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
+
+.content {
+  padding: $website-content-padding;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: $content-max-width;
+}

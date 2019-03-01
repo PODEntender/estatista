@@ -1,4 +1,5 @@
 @import '../reset';
+@import '../components/page/content';
 @import '../components/top-nav/top-nav';
 @import '../components/header/header';
 @import '../components/side-menu/side-menu';
@@ -14,12 +15,3 @@
 @import './episode-card';
 @import '../colors';
 @import '../spacing';
-
-$episode-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
-
-.episode {
-  padding: $website-content-padding;
-  margin: 0 auto;
-  margin-top: 20px;
-  max-width: $episode-max-width;
-}

@@ -54,6 +54,13 @@ table {
   border-spacing: 0;
 }
 
+.content {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 720px;
+}
+
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
@@ -385,9 +392,3 @@ table {
 /* Title-related colors */
 /* Textual elements -related colors */
 /* Accent color */
-.episode {
-  padding: 0 20px;
-  margin: 0 auto;
-  margin-top: 20px;
-  max-width: 720px;
-}

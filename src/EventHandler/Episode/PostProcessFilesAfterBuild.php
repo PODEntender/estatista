@@ -22,7 +22,7 @@ class PostProcessFilesAfterBuild implements HandlerInterface
                 $crawler = new Crawler();
                 $crawler->addHtmlContent($builtContent);
 
-                foreach ($crawler->filter('.episode__content p') as $paragraph) {
+                foreach ($crawler->filter('.paragraphs-list p') as $paragraph) {
                     $classes = array_merge(
                         explode(' ', $paragraph->getAttribute('class')),
                         ['paragraph']
