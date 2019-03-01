@@ -6,6 +6,6 @@ $content-max-width: $font-size-primary-text * 40; // Magic 'formula' for more le
 .content {
   padding: $website-content-padding;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   max-width: $content-max-width;
 }

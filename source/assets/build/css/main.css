@@ -57,7 +57,7 @@ table {
 .content {
   padding: 0 20px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   max-width: 720px;
 }
 
@@ -211,9 +211,9 @@ table {
 .heading__primary {
   color: #222;
   letter-spacing: normal;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 900;
-  line-height: 28px;
+  line-height: 22px;
   margin-top: 10px;
 }
 
@@ -296,8 +296,8 @@ table {
   display: block;
   font-size: 14px;
   font-weight: 200;
-  padding: 20px 0;
   line-height: 16px;
+  padding: 5px 0;
 }
 .episode__cover__details--bold {
   font-weight: 600;
@@ -309,7 +309,7 @@ table {
 /* Accent color */
 .player-card {
   padding: 0 10px;
-  margin: 20px 0;
+  margin: 5px 0;
 }
 .player-card__player {
   width: 100%;
