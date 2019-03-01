@@ -1,0 +1,42 @@
+@import '../colors';
+
+.episode-card-compact {
+  margin-top: .5em;
+  flex: 1;
+  padding: 1em;
+  text-decoration: none;
+  color: $primary-text-color;
+
+  &:hover {
+    color: lighten($primary-text-color, 10%);
+  }
+
+  &__cover-container {
+    display: flex;
+  }
+
+  &__cover-image-container {
+    flex: 1;
+  }
+
+  &__cover-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  &__description-container {
+    flex: 2;
+    margin-left: 5px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__release-date {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}

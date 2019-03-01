@@ -1,25 +1,24 @@
+@php
+$episodes = [
+    'Entrevistas' => $latestEpisodesPerCategory['Entrevista'],
+    'News' => $latestEpisodesPerCategory['News'],
+    'Drops' => $latestEpisodesPerCategory['Drops'],
+];
+
+@endphp
+
 <section class="content">
-    @include('_partials.episode.list', [
-        'title' => 'Último episódio',
+    @include('_partials.episode.episode-card-list', [
+        'title' => 'Destaque',
         'episodes' => [$lastEpisode],
         'hidden' => ['description']
     ])
 
-    @include('_partials.episode.list', [
-        'title' => 'Entrevistas',
-        'episodes' => [],
-        'hidden' => ['description', 'timestamp']
-    ])
-
-    @include('_partials.episode.list', [
-        'title' => 'Drops',
-        'episodes' => [],
-        'hidden' => ['description', 'timestamp']
-    ])
-
-    @include('_partials.episode.list', [
-        'title' => 'News',
-        'episodes' => [],
-        'hidden' => ['description', 'timestamp']
-    ])
+    @foreach($episodes as $categoryName => $categoryEpisodes)
+        @include('_partials.episode.episode-card-compact-list', [
+            'title' => $categoryName,
+            'episodes' => $categoryEpisodes,
+            'hidden' => ['description']
+        ])
+    @endforeach
 </section>

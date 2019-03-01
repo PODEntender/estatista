@@ -349,6 +349,64 @@ table {
 /* Title-related colors */
 /* Textual elements -related colors */
 /* Accent color */
+.episode-card-compact-list__title {
+  font-size: 30px;
+  text-align: center;
+}
+.episode-card-compact-list__title--separated::before {
+  display: block;
+  border: 1px solid #ff8237;
+  margin: 0.5em auto;
+  content: " ";
+  max-width: 20px;
+}
+.episode-card-compact-list__list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
+.episode-card-compact {
+  margin-top: 0.5em;
+  flex: 1;
+  padding: 1em;
+  text-decoration: none;
+  color: #777;
+}
+.episode-card-compact:hover {
+  color: #919191;
+}
+.episode-card-compact__cover-container {
+  display: flex;
+}
+.episode-card-compact__cover-image-container {
+  flex: 1;
+}
+.episode-card-compact__cover-image {
+  width: 100%;
+  border-radius: 5px;
+}
+.episode-card-compact__description-container {
+  flex: 2;
+  margin-left: 5px;
+}
+.episode-card-compact__title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.episode-card-compact__release-date {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
 .episode-card-list__title {
   font-size: 30px;
   text-align: center;
