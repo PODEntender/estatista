@@ -1,8 +1,8 @@
 @php
 $episodes = [
     'Entrevistas' => $latestEpisodesPerCategory['Entrevista'],
-    'News' => $latestEpisodesPerCategory['News'],
     'Drops' => $latestEpisodesPerCategory['Drops'],
+    'News' => $latestEpisodesPerCategory['News'],
 ];
 
 @endphp
