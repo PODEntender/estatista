@@ -288,6 +288,7 @@ table {
 .episode__cover__image {
   width: 100%;
   height: auto;
+  max-height: 200px;
   border-radius: 5px;
 }
 .episode__cover__details {
