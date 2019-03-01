@@ -8,6 +8,10 @@
   text-decoration: none;
   color: $primary-text-color;
 
+  &--no-padding {
+    padding: 0;
+  }
+
   &:hover {
     color: lighten($primary-text-color, 10%);
   }

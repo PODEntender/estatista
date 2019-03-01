@@ -430,6 +430,9 @@ table {
   text-decoration: none;
   color: #777;
 }
+.episode-card--no-padding {
+  padding: 0;
+}
 .episode-card:hover {
   color: #919191;
 }

@@ -25,6 +25,9 @@ $field = function (string $name, string $value, string $default = '') use ($show
         @foreach($episodes as $episode)
             <li>
                 @include('_partials.episode.episode-card', [
+                    'classes' => [
+                        'episode-card--no-padding'
+                    ],
                     'episode' => [
                         'url' => $field('url', $episode->getUrl(), '#'),
                         'image' => $field('image', $page->baseUrl . $episode->episode['cover']['url']),
