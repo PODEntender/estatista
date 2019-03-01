@@ -388,6 +388,8 @@ table {
 }
 .episode-card-compact__cover-image {
   width: 100%;
+  height: auto;
+  max-height: 80px;
   border-radius: 5px;
 }
 .episode-card-compact__description-container {
@@ -438,7 +440,9 @@ table {
   color: #919191;
 }
 .episode-card__cover {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
   border-radius: 5px;
 }
 .episode-card__title {
