@@ -1,0 +1,13 @@
+@import '../colors';
+
+.episode-card-list {
+  &__title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+}

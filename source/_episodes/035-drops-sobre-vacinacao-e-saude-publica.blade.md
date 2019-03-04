@@ -5,7 +5,7 @@ category: Drops
 episode:
   number: '035'
   date: 2018-08-10
-  title: '[DROPS] Sobre vacinação e saúde pública'
+  title: 'Sobre vacinação e saúde pública'
   description: Está rolando neste mês a campanha de vacinação da Poliomielite, então é um momento oportuno para saber mais sobre a relação entre vacinação e saúde pública. Você já pensou na logística necessária para vacinar um país grande como o Brasil?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_35.mp3
   cover:

@@ -5,7 +5,7 @@ category: Drops
 episode:
   number: '039'
   date: 2018-11-04
-  title: '[DROPS] Sobre células-tronco, câncer e inteligência artificial'
+  title: 'Sobre células-tronco, câncer e inteligência artificial'
   description: Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células cancerígenas.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_39.mp3
   cover:

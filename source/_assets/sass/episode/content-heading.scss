@@ -1,10 +1,10 @@
 @import '../colors';
 
 .episode__cover {
-
   &__image {
     width: 100%;
     height: auto;
+    max-height: 200px;
     border-radius: 5px;
   }
 
@@ -14,8 +14,8 @@
     display: block;
     font-size: 14px;
     font-weight: 200;
-    padding: 20px 0;
     line-height: 16px;
+    padding: 5px 0;
 
     &--bold {
       font-weight: 600;

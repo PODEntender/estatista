@@ -1,4 +1,5 @@
 @import '../reset';
+@import '../components/page/content';
 @import '../components/top-nav/top-nav';
 @import '../components/header/header';
 @import '../components/side-menu/side-menu';
@@ -9,17 +10,10 @@
 @import '../components/elements/images';
 @import './content-heading';
 @import './player-card';
-@import './recommended';
+@import './recommended-episodes';
+@import './episode-card-compact-list';
+@import './episode-card-compact';
+@import './episode-card-list';
+@import './episode-card';
 @import '../colors';
 @import '../spacing';
-
-
-$episode-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
-
-
-.episode {
-  padding: $website-content-padding;
-  margin: 0 auto;
-  margin-top: 20px;
-  max-width: $episode-max-width;
-}

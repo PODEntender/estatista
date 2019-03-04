@@ -14,7 +14,9 @@
 
 <header class="header_bar">
     <h1 class="header_bar__logo">
-        <img src="{{ $page->baseUrl . $page->assets->logo }}" alt="PODEntender" />
+        <a href="{{ $page->baseUrl }}">
+            <img src="{{ $page->baseUrl . $page->assets->logo }}" alt="PODEntender" />
+        </a>
     </h1>
     <section class="header_bar__menu">
         <button class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">

@@ -5,7 +5,7 @@ category: Drops
 episode:
   number: '019'
   date: 2017-03-22
-  title: '[DROPS] Sobre Deep Learning'
+  title: 'Sobre Deep Learning'
   description: O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3
   cover:

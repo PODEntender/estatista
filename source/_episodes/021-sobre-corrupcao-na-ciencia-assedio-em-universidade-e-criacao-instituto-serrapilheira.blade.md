@@ -5,7 +5,7 @@ category: News
 episode:
   number: '021'
   date: 2017-04-20
-  title: '[NEWS] Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira'
+  title: 'Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira'
   description: Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3
   cover:

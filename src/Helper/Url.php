@@ -2,7 +2,6 @@
 
 namespace PODEntender\Helper;
 
-
 use TightenCo\Jigsaw\PageVariable;
 
 class Url

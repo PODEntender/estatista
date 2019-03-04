@@ -1,6 +1,7 @@
 <?php
 
 use PODEntender\EventHandler\Episode\GenerateRecommendedEpisodeListAfterCollect;
+use PODEntender\EventHandler\Episode\DecorateConfigWithEpisodesInformationAfterCollect;
 use PODEntender\EventHandler\Episode\PostProcessFilesAfterBuild;
 use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
 
@@ -19,6 +20,7 @@ use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
  */
 
 $events->afterCollections([
+    $container->make(DecorateConfigWithEpisodesInformationAfterCollect::class),
     $container->make(GenerateRecommendedEpisodeListAfterCollect::class),
 ]);
 
