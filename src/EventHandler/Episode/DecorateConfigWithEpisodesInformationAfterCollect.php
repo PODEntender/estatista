@@ -50,7 +50,7 @@ class DecorateConfigWithEpisodesInformationAfterCollect implements HandlerInterf
                     ->sortByDesc(function (PageVariable $episode) {
                         return $episode->episode['number'];
                     })
-                    ->take(3)
+                    ->take(4)
                     ->values();
 
                 return $categories;

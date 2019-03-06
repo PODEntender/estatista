@@ -211,10 +211,7 @@ table {
 .heading__primary {
   color: #222;
   letter-spacing: normal;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 22px;
-  margin-top: 10px;
+  font-size: 30px;
 }
 
 /* Background-related colors */
@@ -453,6 +450,11 @@ table {
   width: 100%;
   height: 220px;
   border-radius: 5px;
+}
+@media only screen and (min-width: 481px) {
+  .episode-card__cover {
+    height: 350px;
+  }
 }
 .episode-card__title {
   font-size: 15px;

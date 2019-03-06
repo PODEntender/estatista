@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../mixins/media';
 
 .episode-card {
   margin-top: .5em;
@@ -21,6 +22,10 @@
     width: 100%;
     height: 220px;
     border-radius: 5px;
+
+    @include above-mobile {
+      height: 350px;
+    }
   }
 
   &__title {
