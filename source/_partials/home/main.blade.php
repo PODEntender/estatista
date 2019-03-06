@@ -8,10 +8,20 @@ $episodes = [
 @endphp
 
 <section class="content">
-    @include('_partials.episode.episode-card-list', [
-        'title' => 'Em destaque',
-        'episodes' => [$lastEpisode],
-        'hidden' => ['description']
+    <h1 class="heading heading__primary">
+        Em Destaque
+    </h1>
+    @include('_partials.episode.episode-card', [
+        'classes' => [
+            'episode-card--no-padding'
+        ],
+        'episode' => [
+            'url' => $lastEpisode->getUrl(),
+            'image' => $page->baseUrl . $lastEpisode->episode['cover']['url'],
+            'timestamp' => $lastEpisode->episode['date'],
+            'title' => "Episódio #{$lastEpisode->episode['number']} - {$lastEpisode->episode['title']}",
+            'description' => $lastEpisode->episode['description'],
+        ],
     ])
 
     @foreach($episodes as $categoryName => $categoryEpisodes)
