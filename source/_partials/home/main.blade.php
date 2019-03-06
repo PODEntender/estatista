@@ -15,10 +15,9 @@ $episodes = [
     ])
 
     @foreach($episodes as $categoryName => $categoryEpisodes)
-        @include('_partials.episode.episode-card-compact-list', [
+        @include('_partials.episode.recommendations.main', [
             'title' => $categoryName,
-            'episodes' => $categoryEpisodes,
-            'hidden' => ['description']
+            'recommendations' => $categoryEpisodes,
         ])
     @endforeach
 </section>

@@ -332,7 +332,7 @@ table {
 /* Textual elements -related colors */
 /* Accent color */
 .recommended-episodes {
-  margin-top: 6em;
+  margin-top: 30px;
 }
 .recommended-episodes__title {
   font-size: 30px;
@@ -387,9 +387,10 @@ table {
   flex: 1;
 }
 .episode-card-compact__cover-image {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
-  height: auto;
-  max-height: 80px;
+  height: 100px;
   border-radius: 5px;
 }
 .episode-card-compact__description-container {
@@ -420,6 +421,13 @@ table {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (min-width: 481px) {
+  .episode-card-list__list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+  }
+}
 
 /* Background-related colors */
 /* Title-related colors */
@@ -440,9 +448,10 @@ table {
   color: #919191;
 }
 .episode-card__cover {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
-  height: auto;
-  max-height: 200px;
+  height: 220px;
   border-radius: 5px;
 }
 .episode-card__title {

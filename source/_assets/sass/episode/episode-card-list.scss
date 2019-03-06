@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../mixins/media';
 
 .episode-card-list {
   &__title {
@@ -9,5 +10,11 @@
   &__list {
     display: flex;
     flex-direction: column;
+
+    @include above-mobile {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-gap: 20px;
+    }
   }
 }

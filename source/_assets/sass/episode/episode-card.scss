@@ -17,9 +17,9 @@
   }
 
   &__cover {
+    object-fit: cover;
     width: 100%;
-    height: auto;
-    max-height: 200px;
+    height: 220px;
     border-radius: 5px;
   }
 
