@@ -421,6 +421,13 @@ table {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (min-width: 481px) {
+  .episode-card-list__list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+  }
+}
 
 /* Background-related colors */
 /* Title-related colors */
