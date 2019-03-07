@@ -66,11 +66,11 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
             $this->createElement('itunes:explicit', 'clean'),
             $this->createElement('itunes:image', $jigsaw->getConfig('meta.image')),
             $this->createElement('itunes:type', 'episodic'),
-            $this->createElement('itunes:subtitle', substr($jigsaw->getConfig('meta.subtitle'), 0, 255)),
+            $this->createElement('itunes:subtitle', substr($jigsaw->getConfig('meta.subtitle'), 0, 250)),
             $this->createElement('itunes:category', $jigsaw->getConfig('meta.category')),
             $this->createElement('itunes:owner')
                 ->addElement(
-                    $this->createElement('itunes:name', substr($jigsaw->getConfig('meta.title'), 0, 255))
+                    $this->createElement('itunes:name', substr($jigsaw->getConfig('meta.title'), 0, 250))
                 )
                 ->addElement(
                     $this->createElement('itunes:name', $jigsaw->getConfig('meta.email'))
@@ -134,7 +134,7 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
             $this->createElement('itunes:summary', $episode->episode['description']),
             $this->createElement('itunes:author', $jigsaw->getConfig('meta.title')),
             $this->createElement('itunes:explicit', 'clean'),
-            $this->createElement('itunes:duration', $episode->episode['duration']),
+            $this->createElement('itunes:duration', $episode->episode['duration'] ?? '00:00:00'),
         ];
     }
 }
