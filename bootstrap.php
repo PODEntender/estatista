@@ -1,6 +1,7 @@
 <?php
 
 use PODEntender\EventHandler\Episode\GenerateRecommendedEpisodeListAfterCollect;
+use PODEntender\EventHandler\Episode\GenerateRssFeedAfterBuild;
 use PODEntender\EventHandler\Episode\DecorateConfigWithEpisodesInformationAfterCollect;
 use PODEntender\EventHandler\Episode\PostProcessFilesAfterBuild;
 use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
@@ -24,4 +25,8 @@ $events->afterCollections([
     $container->make(GenerateRecommendedEpisodeListAfterCollect::class),
 ]);
 
-$events->afterBuild([SitemapListener::class, PostProcessFilesAfterBuild::class]);
+$events->afterBuild([
+    SitemapListener::class,
+    GenerateRssFeedAfterBuild::class,
+    PostProcessFilesAfterBuild::class,
+]);
