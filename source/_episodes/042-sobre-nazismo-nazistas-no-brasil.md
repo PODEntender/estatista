@@ -15,6 +15,7 @@ tags:
   - historia
   - brasil
   - alemanha
+  - politica
   - nazismo
   - volkswagen
   - gustav wagner
