@@ -26,7 +26,7 @@ $field = function (string $name, string $value, string $default = '') use ($show
             <li>
                 @include('_partials.episode.episode-card', [
                     'classes' => [
-                        'episode-card--no-padding'
+                        'episode-card--no-padding',
                     ],
                     'episode' => [
                         'url' => $field('url', $episode->getUrl(), '#'),

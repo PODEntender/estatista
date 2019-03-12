@@ -477,8 +477,11 @@ table {
 }
 @media only screen and (min-width: 481px) {
   .episode-card__cover {
-    height: 350px;
+    height: 260px;
   }
+}
+.episode-card__cover--taller {
+  height: 350px;
 }
 .episode-card__title {
   font-size: 15px;

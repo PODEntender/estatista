@@ -1,12 +1,12 @@
-<a role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card {{ implode(' ', $classes ?? []) }}">
+<a role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card {{ implode(' ', array_filter($classes ?? [], 'is_string')) }}">
     @if($episode['image'])
         @include('_partials.components.image', [
             'url' => $episode['image'],
             'alt' => $episode['title'],
             'title' => $episode['title'],
-            'classes' => [
-                'episode-card__cover'
-            ],
+            'classes' => array_merge([
+                'episode-card__cover',
+            ], $classes['image'] ?? []),
         ])
     @endif
 
