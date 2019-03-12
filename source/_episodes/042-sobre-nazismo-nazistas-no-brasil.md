@@ -13,6 +13,8 @@ episode:
     title: 'Capa do episódio: Nazismo e Nazistas no Brasil com Felipe Abal'
 tags:
   - historia
+  - brasil
+  - alemanha
   - nazismo
   - volkswagen
   - gustav wagner
