@@ -171,7 +171,7 @@ table {
   background-color: #222;
   color: #fff;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 8em;
   padding: 2em;
 }
 .footer__copy::before {
@@ -196,6 +196,16 @@ table {
   font-size: 14px;
   line-height: 16px;
   font-weight: 300;
+}
+.footer__menu-item {
+  padding: 2em 0;
+}
+.footer__menu-item__link {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__menu-item__link:hover {
+  color: #e6e6e6;
 }
 .footer__menu-group {
   flex: 1;
@@ -287,6 +297,11 @@ table {
   height: auto;
   max-height: 200px;
   border-radius: 5px;
+}
+@media only screen and (min-width: 481px) {
+  .episode__cover__image {
+    max-height: 400px;
+  }
 }
 .episode__cover__details {
   color: #777;
@@ -467,6 +482,26 @@ table {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 400;
+}
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
+.episode__comments {
+  margin: 6em 0;
+}
+.episode__comments__title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.episode__comments::before {
+  display: block;
+  border: 1px solid #ff8237;
+  margin: 0.5em auto;
+  content: " ";
+  max-width: 20px;
 }
 
 /* Background-related colors */
