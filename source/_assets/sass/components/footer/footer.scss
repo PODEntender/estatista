@@ -32,6 +32,19 @@
     font-weight: 300;
   }
 
+  &__menu-item {
+    padding: 2em 0;
+
+    &__link {
+      text-decoration: none;
+      color: $website-background-color;
+
+      &:hover {
+        color: darken($website-background-color, 10%);
+      }
+    }
+  }
+
   &__menu-group {
     flex: 1;
   }

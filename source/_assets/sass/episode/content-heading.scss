@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../mixins/media';
 
 .episode__cover {
   &__image {
@@ -6,6 +7,10 @@
     height: auto;
     max-height: 200px;
     border-radius: 5px;
+
+    @include above-mobile {
+      max-height: 400px;
+    }
   }
 
   &__details {
