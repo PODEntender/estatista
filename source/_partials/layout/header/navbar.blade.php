@@ -6,7 +6,7 @@
     </h1>
     <section class="header_bar__menu">
         <button class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
-            <img src="{{ $page->baseUrl . $page->assets->icons->menu }}"/>
+            <img data-src="{{ $page->baseUrl . $page->assets->icons->menu }}" class="lazy-image" />
         </button>
     </section>
 </header>
