@@ -116,7 +116,7 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
                     ->addMedia($media)
                     ->setTitle($title)
                     ->setDescription($episode->episode['description'])
-                    ->setLink($episode->episode['link'])
+                    ->setLink($episode->getUrl())
                     ->setLastModified(\DateTime::createFromFormat('U', $episode->episode['date']));
 
                 foreach ($this->createItunesFeedItem($episode, $jigsaw) as $feedElement) {
