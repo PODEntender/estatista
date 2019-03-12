@@ -16,6 +16,18 @@ if (typeof IntersectionObserver != 'undefined') {
   });
 
   document.querySelectorAll('img[data-src]').forEach((img) => window.imagesObserver.observe(img));
+
+  window.commentsObserver = new IntersectionObserver((entries, observer) => {
+    entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
+      if (window.initDisqus) {
+        window.initDisqus();
+      }
+
+      observer.unobserve(entry.target);
+    });
+  });
+
+  window.commentsObserver.observe(document.querySelector('.episode__comments'));
 } else {
   setTimeout(() => {
     document.querySelectorAll('img[data-src]').forEach((img) => img.setAttribute('src', img.getAttribute('data-src')));

@@ -112,6 +112,18 @@ if (typeof IntersectionObserver != 'undefined') {
   document.querySelectorAll('img[data-src]').forEach(function (img) {
     return window.imagesObserver.observe(img);
   });
+  window.commentsObserver = new IntersectionObserver(function (entries, observer) {
+    entries.filter(function (entry) {
+      return entry.isIntersecting;
+    }).forEach(function (entry) {
+      if (window.initDisqus) {
+        window.initDisqus();
+      }
+
+      observer.unobserve(entry.target);
+    });
+  });
+  window.commentsObserver.observe(document.querySelector('.episode__comments'));
 } else {
   setTimeout(function () {
     document.querySelectorAll('img[data-src]').forEach(function (img) {
