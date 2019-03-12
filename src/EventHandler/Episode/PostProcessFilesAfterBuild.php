@@ -25,7 +25,7 @@ class PostProcessFilesAfterBuild implements HandlerInterface
                 $this->decorateParagraphs($crawler);
                 $this->decorateHeadings($crawler);
 
-                file_put_contents($path, $crawler->html());
+                file_put_contents($path, $crawler->getNode(0)->ownerDocument->saveHTML());
             });
     }
 
