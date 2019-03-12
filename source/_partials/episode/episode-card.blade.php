@@ -1,6 +1,13 @@
 <a role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card {{ implode(' ', $classes ?? []) }}">
     @if($episode['image'])
-    <img class="episode-card__cover" data-src="{{ $episode['image'] }}" alt="{{ $episode['title'] }}">
+        @include('_partials.components.image', [
+            'url' => $episode['image'],
+            'alt' => $episode['title'],
+            'title' => $episode['title'],
+            'classes' => [
+                'episode-card__cover'
+            ],
+        ])
     @endif
 
     @if($episode['title'])
