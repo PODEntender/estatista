@@ -13,7 +13,10 @@ $episodes = [
     </h1>
     @include('_partials.episode.episode-card', [
         'classes' => [
-            'episode-card--no-padding'
+            'episode-card--no-padding',
+            'image' => [
+                'episode-card__cover--taller',
+            ],
         ],
         'episode' => [
             'url' => $lastEpisode->getUrl(),
