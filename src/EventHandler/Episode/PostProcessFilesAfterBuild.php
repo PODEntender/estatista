@@ -39,6 +39,15 @@ class PostProcessFilesAfterBuild implements HandlerInterface
 
             $paragraph->setAttribute('class', trim(implode(' ', $classes)));
         }
+
+        foreach ($crawler->filter('.paragraphs-list strong') as $boldItem) {
+            $classes = array_merge(
+                explode(' ', $boldItem->getAttribute('class')),
+                ['paragraph--bold']
+            );
+
+            $boldItem->setAttribute('class', trim(implode(' ', $classes)));
+        }
     }
 
     private function decorateHeadings(Crawler $crawler): void
