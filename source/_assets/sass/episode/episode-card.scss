@@ -25,11 +25,12 @@
 
     @include above-mobile {
       height: 260px;
+
+      &--taller {
+        height: 350px;
+      }
     }
 
-    &--taller {
-      height: 350px;
-    }
   }
 
   &__title {

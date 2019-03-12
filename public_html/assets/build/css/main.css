@@ -479,9 +479,9 @@ table {
   .episode-card__cover {
     height: 260px;
   }
-}
-.episode-card__cover--taller {
-  height: 350px;
+  .episode-card__cover--taller {
+    height: 350px;
+  }
 }
 .episode-card__title {
   font-size: 15px;
