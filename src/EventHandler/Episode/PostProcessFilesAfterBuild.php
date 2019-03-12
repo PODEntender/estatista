@@ -22,16 +22,36 @@ class PostProcessFilesAfterBuild implements HandlerInterface
                 $crawler = new Crawler();
                 $crawler->addHtmlContent($builtContent);
 
-                foreach ($crawler->filter('.paragraphs-list p') as $paragraph) {
-                    $classes = array_merge(
-                        explode(' ', $paragraph->getAttribute('class')),
-                        ['paragraph']
-                    );
-
-                    $paragraph->setAttribute('class', trim(implode(' ', $classes)));
-                }
+                $this->decorateParagraphs($crawler);
+                $this->decorateHeadings($crawler);
 
                 file_put_contents($path, $crawler->html());
             });
+    }
+
+    private function decorateParagraphs(Crawler $crawler): void
+    {
+        foreach ($crawler->filter('.paragraphs-list p') as $paragraph) {
+            $classes = array_merge(
+                explode(' ', $paragraph->getAttribute('class')),
+                ['paragraph']
+            );
+
+            $paragraph->setAttribute('class', trim(implode(' ', $classes)));
+        }
+    }
+
+    private function decorateHeadings(Crawler $crawler): void
+    {
+        $secondaryHeadings = ['.paragraphs-list h2', '.paragraphs-list h3'];
+        $filter = implode(',', $secondaryHeadings);
+        foreach ($crawler->filter($filter) as $heading) {
+            $classes = array_merge(
+                explode(' ', $heading->getAttribute('class')),
+                ['heading', 'heading__secondary']
+            );
+
+            $heading->setAttribute('class', trim(implode(' ', $classes)));
+        }
     }
 }

@@ -217,9 +217,16 @@ table {
   text-align: center;
 }
 .heading__primary {
+  margin: 10px 0;
   color: #222;
   letter-spacing: normal;
-  font-size: 30px;
+  font-size: 26px;
+}
+.heading__secondary {
+  letter-spacing: normal;
+  color: #222;
+  font-size: 22px;
+  text-align: inherit;
 }
 
 /* Background-related colors */
@@ -365,7 +372,7 @@ table {
 /* Textual elements -related colors */
 /* Accent color */
 .episode-card-compact-list__title {
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
 }
 .episode-card-compact-list__title--separated::before {
@@ -428,7 +435,7 @@ table {
 /* Textual elements -related colors */
 /* Accent color */
 .episode-card-list__title {
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
 }
 .episode-card-list__list {
