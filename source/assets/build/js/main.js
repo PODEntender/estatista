@@ -104,26 +104,31 @@ if (typeof IntersectionObserver != 'undefined') {
     }).forEach(function (entry) {
       var target = entry.target;
       target.setAttribute('src', target.getAttribute('data-src'));
+      target.classList.remove('lazy-image');
       observer.unobserve(target);
     });
   }, {
     rootMargin: '-20px'
   });
-  document.querySelectorAll('img[data-src]').forEach(function (img) {
+  document.querySelectorAll('img.lazy-image').forEach(function (img) {
     return window.imagesObserver.observe(img);
   });
-  window.commentsObserver = new IntersectionObserver(function (entries, observer) {
-    entries.filter(function (entry) {
-      return entry.isIntersecting;
-    }).forEach(function (entry) {
-      if (window.initDisqus) {
-        window.initDisqus();
-      }
+  var commentsSection = document.querySelector('.episode__comments');
 
-      observer.unobserve(entry.target);
+  if (commentsSection) {
+    window.commentsObserver = new IntersectionObserver(function (entries, observer) {
+      entries.filter(function (entry) {
+        return entry.isIntersecting;
+      }).forEach(function (entry) {
+        if (window.initDisqus) {
+          window.initDisqus();
+        }
+
+        observer.unobserve(entry.target);
+      });
     });
-  });
-  window.commentsObserver.observe(document.querySelector('.episode__comments'));
+    window.commentsObserver.observe(commentsSection);
+  }
 } else {
   setTimeout(function () {
     document.querySelectorAll('img[data-src]').forEach(function (img) {

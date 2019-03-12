@@ -8,6 +8,7 @@ if (typeof IntersectionObserver != 'undefined') {
     entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
       const target = entry.target;
       target.setAttribute('src', target.getAttribute('data-src'));
+      target.classList.remove('lazy-image');
 
       observer.unobserve(target);
     });
@@ -15,19 +16,22 @@ if (typeof IntersectionObserver != 'undefined') {
     rootMargin: '-20px',
   });
 
-  document.querySelectorAll('img[data-src]').forEach((img) => window.imagesObserver.observe(img));
+  document.querySelectorAll('img.lazy-image').forEach((img) => window.imagesObserver.observe(img));
 
-  window.commentsObserver = new IntersectionObserver((entries, observer) => {
-    entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
-      if (window.initDisqus) {
-        window.initDisqus();
-      }
+  const commentsSection = document.querySelector('.episode__comments');
+  if (commentsSection) {
+    window.commentsObserver = new IntersectionObserver((entries, observer) => {
+      entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
+        if (window.initDisqus) {
+          window.initDisqus();
+        }
 
-      observer.unobserve(entry.target);
+        observer.unobserve(entry.target);
+      });
     });
-  });
 
-  window.commentsObserver.observe(document.querySelector('.episode__comments'));
+    window.commentsObserver.observe(commentsSection);
+  }
 } else {
   setTimeout(() => {
     document.querySelectorAll('img[data-src]').forEach((img) => img.setAttribute('src', img.getAttribute('data-src')));
