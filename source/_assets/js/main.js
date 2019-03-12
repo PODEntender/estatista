@@ -3,12 +3,15 @@ window.toggleMenu = () => document
   .classList
   .toggle('side-menu--visible');
 
+const loadImage = (img) => img.setAttribute('src', img.getAttribute('data-src'));
+const removeClass = (className) => (elm) => elm.classList.remove(className);
+
 if (typeof IntersectionObserver != 'undefined') {
   window.imagesObserver = new IntersectionObserver((entries, observer) => {
     entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
       const target = entry.target;
-      target.setAttribute('src', target.getAttribute('data-src'));
-      target.classList.remove('lazy-image');
+      loadImage(target);
+      removeClass('lazy-image')(target);
 
       observer.unobserve(target);
     });
@@ -34,6 +37,9 @@ if (typeof IntersectionObserver != 'undefined') {
   }
 } else {
   setTimeout(() => {
-    document.querySelectorAll('img[data-src]').forEach((img) => img.setAttribute('src', img.getAttribute('data-src')));
+    console.log(document.querySelectorAll('img.lazy-image'));
+    const images = document.querySelectorAll('img.lazy-image');
+    images.forEach(loadImage);
+    images.forEach(removeClass('lazy-image'));
   }, 400);
 }
