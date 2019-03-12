@@ -4,6 +4,9 @@
     <section class="paragraphs-list">
         @yield('content')
     </section>
+
+    @include('_partials.episode.comments')
+
     @include('_partials.episode.recommendations.main', [
         'recommendations' => $page->recommended ?? []
     ])

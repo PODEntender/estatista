@@ -1,0 +1,19 @@
+@import '../colors';
+
+.episode__comments {
+  margin: 6em 0;
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: .5em;
+  }
+
+  &::before {
+    display: block;
+    border: 1px solid $accent-color;
+    margin: .5em auto;
+    content: " ";
+    max-width: 20px;
+  }
+}
