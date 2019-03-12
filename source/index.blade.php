@@ -1,5 +1,9 @@
 @extends('_layouts.master')
 
+@section('head')
+    <title>{{ $page->meta['title'] }}</title>
+@endsection
+
 @section('body')
     @include('_partials.layout.header.navbar')
 
