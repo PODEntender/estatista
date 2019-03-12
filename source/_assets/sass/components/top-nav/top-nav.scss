@@ -1,9 +1,6 @@
 @import '../../colors';
 
 .top-nav {
-  /* @todo Rollback once we have the final decision about the top menu */
-  display: none;
-
   background-color: $header-background-color;
   min-height: 40px;
   text-align: center;

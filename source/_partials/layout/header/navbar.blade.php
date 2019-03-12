@@ -1,17 +1,3 @@
-<nav class="top-nav">
-    <ul class="top-nav__items">
-        <li class="top-nav__item">
-            <a href="#" class="link top-nav__link">Início</a>
-        </li>
-        <li class="top-nav__item">
-            <a href="#" class="link top-nav__link">Sobre</a>
-        </li>
-        <li class="top-nav__item">
-            <a href="#" class="link top-nav__link">Contato</a>
-        </li>
-    </ul>
-</nav>
-
 <header class="header_bar">
     <h1 class="header_bar__logo">
         <a href="{{ $page->baseUrl }}">
@@ -24,3 +10,21 @@
         </button>
     </section>
 </header>
+
+<noscript>
+    <nav class="top-nav">
+        <ul class="top-nav__items">
+            <li class="top-nav__item">
+                <a href="{{ $page->getBaseUrl() }}" class="top-nav__link">
+                    Início
+                </a>
+            </li>
+            <li class="top-nav__item">
+                <!-- @todo -> add categories page -->
+                <a href="#" class="top-nav__link">
+                    Episódios
+                </a>
+            </li>
+        </ul>
+    </nav>
+</noscript>
