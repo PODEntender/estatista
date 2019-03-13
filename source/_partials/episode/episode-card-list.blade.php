@@ -23,7 +23,7 @@ $field = function (string $name, string $value, string $default = '') use ($show
 
     <ul class="episode-card-list__list">
         @foreach($episodes as $episode)
-            <li>
+            <li class="episode-card-list__list-item">
                 @include('_partials.episode.episode-card', [
                     'classes' => [
                         'episode-card--no-padding',
