@@ -1,7 +1,6 @@
 @php
 $disqus = $disqus ?? [
-    'url' => 'http://gabrielkamimura.github.io/',
-    'identifier' => 'Demo'
+    'identifier' => $page->episode['disqus'] ?? $page->episode['number'],
 ];
 @endphp
 
@@ -11,16 +10,13 @@ $disqus = $disqus ?? [
     </h1>
     <div id="disqus_thread"></div>
     <script>
-      /**
-       *  Here just  to see how it looks like with disqus*/
       var disqus_config = function () {
-        this.page.url = '{{ $disqus['url'] }}';
         this.page.identifier = '{{ $disqus['identifier'] }}';
       };
 
       window.initDisqus = (function() {
         var d = document, s = d.createElement('script');
-        s.src = 'https://test-ttggsvzvin.disqus.com/embed.js';
+        s.src = 'https://podentender.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
 

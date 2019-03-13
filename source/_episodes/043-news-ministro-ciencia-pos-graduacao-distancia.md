@@ -8,6 +8,7 @@ episode:
   title: 'Ministro da Ciência e Pós-Graduação a Distância'
   description: 'Tonho e Carol Lacerda: Marcos Pontes ao Jornal da Ciência comenta planos para o ano de 2019. Capes libera cursos de pós-graduação na modalidae EAD.'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_43.mp3
+  disqus: '5864 https://podentender.com/?p=5864'
   cover:
     url: '/assets/images/episode/043/043-capa.jpg'
     title: 'Capa do episódio: News, PODEntender #043.'
