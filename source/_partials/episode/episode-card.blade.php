@@ -1,4 +1,4 @@
-<a role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card {{ implode(' ', array_filter($classes ?? [], 'is_string')) }}">
+<a title="{{ $episode['title'] }}" role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card {{ implode(' ', array_filter($classes ?? [], 'is_string')) }}">
     @if($episode['image'])
         @include('_partials.components.image', [
             'url' => $episode['image'],

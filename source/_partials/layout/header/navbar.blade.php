@@ -1,7 +1,7 @@
 <header class="header_bar">
     <h1 class="header_bar__logo">
-        <a href="{{ $page->baseUrl }}">
-            <img src="{{ $page->baseUrl . $page->assets->logo }}" alt="PODEntender" />
+        <a href="{{ $page->baseUrl }}" title="{{ $page->meta['title'] }}">
+            <img src="{{ $page->baseUrl . $page->assets->logo }}" alt="{{ $page->meta['title'] }}" />
         </a>
     </h1>
     <section class="header_bar__menu">
