@@ -1,7 +1,23 @@
 @extends('_layouts.master')
 
 @section('head')
-    <title>{{ $page->meta['title'] }}</title>
+<title>{{ $page->meta['title'] }}</title>
+
+<meta name="description" content="{{ $page->meta['description'] }}">
+<meta name="author" content="{{ $page->baseUrl }}">
+<meta name="publisher" content="{{ $page->baseUrl }}">
+
+<meta name="og:title" content="{{ $page->meta['title'] }}">
+<meta name="og:description" content="{{ $page->meta['description'] }}">
+<meta name="og:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+<meta name="og:url" content="{{ $page->baseUrl }}">
+
+<meta name="twitter:title" content="{{ $page->meta['title'] }}">
+<meta name="twitter:description" content="{{ $page->meta['description'] }}">
+<meta name="twitter:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+<meta name="twitter:url" content="{{ $page->baseUrl }}">
+
+<link rel="canonical" href="{{ $page->baseUrl }}">
 @endsection
 
 @section('body')

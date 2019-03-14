@@ -1,4 +1,4 @@
-<a role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card-compact">
+<a title="{{ $episode['title'] }}" role="article" href="{{ $episode['url'] ?? '#' }}" class="episode-card-compact">
     <div class="episode-card-compact__cover-container">
         <div class="episode-card-compact__cover-image-container">
             @if($episode['image'])

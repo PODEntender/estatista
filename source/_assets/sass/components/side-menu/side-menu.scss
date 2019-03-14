@@ -18,6 +18,14 @@
     display: block;
   }
 
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 10vw;
+  }
+
   &__item {
     font-size: 15px;
     padding-top: 1em;
