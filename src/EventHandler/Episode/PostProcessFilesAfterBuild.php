@@ -34,7 +34,7 @@ class PostProcessFilesAfterBuild implements HandlerInterface
         foreach ($crawler->filter('.paragraphs-list p') as $paragraph) {
             $classes = array_merge(
                 explode(' ', $paragraph->getAttribute('class')),
-                ['paragraph']
+                ['paragraph paragraph--justified']
             );
 
             $paragraph->setAttribute('class', trim(implode(' ', $classes)));
