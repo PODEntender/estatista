@@ -2,6 +2,7 @@
 extends: _layouts.episode
 section: content
 category: News
+date: 2016-12-18
 episode:
   number: '015'
   date: 2016-12-18

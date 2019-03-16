@@ -2,6 +2,7 @@
 extends: _layouts.episode
 section: content
 category: Entrevista
+date: 2016-08-14
 episode:
   number: '011'
   date: 2016-08-14

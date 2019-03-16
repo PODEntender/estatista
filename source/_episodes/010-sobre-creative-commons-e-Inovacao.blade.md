@@ -2,6 +2,7 @@
 extends: _layouts.episode
 section: content
 category: Drops
+date: 2016-06-26
 episode:
   number: '010'
   date: 2016-06-26

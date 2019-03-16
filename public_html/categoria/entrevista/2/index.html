@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt_BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192"><link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png"><meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png"><title>
+    Entrevista | P&aacute;gina 2 de 2 | PODEntender
+</title><meta name="description" content=""><meta name="keywords" content="
+Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/d11e85eabd863f3acde0313d277f9e5c33ae6ecd.php on line 8
+
+Call Stack:
+    0.0001     373432   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0215    3241584   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.0290    3369376   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.0292    3369376   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:262
+    0.0292    3369376   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:901
+    0.0297    3374048   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.0299    3387152   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:22
+    0.0483    5028360   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:58
+    0.3846    6589384   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.3848    6589384  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.3850    6589320  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.4059    8202448  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.4059    8202448  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1128
+    0.4059    8214792  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1033
+    3.7376   10313144  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1033
+    3.7376   10313144  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.7389   10315384  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.7411   10321032  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:56
+    3.7411   10321408  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1033
+    3.7856   10351472  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1033
+    3.7859   10351704  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:52
+    3.7868   10351832  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:73
+    3.7870   10352688  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.7870   10352688  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.7870   10352688  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.7871   10353384  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.7874   10353368  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.7874   10372064  28. include('/home/travis/build/PODEntender/blog/cache/4c79fb4d7fd3038de5d7449df05c6c96daadd282.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.7881   10372920  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/4c79fb4d7fd3038de5d7449df05c6c96daadd282.php:2
+    3.7881   10372920  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.7899   10372920  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.7916   10373616  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.7917   10373728  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.7927   10418368  34. include('/home/travis/build/PODEntender/blog/cache/d11e85eabd863f3acde0313d277f9e5c33ae6ecd.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.7929   10435208  35. implode() /home/travis/build/PODEntender/blog/cache/d11e85eabd863f3acde0313d277f9e5c33ae6ecd.php:8
+
+"><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/entrevista/2"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/entrevista/2"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/entrevista/2"></head><body>
+            <header class="header_bar"><h1 class="header_bar__logo">
+        <a href="https://podentender.github.io/blog/public_html" title="PODEntender">
+            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender"></a>
+    </h1>
+    <section class="header_bar__menu"><button class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image"></button>
+    </section></header><noscript>
+    <nav class="top-nav"><ul class="top-nav__items"><li class="top-nav__item">
+                <a href="https://podentender.github.io/blog/public_html" class="top-nav__link">
+                    In&iacute;cio
+                </a>
+            </li>
+            <li class="top-nav__item">
+                <!-- @todo  -> add categories page -->
+                <a href="#" class="top-nav__link">
+                    Epis&oacute;dios
+                </a>
+            </li>
+        </ul></nav></noscript>
+
+    <article class="content"><h1 class="heading heading__primary">
+            Entrevista
+        </h1>
+
+        <section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #011 - Sobre biologia do desenvolvimento" role="article" href="https://podentender.github.io/blog/public_html/episodio/011-sobre-biologia-do-desenvolvimento" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/011/011-capa.jpg" alt="Epis&oacute;dio #011 - Sobre biologia do desenvolvimento" title="Epis&oacute;dio #011 - Sobre biologia do desenvolvimento" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/011/011-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #011 - Sobre biologia do desenvolvimento" title="Epis&oacute;dio #011 - Sobre biologia do desenvolvimento" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #011 - Sobre biologia do desenvolvimento
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-08-14">
+        14 de August de 2016
+    </time><p class="paragraph">Um dos fen&ocirc;menos mais complexos que existem no universo &eacute; o nascimento de um novo ser vivo. Uma sinfonia molecular incrivelmente complexa ocorre todos os dias no nosso planeta para que uma c&eacute;lula seja capaz de se tornar uma crian&ccedil;a com uma vida inteira pela frente.</p>
+    </a>
+            </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #008 - Sobre neuroci&ecirc;ncia e calcifica&ccedil;&atilde;o cerebral" role="article" href="https://podentender.github.io/blog/public_html/episodio/008-sobre-neurociencia-e-calcificacao-cerebral" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/008/008-capa.jpg" alt="Epis&oacute;dio #008 - Sobre neuroci&ecirc;ncia e calcifica&ccedil;&atilde;o cerebral" title="Epis&oacute;dio #008 - Sobre neuroci&ecirc;ncia e calcifica&ccedil;&atilde;o cerebral" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/008/008-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #008 - Sobre neuroci&ecirc;ncia e calcifica&ccedil;&atilde;o cerebral" title="Epis&oacute;dio #008 - Sobre neuroci&ecirc;ncia e calcifica&ccedil;&atilde;o cerebral" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #008 - Sobre neuroci&ecirc;ncia e calcifica&ccedil;&atilde;o cerebral
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-05-29">
+        29 de May de 2016
+    </time><p class="paragraph">&Eacute; poss&iacute;vel que ossos estejam se formando dentro do seu c&eacute;rebro neste exato momento. Este &eacute; um processo conhecido como calcifica&ccedil;&atilde;o cerebral, que est&aacute; ligado a varias doen&ccedil;as neurol&oacute;gicas. Tentar entender por que e como isso ocorre &eacute; o trabalho de Eraldo Fonseca Junior.</p>
+    </a>
+            </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #005 - Sobre sa&uacute;de mental infantil e autismo" role="article" href="https://podentender.github.io/blog/public_html/episodio/005-sobre-saude-mental-infantil-e-autismo" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/005/005-capa.jpg" alt="Epis&oacute;dio #005 - Sobre sa&uacute;de mental infantil e autismo" title="Epis&oacute;dio #005 - Sobre sa&uacute;de mental infantil e autismo" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/005/005-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #005 - Sobre sa&uacute;de mental infantil e autismo" title="Epis&oacute;dio #005 - Sobre sa&uacute;de mental infantil e autismo" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #005 - Sobre sa&uacute;de mental infantil e autismo
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-04-14">
+        14 de April de 2016
+    </time><p class="paragraph">Como interagir com uma crian&ccedil;a que n&atilde;o quer se relacionar? Como as expectativas que temos e criamos para a inf&acirc;ncia podem gerar sofrimento? Seu filho n&atilde;o consegue se concentrar nas aulas? Ser&aacute; que ele precisa de ajuda? O que &eacute;, como identificar e como lidar com sinais de autismo em crian&ccedil;as?</p>
+    </a>
+            </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #003 - Sobre oceanografia qu&iacute;mica" role="article" href="https://podentender.github.io/blog/public_html/episodio/003-sobre-oceanografia-quimica" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/003/003-capa.jpg" alt="Epis&oacute;dio #003 - Sobre oceanografia qu&iacute;mica" title="Epis&oacute;dio #003 - Sobre oceanografia qu&iacute;mica" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/003/003-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #003 - Sobre oceanografia qu&iacute;mica" title="Epis&oacute;dio #003 - Sobre oceanografia qu&iacute;mica" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #003 - Sobre oceanografia qu&iacute;mica
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-03-17">
+        17 de March de 2016
+    </time><p class="paragraph">Entenda como &eacute; identificada a polui&ccedil;&atilde;o invis&iacute;vel e como agrot&oacute;xicos e outros poluentes foram parar em uma ilha h&aacute; centenas de quil&ocirc;metros do litoral brasileiro.</p>
+    </a>
+            </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #002 - Sobre abelhas e poliniza&ccedil;&atilde;o" role="article" href="https://podentender.github.io/blog/public_html/episodio/002-sobre-abelhas-e-polinizacao" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/002/002-capa.jpg" alt="Epis&oacute;dio #002 - Sobre abelhas e poliniza&ccedil;&atilde;o" title="Epis&oacute;dio #002 - Sobre abelhas e poliniza&ccedil;&atilde;o" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/002/002-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #002 - Sobre abelhas e poliniza&ccedil;&atilde;o" title="Epis&oacute;dio #002 - Sobre abelhas e poliniza&ccedil;&atilde;o" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #002 - Sobre abelhas e poliniza&ccedil;&atilde;o
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-02-19">
+        19 de February de 2016
+    </time><p class="paragraph">Saiba mais sobre o desaparecimento das abelhas ao redor do mundo e a triste consequ&ecirc;ncia apocal&iacute;ptica que se aproxima.</p>
+    </a>
+            </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #001 - Sobre evolu&ccedil;&atilde;o de prote&iacute;nas" role="article" href="https://podentender.github.io/blog/public_html/episodio/001-sobre-evolucao-de-proteinas" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/001/001-capa.jpg" alt="Epis&oacute;dio #001 - Sobre evolu&ccedil;&atilde;o de prote&iacute;nas" title="Epis&oacute;dio #001 - Sobre evolu&ccedil;&atilde;o de prote&iacute;nas" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/001/001-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #001 - Sobre evolu&ccedil;&atilde;o de prote&iacute;nas" title="Epis&oacute;dio #001 - Sobre evolu&ccedil;&atilde;o de prote&iacute;nas" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #001 - Sobre evolu&ccedil;&atilde;o de prote&iacute;nas
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-01-12">
+        12 de January de 2016
+    </time><p class="paragraph">Por alguma raz&atilde;o, duas enzimas foram cruciais nesse processo e descobrir o que aconteceu ao longo da hist&oacute;ria evolutiva dessas enzimas &eacute; o trabalho do Dalton (Fabio Neves).</p>
+    </a>
+            </li>
+            </ul></section></article><nav class="side-menu"><div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()"></div>
+    
+    <button onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()" style="position: absolute; top: 0; left: 0; font-size: 15px;">
+        X
+    </button>
+    <ul><li class="side-menu__item">
+            <a class="side-menu__item__link" href="/categoria/todos">Todos</a>
+        </li>
+                <li class="side-menu__item">
+            <a class="side-menu__item__link" href="/categoria/entrevista">Entrevistas</a>
+        </li>
+                <li class="side-menu__item">
+            <a class="side-menu__item__link" href="/categoria/news">News</a>
+        </li>
+                <li class="side-menu__item">
+            <a class="side-menu__item__link" href="/categoria/drops">Drops</a>
+        </li>
+            </ul></nav><footer class="footer"><nav class="footer__menu"><ul class="footer__menu-group"><li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    In&iacute;cio
+                </a>
+            </li>
+            <li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Epis&oacute;dios
+                </a>
+            </li>
+            <li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Contato
+                </a>
+            </li>
+        </ul><ul class="footer__menu-group"><li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Facebook
+                </a>
+            </li>
+            <li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Instagram
+                </a>
+            </li>
+            <li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Twitter
+                </a>
+            </li>
+        </ul><ul class="footer__menu-group"><li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    iTunes
+                </a>
+            </li>
+            <li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Spotify
+                </a>
+            </li>
+            <li class="footer__menu-item">
+                <a class="footer__menu-item__link" href="#">
+                    Deezer
+                </a>
+            </li>
+        </ul></nav><div class="footer__copy">
+        &copy; PODEntender - Todos os direitos reservados.
+    </div>
+</footer><link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css"><script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script></body></html>
