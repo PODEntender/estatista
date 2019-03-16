@@ -2,6 +2,7 @@
 extends: _layouts.episode
 section: content
 category: Recados
+date: 2017-12-30
 episode:
   number: '027'
   date: 2017-12-30

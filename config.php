@@ -14,16 +14,16 @@ return [
     ],
     'menu' => [
         'items' => [
-            'Todos' => '/tag/all',
-            'Entrevistas' => '/tag/entrevistas',
-            'News' => '/tag/news',
-            'Drops' => '/tag/drops',
+            'Todos' => '/categoria/todos',
+            'Entrevistas' => '/categoria/entrevista',
+            'News' => '/categoria/news',
+            'Drops' => '/categoria/drops',
         ]
     ],
     'collections' => [
         'episodes' => [
             'path' => new \PODEntender\Slug\Episode(),
-            'sort' => 'episode.date',
+            'sort' => ['-date'],
         ],
     ],
 
