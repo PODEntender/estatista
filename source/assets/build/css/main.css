@@ -154,6 +154,8 @@ table {
   top: 0;
   right: 0;
   margin: 0.8em;
+  background: none;
+  border: none;
 }
 .side-menu__item {
   font-size: 15px;
