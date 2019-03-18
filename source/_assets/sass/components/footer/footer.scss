@@ -4,19 +4,8 @@
   background-color: $primary-title-color;
   color: $website-background-color;
   text-align: center;
-  margin-top: 8em;
-  padding: 2em;
-
-  &__copy::before {
-    display: inline-block;
-    position: relative;
-    content: ' ';
-    border-top: 1px solid $website-background-color;
-    transform: translateX(-50%);
-    width: 100%;
-    left: 50%;
-    margin: 1em auto;
-  }
+  margin-top: 4em;
+  padding: .4em;
 
   &__copy {
     position: relative;
