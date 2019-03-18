@@ -321,25 +321,19 @@ table {
   height: 0px !important;
 }
 
-.figure {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.figure__image {
+.responsive-image {
   width: 100%;
+  padding: 5px;
+  margin-top: 20px;
 }
-.figure__subtitle {
+.responsive-image__subtitle {
   color: #777;
   font-weight: 400;
   font-size: 14px;
+  line-height: 20px;
+  margin: 5px;
 }
-.figure__subtitle--centered {
-  text-align: center;
-}
-.figure__subtitle--left {
-  text-align: left;
-}
-.figure__subtitle--bold {
+.responsive-image__subtitle--bold {
   font-weight: 700;
 }
 

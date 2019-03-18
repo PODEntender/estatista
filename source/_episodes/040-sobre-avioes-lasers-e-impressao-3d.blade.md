@@ -59,12 +59,32 @@ and State University, EUA e atualmente pós-doutoranda na Bundeswehr University 
 
 ## Comentado no episódio
 
-![Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).](/assets/images/episode/040/experimento-em-tunel-de-vento.png)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/040/experimento-em-tunel-de-vento.png',
+    'alt' => 'Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).',
+    'title' => 'Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).',
+])
 
-![Experimento em um motor de avião utilizando PIV.](/assets/images/episode/040/experimento-motor-aviao-piv.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/040/experimento-motor-aviao-piv.jpg',
+    'alt' => 'Experimento em um motor de avião utilizando PIV.',
+    'title' => 'Experimento em um motor de avião utilizando PIV.',
+])
 
-![Avião baleia; NASA/MIT/Aurora Flight Sciences](/assets/images/episode/040/aviao-baleia.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/040/aviao-baleia.jpg',
+    'alt' => 'Avião baleia; NASA/MIT/Aurora Flight Sciences',
+    'title' => 'Avião baleia; NASA/MIT/Aurora Flight Sciences',
+])
 
-![Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson](/assets/images/episode/040/aviao-baleia-02.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/040/aviao-baleia-02.jpg',
+    'alt' => 'Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson',
+    'title' => 'Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson',
+])
 
-![Carta do ouvinte Anderson Gomes lida no bloco de e-mails](/assets/images/episode/040/carta-anderson.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/040/carta-anderson.jpg',
+    'alt' => 'Carta do ouvinte Anderson Gomes lida no bloco de e-mails',
+    'title' => 'Carta do ouvinte Anderson Gomes lida no bloco de e-mails',
+])
