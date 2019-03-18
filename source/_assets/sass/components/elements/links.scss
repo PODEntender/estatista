@@ -10,4 +10,17 @@ $link-color: $accent-color;
     color: darken($link-color, 20%);
     text-decoration: underline;
   }
+
+  &--active {
+    color: darken($link-color, 25%);
+  }
+
+  &--inactive {
+    color: darken($link-color, 25%);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
