@@ -49,13 +49,14 @@ class PostProcessFilesAfterBuild implements HandlerInterface
             $boldItem->setAttribute('class', trim(implode(' ', $classes)));
         }
 
-        foreach ($crawler->filter('.paragraphs-list a') as $boldItem) {
+        foreach ($crawler->filter('.paragraphs-list a') as $linkItem) {
             $classes = array_merge(
-                explode(' ', $boldItem->getAttribute('class')),
+                explode(' ', $linkItem->getAttribute('class')),
                 ['link']
             );
 
-            $boldItem->setAttribute('class', trim(implode(' ', $classes)));
+            $linkItem->setAttribute('class', trim(implode(' ', $classes)));
+            $linkItem->setAttribute('target', '_blank');
         }
     }
 
