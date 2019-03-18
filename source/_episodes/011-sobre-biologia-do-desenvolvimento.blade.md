@@ -38,4 +38,8 @@ e entenda como podemos descobrir a influência de genes no processo de desenvolv
 
 ## Comentado no episódio
 
-![Imagem ilustrando marcação azul comentada no episódio](/assets/images/episode/011/marcacao-azul.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/011/marcacao-azul.jpg',
+    'alt' => 'Imagem ilustrando marcação azul comentada no episódio',
+    'title' => 'Imagem ilustrando marcação azul comentada no episódio',
+])

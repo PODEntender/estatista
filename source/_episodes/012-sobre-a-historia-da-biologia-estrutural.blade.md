@@ -46,12 +46,32 @@ e neutro de Tonho).
 
 ## Comentado no episódio
 
-![Imagem de um padrão de difração de raios-X](/assets/images/episode/012/padrao-difracao-raio-x.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/012/padrao-difracao-raio-x.jpg',
+    'alt' => 'Imagem de um padrão de difração de raios-X',
+    'title' => 'Imagem de um padrão de difração de raios-X',
+])
 
-![A famosa imagem 51 de Rosalind Fraklin](/assets/images/episode/012/imagem-51-rosalind-franklin.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/012/imagem-51-rosalind-franklin.jpg',
+    'alt' => 'A famosa imagem 51 de Rosalind Fraklin',
+    'title' => 'A famosa imagem 51 de Rosalind Fraklin',
+])
 
-![Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)](/assets/images/episode/012/watson-crick.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/012/watson-crick.jpg',
+    'alt' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
+    'title' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
+])
 
-![Foto Rosalind Franklin](/assets/images/episode/012/rosalind-franklin.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/012/rosalind-franklin.jpg',
+    'alt' => 'Foto Rosalind Franklin',
+    'title' => 'Foto Rosalind Franklin',
+])
 
-![Foto Max Perultz](/assets/images/episode/012/max-perutz.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/012/max-perutz.jpg',
+    'alt' => 'Foto Max Perultz',
+    'title' => 'Foto Max Perultz',
+])
