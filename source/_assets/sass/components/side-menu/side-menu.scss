@@ -1,5 +1,6 @@
 @import '../../colors';
 @import '../../z-index';
+@import '../../mixins/media';
 
 .side-menu {
   display: none;
@@ -12,7 +13,14 @@
   padding: 2em;
   overflow: auto;
   background-color: $sidemenu-background-color;
-  box-shadow: -30vw 0 0 0 rgba(0, 0, 0, .7);
+
+  @include above-mobile {
+    width: 50vw;
+  }
+
+  @include above-tablet {
+    width: 30vw;
+  }
 
   &--visible {
     display: block;
@@ -24,6 +32,15 @@
     left: 0;
     height: 100vh;
     width: 20vw;
+    background-color: rgba(0, 0, 0, .7);
+
+    @include above-mobile {
+      width: 50vw;
+    }
+
+    @include above-tablet {
+      width: 70vw;
+    }
   }
 
   &__close-button {
@@ -57,6 +74,6 @@
 
   &__separator {
     height: 1px;
-    border-top: 1px solid #000;
+    border: 1px solid #e1e1e1;
   }
 }
