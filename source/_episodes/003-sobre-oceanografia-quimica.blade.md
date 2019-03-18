@@ -50,26 +50,74 @@ ilhas oceânicas.
 
 ## Comentado no episódio
 
-![Base de pesquisa brasileira na Antartida](/assets/images/episode/003/base-pesquisa-brasileira-antartida.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/base-pesquisa-brasileira-antartida.jpg',
+    'alt' => 'Base de pesquisa brasileira na Antartida',
+    'title' => 'Base de pesquisa brasileira na Antartida',
+])
 
-![Patrick sensualizando a -10ºC](/assets/images/episode/003/patrick-sensualizando-a-menos-dez.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/patrick-sensualizando-a-menos-dez.jpg',
+    'alt' => 'Patrick sensualizando a -10ºC',
+    'title' => 'Patrick sensualizando a -10ºC',
+])
 
-![Arquipélago de São Pedro e São Paulo](/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo.jpg',
+    'alt' => 'Arquipélago de São Pedro e São Paulo',
+    'title' => 'Arquipélago de São Pedro e São Paulo',
+])
 
-![Arquipélago de São Pedro e São Paulo](/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo-2.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo-2.jpg',
+    'alt' => 'Arquipélago de São Pedro e São Paulo',
+    'title' => 'Arquipélago de São Pedro e São Paulo',
+])
 
-![Base de Pesquisa do Arquipélago de São Pedro e São Paulo](/assets/images/episode/003/base-de-pesquisa-do-arquipelago-de-sao-pedro-e-sao-paulo.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/base-de-pesquisa-do-arquipelago-de-sao-pedro-e-sao-paulo.jpg',
+    'alt' => 'Base de Pesquisa do Arquipélago de São Pedro e São Paulo',
+    'title' => 'Base de Pesquisa do Arquipélago de São Pedro e São Paulo',
+])
 
-![Atol das Rocas](/assets/images/episode/003/atol-das-rocas.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/atol-das-rocas.jpg',
+    'alt' => 'Atol das Rocas',
+    'title' => 'Atol das Rocas',
+])
 
-![Atol das Rocas](/assets/images/episode/003/atol-das-rocas-2.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/atol-das-rocas-2.jpg',
+    'alt' => 'Atol das Rocas',
+    'title' => 'Atol das Rocas',
+])
 
-![Atol das Rocas](/assets/images/episode/003/atol-das-rocas-3.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/atol-das-rocas-3.jpg',
+    'alt' => 'Atol das Rocas',
+    'title' => 'Atol das Rocas',
+])
 
-![Patrick sensualizando com as aves do Atol das Rocas](/assets/images/episode/003/patrick-aves-atol-das-rocas.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/patrick-aves-atol-das-rocas.jpg',
+    'alt' => 'Patrick sensualizando com as aves do Atol das Rocas',
+    'title' => 'Patrick sensualizando com as aves do Atol das Rocas',
+])
 
-![Ilha da Trindade](/assets/images/episode/003/ilha-da-trindade.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/ilha-da-trindade.jpg',
+    'alt' => 'Ilha da Trindade',
+    'title' => 'Ilha da Trindade',
+])
 
-![Ilha da Trindade](/assets/images/episode/003/ilha-da-trindade-2.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/ilha-da-trindade-2.jpg',
+    'alt' => 'Ilha da Trindade',
+    'title' => 'Ilha da Trindade',
+])
 
-![Ilha da Trindade](/assets/images/episode/003/ilha-da-trindade-3.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/003/ilha-da-trindade-3.jpg',
+    'alt' => 'Ilha da Trindade',
+    'title' => 'Ilha da Trindade',
+])

@@ -47,8 +47,20 @@ laboratórios que estudam abelhas.
 
 ## Comentado no episódio
 
-![Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)](/assets/images/episode/002/tamanho-abelhas.png)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/002/tamanho-abelhas.png',
+    'alt' => 'Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)',
+    'title' => 'Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)',
+])
 
-![Sistema de marcação das abelhas](/assets/images/episode/002/sistema-marcacao-abelhas.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/002/sistema-marcacao-abelhas.jpg',
+    'alt' => 'Sistema de marcação das abelhas',
+    'title' => 'Sistema de marcação das abelhas',
+])
 
-![Patrícia na chuva e de olho nas abelhas](/assets/images/episode/002/patricia-observando-abelhas.png)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/002/patricia-observando-abelhas.png',
+    'alt' => 'Patrícia na chuva e de olho nas abelhas',
+    'title' => 'Patrícia na chuva e de olho nas abelhas',
+])

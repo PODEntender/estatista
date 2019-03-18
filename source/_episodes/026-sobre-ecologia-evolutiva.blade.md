@@ -34,6 +34,14 @@ as temíveis baratas d’água que estão por todo nosso Brasilzão.
 
 ## Comentado no episódio
 
-![Imagem da barata d'água se alimentando](/assets/images/episode/026/barata-dagua-alimentando.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/026/barata-dagua-alimentando.jpg',
+    'alt' => 'Imagem da barata d\'água se alimentando',
+    'title' => 'Imagem da barata d\'água se alimentando',
+])
 
-![Tamanho relativo da barata d'água](/assets/images/episode/026/tamanho-relativo-barata-dagua.jpg)
+@include('_partials.episode.image', [
+    'url' => '/assets/images/episode/026/tamanho-relativo-barata-dagua.jpg',
+    'alt' => 'Tamanho relativo da barata d\'água',
+    'title' => 'Tamanho relativo da barata d\'água',
+])
