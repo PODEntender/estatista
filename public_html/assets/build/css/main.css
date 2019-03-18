@@ -176,19 +176,8 @@ table {
   background-color: #222;
   color: #fff;
   text-align: center;
-  margin-top: 8em;
-  padding: 2em;
-}
-.footer__copy::before {
-  display: inline-block;
-  position: relative;
-  content: " ";
-  border-top: 1px solid #fff;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 100%;
-  left: 50%;
-  margin: 1em auto;
+  margin-top: 4em;
+  padding: 0.4em;
 }
 .footer__copy {
   position: relative;
@@ -214,6 +203,15 @@ table {
 }
 .footer__menu-group {
   flex: 1;
+}
+
+.pagination {
+  display: flex;
+  margin: 1em 0.5em;
+}
+.pagination__item {
+  flex: 1;
+  text-align: center;
 }
 
 /* Background-related colors */
@@ -272,6 +270,16 @@ table {
 .link:hover {
   color: #d04e00;
   text-decoration: underline;
+}
+.link--active {
+  color: #b74400;
+}
+.link--inactive {
+  color: #b74400;
+  text-decoration: none;
+}
+.link--inactive:hover {
+  text-decoration: none;
 }
 
 /* Background-related colors */

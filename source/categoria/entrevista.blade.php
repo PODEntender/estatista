@@ -3,4 +3,4 @@ pagination:
     collection: Entrevista
     perPage: 10
 ---
-@extends('_layouts.categoria')
+@extends('_layouts.category')

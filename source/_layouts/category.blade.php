@@ -28,13 +28,27 @@
 
     <article class="content">
         <h1 class="heading heading__primary">
-            {{ $page->pagination->collection }}
+            Categoria: {{ $page->pagination->collection }}
         </h1>
+
+        @include('_partials.components.pagination', [
+            'pages' => $pagination->pages,
+            'currentPage' => $pagination->currentPage,
+            'previousPath' => $pagination->previous,
+            'nextPath' => $pagination->next,
+        ])
 
         @include('_partials.episode.episode-card-list', [
             'title' => '',
             'episodes' => $pagination->items,
             'hidden' => [],
+        ])
+
+        @include('_partials.components.pagination', [
+            'pages' => $pagination->pages,
+            'currentPage' => $pagination->currentPage,
+            'previousPath' => $pagination->previous,
+            'nextPath' => $pagination->next,
         ])
     </article>
 
