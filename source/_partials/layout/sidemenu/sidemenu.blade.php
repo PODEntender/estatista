@@ -7,7 +7,7 @@
     <ul>
         @foreach($page->menu->items as $item => $link)
         <li class="side-menu__item">
-            <a class="side-menu__item__link" href="{{ $link }}">{{ $item }}</a>
+            <a class="side-menu__item__link" href="{{ $page->baseUrl . $link }}">{{ $item }}</a>
         </li>
         @endforeach
     </ul>
