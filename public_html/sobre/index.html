@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt_BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192"><link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png"><meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png"><title>
+        Epis&oacute;dio #000 -  | PODEntender
+    </title><meta name="description" content=""><meta name="keywords" content="
+Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/7537361a04831a54c6665759c3aa8aa3dfaa5c66.php on line 8
+
+Call Stack:
+    0.0001     373440   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0219    3241592   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.0290    3369384   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.0292    3369384   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:262
+    0.0292    3369384   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:901
+    0.0296    3374056   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.0298    3387160   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:22
+    0.0520    5029144   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:58
+    0.3993    6609032   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.3994    6609032  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.3996    6608968  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.4216    8284312  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.4216    8284312  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1128
+    0.4216    8296656  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1033
+    4.1612   10824088  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1033
+    4.1612   10824088  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    4.1618   10832936  17. TightenCo\Jigsaw\Handlers\BladeHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    4.1619   10839592  18. TightenCo\Jigsaw\Handlers\BladeHandler-&gt;buildOutput() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:41
+    4.1620   10839912  19. TightenCo\Jigsaw\Handlers\BladeHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:55
+    4.1620   10839912  20. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:76
+    4.1625   10840768  21. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    4.1626   10840768  22. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    4.1637   10840768  23. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    4.1638   10841464  24. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    4.1646   10842112  25. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    4.1648   10885368  26. include('/home/travis/build/PODEntender/blog/cache/7537361a04831a54c6665759c3aa8aa3dfaa5c66.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    4.1649   10902208  27. implode() /home/travis/build/PODEntender/blog/cache/7537361a04831a54c6665759c3aa8aa3dfaa5c66.php:8
+
+"><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/sobre"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/sobre"><link rel="canonical" href="https://podentender.github.io/blog/public_html/sobre"></head><body>
+            <header class="header_bar"><h1 class="header_bar__logo">
+        <a href="https://podentender.github.io/blog/public_html" title="PODEntender">
+            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender"></a>
+    </h1>
+    <section class="header_bar__menu"><button class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image"></button>
+    </section></header><noscript>
+    <nav class="top-nav"><ul class="top-nav__items"><li class="top-nav__item">
+                <a href="https://podentender.github.io/blog/public_html" class="top-nav__link">
+                    In&iacute;cio
+                </a>
+            </li>
+            <li class="top-nav__item">
+                <!-- @todo  -> add categories page -->
+                <a href="#" class="top-nav__link">
+                    Epis&oacute;dios
+                </a>
+            </li>
+        </ul></nav></noscript>
+
+    <article class="content"><h1 class="heading heading__primary">
+            Sobre o PODEntender
+        </h1>
+
+        <br><section class="paragraphs-list"><h2 class="heading heading__secondary heading heading__secondary">
+                Num resumo bem curto!
+            </h2>
+            <p class="paragraph paragraph paragraph--justified">
+                O PODEntender &eacute; uma iniciativa independente de divulga&ccedil;&atilde;o da ci&ecirc;ncia Brasileira.
+                Nosso principal objetivo &eacute; mostrar a todo Brasileiro como funciona o processo de
+                produ&ccedil;&atilde;o cient&iacute;fica, e mostrar que a ci&ecirc;ncia n&atilde;o &eacute; nenhum bicho de sete cabe&ccedil;as.
+            </p>
+            <p class="paragraph paragraph paragraph--justified">
+                A gente torna a ci&ecirc;ncia simples de entender e quer fazer todo mundo conhecer.
+                Queremos ver o Brasileiro sonhando em ser cientista, e tamb&eacute;m votando por educa&ccedil;&atilde;o
+                e investimento em ci&ecirc;ncia.
+            </p>
+            <p class="paragraph paragraph--italic paragraph paragraph--justified">
+                A gente t&aacute; aqui pra mostrar que est&aacute; tudo bem dizer &ldquo;n&atilde;o sei&rdquo; pra muita coisa.
+                Mas a gente sempre <strong class="paragraph--bold paragraph--bold">pode entender</strong> tudo!
+            </p>
+
+            <h2 class="heading heading__secondary heading heading__secondary">
+                O cen&aacute;rio da ci&ecirc;ncia no Brasil
+            </h2>
+            <p class="paragraph paragraph paragraph--justified">
+                Enxergamos que h&aacute; uma dist&acirc;ncia muito grande entre os cientistas e as demais
+                pessoas na sociedade, e que existe um mito que faz com que pensemos que nem todo
+                mundo pode ser cientista. N&atilde;o por menos: o investimento em educa&ccedil;&atilde;o, ci&ecirc;ncia e
+                tecnologia no Brasil s&atilde;o ris&iacute;veis e for&ccedil;am grande parte dos nossos cientistas a
+                sa&iacute;rem do pa&iacute;s em busca de condi&ccedil;&otilde;es decentes de emprego.
+            </p>
+            <p class="paragraph paragraph paragraph--justified">
+                E ainda assim o Brasil &eacute; refer&ecirc;ncia em produ&ccedil;&atilde;o cient&iacute;fica em diversas &aacute;reas
+                do conhecimento. O povo Brasileiro conta com profissionais altamente capacitados
+                que desenvolvem ano ap&oacute;s ano projetos que deixam muito pa&iacute;s de primeiro mundo
+                de queixo ca&iacute;do!
+            </p>
+
+            <h2 class="heading heading__secondary heading heading__secondary">
+                O que faz o PODEntender?
+            </h2>
+            <p class="paragraph paragraph paragraph--justified">
+                O trabalho do PODEntender &eacute; justamente mostrar a todos que qualquer pessoa pode
+                fazer ci&ecirc;ncia e <strong class="paragraph--bold paragraph--bold">pode entender</strong> ci&ecirc;ncia.
+                E a nossa principal forma de mostrar isso &eacute; entrevistando cientistas Brasileiros,
+                mostrando a sua hist&oacute;ria desde a inf&acirc;ncia at&eacute; o presente e qual caminho
+                percorreram at&eacute; se tornarem cientistas.
+            </p>
+            <p class="paragraph paragraph paragraph--justified">
+                Buscamos trazer de forma leve, clara e engra&ccedil;ada temas importantes para a ci&ecirc;ncia
+                Brasileira e para o Brasil nos formatos de &aacute;udio, publica&ccedil;&otilde;es e not&iacute;cias.
+            </p>
+
+            <h2 class="heading heading__secondary heading heading__secondary">
+                Ent&atilde;o bora come&ccedil;ar a ouvir!
+            </h2>
+            <p class="paragraph paragraph paragraph--justified">
+                A gente lan&ccedil;a um epis&oacute;dio no formato podcast a cada 2 semanas, que voc&ecirc; pode encontrar
+                e ouvir gratuitamente na nossa p&aacute;gina, no iTunes ou no Spotify.
+            </p>
+        </section></article><nav class="side-menu"><div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()"></div>
+    <button class="side-menu__close-button" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close" width="16"></button>
+    <ul><li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/sobre">Sobre</a>
+            </li>
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/todos">Todos</a>
+            </li>
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/entrevista">Entrevistas</a>
+            </li>
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/news">News</a>
+            </li>
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/drops">Drops</a>
+            </li>
+                <li class="side-menu__separator">
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://www.facebook.com/podentender" target="_blank">Facebook</a>
+            </li>
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://www.instagram.com/podentender" target="_blank">Instagram</a>
+            </li>
+                    <li class="side-menu__item">
+                <a class="side-menu__item__link" href="https://www.twitter.com/podentender" target="_blank">Twitter</a>
+            </li>
+            </ul></nav><footer class="footer"><div class="footer__copy">
+        &copy; PODEntender - Todos os direitos reservados.
+    </div>
+</footer><link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css"><script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script></body></html>
