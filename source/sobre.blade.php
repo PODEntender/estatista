@@ -1,26 +1,23 @@
 @extends('_layouts.master')
 
 @section('head')
-    <title>
-        Episódio #{{ str_pad($page->episode['number'], 3, '0', STR_PAD_LEFT) }} - {{ $page->episode['title'] }} | {{ $page->meta['title'] }}
-    </title>
+    <title>Sobre o PODEntender</title>
 
-    <meta name="description" content="{{ $page->episode['description'] }}">
-    <meta name="keywords" content="{{ implode(',', $page->tags) }}">
+    <meta name="description" content="{{ $page->meta['description'] }}">
     <meta name="author" content="{{ $page->baseUrl }}">
     <meta name="publisher" content="{{ $page->baseUrl }}">
 
-    <meta name="og:title" content="{{ $page->episode['title'] }}">
-    <meta name="og:description" content="{{ $page->episode['description'] }}">
-    <meta name="og:image" content="{{ $page->episode['cover']['url'] }}">
-    <meta name="og:url" content="{{ $page->getUrl() }}">
+    <meta name="og:title" content="{{ $page->meta['title'] }}">
+    <meta name="og:description" content="{{ $page->meta['description'] }}">
+    <meta name="og:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+    <meta name="og:url" content="{{ $page->baseUrl }}">
 
-    <meta name="twitter:title" content="{{ $page->episode['title'] }}">
-    <meta name="twitter:description" content="{{ $page->episode['description'] }}">
-    <meta name="twitter:image" content="{{ $page->episode['cover']['url'] }}">
-    <meta name="twitter:url" content="{{ $page->getUrl() }}">
+    <meta name="twitter:title" content="{{ $page->meta['title'] }}">
+    <meta name="twitter:description" content="{{ $page->meta['description'] }}">
+    <meta name="twitter:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+    <meta name="twitter:url" content="{{ $page->baseUrl }}">
 
-    <link rel="canonical" href="{{ $page->getUrl() }}">
+    <link rel="canonical" href="{{ $page->baseUrl }}">
 @endsection
 
 @section('body')
