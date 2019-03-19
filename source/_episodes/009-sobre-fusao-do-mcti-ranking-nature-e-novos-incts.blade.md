@@ -9,6 +9,7 @@ episode:
   title: 'Sobre fusão do MCTI, ranking Nature e novos INCTs'
   description: Conversamos sobre a fusão do Ministério da Ciência, Tecnologia e Inovação (MCTI) com o Ministério das Comunicações, o desempenho das intituições de pesquisa brasileira no ranking da Nature e o anúncio dos 37 novos Intitutos Nacionais de Ciência e Tecnologia (INCTs).
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_009_NEWS_sobre_fusao_do_MCTI_e_MC_ranking_nature_e_novos_INCTS.mp3
+  disqus: '8 https://podentender.com/?p=8'
   cover:
     url: '/assets/images/episode/009/009-capa.png'
     title: 'Capa do episódio: fusão do MCTI, ranking Nature e novos INCTs'

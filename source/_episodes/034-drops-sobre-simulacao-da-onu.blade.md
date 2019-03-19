@@ -9,6 +9,7 @@ episode:
   title: 'Sobre a simulação da ONU'
   description: Você sabe como os países ao redor do mundo interagem na Organização das Nações Unidas (ONU)? Qual é o seu papel em dialogar com governos mundiais? Como são organizadas as reuniões e para que servem? Saiba como funciona a ONU nesse episódio DROPS junto a Ana Luisa Demoraes Campos.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_34.mp3
+  disqus: '5476 https://podentender.com/?p=5476'
   cover:
     url: '/assets/images/episode/034/034-capa.jpg'
     title: 'Capa do episódio: Sobre a simulação da ONU'

@@ -9,6 +9,7 @@ episode:
   title: Meça suas pesquisas
   description: Tonho, Bachega e Dalton discutem sobre os problemas na ciência brasileira e a urgência acerca da divulgação científica. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender-000.mp3
+  disqus: '20 https://podentender.com/?p=20'
   cover:
     url: '/assets/images/episode/000/000-capa.jpg'
     title: 'Capa do episódio: PODEntender #000 - Meça suas Pesquisas'
