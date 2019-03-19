@@ -9,6 +9,7 @@ episode:
   title: 'Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde' 
   description: Comentamos sobre a importância do Santos Dummond, o maior supercomputador da América Latina, a aprovação do uso da fosfoetanolamina por parte do nosso governo, uma matéria sobre a brasileira que ganhou um prêmio de fotografia científica e o aplicativo de vigilância participativa Guardiões da Saúde.  
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_006_NEWS_1_sobre_supercomputador_fosfoetanolamina-premio-fotografia-guardioes_da_saude.mp3
+  disqus: '11 https://podentender.com/?p=11'
   cover:
     url: '/assets/images/episode/006/006-capa.png'
     title: 'Capa do episódio: news sobre supercomputador, fosfoetonalamina, prêmio fotografia e guardiões da saúde'

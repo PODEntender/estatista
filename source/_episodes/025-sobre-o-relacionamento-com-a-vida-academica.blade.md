@@ -9,6 +9,7 @@ episode:
   title: 'Sobre relacionamento com a vida acadêmica'
   description: Mês dos namorados, muito amor no ar, certo? Mas nem só de romance vive a ciência e precisamos discutir nosso relacionamento com a vida acadêmica. Às vezes o amor pela ciência fica abalado e o relacionamento precisa ser discutido. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_025_Discutindo_o_relacionamento_com_a_vida_academica.mp3
+  disqus: '5202 https://podentender.com/?p=5202'
   cover:
     url: '/assets/images/episode/025/025-capa.png'
     title: 'Capa do episódio: PODEntender #025 - Discutindo a relação com a vida acadêmica' 
