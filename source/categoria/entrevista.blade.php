@@ -1,6 +1,6 @@
 ---
 pagination:
     collection: Entrevista
-    perPage: 10
+    perPage: 5
 ---
 @extends('_layouts.category')

@@ -1,6 +1,6 @@
 ---
 pagination:
     collection: Drops
-    perPage: 10
+    perPage: 5
 ---
 @extends('_layouts.category')
