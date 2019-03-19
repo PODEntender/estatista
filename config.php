@@ -16,6 +16,7 @@ return [
     ],
     'menu' => [
         'items' => [
+            'Sobre' => '/sobre',
             'Todos' => '/categoria/todos',
             'Entrevistas' => '/categoria/entrevista',
             'News' => '/categoria/news',

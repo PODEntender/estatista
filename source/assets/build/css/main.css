@@ -289,6 +289,9 @@ table {
 .paragraph--bold {
   font-weight: 600;
 }
+.paragraph--italic {
+  font-style: italic;
+}
 
 /* Background-related colors */
 /* Title-related colors */
