@@ -12,7 +12,7 @@
         <li class="side-menu__separator"></li>
         @foreach($page->menu->social as $item => $link)
             <li class="side-menu__item">
-                <a class="side-menu__item__link" href="{{ $link }}" target="_blank">{{ $item }}</a>
+                <a class="side-menu__item__link" href="{{ $link }}" target="_blank" rel="noopener">{{ $item }}</a>
             </li>
         @endforeach
     </ul>
