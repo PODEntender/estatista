@@ -1,6 +1,6 @@
 ---
 pagination:
     collection: News
-    perPage: 5
+    perPage: 6
 ---
 @extends('_layouts.category')

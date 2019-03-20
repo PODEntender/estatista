@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="theme-color" content="#ff8237"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192"><link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png"><meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png"><title>
-    Drops | P&aacute;gina 3 de 4 | PODEntender
+    Drops | P&aacute;gina 3 de 3 | PODEntender
 </title><meta name="description" content=""><meta name="keywords" content="
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0004     373464   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.0901    2943904   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.1606    3076528   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.1617    3088296   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.1617    3088296   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.1621    3155208   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.1624    3168312   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.2409    4814096   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    1.1645    6402072   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    1.1647    6402072  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    1.1649    6402008  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    1.1993    8086192  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    1.1993    8086192  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    1.1994    8098536  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.3707   10158776  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.3707   10158776  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    3.3717   10161664  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    3.3744   10169712  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    3.3744   10170088  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.4135   10224592  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.4138   10224816  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    3.4148   10224944  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    3.4151   10225800  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    3.4151   10225800  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.4151   10225800  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.4152   10226496  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.4156   10226480  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.4156   10245176  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.4160   10246032  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
-    3.4160   10246032  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.4160   10246032  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.4160   10246728  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.4161   10246840  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.4163   10295568  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.4165   10312408  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0003     373464   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.1019    2943904   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.1682    3076528   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.1695    3088296   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.1695    3088296   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.1700    3155208   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.1704    3168312   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.2883    4814096   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    1.7547    6402072   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    1.7548    6402072  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    1.7550    6402008  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    1.8530    8086192  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    1.8530    8086192  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    1.8530    8098536  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.7497   10158776  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.7497   10158776  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.7533   10161664  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.7555   10168192  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.7555   10168568  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9161   10223072  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9165   10223296  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    3.9173   10223424  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    3.9176   10224280  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.9176   10224280  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.9176   10224280  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.9176   10224976  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.9180   10224960  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.9181   10243656  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.9183   10244512  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
+    3.9183   10244512  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.9183   10244512  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.9184   10245208  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.9184   10245320  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.9186   10294048  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.9188   10310888  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
 "><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/drops/3"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/drops/3"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/drops/3"></head><body>
             <header class="header_bar"><h1 class="header_bar__logo">
@@ -86,51 +86,12 @@ Call Stack:
                 3
             </a>
         </li>
-            <li class="pagination__item">
-            <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/4">
-                4
-            </a>
-        </li>
         <li class="pagination__item">
-        <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/4">
+        <a class="link link--inactive" href="#">
             Pr&oacute;ximo
         </a>
     </li>
 </ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #019 - Sobre Deep Learning" role="article" href="https://podentender.github.io/blog/public_html/episodio/019-sobre-deep-learning" class="episode-card episode-card--no-padding">
-            <div class="episode-card__cover-container">
-            <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" alt="Epis&oacute;dio #019 - Sobre Deep Learning" title="Epis&oacute;dio #019 - Sobre Deep Learning" class="episode-card__cover"></noscript>
-
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #019 - Sobre Deep Learning" title="Epis&oacute;dio #019 - Sobre Deep Learning" class="episode-card__cover lazy-image"></div>
-    
-        <h2 class="episode-card__title">
-        Epis&oacute;dio #019 - Sobre Deep Learning
-    </h2>
-    
-        <time class="episode-card__release-date" datetime="2017-03-22">
-        22 de March de 2017
-    </time><p class="paragraph paragraph--justified">O que &eacute; Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as m&aacute;quinas realizam processos?</p>
-    </a>
-            </li>
-                    <li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" role="article" href="https://podentender.github.io/blog/public_html/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada" class="episode-card episode-card--no-padding">
-            <div class="episode-card__cover-container">
-            <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" alt="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" class="episode-card__cover"></noscript>
-
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" class="episode-card__cover lazy-image"></div>
-    
-        <h2 class="episode-card__title">
-        Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada
-    </h2>
-    
-        <time class="episode-card__release-date" datetime="2017-02-01">
-        01 de February de 2017
-    </time><p class="paragraph paragraph--justified">Como diferenciar pesquisa b&aacute;sica e aplicada? Em tempos de redu&ccedil;&atilde;o do financiamento para a ci&ecirc;ncia, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ci&ecirc;ncia b&aacute;sica?</p>
-    </a>
-            </li>
-                    <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural" role="article" href="https://podentender.github.io/blog/public_html/episodio/012-sobre-a-historia-da-biologia-estrutural" class="episode-card episode-card--no-padding">
             <div class="episode-card__cover-container">
             <noscript>
@@ -181,6 +142,40 @@ Call Stack:
     </time><p class="paragraph paragraph--justified">Neste epis&oacute;dio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participa&ccedil;&atilde;o colaborativa (crowdsourcing) com o intuito de adquirir informa&ccedil;&otilde;es sobre a sa&uacute;de dos usu&aacute;rios, auxiliando o acompanhamento de epidemias.</p>
     </a>
             </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" role="article" href="https://podentender.github.io/blog/public_html/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/004/004-capa.jpg" alt="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/004/004-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
+        Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2016-03-31">
+        31 de March de 2016
+    </time><p class="paragraph paragraph--justified">Uma equipe de pesquisadores lan&ccedil;ou ma campanha de crowdfunding para desenvolver um m&eacute;todo de diagn&oacute;stico do v&iacute;rus.</p>
+    </a>
+            </li>
+                    <li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" role="article" href="https://podentender.github.io/blog/public_html/episodio/000-meca-suas-pesquisas" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/000/000-capa.jpg" alt="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" class="episode-card__cover"></noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/000/000-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
+        Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas
+    </h2>
+    
+        <time class="episode-card__release-date" datetime="2015-12-12">
+        12 de December de 2015
+    </time><p class="paragraph paragraph--justified">Tonho, Bachega e Dalton discutem sobre os problemas na ci&ecirc;ncia brasileira e a urg&ecirc;ncia acerca da divulga&ccedil;&atilde;o cient&iacute;fica.</p>
+    </a>
+            </li>
             </ul></section><ul class="pagination"><li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/2">
             Anterior
@@ -201,13 +196,8 @@ Call Stack:
                 3
             </a>
         </li>
-            <li class="pagination__item">
-            <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/4">
-                4
-            </a>
-        </li>
         <li class="pagination__item">
-        <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/4">
+        <a class="link link--inactive" href="#">
             Pr&oacute;ximo
         </a>
     </li>
