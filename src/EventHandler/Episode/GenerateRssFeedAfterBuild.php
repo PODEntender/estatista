@@ -41,7 +41,7 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
                     ->pubDate($episode->episode['date'])
                     ->addEnclosure()
                         ->url($episode->episode['blubrry'])
-                        ->length(filesize($episode->episode['blubrry']))
+                        ->length('0') //filesize($episode->episode['blubrry']))
                         ->type('audio/mpeg');
             });
 
