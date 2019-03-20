@@ -24,8 +24,6 @@
     border-radius: 5px;
 
     @include above-mobile {
-      height: 260px;
-
       &--taller {
         height: 350px;
       }
