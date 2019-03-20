@@ -9,7 +9,7 @@ use TightenCo\Jigsaw\PageVariable;
 
 class GenerateRecommendedEpisodeListAfterCollect implements HandlerInterface
 {
-    const NUMBER_OF_RECOMMENDATIONS = 4;
+    const NUMBER_OF_RECOMMENDATIONS = 3;
 
     public function handle(Jigsaw $jigsaw): void
     {

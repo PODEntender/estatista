@@ -5,41 +5,41 @@
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0001     373472   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.1035    2943912   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.1563    3076536   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.1576    3088304   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.1576    3088304   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.1580    3155216   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.1584    3168320   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.2418    4814104   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    1.8699    6402080   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    1.8700    6402080  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    1.8702    6402016  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    1.9134    8077360  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    1.9134    8077360  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    1.9134    8089704  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.9120   10271160  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.9120   10271160  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    3.9130   10273400  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    3.9196   10281448  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    3.9197   10281824  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.9370   10307824  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.9375   10308056  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    3.9396   10308184  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    3.9400   10309040  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    3.9400   10309040  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.9400   10309040  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.9401   10309736  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.9405   10309720  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.9406   10328416  28. include('/home/travis/build/PODEntender/blog/cache/4c79fb4d7fd3038de5d7449df05c6c96daadd282.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.9409   10329272  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/4c79fb4d7fd3038de5d7449df05c6c96daadd282.php:3
-    3.9409   10329272  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.9409   10329272  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.9409   10329968  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.9410   10330080  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.9416   10378808  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.9419   10395648  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0004     373464   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0901    2943904   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.1606    3076528   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.1617    3088296   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.1617    3088296   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.1621    3155208   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.1624    3168312   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.2409    4814096   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    1.1645    6402072   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    1.1647    6402072  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    1.1649    6402008  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    1.1993    8086192  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    1.1993    8086192  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    1.1994    8098536  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.4419   10263720  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.4419   10263720  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.4432   10265960  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.4462   10274008  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.4462   10274384  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.4618   10300384  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.4622   10300616  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    3.4632   10300744  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    3.4635   10301600  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.4635   10301600  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.4635   10301600  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.4635   10302296  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.4639   10302280  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.4640   10320976  28. include('/home/travis/build/PODEntender/blog/cache/4c79fb4d7fd3038de5d7449df05c6c96daadd282.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.4643   10321832  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/4c79fb4d7fd3038de5d7449df05c6c96daadd282.php:3
+    3.4643   10321832  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.4644   10321832  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.4644   10322528  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.4644   10322640  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.4647   10371368  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.4648   10388208  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
 "><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/entrevista/2"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/entrevista/2"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/entrevista/2"></head><body>
             <header class="header_bar"><h1 class="header_bar__logo">
@@ -98,72 +98,87 @@ Call Stack:
     </li>
 </ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" role="article" href="https://podentender.github.io/blog/public_html/episodio/032-sobre-genomica-e-envelhecimento" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/032/032-capa.jpg" alt="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/032/032-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/032/032-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-05-27">
         27 de May de 2018
-    </time><p class="paragraph">Pela primeira vez na hist&oacute;ria da humanidade temos um grande n&uacute;mero de seres humanos vivendo cerca de 80 anos, mas nossos genes n&atilde;o foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas.</p>
+    </time><p class="paragraph paragraph--justified">Pela primeira vez na hist&oacute;ria da humanidade temos um grande n&uacute;mero de seres humanos vivendo cerca de 80 anos, mas nossos genes n&atilde;o foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" role="article" href="https://podentender.github.io/blog/public_html/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/029/029-capa.jpg" alt="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/029/029-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/029/029-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-04-03">
         03 de April de 2018
-    </time><p class="paragraph">Os manuscritos do Mar Morto s&atilde;o uma das maiores descobertas do s&eacute;culo XX e funcionam como uma janela para a mente de pessoas que viveram h&aacute; milhares de anos. Hoje voc&ecirc; vai descobrir o trabalho de Tup&aacute; Guerra, historiadora e especialista em demonologia.</p>
+    </time><p class="paragraph paragraph--justified">Os manuscritos do Mar Morto s&atilde;o uma das maiores descobertas do s&eacute;culo XX e funcionam como uma janela para a mente de pessoas que viveram h&aacute; milhares de anos. Hoje voc&ecirc; vai descobrir o trabalho de Tup&aacute; Guerra, historiadora e especialista em demonologia.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" role="article" href="https://podentender.github.io/blog/public_html/episodio/026-sobre-ecologia-evolutiva" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/026/026-capa.png" alt="Epis&oacute;dio #026 - Sobre ecologia evolutiva" title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/026/026-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #026 - Sobre ecologia evolutiva" title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/026/026-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #026 - Sobre ecologia evolutiva" title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #026 - Sobre ecologia evolutiva
     </h2>
     
         <time class="episode-card__release-date" datetime="2017-07-13">
         13 de July de 2017
-    </time><p class="paragraph">V&aacute;rios fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores &eacute; um trabalho para a Ecologia Evolutiva.</p>
+    </time><p class="paragraph paragraph--justified">V&aacute;rios fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores &eacute; um trabalho para a Ecologia Evolutiva.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" role="article" href="https://podentender.github.io/blog/public_html/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" alt="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea
     </h2>
     
         <time class="episode-card__release-date" datetime="2017-05-18">
         18 de May de 2017
-    </time><p class="paragraph">A cada dia que passa voc&ecirc; perde um pedacinho das pontas dos seus cromossomos e os tel&ocirc;meros est&atilde;o l&aacute; para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses tel&ocirc;meros s&atilde;o mais curtos do que deveriam?</p>
+    </time><p class="paragraph paragraph--justified">A cada dia que passa voc&ecirc; perde um pedacinho das pontas dos seus cromossomos e os tel&ocirc;meros est&atilde;o l&aacute; para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses tel&ocirc;meros s&atilde;o mais curtos do que deveriam?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" role="article" href="https://podentender.github.io/blog/public_html/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" alt="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9
     </h2>
     
         <time class="episode-card__release-date" datetime="2017-03-01">
         01 de March de 2017
-    </time><p class="paragraph">Venha descobrir como saber se uma mitoc&ocirc;ndria est&aacute; respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e n&atilde;o se assuste com esse nome!</p>
+    </time><p class="paragraph paragraph--justified">Venha descobrir como saber se uma mitoc&ocirc;ndria est&aacute; respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e n&atilde;o se assuste com esse nome!</p>
     </a>
             </li>
             </ul></section><ul class="pagination"><li class="pagination__item">

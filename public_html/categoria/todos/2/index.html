@@ -5,41 +5,41 @@
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0001     373472   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.1035    2943912   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.1563    3076536   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.1576    3088304   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.1576    3088304   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.1580    3155216   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.1584    3168320   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.2418    4814104   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    1.8699    6402080   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    1.8700    6402080  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    1.8702    6402016  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    1.9134    8077360  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    1.9134    8077360  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    1.9134    8089704  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.2738   10422512  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.2738   10422512  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    4.2754   10424736  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    4.2797   10435904  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    4.2798   10436280  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.3241   10470424  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.3245   10470648  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    4.3257   10470776  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    4.3261   10471632  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    4.3261   10471632  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    4.3261   10471632  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    4.3261   10472328  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    4.3266   10472312  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    4.3267   10491008  28. include('/home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    4.3271   10491864  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php:3
-    4.3271   10491864  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    4.3271   10491864  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    4.3271   10492560  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    4.3272   10492672  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    4.3355   10541400  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    4.3363   10558240  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0004     373464   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0901    2943904   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.1606    3076528   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.1617    3088296   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.1617    3088296   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.1621    3155208   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.1624    3168312   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.2409    4814096   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    1.1645    6402072   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    1.1647    6402072  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    1.1649    6402008  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    1.1993    8086192  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    1.1993    8086192  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    1.1994    8098536  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5512   10419136  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5512   10419136  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.5540   10421360  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.5594   10432528  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.5594   10432904  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5965   10467048  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5968   10467272  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    3.5977   10467400  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    3.5979   10468256  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.5979   10468256  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.5979   10468256  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.5979   10468952  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.5997   10468936  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.6001   10487632  28. include('/home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.6005   10488488  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php:3
+    3.6005   10488488  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.6005   10488488  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.6005   10489184  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.6005   10489296  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.6008   10538024  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.6009   10554864  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
 "><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/todos/2"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/todos/2"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/todos/2"></head><body>
             <header class="header_bar"><h1 class="header_bar__logo">
@@ -103,142 +103,172 @@ Call Stack:
     </li>
 </ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" role="article" href="https://podentender.github.io/blog/public_html/episodio/034-sobre-a-simulacao-da-onu" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/034/034-capa.jpg" alt="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" title="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/034/034-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" title="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/034/034-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" title="Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #034 - Sobre a simula&ccedil;&atilde;o da ONU
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-07-31">
         31 de July de 2018
-    </time><p class="paragraph">Voc&ecirc; sabe como os pa&iacute;ses ao redor do mundo interagem na Organiza&ccedil;&atilde;o das Na&ccedil;&otilde;es Unidas (ONU)? Qual &eacute; o seu papel em dialogar com governos mundiais? Como s&atilde;o organizadas as reuni&otilde;es e para que servem? Saiba como funciona a ONU nesse epis&oacute;dio DROPS junto a Ana Luisa Demoraes Campos.</p>
+    </time><p class="paragraph paragraph--justified">Voc&ecirc; sabe como os pa&iacute;ses ao redor do mundo interagem na Organiza&ccedil;&atilde;o das Na&ccedil;&otilde;es Unidas (ONU)? Qual &eacute; o seu papel em dialogar com governos mundiais? Como s&atilde;o organizadas as reuni&otilde;es e para que servem? Saiba como funciona a ONU nesse epis&oacute;dio DROPS junto a Ana Luisa Demoraes Campos.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" role="article" href="https://podentender.github.io/blog/public_html/episodio/033-sobre-algoritmos-e-contas-publicas" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/033/033-capa.jpg" alt="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" title="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/033/033-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" title="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/033/033-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" title="Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #033 - Sobre algor&iacute;tmos e contas p&uacute;blicas
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-06-25">
         25 de June de 2018
-    </time><p class="paragraph">H&aacute; pouco mais de uma d&eacute;cada, monitorar o uso de dinheiro p&uacute;blico exigia muito investimento e muitas horas de profissionais especializados, o que limitava a capacidade de controle social das contas p&uacute;blicas a um grupo muito pequeno de brasileiros e brasileiras. Mas com o avan&ccedil;o da tecnologia, uma parte significativa da popula&ccedil;&atilde;o tem acesso a mais poder computacional do que a NASA precisou para mandar o homem &agrave; lua.</p>
+    </time><p class="paragraph paragraph--justified">H&aacute; pouco mais de uma d&eacute;cada, monitorar o uso de dinheiro p&uacute;blico exigia muito investimento e muitas horas de profissionais especializados, o que limitava a capacidade de controle social das contas p&uacute;blicas a um grupo muito pequeno de brasileiros e brasileiras. Mas com o avan&ccedil;o da tecnologia, uma parte significativa da popula&ccedil;&atilde;o tem acesso a mais poder computacional do que a NASA precisou para mandar o homem &agrave; lua.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" role="article" href="https://podentender.github.io/blog/public_html/episodio/032-sobre-genomica-e-envelhecimento" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/032/032-capa.jpg" alt="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/032/032-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/032/032-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" title="Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #032 - Sobre gen&ocirc;mica e envelhecimento
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-05-27">
         27 de May de 2018
-    </time><p class="paragraph">Pela primeira vez na hist&oacute;ria da humanidade temos um grande n&uacute;mero de seres humanos vivendo cerca de 80 anos, mas nossos genes n&atilde;o foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas.</p>
+    </time><p class="paragraph paragraph--justified">Pela primeira vez na hist&oacute;ria da humanidade temos um grande n&uacute;mero de seres humanos vivendo cerca de 80 anos, mas nossos genes n&atilde;o foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" role="article" href="https://podentender.github.io/blog/public_html/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/031/031-capa.png" alt="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" title="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/031/031-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" title="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/031/031-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" title="Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #031 - Sobre enzima que degrada pl&aacute;stico, pele impressa em 3d, vacina contra o c&acirc;ncer e reprodutibilidade da ci&ecirc;ncia brasileira
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-05-07">
         07 de May de 2018
-    </time><p class="paragraph">Voc&ecirc; sabia que uma vacina contra o c&acirc;ncer desenvolvida no Brasil foi testada com sucesso em cob&aacute;ias? E que pesquisadores brasileiros trabalharam no melhoramento da efici&ecirc;ncia de enzima que degrada pl&aacute;stico? E que uma pesquisadora brasileira trabalhou no desenvolvimento de pele impressa em 3D para substituir uso de animais em testes de cosm&eacute;ticos? J&aacute; ouviu falar da crise de reprodutibilidade da ci&ecirc;ncia e na iniciativa brasileira para verificar a reprodutibilidade de cientistas brasileiros?</p>
+    </time><p class="paragraph paragraph--justified">Voc&ecirc; sabia que uma vacina contra o c&acirc;ncer desenvolvida no Brasil foi testada com sucesso em cob&aacute;ias? E que pesquisadores brasileiros trabalharam no melhoramento da efici&ecirc;ncia de enzima que degrada pl&aacute;stico? E que uma pesquisadora brasileira trabalhou no desenvolvimento de pele impressa em 3D para substituir uso de animais em testes de cosm&eacute;ticos? J&aacute; ouviu falar da crise de reprodutibilidade da ci&ecirc;ncia e na iniciativa brasileira para verificar a reprodutibilidade de cientistas brasileiros?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" role="article" href="https://podentender.github.io/blog/public_html/episodio/030-sobre-diagnostico-rapido-do-zika-virus" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/030/030-capa.jpg" alt="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" title="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/030/030-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" title="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/030/030-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" title="Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #030 - Sobre diagn&oacute;stico r&aacute;pido do Zika V&iacute;rus
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-04-21">
         21 de April de 2018
-    </time><p class="paragraph">Como se faz o diagn&oacute;stico do Zika v&iacute;rus? Como &eacute; o trabalho com fam&iacute;lias de crian&ccedil;as com microcefalia? Qual &eacute; o papel da Caravana do Cora&ccedil;&atilde;o nos projetos com Zika, Dengue e Chicungunha?</p>
+    </time><p class="paragraph paragraph--justified">Como se faz o diagn&oacute;stico do Zika v&iacute;rus? Como &eacute; o trabalho com fam&iacute;lias de crian&ccedil;as com microcefalia? Qual &eacute; o papel da Caravana do Cora&ccedil;&atilde;o nos projetos com Zika, Dengue e Chicungunha?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" role="article" href="https://podentender.github.io/blog/public_html/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/029/029-capa.jpg" alt="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/029/029-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/029/029-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" title="Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #029 - Sobre manuscritos do mar morto e demonologia
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-04-03">
         03 de April de 2018
-    </time><p class="paragraph">Os manuscritos do Mar Morto s&atilde;o uma das maiores descobertas do s&eacute;culo XX e funcionam como uma janela para a mente de pessoas que viveram h&aacute; milhares de anos. Hoje voc&ecirc; vai descobrir o trabalho de Tup&aacute; Guerra, historiadora e especialista em demonologia.</p>
+    </time><p class="paragraph paragraph--justified">Os manuscritos do Mar Morto s&atilde;o uma das maiores descobertas do s&eacute;culo XX e funcionam como uma janela para a mente de pessoas que viveram h&aacute; milhares de anos. Hoje voc&ecirc; vai descobrir o trabalho de Tup&aacute; Guerra, historiadora e especialista em demonologia.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" role="article" href="https://podentender.github.io/blog/public_html/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/028/028-capa.png" alt="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" title="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/028/028-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" title="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/028/028-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" title="Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #028 - Sobre Brasil na elite da matem&aacute;tica, febre amarela e novo bloqueio do or&ccedil;amento
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-03-10">
         10 de March de 2018
-    </time><p class="paragraph">Brasil foi aprovado para o fazer parte do grupo de elite da Uni&atilde;o Internacional de Matem&aacute;tica, pesquisadores brasileiros detectaram o v&iacute;rus da febre amarela e um novo bloqueio de verbas do or&ccedil;amento do Minist&eacute;rio de Ci&ecirc;ncia, Tecnologia e Comunica&ccedil;&atilde;o foi feito.</p>
+    </time><p class="paragraph paragraph--justified">Brasil foi aprovado para o fazer parte do grupo de elite da Uni&atilde;o Internacional de Matem&aacute;tica, pesquisadores brasileiros detectaram o v&iacute;rus da febre amarela e um novo bloqueio de verbas do or&ccedil;amento do Minist&eacute;rio de Ci&ecirc;ncia, Tecnologia e Comunica&ccedil;&atilde;o foi feito.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #027 - Recados, desculpas e e-mails" role="article" href="https://podentender.github.io/blog/public_html/episodio/027-recados-desculpas-e-e-mails" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/027/027-capa.png" alt="Epis&oacute;dio #027 - Recados, desculpas e e-mails" title="Epis&oacute;dio #027 - Recados, desculpas e e-mails" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/027/027-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #027 - Recados, desculpas e e-mails" title="Epis&oacute;dio #027 - Recados, desculpas e e-mails" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/027/027-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #027 - Recados, desculpas e e-mails" title="Epis&oacute;dio #027 - Recados, desculpas e e-mails" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #027 - Recados, desculpas e e-mails
     </h2>
     
         <time class="episode-card__release-date" datetime="2017-12-30">
         30 de December de 2017
-    </time><p class="paragraph">O PODEntender ainda n&atilde;o retornou para valer, mas n&atilde;o poder&iacute;amos deixar nossos(as) queridos(as) ouvintes sem um &uacute;ltimo epis&oacute;dio em 2017!</p>
+    </time><p class="paragraph paragraph--justified">O PODEntender ainda n&atilde;o retornou para valer, mas n&atilde;o poder&iacute;amos deixar nossos(as) queridos(as) ouvintes sem um &uacute;ltimo epis&oacute;dio em 2017!</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" role="article" href="https://podentender.github.io/blog/public_html/episodio/026-sobre-ecologia-evolutiva" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/026/026-capa.png" alt="Epis&oacute;dio #026 - Sobre ecologia evolutiva" title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/026/026-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #026 - Sobre ecologia evolutiva" title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/026/026-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #026 - Sobre ecologia evolutiva" title="Epis&oacute;dio #026 - Sobre ecologia evolutiva" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #026 - Sobre ecologia evolutiva
     </h2>
     
         <time class="episode-card__release-date" datetime="2017-07-13">
         13 de July de 2017
-    </time><p class="paragraph">V&aacute;rios fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores &eacute; um trabalho para a Ecologia Evolutiva.</p>
+    </time><p class="paragraph paragraph--justified">V&aacute;rios fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores &eacute; um trabalho para a Ecologia Evolutiva.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" role="article" href="https://podentender.github.io/blog/public_html/episodio/025-sobre-relacionamento-com-a-vida-academica" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/025/025-capa.png" alt="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" title="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/025/025-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" title="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/025/025-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" title="Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #025 - Sobre relacionamento com a vida acad&ecirc;mica
     </h2>
     
         <time class="episode-card__release-date" datetime="2017-06-28">
         28 de June de 2017
-    </time><p class="paragraph">M&ecirc;s dos namorados, muito amor no ar, certo? Mas nem s&oacute; de romance vive a ci&ecirc;ncia e precisamos discutir nosso relacionamento com a vida acad&ecirc;mica. &Agrave;s vezes o amor pela ci&ecirc;ncia fica abalado e o relacionamento precisa ser discutido.</p>
+    </time><p class="paragraph paragraph--justified">M&ecirc;s dos namorados, muito amor no ar, certo? Mas nem s&oacute; de romance vive a ci&ecirc;ncia e precisamos discutir nosso relacionamento com a vida acad&ecirc;mica. &Agrave;s vezes o amor pela ci&ecirc;ncia fica abalado e o relacionamento precisa ser discutido.</p>
     </a>
             </li>
             </ul></section><ul class="pagination"><li class="pagination__item">

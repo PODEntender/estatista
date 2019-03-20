@@ -5,41 +5,41 @@
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0001     373472   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.1035    2943912   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.1563    3076536   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.1576    3088304   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.1576    3088304   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.1580    3155216   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.1584    3168320   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.2418    4814104   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    1.8699    6402080   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    1.8700    6402080  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    1.8702    6402016  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    1.9134    8077360  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    1.9134    8077360  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    1.9134    8089704  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.8161   10170344  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.8161   10170344  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    3.8233   10173232  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    3.8258   10181280  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    3.8258   10181656  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.8940   10260928  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.8942   10261152  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    3.8950   10261280  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    3.8953   10262136  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    3.8953   10262136  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.8953   10262136  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.8953   10262832  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.8956   10262816  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.8957   10281512  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.8959   10282368  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
-    3.8959   10282368  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.8959   10282368  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.8959   10283064  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.8960   10283176  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.8986   10331904  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.8988   10348744  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0004     373464   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0901    2943904   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.1606    3076528   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.1617    3088296   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.1617    3088296   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.1621    3155208   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.1624    3168312   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.2409    4814096   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    1.1645    6402072   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    1.1647    6402072  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    1.1649    6402008  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    1.1993    8086192  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    1.1993    8086192  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    1.1994    8098536  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.3707   10158776  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.3707   10158776  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.3717   10161664  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.3744   10169712  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.3744   10170088  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.4292   10249392  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.4295   10249616  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    3.4305   10249744  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    3.4308   10250600  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.4308   10250600  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.4308   10250600  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.4309   10251296  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.4312   10251280  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.4313   10269976  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.4317   10270832  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
+    3.4317   10270832  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.4317   10270832  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.4317   10271528  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.4317   10271640  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.4321   10320368  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.4322   10337208  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
 "><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/drops/4"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/drops/4"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/drops/4"></head><body>
             <header class="header_bar"><h1 class="header_bar__logo">
@@ -98,30 +98,36 @@ Call Stack:
     </li>
 </ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" role="article" href="https://podentender.github.io/blog/public_html/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/004/004-capa.jpg" alt="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/004/004-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/004/004-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" title="Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #004 - Sobre crowdfunding para diagn&oacute;stico de Zika v&iacute;rus
     </h2>
     
         <time class="episode-card__release-date" datetime="2016-03-31">
         31 de March de 2016
-    </time><p class="paragraph">Uma equipe de pesquisadores lan&ccedil;ou ma campanha de crowdfunding para desenvolver um m&eacute;todo de diagn&oacute;stico do v&iacute;rus.</p>
+    </time><p class="paragraph paragraph--justified">Uma equipe de pesquisadores lan&ccedil;ou ma campanha de crowdfunding para desenvolver um m&eacute;todo de diagn&oacute;stico do v&iacute;rus.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" role="article" href="https://podentender.github.io/blog/public_html/episodio/000-meca-suas-pesquisas" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/000/000-capa.jpg" alt="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/000/000-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/000/000-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" title="Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #000 - Me&ccedil;a suas pesquisas
     </h2>
     
         <time class="episode-card__release-date" datetime="2015-12-12">
         12 de December de 2015
-    </time><p class="paragraph">Tonho, Bachega e Dalton discutem sobre os problemas na ci&ecirc;ncia brasileira e a urg&ecirc;ncia acerca da divulga&ccedil;&atilde;o cient&iacute;fica.</p>
+    </time><p class="paragraph paragraph--justified">Tonho, Bachega e Dalton discutem sobre os problemas na ci&ecirc;ncia brasileira e a urg&ecirc;ncia acerca da divulga&ccedil;&atilde;o cient&iacute;fica.</p>
     </a>
             </li>
             </ul></section><ul class="pagination"><li class="pagination__item">

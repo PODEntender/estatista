@@ -1,5 +1,4 @@
 @import '../colors';
-@import '../mixins/media';
 
 .episode-card {
   margin-top: .5em;
@@ -17,17 +16,16 @@
     color: lighten($primary-text-color, 10%);
   }
 
+  &__cover-container {
+    text-align: center;
+  }
+
   &__cover {
     object-fit: cover;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 60vh;
     border-radius: 5px;
-
-    @include above-mobile {
-      &--taller {
-        height: 350px;
-      }
-    }
-
   }
 
   &__title {

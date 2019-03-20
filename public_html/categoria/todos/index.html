@@ -5,41 +5,41 @@
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0001     373472   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.1035    2943912   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.1563    3076536   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.1576    3088304   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.1576    3088304   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.1580    3155216   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.1584    3168320   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.2418    4814104   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    1.8699    6402080   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    1.8700    6402080  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    1.8702    6402016  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    1.9134    8077360  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    1.9134    8077360  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    1.9134    8089704  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.2738   10422512  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.2738   10422512  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    4.2754   10424736  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    4.2797   10435904  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    4.2798   10436280  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.2798   10436376  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    4.2801   10437072  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    4.2812   10437344  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    4.2815   10438200  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    4.2815   10438200  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    4.2815   10438200  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    4.2815   10438896  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    4.2819   10438880  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    4.2820   10457688  28. include('/home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    4.2825   10458544  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php:3
-    4.2825   10458544  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    4.2825   10458544  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    4.2825   10459240  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    4.2826   10459352  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    4.2829   10508080  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    4.2830   10524920  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0004     373464   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0901    2943904   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.1606    3076528   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.1617    3088296   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.1617    3088296   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.1621    3155208   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.1624    3168312   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.2409    4814096   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    1.1645    6402072   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    1.1647    6402072  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    1.1649    6402008  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    1.1993    8086192  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    1.1993    8086192  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    1.1994    8098536  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5512   10419136  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5512   10419136  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.5540   10421360  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.5594   10432528  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.5594   10432904  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5594   10433000  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.5597   10433696  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    3.5623   10433968  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    3.5626   10434824  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.5626   10434824  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.5626   10434824  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.5626   10435520  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.5629   10435504  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.5630   10454312  28. include('/home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.5633   10455168  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php:3
+    3.5633   10455168  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.5633   10455168  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.5633   10455864  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.5634   10455976  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.5636   10504704  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.5638   10521544  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
 "><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/todos"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/todos"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/todos"></head><body>
             <header class="header_bar"><h1 class="header_bar__logo">
@@ -103,142 +103,172 @@ Call Stack:
     </li>
 </ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" role="article" href="https://podentender.github.io/blog/public_html/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/044/044-capa.jpg" alt="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" title="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/044/044-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" title="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/044/044-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" title="Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #044 - Sobre Pesquisa no Ensino M&eacute;dio e Maracuj&aacute; #OPodcast&Eacute;Delas2019
     </h2>
     
         <time class="episode-card__release-date" datetime="2019-03-12">
         12 de March de 2019
-    </time><p class="paragraph">Neste epis&oacute;dio conversamos com Juliana Estradioto, estudante do ensino m&eacute;dio que com apenas 18 anos coleciona diversos pr&ecirc;mios, dentre eles o primeiro lugar na categoria Ensino M&eacute;dio da 29&ordf; edi&ccedil;&atilde;o do Pr&ecirc;mio Jovem Cientista.</p>
+    </time><p class="paragraph paragraph--justified">Neste epis&oacute;dio conversamos com Juliana Estradioto, estudante do ensino m&eacute;dio que com apenas 18 anos coleciona diversos pr&ecirc;mios, dentre eles o primeiro lugar na categoria Ensino M&eacute;dio da 29&ordf; edi&ccedil;&atilde;o do Pr&ecirc;mio Jovem Cientista.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" role="article" href="https://podentender.github.io/blog/public_html/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/043/043-capa.jpg" alt="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" title="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/043/043-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" title="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/043/043-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" title="Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #043 - Ministro da Ci&ecirc;ncia e P&oacute;s-Gradua&ccedil;&atilde;o a Dist&acirc;ncia
     </h2>
     
         <time class="episode-card__release-date" datetime="2019-02-25">
         25 de February de 2019
-    </time><p class="paragraph">Tonho e Carol Lacerda: Marcos Pontes ao Jornal da Ci&ecirc;ncia comenta planos para o ano de 2019. Capes libera cursos de p&oacute;s-gradua&ccedil;&atilde;o na modalidae EAD.</p>
+    </time><p class="paragraph paragraph--justified">Tonho e Carol Lacerda: Marcos Pontes ao Jornal da Ci&ecirc;ncia comenta planos para o ano de 2019. Capes libera cursos de p&oacute;s-gradua&ccedil;&atilde;o na modalidae EAD.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" role="article" href="https://podentender.github.io/blog/public_html/episodio/042-sobre-nazismo-e-nazistas-no-brasil" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/042/042-capa.jpg" alt="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" title="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/042/042-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" title="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/042/042-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" title="Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #042 - Sobre nazismo e nazistas no Brasil
     </h2>
     
         <time class="episode-card__release-date" datetime="2019-02-11">
         11 de February de 2019
-    </time><p class="paragraph">O Doutor em Hist&oacute;ria Felipe Abal fala sobre a fuga dos nazistas Franz Stangl e Gustav Wagner ao Brasil ap&oacute;s derrota da Alemanha na Segunda Guerra Mundial.</p>
+    </time><p class="paragraph paragraph--justified">O Doutor em Hist&oacute;ria Felipe Abal fala sobre a fuga dos nazistas Franz Stangl e Gustav Wagner ao Brasil ap&oacute;s derrota da Alemanha na Segunda Guerra Mundial.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #041 - Sobre a psicologia do sono" role="article" href="https://podentender.github.io/blog/public_html/episodio/041-sobre-a-psicologia-do-sono" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/041/041-capa.jpg" alt="Epis&oacute;dio #041 - Sobre a psicologia do sono" title="Epis&oacute;dio #041 - Sobre a psicologia do sono" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/041/041-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #041 - Sobre a psicologia do sono" title="Epis&oacute;dio #041 - Sobre a psicologia do sono" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/041/041-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #041 - Sobre a psicologia do sono" title="Epis&oacute;dio #041 - Sobre a psicologia do sono" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #041 - Sobre a psicologia do sono
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-12-30">
         30 de December de 2018
-    </time><p class="paragraph">Voc&ecirc; j&aacute; se questionou por que n&oacute;s precisamos dormir? Neste epis&oacute;dio, discutimos sobre as 4 causas de Arist&oacute;teles e o que isso tem a ver com a barba e o sono.</p>
+    </time><p class="paragraph paragraph--justified">Voc&ecirc; j&aacute; se questionou por que n&oacute;s precisamos dormir? Neste epis&oacute;dio, discutimos sobre as 4 causas de Arist&oacute;teles e o que isso tem a ver com a barba e o sono.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" role="article" href="https://podentender.github.io/blog/public_html/episodio/040-sobre-avioes-lasers-e-impressao-3d" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/040/040-capa.jpg" alt="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" title="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/040/040-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" title="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/040/040-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" title="Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #040 - Sobre avi&otilde;es, lasers e impress&atilde;o 3D
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-11-25">
         25 de November de 2018
-    </time><p class="paragraph">N&oacute;s estamos bem acostumados a ver avi&otilde;es como os Boeing 777/787 ou a fam&iacute;lia Airbus 3XX, que possuem o formato &ldquo;padr&atilde;o&rdquo; com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de avia&ccedil;&atilde;o hoje em dia &eacute; focada em aumentar a efici&ecirc;ncia desses motores para que consumam menos combust&iacute;vel, emitam menos gases poluentes e sejam mais silenciosos.</p>
+    </time><p class="paragraph paragraph--justified">N&oacute;s estamos bem acostumados a ver avi&otilde;es como os Boeing 777/787 ou a fam&iacute;lia Airbus 3XX, que possuem o formato &ldquo;padr&atilde;o&rdquo; com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de avia&ccedil;&atilde;o hoje em dia &eacute; focada em aumentar a efici&ecirc;ncia desses motores para que consumam menos combust&iacute;vel, emitam menos gases poluentes e sejam mais silenciosos.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" role="article" href="https://podentender.github.io/blog/public_html/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/039/039-capa.jpg" alt="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" title="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/039/039-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" title="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/039/039-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" title="Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #039 - Sobre c&eacute;lulas-tronco, c&acirc;ncer e intelig&ecirc;ncia artificial
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-11-04">
         04 de November de 2018
-    </time><p class="paragraph">Atualmente, j&aacute; existem dados experimentais que permitem caracterizar semelhan&ccedil;as e diferen&ccedil;as entre c&eacute;lulas cancer&iacute;genas e c&eacute;lulas-tronco. Por&eacute;m tal tarefa envolve um trabalho &aacute;rduo de an&aacute;lise e classifica&ccedil;&atilde;o de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de intelig&ecirc;ncia artificial para identificar e quantificar caracter&iacute;sticas de c&eacute;lulas tronco em c&eacute;lulas cancer&iacute;genas.</p>
+    </time><p class="paragraph paragraph--justified">Atualmente, j&aacute; existem dados experimentais que permitem caracterizar semelhan&ccedil;as e diferen&ccedil;as entre c&eacute;lulas cancer&iacute;genas e c&eacute;lulas-tronco. Por&eacute;m tal tarefa envolve um trabalho &aacute;rduo de an&aacute;lise e classifica&ccedil;&atilde;o de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de intelig&ecirc;ncia artificial para identificar e quantificar caracter&iacute;sticas de c&eacute;lulas tronco em c&eacute;lulas cancer&iacute;genas.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" role="article" href="https://podentender.github.io/blog/public_html/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/038/038-capa.jpg" alt="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" title="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/038/038-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" title="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/038/038-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" title="Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #038 - Sobre escravid&atilde;o e direito de propriedade no Brasil
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-10-20">
         20 de October de 2018
-    </time><p class="paragraph">A no&ccedil;&atilde;o de que pessoas n&atilde;o podem ser propriedade de outras &eacute; relativamente recente na hist&oacute;ria da humanidade. Por muito tempo, a escravid&atilde;o foi a base da economia no Brasil e havia permiss&atilde;o legal para que pessoas brancas pudessem ser propriet&aacute;rias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jur&iacute;dica que dava suporte a esse direito de propriedade.</p>
+    </time><p class="paragraph paragraph--justified">A no&ccedil;&atilde;o de que pessoas n&atilde;o podem ser propriedade de outras &eacute; relativamente recente na hist&oacute;ria da humanidade. Por muito tempo, a escravid&atilde;o foi a base da economia no Brasil e havia permiss&atilde;o legal para que pessoas brancas pudessem ser propriet&aacute;rias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jur&iacute;dica que dava suporte a esse direito de propriedade.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" role="article" href="https://podentender.github.io/blog/public_html/episodio/037-sobre-linguagem-e-percepcao-do-mundo" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/037/037-capa.jpg" alt="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" title="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/037/037-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" title="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/037/037-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" title="Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #037 - Sobre linguagem e percep&ccedil;&atilde;o do mundo
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-09-30">
         30 de September de 2018
-    </time><p class="paragraph">A linguagem certamente est&aacute; relacionada &agrave;s necessidades e costumes de uma popula&ccedil;&atilde;o, portanto, &eacute; razo&aacute;vel supor que existe uma rela&ccedil;&atilde;o entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta rela&ccedil;&atilde;o? Como essa rela&ccedil;&atilde;o se expressa nos outros animais? Qual &eacute; a diferen&ccedil;a entre linguagem e comunica&ccedil;&atilde;o?</p>
+    </time><p class="paragraph paragraph--justified">A linguagem certamente est&aacute; relacionada &agrave;s necessidades e costumes de uma popula&ccedil;&atilde;o, portanto, &eacute; razo&aacute;vel supor que existe uma rela&ccedil;&atilde;o entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta rela&ccedil;&atilde;o? Como essa rela&ccedil;&atilde;o se expressa nos outros animais? Qual &eacute; a diferen&ccedil;a entre linguagem e comunica&ccedil;&atilde;o?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" role="article" href="https://podentender.github.io/blog/public_html/episodio/035-sobre-vacinacao-e-saude-publica" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/035/035-capa.jpg" alt="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" title="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/035/035-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" title="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/035/035-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" title="Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #035 - Sobre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-08-10">
         10 de August de 2018
-    </time><p class="paragraph">Est&aacute; rolando neste m&ecirc;s a campanha de vacina&ccedil;&atilde;o da Poliomielite, ent&atilde;o &eacute; um momento oportuno para saber mais sobre a rela&ccedil;&atilde;o entre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica. Voc&ecirc; j&aacute; pensou na log&iacute;stica necess&aacute;ria para vacinar um pa&iacute;s grande como o Brasil?</p>
+    </time><p class="paragraph paragraph--justified">Est&aacute; rolando neste m&ecirc;s a campanha de vacina&ccedil;&atilde;o da Poliomielite, ent&atilde;o &eacute; um momento oportuno para saber mais sobre a rela&ccedil;&atilde;o entre vacina&ccedil;&atilde;o e sa&uacute;de p&uacute;blica. Voc&ecirc; j&aacute; pensou na log&iacute;stica necess&aacute;ria para vacinar um pa&iacute;s grande como o Brasil?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
                 <a title="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" role="article" href="https://podentender.github.io/blog/public_html/episodio/036-sobre-saude-coletiva-e-racismo" class="episode-card episode-card--no-padding">
+            <div class="episode-card__cover-container">
             <noscript>
     <img src="https://podentender.github.io/blog/public_html/assets/images/episode/036/036-capa.jpg" alt="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" title="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/036/036-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" title="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/036/036-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" title="Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo" class="episode-card__cover lazy-image"></div>
+    
+        <h2 class="episode-card__title">
         Epis&oacute;dio #036 - Sobre sa&uacute;de coletiva e racismo
     </h2>
     
         <time class="episode-card__release-date" datetime="2018-08-10">
         10 de August de 2018
-    </time><p class="paragraph">O racismo &eacute; um mal que acompanha o Brasil h&aacute; muitos s&eacute;culos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas s&atilde;o dif&iacute;ceis de mensurar. No entanto, outras, como as diferen&ccedil;as entre os acessos aos servi&ccedil;os de sa&uacute;de, poderiam ser medidas facilmente.</p>
+    </time><p class="paragraph paragraph--justified">O racismo &eacute; um mal que acompanha o Brasil h&aacute; muitos s&eacute;culos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas s&atilde;o dif&iacute;ceis de mensurar. No entanto, outras, como as diferen&ccedil;as entre os acessos aos servi&ccedil;os de sa&uacute;de, poderiam ser medidas facilmente.</p>
     </a>
             </li>
             </ul></section><ul class="pagination"><li class="pagination__item">
