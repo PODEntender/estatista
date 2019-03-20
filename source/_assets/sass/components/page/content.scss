@@ -1,7 +1,7 @@
 @import '../../font-sizes';
 @import '../../spacing';
 
-$content-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
+$content-max-width: 70vw;
 
 .content {
   padding: $website-content-padding;
