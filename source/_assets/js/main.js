@@ -6,6 +6,16 @@ window.toggleMenu = () => document
 const loadImage = (img) => img.setAttribute('src', img.getAttribute('data-src'));
 const removeClass = (className) => (elm) => elm.classList.remove(className);
 
+if (typeof IntersectionObserver == 'undefined') {
+  window.initDisqus();
+
+  setTimeout(() => {
+    const images = document.querySelectorAll('img.lazy-image');
+    images.forEach(loadImage);
+    images.forEach(removeClass('lazy-image'));
+  }, 300);
+}
+
 if (typeof IntersectionObserver != 'undefined') {
   window.imagesObserver = new IntersectionObserver((entries, observer) => {
     entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
@@ -35,11 +45,4 @@ if (typeof IntersectionObserver != 'undefined') {
 
     window.commentsObserver.observe(commentsSection);
   }
-} else {
-  setTimeout(() => {
-    console.log(document.querySelectorAll('img.lazy-image'));
-    const images = document.querySelectorAll('img.lazy-image');
-    images.forEach(loadImage);
-    images.forEach(removeClass('lazy-image'));
-  }, 400);
 }
