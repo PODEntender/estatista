@@ -1,14 +1,13 @@
-$mobile-max-width: 480px;
-$tablet-max-width: 992px;
+@import '../breakpoints';
 
 @mixin above-mobile {
-  @media only screen and (min-width: #{$mobile-max-width + 1px}) {
+  @media only screen and (min-width: #{$medium + 1px}) {
     @content
   }
 }
 
 @mixin above-tablet {
-  @media only screen and (min-width: #{$tablet-max-width + 1px}) {
+  @media only screen and (min-width: #{$large + 1px}) {
     @content
   }
 }
