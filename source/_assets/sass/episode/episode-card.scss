@@ -20,7 +20,6 @@
   &__cover {
     object-fit: cover;
     width: 100%;
-    height: 220px;
     border-radius: 5px;
 
     @include above-mobile {
