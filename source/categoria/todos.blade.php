@@ -1,6 +1,6 @@
 ---
 pagination:
     collection: Todos
-    perPage: 10
+    perPage: 9
 ---
 @extends('_layouts.category')
