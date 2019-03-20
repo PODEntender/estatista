@@ -16,6 +16,7 @@
     "scripts": {
         "post-install-cmd": "npm install",
         "dev": "npm run watch",
-        "build": "npm run prod"
+        "build": "npm run prod && jigsaw build production"
     }
 }
+
