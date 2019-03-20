@@ -1,116 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="theme-color" content="#ff8237">
-
-        <link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32">
-        <link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192">
-        <link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png">
-        <meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png" />
-
-        <title>
-    Todos | Página 3 de 5 | PODEntender
-</title>
-
-<meta name="description" content="">
-<meta name="keywords" content="
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="theme-color" content="#ff8237"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192"><link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png"><meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png"><title>
+    Todos | P&aacute;gina 3 de 5 | PODEntender
+</title><meta name="description" content=""><meta name="keywords" content="
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0002     394672   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.0206    2964808   2. Symfony\Component\Console\Application->run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.0278    3105320   3. Symfony\Component\Console\Application->doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.0286    3117464   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.0286    3183000   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.0289    3184376   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.0291    3197480   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.0461    4842384   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    0.3756    6430704   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    0.3757    6430704  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    0.3759    6430640  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    0.3960    8105984  12. Illuminate\Support\Collection->flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    0.3960    8105984  13. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    0.3960    8118328  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.7661   10447040  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.7661   10447040  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    1.7671   10449264  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    1.7700   10460432  18. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    1.7700   10460808  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.8146   10527912  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.8149   10528136  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    1.8158   10528264  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    1.8160   10529120  23. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    1.8160   10529120  24. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    1.8160   10529120  25. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    1.8161   10529816  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    1.8164   10529800  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    1.8165   10548496  28. include('/home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    1.8168   10549352  29. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php:3
-    1.8168   10549352  30. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    1.8168   10549352  31. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    1.8168   10550048  32. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    1.8169   10550160  33. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    1.8171   10598888  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    1.8172   10615728  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0001     373440   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0208    2943880   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.0291    3076504   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.0298    3088272   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.0299    3088272   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.0301    3155184   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.0304    3168288   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0586    4813592   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.4204    6401568   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.4205    6401568  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.4207    6401504  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.4424    8076848  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.4424    8076848  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    0.4424    8089192  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9667   10417904  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9667   10417904  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.9680   10420128  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.9715   10431296  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.9715   10431672  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    4.1875   10498776  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    4.1878   10499000  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    4.1888   10499128  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    4.1890   10499984  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    4.1890   10499984  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    4.1890   10499984  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    4.1891   10500680  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    4.1893   10500664  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    4.1894   10519360  28. include('/home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    4.1896   10520216  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/0fe40e6717ce018270d628b1b486ea5fc9b2bc52.php:3
+    4.1896   10520216  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    4.1897   10520216  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    4.1897   10520912  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    4.1897   10521024  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    4.1899   10569752  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    4.1900   10586592  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
-">
-<meta name="author" content="https://podentender.github.io/blog/public_html">
-<meta name="publisher" content="https://podentender.github.io/blog/public_html">
-
-<meta name="og:title" content="">
-<meta name="og:description" content="">
-<meta name="og:image" content="">
-<meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/todos/3">
-
-<meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="">
-<meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/todos/3">
-
-<link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/todos/3">
-    </head>
-    <body>
-            <header class="header_bar">
-    <h1 class="header_bar__logo">
+"><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/todos/3"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/todos/3"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/todos/3"></head><body>
+            <header class="header_bar"><h1 class="header_bar__logo">
         <a href="https://podentender.github.io/blog/public_html" title="PODEntender">
-            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender" />
-        </a>
+            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender"></a>
     </h1>
-    <section class="header_bar__menu">
-        <button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
-            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image" alt="Open Menu" />
-        </button>
-    </section>
-</header>
-
-<noscript>
-    <nav class="top-nav">
-        <ul class="top-nav__items">
-            <li class="top-nav__item">
+    <section class="header_bar__menu"><button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image" alt="Open Menu"></button>
+    </section></header><noscript>
+    <nav class="top-nav"><ul class="top-nav__items"><li class="top-nav__item">
                 <a href="https://podentender.github.io/blog/public_html" class="top-nav__link">
-                    Início
+                    In&iacute;cio
                 </a>
             </li>
             <li class="top-nav__item">
                 <!-- @todo  -> add categories page -->
                 <a href="#" class="top-nav__link">
-                    Episódios
+                    Epis&oacute;dios
                 </a>
             </li>
-        </ul>
-    </nav>
-</noscript>
+        </ul></nav></noscript>
 
-    <article class="content">
-        <h1 class="heading heading__primary">
+    <article class="content"><h1 class="heading heading__primary">
             Categoria: Todos
         </h1>
 
-        <ul class="pagination">
-    <li class="pagination__item">
+        <ul class="pagination"><li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/todos/2">
             Anterior
         </a>
@@ -142,209 +98,150 @@ Call Stack:
         </li>
         <li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/todos/4">
-            Próximo
+            Pr&oacute;ximo
         </a>
     </li>
-</ul>
-
-        <section class="episode-card-list">
-    
-    <ul class="episode-card-list__list">
-                    <li class="episode-card-list__list-item">
-                <a title="Episódio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" role="article" href="https://podentender.github.io/blog/public_html/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius" class="episode-card episode-card--no-padding">
+</ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" role="article" href="https://podentender.github.io/blog/public_html/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/024/024-capa.png" alt="Episódio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" title="Episódio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/024/024-capa.png" alt="Epis&oacute;dio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" title="Epis&oacute;dio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/024/024-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" title="Episódio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/024/024-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" title="Epis&oacute;dio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #024 - Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-06-04">
+        <time class="episode-card__release-date" datetime="2017-06-04">
         04 de June de 2017
-    </time>
-    
-        <p class="paragraph">Quer saber qual é a brasileira, cientista, que tem maior influência no mundo? Ou talvez descobrir que até o maior empreendimento científico brasileiro está correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avanço.</p>
+    </time><p class="paragraph">Quer saber qual &eacute; a brasileira, cientista, que tem maior influ&ecirc;ncia no mundo? Ou talvez descobrir que at&eacute; o maior empreendimento cient&iacute;fico brasileiro est&aacute; correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avan&ccedil;o.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #023 - Sobre telômeros e falência da medula óssea" role="article" href="https://podentender.github.io/blog/public_html/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" role="article" href="https://podentender.github.io/blog/public_html/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" alt="Episódio #023 - Sobre telômeros e falência da medula óssea" title="Episódio #023 - Sobre telômeros e falência da medula óssea" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" alt="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #023 - Sobre telômeros e falência da medula óssea" title="Episódio #023 - Sobre telômeros e falência da medula óssea" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #023 - Sobre telômeros e falência da medula óssea
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/023/023-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" title="Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #023 - Sobre tel&ocirc;meros e fal&ecirc;ncia da medula &oacute;ssea
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-05-18">
+        <time class="episode-card__release-date" datetime="2017-05-18">
         18 de May de 2017
-    </time>
-    
-        <p class="paragraph">A cada dia que passa você perde um pedacinho das pontas dos seus cromossomos e os telômeros estão lá para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses telômeros são mais curtos do que deveriam?</p>
+    </time><p class="paragraph">A cada dia que passa voc&ecirc; perde um pedacinho das pontas dos seus cromossomos e os tel&ocirc;meros est&atilde;o l&aacute; para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses tel&ocirc;meros s&atilde;o mais curtos do que deveriam?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #022 - Sobre Zika Vírus e o artigo brasileiro na Nature" role="article" href="https://podentender.github.io/blog/public_html/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #022 - Sobre Zika V&iacute;rus e o artigo brasileiro na Nature" role="article" href="https://podentender.github.io/blog/public_html/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/022/022-capa.png" alt="Episódio #022 - Sobre Zika Vírus e o artigo brasileiro na Nature" title="Episódio #022 - Sobre Zika Vírus e o artigo brasileiro na Nature" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/022/022-capa.png" alt="Epis&oacute;dio #022 - Sobre Zika V&iacute;rus e o artigo brasileiro na Nature" title="Epis&oacute;dio #022 - Sobre Zika V&iacute;rus e o artigo brasileiro na Nature" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/022/022-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #022 - Sobre Zika Vírus e o artigo brasileiro na Nature" title="Episódio #022 - Sobre Zika Vírus e o artigo brasileiro na Nature" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #022 - Sobre Zika Vírus e o artigo brasileiro na Nature
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/022/022-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #022 - Sobre Zika V&iacute;rus e o artigo brasileiro na Nature" title="Epis&oacute;dio #022 - Sobre Zika V&iacute;rus e o artigo brasileiro na Nature" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #022 - Sobre Zika V&iacute;rus e o artigo brasileiro na Nature
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-05-03">
+        <time class="episode-card__release-date" datetime="2017-05-03">
         03 de May de 2017
-    </time>
-    
-        <p class="paragraph">Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença?</p>
+    </time><p class="paragraph">Qual a influ&ecirc;ncia da pesquisa brasileira no avan&ccedil;o do conhecimento sobre o zika v&iacute;rus (ZIKV)? Como demonstrar a estrutura de uma prote&iacute;na pode ajudar a entender e combater esta doen&ccedil;a?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #021 - Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira" role="article" href="https://podentender.github.io/blog/public_html/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #021 - Sobre corrup&ccedil;&atilde;o na ci&ecirc;ncia, ass&eacute;dio em universidade e cria&ccedil;&atilde;o do Instituto Serrapilheira" role="article" href="https://podentender.github.io/blog/public_html/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/021/021-capa.png" alt="Episódio #021 - Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira" title="Episódio #021 - Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/021/021-capa.png" alt="Epis&oacute;dio #021 - Sobre corrup&ccedil;&atilde;o na ci&ecirc;ncia, ass&eacute;dio em universidade e cria&ccedil;&atilde;o do Instituto Serrapilheira" title="Epis&oacute;dio #021 - Sobre corrup&ccedil;&atilde;o na ci&ecirc;ncia, ass&eacute;dio em universidade e cria&ccedil;&atilde;o do Instituto Serrapilheira" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/021/021-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #021 - Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira" title="Episódio #021 - Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #021 - Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/021/021-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #021 - Sobre corrup&ccedil;&atilde;o na ci&ecirc;ncia, ass&eacute;dio em universidade e cria&ccedil;&atilde;o do Instituto Serrapilheira" title="Epis&oacute;dio #021 - Sobre corrup&ccedil;&atilde;o na ci&ecirc;ncia, ass&eacute;dio em universidade e cria&ccedil;&atilde;o do Instituto Serrapilheira" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #021 - Sobre corrup&ccedil;&atilde;o na ci&ecirc;ncia, ass&eacute;dio em universidade e cria&ccedil;&atilde;o do Instituto Serrapilheira
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-04-20">
+        <time class="episode-card__release-date" datetime="2017-04-20">
         20 de April de 2017
-    </time>
-    
-        <p class="paragraph">Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.</p>
+    </time><p class="paragraph">J&aacute; pensou em como a ci&ecirc;ncia tamb&eacute;m &eacute; suscet&iacute;vel &agrave; corrup&ccedil;&atilde;o? Ou como o ass&eacute;dio dentro dos espa&ccedil;os de universidade podem ser combatidos? N&atilde;o perca a esperan&ccedil;a na ci&ecirc;ncia e veja como a cria&ccedil;&atilde;o de um fundo privado ainda pode dar um respiro ao cen&aacute;rio brasileiro.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #020 - Sobre machismo na ciência brasileira" role="article" href="https://podentender.github.io/blog/public_html/episodio/020-sobre-machismo-na-ciencia-brasileira" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #020 - Sobre machismo na ci&ecirc;ncia brasileira" role="article" href="https://podentender.github.io/blog/public_html/episodio/020-sobre-machismo-na-ciencia-brasileira" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/020/020-capa.png" alt="Episódio #020 - Sobre machismo na ciência brasileira" title="Episódio #020 - Sobre machismo na ciência brasileira" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/020/020-capa.png" alt="Epis&oacute;dio #020 - Sobre machismo na ci&ecirc;ncia brasileira" title="Epis&oacute;dio #020 - Sobre machismo na ci&ecirc;ncia brasileira" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/020/020-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #020 - Sobre machismo na ciência brasileira" title="Episódio #020 - Sobre machismo na ciência brasileira" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #020 - Sobre machismo na ciência brasileira
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/020/020-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #020 - Sobre machismo na ci&ecirc;ncia brasileira" title="Epis&oacute;dio #020 - Sobre machismo na ci&ecirc;ncia brasileira" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #020 - Sobre machismo na ci&ecirc;ncia brasileira
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-04-05">
+        <time class="episode-card__release-date" datetime="2017-04-05">
         05 de April de 2017
-    </time>
-    
-        <p class="paragraph">Como o machismo influencia a vida acadêmica e o dia a dia de cientistas dentro de seus espaços de trabalho? Será que essa realidade é diferente das outras profissões?  Como enxergar e combater as agressões e a rotina assustadora e desnecessariamente mais difícil e presente na vida das mulheres.</p>
+    </time><p class="paragraph">Como o machismo influencia a vida acad&ecirc;mica e o dia a dia de cientistas dentro de seus espa&ccedil;os de trabalho? Ser&aacute; que essa realidade &eacute; diferente das outras profiss&otilde;es?  Como enxergar e combater as agress&otilde;es e a rotina assustadora e desnecessariamente mais dif&iacute;cil e presente na vida das mulheres.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #019 - Sobre Deep Learning" role="article" href="https://podentender.github.io/blog/public_html/episodio/019-sobre-deep-learning" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #019 - Sobre Deep Learning" role="article" href="https://podentender.github.io/blog/public_html/episodio/019-sobre-deep-learning" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" alt="Episódio #019 - Sobre Deep Learning" title="Episódio #019 - Sobre Deep Learning" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" alt="Epis&oacute;dio #019 - Sobre Deep Learning" title="Epis&oacute;dio #019 - Sobre Deep Learning" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #019 - Sobre Deep Learning" title="Episódio #019 - Sobre Deep Learning" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #019 - Sobre Deep Learning
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #019 - Sobre Deep Learning" title="Epis&oacute;dio #019 - Sobre Deep Learning" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #019 - Sobre Deep Learning
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-03-22">
+        <time class="episode-card__release-date" datetime="2017-03-22">
         22 de March de 2017
-    </time>
-    
-        <p class="paragraph">O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?</p>
+    </time><p class="paragraph">O que &eacute; Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as m&aacute;quinas realizam processos?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #018 - Sobre modificação de genomas e CRISPR/Cas9" role="article" href="https://podentender.github.io/blog/public_html/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" role="article" href="https://podentender.github.io/blog/public_html/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" alt="Episódio #018 - Sobre modificação de genomas e CRISPR/Cas9" title="Episódio #018 - Sobre modificação de genomas e CRISPR/Cas9" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" alt="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #018 - Sobre modificação de genomas e CRISPR/Cas9" title="Episódio #018 - Sobre modificação de genomas e CRISPR/Cas9" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #018 - Sobre modificação de genomas e CRISPR/Cas9
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/018/018-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" title="Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #018 - Sobre modifica&ccedil;&atilde;o de genomas e CRISPR/Cas9
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-03-01">
+        <time class="episode-card__release-date" datetime="2017-03-01">
         01 de March de 2017
-    </time>
-    
-        <p class="paragraph">Venha descobrir como saber se uma mitocôndria está respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e não se assuste com esse nome!</p>
+    </time><p class="paragraph">Venha descobrir como saber se uma mitoc&ocirc;ndria est&aacute; respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e n&atilde;o se assuste com esse nome!</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" role="article" href="https://podentender.github.io/blog/public_html/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" role="article" href="https://podentender.github.io/blog/public_html/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" alt="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" alt="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-02-15">
+        <time class="episode-card__release-date" datetime="2017-02-15">
         15 de February de 2017
-    </time>
-    
-        <p class="paragraph">Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.</p>
+    </time><p class="paragraph">Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no or&ccedil;amento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #016 - Sobre ciência básica e ciência aplicada" role="article" href="https://podentender.github.io/blog/public_html/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" role="article" href="https://podentender.github.io/blog/public_html/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" alt="Episódio #016 - Sobre ciência básica e ciência aplicada" title="Episódio #016 - Sobre ciência básica e ciência aplicada" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" alt="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #016 - Sobre ciência básica e ciência aplicada" title="Episódio #016 - Sobre ciência básica e ciência aplicada" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #016 - Sobre ciência básica e ciência aplicada
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-02-01">
+        <time class="episode-card__release-date" datetime="2017-02-01">
         01 de February de 2017
-    </time>
-    
-        <p class="paragraph">Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?</p>
+    </time><p class="paragraph">Como diferenciar pesquisa b&aacute;sica e aplicada? Em tempos de redu&ccedil;&atilde;o do financiamento para a ci&ecirc;ncia, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ci&ecirc;ncia b&aacute;sica?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" role="article" href="https://podentender.github.io/blog/public_html/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" role="article" href="https://podentender.github.io/blog/public_html/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" alt="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" title="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" alt="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" title="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" title="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" title="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2016-12-18">
+        <time class="episode-card__release-date" datetime="2016-12-18">
         18 de December de 2016
-    </time>
-    
-        <p class="paragraph">Saiba mais sobre Garatea-L, a primeira missão brasileira à lua, os novos equipamentos para a base brasileira de pesquisas na Antártida e mosquitos utilizados contra o ZIKA.</p>
+    </time><p class="paragraph">Saiba mais sobre Garatea-L, a primeira miss&atilde;o brasileira &agrave; lua, os novos equipamentos para a base brasileira de pesquisas na Ant&aacute;rtida e mosquitos utilizados contra o ZIKA.</p>
     </a>
             </li>
-            </ul>
-</section>
-
-        <ul class="pagination">
-    <li class="pagination__item">
+            </ul></section><ul class="pagination"><li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/todos/2">
             Anterior
         </a>
@@ -376,19 +273,13 @@ Call Stack:
         </li>
         <li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/todos/4">
-            Próximo
+            Pr&oacute;ximo
         </a>
     </li>
-</ul>
-    </article>
-
-    <nav class="side-menu">
-    <div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' && toggleMenu()"></div>
-    <button role="button" aria-label="Close Menu" class="side-menu__close-button" onclick="typeof toggleMenu == 'function' && toggleMenu()">
-        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close Menu" width="16">
-    </button>
-    <ul>
-                    <li class="side-menu__item">
+</ul></article><nav class="side-menu"><div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()"></div>
+    <button role="button" aria-label="Close Menu" class="side-menu__close-button" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close Menu" width="16"></button>
+    <ul><li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/sobre">Sobre</a>
             </li>
                     <li class="side-menu__item">
@@ -403,7 +294,7 @@ Call Stack:
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/drops">Drops</a>
             </li>
-                <li class="side-menu__separator"></li>
+                <li class="side-menu__separator">
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://www.facebook.com/podentender" target="_blank">Facebook</a>
             </li>
@@ -413,14 +304,7 @@ Call Stack:
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://www.twitter.com/podentender" target="_blank">Twitter</a>
             </li>
-            </ul>
-</nav>
-    <footer class="footer">
-    <div class="footer__copy">
-        © PODEntender - Todos os direitos reservados.
+            </ul></nav><footer class="footer"><div class="footer__copy">
+        &copy; PODEntender - Todos os direitos reservados.
     </div>
-</footer>
-    <link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css">
-    <script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script>
-            </body>
-</html>
+</footer><link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css"><script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script></body></html>

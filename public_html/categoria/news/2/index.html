@@ -1,116 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="theme-color" content="#ff8237">
-
-        <link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32">
-        <link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192">
-        <link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png">
-        <meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png" />
-
-        <title>
-    News | Página 2 de 2 | PODEntender
-</title>
-
-<meta name="description" content="">
-<meta name="keywords" content="
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="theme-color" content="#ff8237"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192"><link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png"><meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png"><title>
+    News | P&aacute;gina 2 de 2 | PODEntender
+</title><meta name="description" content=""><meta name="keywords" content="
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0002     394672   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.0206    2964808   2. Symfony\Component\Console\Application->run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.0278    3105320   3. Symfony\Component\Console\Application->doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.0286    3117464   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.0286    3183000   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.0289    3184376   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.0291    3197480   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.0461    4842384   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    0.3756    6430704   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    0.3757    6430704  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    0.3759    6430640  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    0.3960    8105984  12. Illuminate\Support\Collection->flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    0.3960    8105984  13. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    0.3960    8118328  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.7324   10392208  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.7324   10392208  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    1.7335   10394416  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    1.7350   10399384  18. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    1.7350   10399760  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.7506   10425712  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.7509   10425936  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    1.7518   10426064  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    1.7521   10426920  23. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    1.7521   10426920  24. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    1.7521   10426920  25. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    1.7521   10427616  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    1.7525   10427600  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    1.7525   10446296  28. include('/home/travis/build/PODEntender/blog/cache/351086311da51f12e365624312a16a55f16ed707.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    1.7528   10447152  29. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/cache/351086311da51f12e365624312a16a55f16ed707.php:3
-    1.7528   10447152  30. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    1.7528   10447152  31. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    1.7528   10447848  32. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    1.7529   10447960  33. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    1.7531   10496688  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    1.7532   10513528  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0001     373440   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0208    2943880   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.0291    3076504   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.0298    3088272   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.0299    3088272   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.0301    3155184   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.0304    3168288   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0586    4813592   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.4204    6401568   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.4205    6401568  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.4207    6401504  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.4424    8076848  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.4424    8076848  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    0.4424    8089192  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9332   10363072  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9332   10363072  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    3.9355   10365280  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    3.9370   10370248  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    3.9370   10370624  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9514   10396576  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    3.9518   10396800  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    3.9528   10396928  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    3.9530   10397784  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    3.9530   10397784  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.9530   10397784  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.9530   10398480  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.9534   10398464  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.9535   10417160  28. include('/home/travis/build/PODEntender/blog/cache/351086311da51f12e365624312a16a55f16ed707.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.9538   10418016  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/351086311da51f12e365624312a16a55f16ed707.php:3
+    3.9538   10418016  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    3.9538   10418016  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    3.9538   10418712  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    3.9539   10418824  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    3.9541   10467552  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    3.9543   10484392  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
-">
-<meta name="author" content="https://podentender.github.io/blog/public_html">
-<meta name="publisher" content="https://podentender.github.io/blog/public_html">
-
-<meta name="og:title" content="">
-<meta name="og:description" content="">
-<meta name="og:image" content="">
-<meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/news/2">
-
-<meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="">
-<meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/news/2">
-
-<link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/news/2">
-    </head>
-    <body>
-            <header class="header_bar">
-    <h1 class="header_bar__logo">
+"><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/news/2"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/news/2"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/news/2"></head><body>
+            <header class="header_bar"><h1 class="header_bar__logo">
         <a href="https://podentender.github.io/blog/public_html" title="PODEntender">
-            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender" />
-        </a>
+            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender"></a>
     </h1>
-    <section class="header_bar__menu">
-        <button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
-            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image" alt="Open Menu" />
-        </button>
-    </section>
-</header>
-
-<noscript>
-    <nav class="top-nav">
-        <ul class="top-nav__items">
-            <li class="top-nav__item">
+    <section class="header_bar__menu"><button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image" alt="Open Menu"></button>
+    </section></header><noscript>
+    <nav class="top-nav"><ul class="top-nav__items"><li class="top-nav__item">
                 <a href="https://podentender.github.io/blog/public_html" class="top-nav__link">
-                    Início
+                    In&iacute;cio
                 </a>
             </li>
             <li class="top-nav__item">
                 <!-- @todo  -> add categories page -->
                 <a href="#" class="top-nav__link">
-                    Episódios
+                    Epis&oacute;dios
                 </a>
             </li>
-        </ul>
-    </nav>
-</noscript>
+        </ul></nav></noscript>
 
-    <article class="content">
-        <h1 class="heading heading__primary">
+    <article class="content"><h1 class="heading heading__primary">
             Categoria: News
         </h1>
 
-        <ul class="pagination">
-    <li class="pagination__item">
+        <ul class="pagination"><li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/news">
             Anterior
         </a>
@@ -127,114 +83,80 @@ Call Stack:
         </li>
         <li class="pagination__item">
         <a class="link link--inactive" href="#">
-            Próximo
+            Pr&oacute;ximo
         </a>
     </li>
-</ul>
-
-        <section class="episode-card-list">
-    
-    <ul class="episode-card-list__list">
-                    <li class="episode-card-list__list-item">
-                <a title="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" role="article" href="https://podentender.github.io/blog/public_html/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul" class="episode-card episode-card--no-padding">
+</ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
+                <a title="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" role="article" href="https://podentender.github.io/blog/public_html/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" alt="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" alt="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #017 - Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/017/017-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" title="Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #017 - Sobre fechamento da UERJ, or&ccedil;amento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2017-02-15">
+        <time class="episode-card__release-date" datetime="2017-02-15">
         15 de February de 2017
-    </time>
-    
-        <p class="paragraph">Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.</p>
+    </time><p class="paragraph">Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no or&ccedil;amento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" role="article" href="https://podentender.github.io/blog/public_html/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" role="article" href="https://podentender.github.io/blog/public_html/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" alt="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" title="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" alt="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" title="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" title="Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #015 - Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/015/015-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" title="Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #015 - Sobre miss&atilde;o brasileira &agrave; lua, novos equipamentos para a base de pesquisa na ant&aacute;rtida e mosquitos contra ZIKA
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2016-12-18">
+        <time class="episode-card__release-date" datetime="2016-12-18">
         18 de December de 2016
-    </time>
-    
-        <p class="paragraph">Saiba mais sobre Garatea-L, a primeira missão brasileira à lua, os novos equipamentos para a base brasileira de pesquisas na Antártida e mosquitos utilizados contra o ZIKA.</p>
+    </time><p class="paragraph">Saiba mais sobre Garatea-L, a primeira miss&atilde;o brasileira &agrave; lua, os novos equipamentos para a base brasileira de pesquisas na Ant&aacute;rtida e mosquitos utilizados contra o ZIKA.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #013 - Sobre sistema de avaliação do CNPq e orçamento do MEC" role="article" href="https://podentender.github.io/blog/public_html/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #013 - Sobre sistema de avalia&ccedil;&atilde;o do CNPq e or&ccedil;amento do MEC" role="article" href="https://podentender.github.io/blog/public_html/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/013/013-capa.png" alt="Episódio #013 - Sobre sistema de avaliação do CNPq e orçamento do MEC" title="Episódio #013 - Sobre sistema de avaliação do CNPq e orçamento do MEC" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/013/013-capa.png" alt="Epis&oacute;dio #013 - Sobre sistema de avalia&ccedil;&atilde;o do CNPq e or&ccedil;amento do MEC" title="Epis&oacute;dio #013 - Sobre sistema de avalia&ccedil;&atilde;o do CNPq e or&ccedil;amento do MEC" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/013/013-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #013 - Sobre sistema de avaliação do CNPq e orçamento do MEC" title="Episódio #013 - Sobre sistema de avaliação do CNPq e orçamento do MEC" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #013 - Sobre sistema de avaliação do CNPq e orçamento do MEC
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/013/013-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #013 - Sobre sistema de avalia&ccedil;&atilde;o do CNPq e or&ccedil;amento do MEC" title="Epis&oacute;dio #013 - Sobre sistema de avalia&ccedil;&atilde;o do CNPq e or&ccedil;amento do MEC" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #013 - Sobre sistema de avalia&ccedil;&atilde;o do CNPq e or&ccedil;amento do MEC
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2016-10-10">
+        <time class="episode-card__release-date" datetime="2016-10-10">
         10 de October de 2016
-    </time>
-    
-        <p class="paragraph">Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.</p>
+    </time><p class="paragraph">Comentamos sobre uma proposta de mudan&ccedil;a no sistema de avalia&ccedil;&atilde;o de projetos do CNPq e uma not&iacute;cia de or&ccedil;amento recuperado para o MEC.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #009 - Sobre fusão do MCTI, ranking Nature e novos INCTs" role="article" href="https://podentender.github.io/blog/public_html/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #009 - Sobre fus&atilde;o do MCTI, ranking Nature e novos INCTs" role="article" href="https://podentender.github.io/blog/public_html/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/009/009-capa.png" alt="Episódio #009 - Sobre fusão do MCTI, ranking Nature e novos INCTs" title="Episódio #009 - Sobre fusão do MCTI, ranking Nature e novos INCTs" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/009/009-capa.png" alt="Epis&oacute;dio #009 - Sobre fus&atilde;o do MCTI, ranking Nature e novos INCTs" title="Epis&oacute;dio #009 - Sobre fus&atilde;o do MCTI, ranking Nature e novos INCTs" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/009/009-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #009 - Sobre fusão do MCTI, ranking Nature e novos INCTs" title="Episódio #009 - Sobre fusão do MCTI, ranking Nature e novos INCTs" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #009 - Sobre fusão do MCTI, ranking Nature e novos INCTs
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/009/009-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #009 - Sobre fus&atilde;o do MCTI, ranking Nature e novos INCTs" title="Epis&oacute;dio #009 - Sobre fus&atilde;o do MCTI, ranking Nature e novos INCTs" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #009 - Sobre fus&atilde;o do MCTI, ranking Nature e novos INCTs
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2016-06-12">
+        <time class="episode-card__release-date" datetime="2016-06-12">
         12 de June de 2016
-    </time>
-    
-        <p class="paragraph">Conversamos sobre a fusão do Ministério da Ciência, Tecnologia e Inovação (MCTI) com o Ministério das Comunicações, o desempenho das intituições de pesquisa brasileira no ranking da Nature e o anúncio dos 37 novos Intitutos Nacionais de Ciência e Tecnologia (INCTs).</p>
+    </time><p class="paragraph">Conversamos sobre a fus&atilde;o do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o (MCTI) com o Minist&eacute;rio das Comunica&ccedil;&otilde;es, o desempenho das intitui&ccedil;&otilde;es de pesquisa brasileira no ranking da Nature e o an&uacute;ncio dos 37 novos Intitutos Nacionais de Ci&ecirc;ncia e Tecnologia (INCTs).</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Episódio #006 - Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde" role="article" href="https://podentender.github.io/blog/public_html/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude" class="episode-card episode-card--no-padding">
+                <a title="Epis&oacute;dio #006 - Sobre supercomputador, fosfoetonalamina, pr&ecirc;mio fotografia e Guardi&otilde;es da Sa&uacute;de" role="article" href="https://podentender.github.io/blog/public_html/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/006/006-capa.png" alt="Episódio #006 - Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde" title="Episódio #006 - Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde" class="episode-card__cover">
-</noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/006/006-capa.png" alt="Epis&oacute;dio #006 - Sobre supercomputador, fosfoetonalamina, pr&ecirc;mio fotografia e Guardi&otilde;es da Sa&uacute;de" title="Epis&oacute;dio #006 - Sobre supercomputador, fosfoetonalamina, pr&ecirc;mio fotografia e Guardi&otilde;es da Sa&uacute;de" class="episode-card__cover"></noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/006/006-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #006 - Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde" title="Episódio #006 - Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde" class="episode-card__cover lazy-image">
-    
-        <h2 class="episode-card__title">
-        Episódio #006 - Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/006/006-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #006 - Sobre supercomputador, fosfoetonalamina, pr&ecirc;mio fotografia e Guardi&otilde;es da Sa&uacute;de" title="Epis&oacute;dio #006 - Sobre supercomputador, fosfoetonalamina, pr&ecirc;mio fotografia e Guardi&otilde;es da Sa&uacute;de" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
+        Epis&oacute;dio #006 - Sobre supercomputador, fosfoetonalamina, pr&ecirc;mio fotografia e Guardi&otilde;es da Sa&uacute;de
     </h2>
     
-        <time  class="episode-card__release-date" datetime="2016-04-28">
+        <time class="episode-card__release-date" datetime="2016-04-28">
         28 de April de 2016
-    </time>
-    
-        <p class="paragraph">Comentamos sobre a importância do Santos Dummond, o maior supercomputador da América Latina, a aprovação do uso da fosfoetanolamina por parte do nosso governo, uma matéria sobre a brasileira que ganhou um prêmio de fotografia científica e o aplicativo de vigilância participativa Guardiões da Saúde.</p>
+    </time><p class="paragraph">Comentamos sobre a import&acirc;ncia do Santos Dummond, o maior supercomputador da Am&eacute;rica Latina, a aprova&ccedil;&atilde;o do uso da fosfoetanolamina por parte do nosso governo, uma mat&eacute;ria sobre a brasileira que ganhou um pr&ecirc;mio de fotografia cient&iacute;fica e o aplicativo de vigil&acirc;ncia participativa Guardi&otilde;es da Sa&uacute;de.</p>
     </a>
             </li>
-            </ul>
-</section>
-
-        <ul class="pagination">
-    <li class="pagination__item">
+            </ul></section><ul class="pagination"><li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/news">
             Anterior
         </a>
@@ -251,19 +173,13 @@ Call Stack:
         </li>
         <li class="pagination__item">
         <a class="link link--inactive" href="#">
-            Próximo
+            Pr&oacute;ximo
         </a>
     </li>
-</ul>
-    </article>
-
-    <nav class="side-menu">
-    <div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' && toggleMenu()"></div>
-    <button role="button" aria-label="Close Menu" class="side-menu__close-button" onclick="typeof toggleMenu == 'function' && toggleMenu()">
-        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close Menu" width="16">
-    </button>
-    <ul>
-                    <li class="side-menu__item">
+</ul></article><nav class="side-menu"><div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()"></div>
+    <button role="button" aria-label="Close Menu" class="side-menu__close-button" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
+        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close Menu" width="16"></button>
+    <ul><li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/sobre">Sobre</a>
             </li>
                     <li class="side-menu__item">
@@ -278,7 +194,7 @@ Call Stack:
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/drops">Drops</a>
             </li>
-                <li class="side-menu__separator"></li>
+                <li class="side-menu__separator">
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://www.facebook.com/podentender" target="_blank">Facebook</a>
             </li>
@@ -288,14 +204,7 @@ Call Stack:
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://www.twitter.com/podentender" target="_blank">Twitter</a>
             </li>
-            </ul>
-</nav>
-    <footer class="footer">
-    <div class="footer__copy">
-        © PODEntender - Todos os direitos reservados.
+            </ul></nav><footer class="footer"><div class="footer__copy">
+        &copy; PODEntender - Todos os direitos reservados.
     </div>
-</footer>
-    <link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css">
-    <script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script>
-            </body>
-</html>
+</footer><link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css"><script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script></body></html>
