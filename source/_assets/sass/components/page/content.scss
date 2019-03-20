@@ -2,14 +2,16 @@
 @import '../../spacing';
 @import '../../mixins/media';
 
-$content-max-width: 70vw;
-
 .content {
   padding: $website-content-padding;
   margin: 0 auto;
   margin-top: 10px;
+
   @include above-tablet {
-    max-width: $content-max-width;
+    max-width: 95vw;
+  }
+
+  @include desktop-only {
+    max-width: 80vw;
   }
 }
-
