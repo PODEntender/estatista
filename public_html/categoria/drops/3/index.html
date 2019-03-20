@@ -1,72 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="theme-color" content="#ff8237"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32"><link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192"><link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png"><meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png"><title>
-    Drops | P&aacute;gina 3 de 4 | PODEntender
-</title><meta name="description" content=""><meta name="keywords" content="
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="theme-color" content="#ff8237">
+
+        <link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-32x32.png" size="32x32">
+        <link rel="icon" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-192x192.png" size="192x192">
+        <link rel="apple-touch-icon-precomposed" href="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-180x180.png">
+        <meta name="msapplication-TileImage" content="https://podentender.github.io/blog/public_html/assets/images/icons/favicon-270x270.png" />
+
+        <title>
+    Drops | Página 3 de 4 | PODEntender
+</title>
+
+<meta name="description" content="">
+<meta name="keywords" content="
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0001     373432   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.0199    2943872   2. Symfony\Component\Console\Application-&gt;run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.0278    3076496   3. Symfony\Component\Console\Application-&gt;doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.0285    3088264   4. Symfony\Component\Console\Application-&gt;doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.0285    3088264   5. TightenCo\Jigsaw\Console\BuildCommand-&gt;run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.0288    3155176   6. TightenCo\Jigsaw\Console\BuildCommand-&gt;execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.0290    3168280   7. TightenCo\Jigsaw\Console\BuildCommand-&gt;fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.0532    4813584   8. TightenCo\Jigsaw\Jigsaw-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    0.4010    6401560   9. TightenCo\Jigsaw\Jigsaw-&gt;buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    0.4011    6401560  10. TightenCo\Jigsaw\SiteBuilder-&gt;build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    0.4013    6401496  11. TightenCo\Jigsaw\SiteBuilder-&gt;generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    0.4222    8076840  12. Illuminate\Support\Collection-&gt;flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    0.4222    8076840  13. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    0.4222    8089184  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.6853   10165728  15. TightenCo\Jigsaw\SiteBuilder-&gt;TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.6853   10165728  16. TightenCo\Jigsaw\SiteBuilder-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    3.6864   10168616  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    3.7005   10176664  18. Illuminate\Support\Collection-&gt;map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    3.7005   10177040  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.8082   10231512  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    3.8085   10231736  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    3.8094   10231864  22. TightenCo\Jigsaw\View\ViewRenderer-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    3.8096   10232720  23. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    3.8096   10232720  24. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.8096   10232720  25. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.8096   10233416  26. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.8099   10233400  27. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.8100   10252096  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.8103   10252952  29. Illuminate\View\View-&gt;render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
-    3.8103   10252952  30. Illuminate\View\View-&gt;renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    3.8103   10252952  31. Illuminate\View\View-&gt;getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    3.8103   10253648  32. Illuminate\View\Engines\CompilerEngine-&gt;get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    3.8104   10253760  33. Illuminate\View\Engines\CompilerEngine-&gt;evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    3.8106   10302488  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    3.8160   10319328  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0001     394648   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0220    2964784   2. Symfony\Component\Console\Application->run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.0291    3105296   3. Symfony\Component\Console\Application->doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.0298    3117440   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.0298    3182976   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.0301    3184352   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.0304    3197456   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0517    4842360   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.3895    6430680   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.3896    6430680  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.3898    6430616  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.4106    8105960  12. Illuminate\Support\Collection->flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.4106    8105960  13. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    0.4106    8118304  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.7047   10194848  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.7047   10194848  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    1.7059   10197736  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    1.7165   10205784  18. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    1.7165   10206160  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.7914   10260632  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.7918   10260856  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    1.7932   10260984  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    1.7936   10261840  23. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    1.7936   10261840  24. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    1.7936   10261840  25. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    1.7936   10262536  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    1.7942   10262520  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    1.7943   10281216  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    1.7948   10282072  29. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
+    1.7948   10282072  30. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    1.7948   10282072  31. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    1.7948   10282768  32. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    1.7949   10282880  33. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    1.7951   10331608  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    1.7953   10348448  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
-"><meta name="author" content="https://podentender.github.io/blog/public_html"><meta name="publisher" content="https://podentender.github.io/blog/public_html"><meta name="og:title" content=""><meta name="og:description" content=""><meta name="og:image" content=""><meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/drops/3"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/drops/3"><link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/drops/3"></head><body>
-            <header class="header_bar"><h1 class="header_bar__logo">
+">
+<meta name="author" content="https://podentender.github.io/blog/public_html">
+<meta name="publisher" content="https://podentender.github.io/blog/public_html">
+
+<meta name="og:title" content="">
+<meta name="og:description" content="">
+<meta name="og:image" content="">
+<meta name="og:url" content="https://podentender.github.io/blog/public_html/categoria/drops/3">
+
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:url" content="https://podentender.github.io/blog/public_html/categoria/drops/3">
+
+<link rel="canonical" href="https://podentender.github.io/blog/public_html/categoria/drops/3">
+    </head>
+    <body>
+            <header class="header_bar">
+    <h1 class="header_bar__logo">
         <a href="https://podentender.github.io/blog/public_html" title="PODEntender">
-            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender"></a>
+            <img src="https://podentender.github.io/blog/public_html/assets/images/logo.png" alt="PODEntender" />
+        </a>
     </h1>
-    <section class="header_bar__menu"><button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
-            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image" alt="Open Menu"></button>
-    </section></header><noscript>
-    <nav class="top-nav"><ul class="top-nav__items"><li class="top-nav__item">
+    <section class="header_bar__menu">
+        <button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
+            <img data-src="https://podentender.github.io/blog/public_html/assets/images/icons/menu.svg" class="lazy-image" alt="Open Menu" />
+        </button>
+    </section>
+</header>
+
+<noscript>
+    <nav class="top-nav">
+        <ul class="top-nav__items">
+            <li class="top-nav__item">
                 <a href="https://podentender.github.io/blog/public_html" class="top-nav__link">
-                    In&iacute;cio
+                    Início
                 </a>
             </li>
             <li class="top-nav__item">
                 <!-- @todo  -> add categories page -->
                 <a href="#" class="top-nav__link">
-                    Epis&oacute;dios
+                    Episódios
                 </a>
             </li>
-        </ul></nav></noscript>
+        </ul>
+    </nav>
+</noscript>
 
-    <article class="content"><h1 class="heading heading__primary">
+    <article class="content">
+        <h1 class="heading heading__primary">
             Categoria: Drops
         </h1>
 
-        <ul class="pagination"><li class="pagination__item">
+        <ul class="pagination">
+    <li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/2">
             Anterior
         </a>
@@ -93,80 +137,114 @@ Call Stack:
         </li>
         <li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/4">
-            Pr&oacute;ximo
+            Próximo
         </a>
     </li>
-</ul><section class="episode-card-list"><ul class="episode-card-list__list"><li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #019 - Sobre Deep Learning" role="article" href="https://podentender.github.io/blog/public_html/episodio/019-sobre-deep-learning" class="episode-card episode-card--no-padding">
-            <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" alt="Epis&oacute;dio #019 - Sobre Deep Learning" title="Epis&oacute;dio #019 - Sobre Deep Learning" class="episode-card__cover"></noscript>
+</ul>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #019 - Sobre Deep Learning" title="Epis&oacute;dio #019 - Sobre Deep Learning" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
-        Epis&oacute;dio #019 - Sobre Deep Learning
+        <section class="episode-card-list">
+    
+    <ul class="episode-card-list__list">
+                    <li class="episode-card-list__list-item">
+                <a title="Episódio #019 - Sobre Deep Learning" role="article" href="https://podentender.github.io/blog/public_html/episodio/019-sobre-deep-learning" class="episode-card episode-card--no-padding">
+            <noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" alt="Episódio #019 - Sobre Deep Learning" title="Episódio #019 - Sobre Deep Learning" class="episode-card__cover">
+</noscript>
+
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/019/019-capa.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #019 - Sobre Deep Learning" title="Episódio #019 - Sobre Deep Learning" class="episode-card__cover lazy-image">
+    
+        <h2 class="episode-card__title">
+        Episódio #019 - Sobre Deep Learning
     </h2>
     
-        <time class="episode-card__release-date" datetime="2017-03-22">
+        <time  class="episode-card__release-date" datetime="2017-03-22">
         22 de March de 2017
-    </time><p class="paragraph">O que &eacute; Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as m&aacute;quinas realizam processos?</p>
+    </time>
+    
+        <p class="paragraph">O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" role="article" href="https://podentender.github.io/blog/public_html/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada" class="episode-card episode-card--no-padding">
+                <a title="Episódio #016 - Sobre ciência básica e ciência aplicada" role="article" href="https://podentender.github.io/blog/public_html/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" alt="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" class="episode-card__cover"></noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" alt="Episódio #016 - Sobre ciência básica e ciência aplicada" title="Episódio #016 - Sobre ciência básica e ciência aplicada" class="episode-card__cover">
+</noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" title="Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
-        Epis&oacute;dio #016 - Sobre ci&ecirc;ncia b&aacute;sica e ci&ecirc;ncia aplicada
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/016/016-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #016 - Sobre ciência básica e ciência aplicada" title="Episódio #016 - Sobre ciência básica e ciência aplicada" class="episode-card__cover lazy-image">
+    
+        <h2 class="episode-card__title">
+        Episódio #016 - Sobre ciência básica e ciência aplicada
     </h2>
     
-        <time class="episode-card__release-date" datetime="2017-02-01">
+        <time  class="episode-card__release-date" datetime="2017-02-01">
         01 de February de 2017
-    </time><p class="paragraph">Como diferenciar pesquisa b&aacute;sica e aplicada? Em tempos de redu&ccedil;&atilde;o do financiamento para a ci&ecirc;ncia, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ci&ecirc;ncia b&aacute;sica?</p>
+    </time>
+    
+        <p class="paragraph">Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural" role="article" href="https://podentender.github.io/blog/public_html/episodio/012-sobre-a-historia-da-biologia-estrutural" class="episode-card episode-card--no-padding">
+                <a title="Episódio #012 - Sobre a história da biologia estrutural" role="article" href="https://podentender.github.io/blog/public_html/episodio/012-sobre-a-historia-da-biologia-estrutural" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/012/012-capa.jpg" alt="Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural" title="Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural" class="episode-card__cover"></noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/012/012-capa.jpg" alt="Episódio #012 - Sobre a história da biologia estrutural" title="Episódio #012 - Sobre a história da biologia estrutural" class="episode-card__cover">
+</noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/012/012-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural" title="Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
-        Epis&oacute;dio #012 - Sobre a hist&oacute;ria da biologia estrutural
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/012/012-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #012 - Sobre a história da biologia estrutural" title="Episódio #012 - Sobre a história da biologia estrutural" class="episode-card__cover lazy-image">
+    
+        <h2 class="episode-card__title">
+        Episódio #012 - Sobre a história da biologia estrutural
     </h2>
     
-        <time class="episode-card__release-date" datetime="2016-09-01">
+        <time  class="episode-card__release-date" datetime="2016-09-01">
         01 de September de 2016
-    </time><p class="paragraph">Talvez voc&ecirc; n&atilde;o tenha reparado, mas hoje &eacute; poss&iacute;vel saber as posi&ccedil;&otilde;es dos &aacute;tomos de mol&eacute;culas que comp&otilde;em os seres vivos.</p>
+    </time>
+    
+        <p class="paragraph">Talvez você não tenha reparado, mas hoje é possível saber as posições dos átomos de moléculas que compõem os seres vivos.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #010 - Sobre Creative Commons e Inova&ccedil;&atilde;o" role="article" href="https://podentender.github.io/blog/public_html/episodio/010-sobre-creative-commons-e-inovacao" class="episode-card episode-card--no-padding">
+                <a title="Episódio #010 - Sobre Creative Commons e Inovação" role="article" href="https://podentender.github.io/blog/public_html/episodio/010-sobre-creative-commons-e-inovacao" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/010/010-capa.jpg" alt="Epis&oacute;dio #010 - Sobre Creative Commons e Inova&ccedil;&atilde;o" title="Epis&oacute;dio #010 - Sobre Creative Commons e Inova&ccedil;&atilde;o" class="episode-card__cover"></noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/010/010-capa.jpg" alt="Episódio #010 - Sobre Creative Commons e Inovação" title="Episódio #010 - Sobre Creative Commons e Inovação" class="episode-card__cover">
+</noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/010/010-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #010 - Sobre Creative Commons e Inova&ccedil;&atilde;o" title="Epis&oacute;dio #010 - Sobre Creative Commons e Inova&ccedil;&atilde;o" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
-        Epis&oacute;dio #010 - Sobre Creative Commons e Inova&ccedil;&atilde;o
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/010/010-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #010 - Sobre Creative Commons e Inovação" title="Episódio #010 - Sobre Creative Commons e Inovação" class="episode-card__cover lazy-image">
+    
+        <h2 class="episode-card__title">
+        Episódio #010 - Sobre Creative Commons e Inovação
     </h2>
     
-        <time class="episode-card__release-date" datetime="2016-06-26">
+        <time  class="episode-card__release-date" datetime="2016-06-26">
         26 de June de 2016
-    </time><p class="paragraph">Neste epis&oacute;dio, conversamos com **Laure Stelmastchuk**, doutoranda em F&iacute;sica Aplicada do IFSC-USP, sobre as vantagens e desvantagens do modelo de patentes e como licen&ccedil;as como Creative Commons podem ser uma boa alternativa para pesquisadores brasileiros.</p>
+    </time>
+    
+        <p class="paragraph">Neste episódio, conversamos com **Laure Stelmastchuk**, doutoranda em Física Aplicada do IFSC-USP, sobre as vantagens e desvantagens do modelo de patentes e como licenças como Creative Commons podem ser uma boa alternativa para pesquisadores brasileiros.</p>
     </a>
             </li>
                     <li class="episode-card-list__list-item">
-                <a title="Epis&oacute;dio #007 - Sobre prever epidemias e Epitrack no The Venture" role="article" href="https://podentender.github.io/blog/public_html/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture" class="episode-card episode-card--no-padding">
+                <a title="Episódio #007 - Sobre prever epidemias e Epitrack no The Venture" role="article" href="https://podentender.github.io/blog/public_html/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture" class="episode-card episode-card--no-padding">
             <noscript>
-    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/007/007-capa.jpg" alt="Epis&oacute;dio #007 - Sobre prever epidemias e Epitrack no The Venture" title="Epis&oacute;dio #007 - Sobre prever epidemias e Epitrack no The Venture" class="episode-card__cover"></noscript>
+    <img src="https://podentender.github.io/blog/public_html/assets/images/episode/007/007-capa.jpg" alt="Episódio #007 - Sobre prever epidemias e Epitrack no The Venture" title="Episódio #007 - Sobre prever epidemias e Epitrack no The Venture" class="episode-card__cover">
+</noscript>
 
-<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/007/007-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Epis&oacute;dio #007 - Sobre prever epidemias e Epitrack no The Venture" title="Epis&oacute;dio #007 - Sobre prever epidemias e Epitrack no The Venture" class="episode-card__cover lazy-image"><h2 class="episode-card__title">
-        Epis&oacute;dio #007 - Sobre prever epidemias e Epitrack no The Venture
+<img data-src="https://podentender.github.io/blog/public_html/assets/images/episode/007/007-capa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" alt="Episódio #007 - Sobre prever epidemias e Epitrack no The Venture" title="Episódio #007 - Sobre prever epidemias e Epitrack no The Venture" class="episode-card__cover lazy-image">
+    
+        <h2 class="episode-card__title">
+        Episódio #007 - Sobre prever epidemias e Epitrack no The Venture
     </h2>
     
-        <time class="episode-card__release-date" datetime="2016-05-12">
+        <time  class="episode-card__release-date" datetime="2016-05-12">
         12 de May de 2016
-    </time><p class="paragraph">Neste epis&oacute;dio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participa&ccedil;&atilde;o colaborativa (crowdsourcing) com o intuito de adquirir informa&ccedil;&otilde;es sobre a sa&uacute;de dos usu&aacute;rios, auxiliando o acompanhamento de epidemias.</p>
+    </time>
+    
+        <p class="paragraph">Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.</p>
     </a>
             </li>
-            </ul></section><ul class="pagination"><li class="pagination__item">
+            </ul>
+</section>
+
+        <ul class="pagination">
+    <li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/2">
             Anterior
         </a>
@@ -193,13 +271,19 @@ Call Stack:
         </li>
         <li class="pagination__item">
         <a class="link " href="https://podentender.github.io/blog/public_html/categoria/drops/4">
-            Pr&oacute;ximo
+            Próximo
         </a>
     </li>
-</ul></article><nav class="side-menu"><div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()"></div>
-    <button role="button" aria-label="Close Menu" class="side-menu__close-button" onclick="typeof toggleMenu == 'function' &amp;&amp; toggleMenu()">
-        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close Menu" width="16"></button>
-    <ul><li class="side-menu__item">
+</ul>
+    </article>
+
+    <nav class="side-menu">
+    <div class="side-menu__overlay" onclick="typeof toggleMenu == 'function' && toggleMenu()"></div>
+    <button role="button" aria-label="Close Menu" class="side-menu__close-button" onclick="typeof toggleMenu == 'function' && toggleMenu()">
+        <img class="lazy-image" data-src="https://podentender.github.io/blog/public_html/assets/images/icons/close.svg" alt="Close Menu" width="16">
+    </button>
+    <ul>
+                    <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/sobre">Sobre</a>
             </li>
                     <li class="side-menu__item">
@@ -214,7 +298,7 @@ Call Stack:
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://podentender.github.io/blog/public_html/categoria/drops">Drops</a>
             </li>
-                <li class="side-menu__separator">
+                <li class="side-menu__separator"></li>
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://www.facebook.com/podentender" target="_blank">Facebook</a>
             </li>
@@ -224,7 +308,14 @@ Call Stack:
                     <li class="side-menu__item">
                 <a class="side-menu__item__link" href="https://www.twitter.com/podentender" target="_blank">Twitter</a>
             </li>
-            </ul></nav><footer class="footer"><div class="footer__copy">
-        &copy; PODEntender - Todos os direitos reservados.
+            </ul>
+</nav>
+    <footer class="footer">
+    <div class="footer__copy">
+        © PODEntender - Todos os direitos reservados.
     </div>
-</footer><link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css"><script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script></body></html>
+</footer>
+    <link rel="stylesheet" href="https://podentender.github.io/blog/public_html/assets/build/css/main.css">
+    <script src="https://podentender.github.io/blog/public_html/assets/build/js/main.js" async></script>
+            </body>
+</html>
