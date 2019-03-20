@@ -20,41 +20,41 @@
 Warning: implode(): Invalid arguments passed in /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php on line 9
 
 Call Stack:
-    0.0001     394640   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
-    0.0198    2964776   2. Symfony\Component\Console\Application->run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
-    0.0267    3105288   3. Symfony\Component\Console\Application->doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
-    0.0273    3117432   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
-    0.0273    3182968   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
-    0.0276    3184344   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
-    0.0279    3197448   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
-    0.0909    4842352   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
-    0.4199    6430672   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
-    0.4200    6430672  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
-    0.4202    6430608  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
-    0.4403    8105952  12. Illuminate\Support\Collection->flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
-    0.4403    8105952  13. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
-    0.4403    8118296  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.8342   10198936  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.8342   10198936  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
-    1.8353   10201824  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
-    1.8378   10209872  18. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
-    1.8378   10210248  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.8658   10239256  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
-    1.8661   10239480  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
-    1.8669   10239608  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
-    1.8672   10240464  23. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
-    1.8672   10240464  24. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    1.8672   10240464  25. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    1.8672   10241160  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    1.8675   10241808  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    1.8676   10260504  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    1.8679   10261360  29. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
-    1.8679   10261360  30. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
-    1.8679   10261360  31. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
-    1.8679   10262056  32. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
-    1.8680   10262168  33. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
-    1.8682   10310896  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
-    1.8683   10327736  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
+    0.0001     394680   1. {main}() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:0
+    0.0198    2964816   2. Symfony\Component\Console\Application->run() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/jigsaw:14
+    0.0271    3105328   3. Symfony\Component\Console\Application->doRun() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:145
+    0.0278    3117472   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:269
+    0.0278    3183008   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/PODEntender/blog/vendor/symfony/console/Application.php:908
+    0.0281    3184384   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/PODEntender/blog/vendor/symfony/console/Command/Command.php:255
+    0.0283    3197488   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0501    4842392   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.3812    6430712   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.3813    6430712  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.3828    6430648  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.4030    8105992  12. Illuminate\Support\Collection->flatMap() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.4030    8105992  13. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1159
+    0.4030    8118336  14. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.9420   10198976  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.9420   10198976  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    1.9430   10201864  17. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->handle() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    1.9459   10209912  18. Illuminate\Support\Collection->map() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:57
+    1.9459   10210288  19. array_map() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.9734   10239296  20. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->TightenCo\Jigsaw\Handlers\{closure}() /home/travis/build/PODEntender/blog/vendor/illuminate/support/Collection.php:1064
+    1.9737   10239520  21. TightenCo\Jigsaw\Handlers\PaginatedPageHandler->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:53
+    1.9746   10239648  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/Handlers/PaginatedPageHandler.php:74
+    1.9749   10240504  23. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    1.9749   10240504  24. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    1.9749   10240504  25. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    1.9749   10241200  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    1.9753   10241848  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    1.9754   10260544  28. include('/home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    1.9757   10261400  29. Illuminate\View\View->render() /home/travis/build/PODEntender/blog/cache/ed7951ec71820e5b01a58dcf98568356fe4c2538.php:3
+    1.9757   10261400  30. Illuminate\View\View->renderContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:90
+    1.9757   10261400  31. Illuminate\View\View->getContents() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:125
+    1.9757   10262096  32. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/PODEntender/blog/vendor/illuminate/view/View.php:142
+    1.9757   10262208  33. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    1.9760   10310936  34. include('/home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php') /home/travis/build/PODEntender/blog/vendor/illuminate/view/Engines/PhpEngine.php:43
+    1.9761   10327776  35. implode() /home/travis/build/PODEntender/blog/cache/03de71b50abe2d53d8bf4058a5d338b001d3bec0.php:9
 
 ">
 <meta name="author" content="https://podentender.github.io/blog/public_html">
