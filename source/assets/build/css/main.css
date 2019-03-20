@@ -58,7 +58,7 @@ table {
   padding: 0 20px;
   margin: 0 auto;
   margin-top: 10px;
-  max-width: 720px;
+  max-width: 70vw;
 }
 
 /* Background-related colors */
@@ -488,11 +488,11 @@ table {
 @media only screen and (min-width: 481px) {
   .episode-card-list__list {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(3, 33%);
   }
 }
 .episode-card-list__list-item {
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 /* Background-related colors */
@@ -521,9 +521,6 @@ table {
   border-radius: 5px;
 }
 @media only screen and (min-width: 481px) {
-  .episode-card__cover {
-    height: 260px;
-  }
   .episode-card__cover--taller {
     height: 350px;
   }
