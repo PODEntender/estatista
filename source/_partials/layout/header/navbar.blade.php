@@ -5,8 +5,8 @@
         </a>
     </h1>
     <section class="header_bar__menu">
-        <button class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
-            <img data-src="{{ $page->baseUrl . $page->assets->icons->menu }}" class="lazy-image" />
+        <button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
+            <img data-src="{{ $page->baseUrl . $page->assets->icons->menu }}" class="lazy-image" alt="Open Menu" />
         </button>
     </section>
 </header>
