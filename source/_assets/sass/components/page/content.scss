@@ -1,5 +1,6 @@
 @import '../../font-sizes';
 @import '../../spacing';
+@import '../../mixins/media';
 
 $content-max-width: 70vw;
 
@@ -7,5 +8,8 @@ $content-max-width: 70vw;
   padding: $website-content-padding;
   margin: 0 auto;
   margin-top: 10px;
-  max-width: $content-max-width;
+  @include above-tablet {
+    max-width: $content-max-width;
+  }
 }
+
