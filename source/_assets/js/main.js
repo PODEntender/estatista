@@ -7,7 +7,7 @@ const loadImage = (img) => img.setAttribute('src', img.getAttribute('data-src'))
 const removeClass = (className) => (elm) => elm.classList.remove(className);
 
 if (typeof IntersectionObserver == 'undefined') {
-  window.initDisqus();
+  window.initDisqus && window.initDisqus();
 
   setTimeout(() => {
     const images = document.querySelectorAll('img.lazy-image');
@@ -35,9 +35,7 @@ if (typeof IntersectionObserver != 'undefined') {
   if (commentsSection) {
     window.commentsObserver = new IntersectionObserver((entries, observer) => {
       entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
-        if (window.initDisqus) {
-          window.initDisqus();
-        }
+        window.initDisqus && window.initDisqus();
 
         observer.unobserve(entry.target);
       });
