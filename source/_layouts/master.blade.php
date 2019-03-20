@@ -10,6 +10,7 @@ $favicon = function (string $size) use ($page): string {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="theme-color" content="#ff8237">
 
         <link rel="icon" href="{{ $favicon('32x32') }}" size="32x32">
         <link rel="icon" href="{{ $favicon('192x192') }}" size="192x192">
