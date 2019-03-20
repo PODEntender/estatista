@@ -9,12 +9,12 @@
   }
 
   &__list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
 
-    @include above-mobile {
-      display: grid;
-      grid-template-columns: repeat(3, 33%);
+    @include mobile-only {
+      display: flex;
+      flex-direction: column;
     }
   }
 
