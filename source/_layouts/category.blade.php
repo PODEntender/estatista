@@ -1,22 +1,34 @@
 @extends('_layouts.master')
 
+@php
+$metaDescription = 'Episódios: ' . implode(
+    ';',
+    $pagination->items
+        ->map(function ($episode) {
+            return $episode->episode['title'];
+        })
+        ->toArray()
+);
+
+@endphp
+
 @section('head')
 <title>
     {{ $page->pagination->collection }} | Página {{ $pagination->currentPage }} de {{ $pagination->totalPages }} | {{ $page->meta['title'] }}
 </title>
 
-<meta name="description" content="{{ $page->episode['description'] }}">
+<meta name="description" content="{{ $metaDescription }}">
 <meta name="keywords" content="{{ implode(',', $page->tags) }}">
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 
 <meta name="og:title" content="{{ $page->episode['title'] }}">
-<meta name="og:description" content="{{ $page->episode['description'] }}">
+<meta name="og:description" content="{{ $metaDescription }}">
 <meta name="og:image" content="{{ $page->episode['cover']['url'] }}">
 <meta name="og:url" content="{{ $page->getUrl() }}">
 
 <meta name="twitter:title" content="{{ $page->episode['title'] }}">
-<meta name="twitter:description" content="{{ $page->episode['description'] }}">
+<meta name="twitter:description" content="{{ $metaDescription }}">
 <meta name="twitter:image" content="{{ $page->episode['cover']['url'] }}">
 <meta name="twitter:url" content="{{ $page->getUrl() }}">
 
