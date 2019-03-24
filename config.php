@@ -24,6 +24,10 @@ return [
                 '@type' => 'Organization',
                 'name' => 'PODEntender',
                 'logo' => 'http://podentender.com/wp-content/uploads/powerpress/favcom.png',
+                'contactPoint' => [
+                    'email' => 'contato@podentender.com',
+                    'contactType' => 'Customer Service',
+                ],
                 'sameAs' => [
                     'https://www.facebook.com/podentender',
                     'https://www.instagram.com/podentender',

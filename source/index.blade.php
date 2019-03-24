@@ -32,6 +32,12 @@
             '@type' => 'ImageObject',
             'url' => $page->meta['schemas']['author']['logo'],
         ],
+        'contactPoint' => [
+            '@type' => 'ContactPoint',
+            'url' => $page->getUrl(),
+            'email' => $page->meta['schemas']['author']['contactPoint']['email'],
+            'contactType' => $page->meta['schemas']['author']['contactPoint']['contactType'],
+        ],
         'sameAs' => $page->meta['schemas']['author']['sameAs'],
     ],
 ])
