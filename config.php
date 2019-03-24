@@ -19,6 +19,13 @@ return [
             'card' => 'summary_large_image',
             'account' => '@podentender',
         ],
+        'schemas' => [
+            'author' => [
+                '@type' => 'Organization',
+                'name' => 'PODEntender',
+                'logo' => 'http://podentender.com/wp-content/uploads/powerpress/favcom.png',
+            ],
+        ],
     ],
     'menu' => [
         'items' => [

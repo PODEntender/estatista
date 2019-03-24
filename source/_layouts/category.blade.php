@@ -37,28 +37,44 @@ $metaDescription = 'Episódios: ' . implode(
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
 
-@include('_partials.meta.breadcrumbs', [
-    'items' => [
-        [
-            'id' => $page->getBaseUrl(),
-            'name' => $page->meta['title'],
-            'image' => $page->meta['image'],
-        ],
-        [
-            'type' => 'CollectionPage',
-            'id' => $page->getUrl(),
-            'name' => $page->pagination->collection,
-            'image' => $page->meta['image'],
-        ],
-        [
-            'type' => 'CollectionPage',
-            'id' => $page->getUrl(),
-            'name' => 'Página ' . $pagination->currentPage,
-            'image' => $page->meta['image'],
-        ],
-    ],
+@include('_partials.meta.json-ld-script', [
+    'schema' => [
+        '@context' => 'http://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => [
+            [
+                '@type' => 'ListItem',
+                'position' => 1,
+                'item' => [
+                    '@type' =>'WebPage',
+                    '@id' => $page->getBaseUrl(),
+                    'name' => $page->meta['title'],
+                    'image' => $page->meta['image'],
+                ],
+            ],
+            [
+                '@type' => 'ListItem',
+                'position' => 2,
+                'item' => [
+                    '@type' =>'CollectionPage',
+                    '@id' => $page->getUrl(),
+                    'name' => $page->pagination->collection,
+                    'image' => $page->meta['image'],
+                ],
+            ],
+            [
+                '@type' => 'ListItem',
+                'position' => 3,
+                'item' => [
+                    '@type' =>'CollectionPage',
+                    '@id' => $page->getUrl() . '#pg',
+                    'name' => sprintf('Categoria: %s, Página: %s', $page->pagination->collection, $pagination->currentPage),
+                    'image' => $page->meta['image'],
+                ],
+            ],
+        ]
+    ]
 ])
-
 @endsection
 
 @section('body')

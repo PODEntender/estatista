@@ -22,20 +22,33 @@
 
 <link rel="canonical" href="{{ $page->baseUrl }}">
 
-@include('_partials.meta.breadcrumbs', [
-    'items' => [
-        [
-            'id' => $page->getBaseUrl(),
-            'name' => $page->meta['title'],
-            'image' => $page->meta['image'],
-        ],
-        [
-            'type' => 'AboutPage',
-            'id' => $page->getUrl(),
-            'name' => 'Sobre o PODEntender',
-            'image' => $page->meta['image'],
-        ],
-    ],
+@include('_partials.meta.json-ld-script', [
+    'schema' => [
+        '@context' => 'http://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => [
+            [
+                '@type' => 'ListItem',
+                'position' => 1,
+                'item' => [
+                    '@type' =>'WebPage',
+                    '@id' => $page->getBaseUrl(),
+                    'name' => $page->meta['title'],
+                    'image' => $page->meta['image'],
+                ],
+            ],
+            [
+                '@type' => 'ListItem',
+                'position' => 2,
+                'item' => [
+                    'type' => 'AboutPage',
+                    '@id' => $page->getUrl(),
+                    'name' => 'Sobre o PODEntender',
+                    'image' => $page->meta['image'],
+                ]
+            ],
+        ]
+    ]
 ])
 @endsection
 
