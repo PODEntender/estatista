@@ -11,7 +11,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_42.mp3
   disqus: '5677 https://podentender.com/?p=5677'
   cover:
-    url: '/assets/images/episode/042/042-capa.jpg'
+    url: '/assets/images/episode/042/042-capa-16x9.jpg'
     title: 'Capa do episódio: Nazismo e Nazistas no Brasil com Felipe Abal'
 tags:
   - historia
