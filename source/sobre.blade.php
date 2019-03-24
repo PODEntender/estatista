@@ -1,39 +1,42 @@
 @extends('_layouts.master')
 
 @section('head')
-    <title>Sobre o PODEntender</title>
+<title>Sobre o PODEntender</title>
 
-    <meta name="description" content="{{ $page->meta['description'] }}">
-    <meta name="author" content="{{ $page->baseUrl }}">
-    <meta name="publisher" content="{{ $page->baseUrl }}">
+<meta name="description" content="{{ $page->meta['description'] }}">
+<meta name="author" content="{{ $page->baseUrl }}">
+<meta name="publisher" content="{{ $page->baseUrl }}">
 
-    <meta name="og:title" content="{{ $page->meta['title'] }}">
-    <meta name="og:description" content="{{ $page->meta['description'] }}">
-    <meta name="og:image" content="{{ $page->baseUrl . $page->assets->logo }}">
-    <meta name="og:url" content="{{ $page->baseUrl }}">
+<meta name="og:title" content="{{ $page->meta['title'] }}">
+<meta name="og:description" content="{{ $page->meta['description'] }}">
+<meta name="og:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+<meta name="og:url" content="{{ $page->baseUrl }}">
 
-    <meta name="twitter:title" content="{{ $page->meta['title'] }}">
-    <meta name="twitter:description" content="{{ $page->meta['description'] }}">
-    <meta name="twitter:image" content="{{ $page->baseUrl . $page->assets->logo }}">
-    <meta name="twitter:url" content="{{ $page->baseUrl }}">
+<meta name="twitter:card" content="{{ $page->meta['twitter']['card'] }}">
+<meta name="twitter:site" content="{{ $page->meta['twitter']['account'] }}">
+<meta name="twitter:creator" content="{{ $page->meta['twitter']['account'] }}">
+<meta name="twitter:title" content="{{ $page->meta['title'] }}">
+<meta name="twitter:description" content="{{ $page->meta['description'] }}">
+<meta name="twitter:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+<meta name="twitter:url" content="{{ $page->baseUrl }}">
 
-    <link rel="canonical" href="{{ $page->baseUrl }}">
+<link rel="canonical" href="{{ $page->baseUrl }}">
 
-    @include('_partials.meta.breadcrumbs', [
-        'items' => [
-            [
-                'id' => $page->getBaseUrl(),
-                'name' => $page->meta['title'],
-                'image' => $page->meta['image'],
-            ],
-            [
-                'type' => 'AboutPage',
-                'id' => $page->getUrl(),
-                'name' => 'Sobre o PODEntender',
-                'image' => $page->meta['image'],
-            ],
+@include('_partials.meta.breadcrumbs', [
+    'items' => [
+        [
+            'id' => $page->getBaseUrl(),
+            'name' => $page->meta['title'],
+            'image' => $page->meta['image'],
         ],
-    ])
+        [
+            'type' => 'AboutPage',
+            'id' => $page->getUrl(),
+            'name' => 'Sobre o PODEntender',
+            'image' => $page->meta['image'],
+        ],
+    ],
+])
 @endsection
 
 @section('body')

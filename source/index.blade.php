@@ -12,6 +12,9 @@
 <meta name="og:image" content="{{ $page->baseUrl . $page->assets->logo }}">
 <meta name="og:url" content="{{ $page->baseUrl }}">
 
+<meta name="twitter:card" content="{{ $page->meta['twitter']['card'] }}">
+<meta name="twitter:site" content="{{ $page->meta['twitter']['account'] }}">
+<meta name="twitter:creator" content="{{ $page->meta['twitter']['account'] }}">
 <meta name="twitter:title" content="{{ $page->meta['title'] }}">
 <meta name="twitter:description" content="{{ $page->meta['description'] }}">
 <meta name="twitter:image" content="{{ $page->baseUrl . $page->assets->logo }}">
