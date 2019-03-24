@@ -25,6 +25,17 @@
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
 
+@include('_partials.meta.news-article', [
+    'images' => [
+        $page->getBaseUrl() . $page->episode['cover']['url'],
+    ],
+    'datePublished' => $page->episode['date'],
+    'headline' => $page->episode['title'],
+    'author' => $page->getBaseUrl(),
+    'publisher' => $page->getBaseUrl(),
+    'publisherLogo' => $page->baseUrl . $page->assets->logo,
+])
+
 @include('_partials.meta.breadcrumbs', [
     'items' => [
         [
