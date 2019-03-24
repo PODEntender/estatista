@@ -18,7 +18,7 @@ $metaDescription = 'Episódios: ' . implode(
 </title>
 
 <meta name="description" content="{{ $metaDescription }}">
-<meta name="keywords" content="{{ implode(',', $page->tags) }}">
+<meta name="keywords" content="{{ implode(',', $page->tags ?? []) }}">
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 
