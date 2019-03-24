@@ -6,7 +6,7 @@
 </title>
 
 <meta name="description" content="{{ $page->episode['description'] }}">
-<meta name="keywords" content="{{ implode(',', $page->tags) }}">
+<meta name="keywords" content="{{ implode(',', $page->tags ?? []) }}">
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 

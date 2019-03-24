@@ -26,12 +26,13 @@
     'schema' => [
         '@context' => 'http://schema.org',
         '@type' => 'Organization',
-        'name' => $page->meta['title'],
+        'name' => $page->meta['schemas']['author']['name'],
         'url' => $page->getBaseUrl(),
         'logo' => [
             '@type' => 'ImageObject',
-            'url' => $page->meta['image'],
+            'url' => $page->meta['schemas']['author']['logo'],
         ],
+        'sameAs' => $page->meta['schemas']['author']['sameAs'],
     ],
 ])
 

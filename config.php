@@ -24,6 +24,12 @@ return [
                 '@type' => 'Organization',
                 'name' => 'PODEntender',
                 'logo' => 'http://podentender.com/wp-content/uploads/powerpress/favcom.png',
+                'sameAs' => [
+                    'https://www.facebook.com/podentender',
+                    'https://www.instagram.com/podentender',
+                    'https://www.twitter.com/podentender',
+                    'https://www.linkedin.com/company/podentender',
+                ],
             ],
         ],
     ],
