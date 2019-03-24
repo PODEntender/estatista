@@ -11,7 +11,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_44.mp3
   disqus: '5884 https://podentender.com/?p=5884'
   cover:
-    url: '/assets/images/episode/044/044-capa.jpg'
+    url: '/assets/images/episode/044/044-capa-16x9.jpg'
     title: 'Capa do episódio: Pesquisa no Ensino Médio e Maracujá com Juliana Estradioto; Foto: Divulgação / IFRS.'
 tags:
   - ensino medio
