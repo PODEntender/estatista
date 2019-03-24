@@ -42,7 +42,7 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
                 $builder->addItem()
                     ->title($episode->episode['title'])
                     ->link($episode->getUrl())
-                    ->cover($cover)
+                    ->cover($episode->getBaseUrl() . $cover)
                     ->author($jigsaw->getConfig('meta.creatorName'))
                     ->summary($episode->episode['description'])
                     ->guid($episode->getUrl())
