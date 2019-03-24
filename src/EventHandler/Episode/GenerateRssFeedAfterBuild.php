@@ -16,6 +16,7 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
         $builder = (new FeedBuilder())
             ->channel()
                 ->title('PODEntender')
+                ->author('PODEntender')
                 ->link($jigsaw->getConfig('baseUrl'))
                 ->image($jigsaw->getConfig('meta.image'))
                 ->category($jigsaw->getConfig('meta.category'))
@@ -32,9 +33,16 @@ class GenerateRssFeedAfterBuild implements HandlerInterface
                 return $episode->episode['number'];
             })
             ->each(function (PageVariable $episode) use ($builder, $jigsaw) {
+                $cover = $episode->episode['cover']['url'] ?? '';
+
+                if (isset($episode->episode['cover']['rss'])) {
+                    $cover = $episode->episode['cover']['rss'];
+                }
+
                 $builder->addItem()
                     ->title($episode->episode['title'])
                     ->link($episode->getUrl())
+                    ->cover($cover)
                     ->author($jigsaw->getConfig('meta.creatorName'))
                     ->summary($episode->episode['description'])
                     ->guid($episode->getUrl())

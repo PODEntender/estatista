@@ -16,6 +16,9 @@ class ItemBuilder
     private $link;
 
     /** @var string */
+    private $cover;
+
+    /** @var string */
     private $author;
 
     /** @var string */
@@ -47,6 +50,12 @@ class ItemBuilder
     public function link(string $link): ItemBuilder
     {
         $this->link = $link;
+        return $this;
+    }
+
+    public function cover(string $cover): ItemBuilder
+    {
+        $this->cover = $cover;
         return $this;
     }
 
@@ -98,6 +107,9 @@ class ItemBuilder
         $element->appendChild($dom->createElement('itunes:duration', $this->duration));
         $element->appendChild($dom->createElement('guid', $this->guid));
         $element->appendChild($dom->createElement('pubDate', $this->pubDate));
+
+        $element->appendChild($dom->createElement('googleplay:author', $this->author));
+        $element->appendChild($dom->createElement('googleplay:image', $this->image));
 
         foreach ($this->enclosures as $enclosure) {
             $element->appendChild($enclosure->toDOMElement($dom));

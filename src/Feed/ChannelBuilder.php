@@ -11,6 +11,9 @@ class ChannelBuilder
     private $title;
 
     /** @var string */
+    private $author;
+
+    /** @var string */
     private $link;
 
     /** @var string */
@@ -28,6 +31,9 @@ class ChannelBuilder
     /** @var string */
     private $language;
 
+    /** @var bool */
+    private $explicit;
+
     /** @var array FeedItem[] */
     private $items = [];
 
@@ -39,6 +45,12 @@ class ChannelBuilder
     public function title(string $title): ChannelBuilder
     {
         $this->title = $title;
+        return $this;
+    }
+
+    public function author(string $author): ChannelBuilder
+    {
+        $this->author = $author;
         return $this;
     }
 
@@ -78,6 +90,12 @@ class ChannelBuilder
         return $this;
     }
 
+    public function explicit(bool $explicit): ChannelBuilder
+    {
+        $this->explicit = $explicit;
+        return $this;
+    }
+
     public function addItem(): ItemBuilder
     {
         $itemBuilder = new ItemBuilder($this);
@@ -100,6 +118,10 @@ class ChannelBuilder
         $element->appendChild($dom->createElement('generator', $this->generator));
         $element->appendChild($dom->createElement('category', $this->category));
         $element->appendChild($dom->createElement('type', $this->type));
+
+        $element->appendChild($dom->createElement('googleplay:author', $this->author));
+        $element->appendChild($dom->createElement('googleplay:category', $this->category));
+        $element->appendChild($dom->createElement('googleplay:image', $this->image));
 
         $image = $dom->createElement('itunes:image');
         $image->setAttribute('href', $this->image);
