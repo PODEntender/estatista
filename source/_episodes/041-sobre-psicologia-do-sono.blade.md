@@ -11,7 +11,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3
   disqus: '5633 https://podentender.com/?p=5633'
   cover:
-    url: '/assets/images/episode/041/041-capa.jpg'
+    url: '/assets/images/episode/041/041-capa-16x9.jpg'
     title: 'Capa do episódio: Psicologia do Sono, com Altay de Souza'
 tags:
   - psicologia
