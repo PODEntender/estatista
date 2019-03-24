@@ -10,10 +10,10 @@
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 
-<meta name="og:title" content="{{ $page->episode['title'] }}">
-<meta name="og:description" content="{{ $page->episode['description'] }}">
-<meta name="og:image" content="{{ $page->getBaseUrl() . $page->episode['cover']['url'] }}">
-<meta name="og:url" content="{{ $page->getUrl() }}">
+<meta property="og:title" content="{{ $page->episode['title'] }}">
+<meta property="og:description" content="{{ $page->episode['description'] }}">
+<meta property="og:image" content="{{ $page->getBaseUrl() . $page->episode['cover']['url'] }}">
+<meta property="og:url" content="{{ $page->getUrl() }}">
 
 <meta name="twitter:title" content="{{ $page->episode['title'] }}">
 <meta name="twitter:description" content="{{ $page->episode['description'] }}">

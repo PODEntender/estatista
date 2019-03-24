@@ -22,10 +22,10 @@ $metaDescription = 'Episódios: ' . implode(
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 
-<meta name="og:title" content="{{ $page->episode['title'] }}">
-<meta name="og:description" content="{{ $metaDescription }}">
-<meta name="og:image" content="{{ $page->episode['cover']['url'] }}">
-<meta name="og:url" content="{{ $page->getUrl() }}">
+<meta property="og:title" content="{{ $page->episode['title'] }}">
+<meta property="og:description" content="{{ $metaDescription }}">
+<meta property="og:image" content="{{ $page->episode['cover']['url'] }}">
+<meta property="og:url" content="{{ $page->getUrl() }}">
 
 <meta name="twitter:title" content="{{ $page->episode['title'] }}">
 <meta name="twitter:description" content="{{ $metaDescription }}">
