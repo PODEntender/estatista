@@ -25,30 +25,47 @@
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
 
-@include('_partials.meta.news-article', [
-    'images' => [
-        $page->getBaseUrl() . $page->episode['cover']['url'],
+@include('_partials.meta.json-ld-script', [
+    'schema' => [
+        '@context' => 'http://schema.org',
+        '@type' => 'NewsArticle',
+        'name' => $page->meta['title'],
+        'image' => [$page->getBaseUrl() . $page->episode['cover']['url']],
+        'url' => $page->getUrl(),
+        'datePublished' => date('Y-m-d', $page->episode['date']),
+        'headline' => substr($page->episode['title'], 0, 110),
+        'author' => $page->meta['schemas']['author'],
+        'publisher' => $page->meta['schemas']['author'],
     ],
-    'datePublished' => $page->episode['date'],
-    'headline' => $page->episode['title'],
-    'author' => $page->getBaseUrl(),
-    'publisher' => $page->getBaseUrl(),
-    'publisherLogo' => $page->baseUrl . $page->assets->logo,
 ])
 
-@include('_partials.meta.breadcrumbs', [
-    'items' => [
-        [
-            'id' => $page->getBaseUrl(),
-            'name' => $page->meta['title'],
-            'image' => $page->meta['image'],
+@include('_partials.meta.json-ld-script', [
+    'schema' => [
+        '@context' => 'http://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => [
+            [
+                '@type' => 'ListItem',
+                'position' => 1,
+                'item' => [
+                    '@type' =>'WebPage',
+                    '@id' => $page->getBaseUrl(),
+                    'name' => $page->meta['title'],
+                    'image' => $page->meta['image'],
+                ],
+            ],
+            [
+                '@type' => 'ListItem',
+                'position' => 2,
+                'item' => [
+                    '@type' =>'WebPage',
+                    '@id' => $page->getUrl(),
+                    'name' => $page->episode['title'],
+                    'image' => $page->getBaseUrl() . $page->episode['cover']['url'],
+                ],
+            ],
         ],
-        [
-            'id' => $page->getUrl(),
-            'name' => $page->episode['title'],
-            'image' => $page->getBaseUrl() . $page->episode['cover']['url'],
-        ],
-    ],
+    ]
 ])
 @endsection
 

@@ -22,12 +22,15 @@
 
 <link rel="canonical" href="{{ $page->baseUrl }}">
 
-@include('_partials.meta.breadcrumbs', [
-    'items' => [
-        [
-            'id' => $page->getBaseUrl(),
-            'name' => $page->meta['title'],
-            'image' => $page->meta['image'],
+@include('_partials.meta.json-ld-script', [
+    'schema' => [
+        '@context' => 'http://schema.org',
+        '@type' => 'Organization',
+        'name' => $page->meta['title'],
+        'url' => $page->getBaseUrl(),
+        'logo' => [
+            '@type' => 'ImageObject',
+            'url' => $page->meta['image'],
         ],
     ],
 ])
