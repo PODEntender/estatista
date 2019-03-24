@@ -33,6 +33,29 @@ $metaDescription = 'Episódios: ' . implode(
 <meta name="twitter:url" content="{{ $page->getUrl() }}">
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
+
+@include('_partials.meta.breadcrumbs', [
+    'items' => [
+        [
+            'id' => $page->getBaseUrl(),
+            'name' => $page->meta['title'],
+            'image' => $page->meta['image'],
+        ],
+        [
+            'type' => 'CollectionPage',
+            'id' => $page->getUrl(),
+            'name' => $page->pagination->collection,
+            'image' => $page->meta['image'],
+        ],
+        [
+            'type' => 'CollectionPage',
+            'id' => $page->getUrl(),
+            'name' => 'Página ' . $pagination->currentPage,
+            'image' => $page->meta['image'],
+        ],
+    ],
+])
+
 @endsection
 
 @section('body')

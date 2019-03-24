@@ -12,15 +12,30 @@
 
 <meta name="og:title" content="{{ $page->episode['title'] }}">
 <meta name="og:description" content="{{ $page->episode['description'] }}">
-<meta name="og:image" content="{{ $page->episode['cover']['url'] }}">
+<meta name="og:image" content="{{ $page->getBaseUrl() . $page->episode['cover']['url'] }}">
 <meta name="og:url" content="{{ $page->getUrl() }}">
 
 <meta name="twitter:title" content="{{ $page->episode['title'] }}">
 <meta name="twitter:description" content="{{ $page->episode['description'] }}">
-<meta name="twitter:image" content="{{ $page->episode['cover']['url'] }}">
+<meta name="twitter:image" content="{{ $page->getBaseUrl() . $page->episode['cover']['url'] }}">
 <meta name="twitter:url" content="{{ $page->getUrl() }}">
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
+
+@include('_partials.meta.breadcrumbs', [
+    'items' => [
+        [
+            'id' => $page->getBaseUrl(),
+            'name' => $page->meta['title'],
+            'image' => $page->meta['image'],
+        ],
+        [
+            'id' => $page->getUrl(),
+            'name' => $page->episode['title'],
+            'image' => $page->getBaseUrl() . $page->episode['cover']['url'],
+        ],
+    ],
+])
 @endsection
 
 @section('body')

@@ -18,6 +18,22 @@
     <meta name="twitter:url" content="{{ $page->baseUrl }}">
 
     <link rel="canonical" href="{{ $page->baseUrl }}">
+
+    @include('_partials.meta.breadcrumbs', [
+        'items' => [
+            [
+                'id' => $page->getBaseUrl(),
+                'name' => $page->meta['title'],
+                'image' => $page->meta['image'],
+            ],
+            [
+                'type' => 'AboutPage',
+                'id' => $page->getUrl(),
+                'name' => 'Sobre o PODEntender',
+                'image' => $page->meta['image'],
+            ],
+        ],
+    ])
 @endsection
 
 @section('body')
