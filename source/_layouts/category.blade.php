@@ -27,6 +27,9 @@ $metaDescription = 'Episódios: ' . implode(
 <meta property="og:image" content="{{ $page->episode['cover']['url'] }}">
 <meta property="og:url" content="{{ $page->getUrl() }}">
 
+<meta name="twitter:card" content="{{ $page->meta['twitter']['card'] }}">
+<meta name="twitter:site" content="{{ $page->meta['twitter']['account'] }}">
+<meta name="twitter:creator" content="{{ $page->meta['twitter']['account'] }}">
 <meta name="twitter:title" content="{{ $page->episode['title'] }}">
 <meta name="twitter:description" content="{{ $metaDescription }}">
 <meta name="twitter:image" content="{{ $page->episode['cover']['url'] }}">

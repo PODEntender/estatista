@@ -15,6 +15,10 @@ return [
         'category' => 'Science &amp; Medicine',
         'image' => 'http://podentender.com/wp-content/uploads/powerpress/favcom.png',
         'email' => 'amdnsk@gmail.com',
+        'twitter' => [
+            'card' => 'summary_large_image',
+            'account' => '@podentender',
+        ],
     ],
     'menu' => [
         'items' => [
