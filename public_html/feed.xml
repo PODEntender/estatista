@@ -9,7 +9,7 @@
     <type>episodic</type>
     <googleplay:author>PODEntender</googleplay:author>
     <googleplay:category>Science &amp; Medicine</googleplay:category>
-    <googleplay:image>http://podentender.com/wp-content/uploads/powerpress/favcom.png</googleplay:image>
+    <googleplay:image href="http://podentender.com/wp-content/uploads/powerpress/favcom.png"/>
     <itunes:image href="http://podentender.com/wp-content/uploads/powerpress/favcom.png"/>
     <item>
       <title>Sobre Pesquisa no Ensino Médio e Maracujá #OPodcastÉDelas2019</title>
@@ -20,7 +20,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</guid>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/044/044-capa-16x9.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_44.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -32,7 +32,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</guid>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/043/043-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_43.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -44,7 +44,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/042-sobre-nazismo-e-nazistas-no-brasil</guid>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/042/042-capa-16x9.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_42.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -56,7 +56,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/041-sobre-a-psicologia-do-sono</guid>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/041/041-capa-16x9.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -68,7 +68,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/040-sobre-avioes-lasers-e-impressao-3d</guid>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/040/040-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender40.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -80,7 +80,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</guid>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/039/039-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_39.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -92,7 +92,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</guid>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/038/038-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_38.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -104,7 +104,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/037-sobre-linguagem-e-percepcao-do-mundo</guid>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/037/037-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_37.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -116,7 +116,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/036-sobre-saude-coletiva-e-racismo</guid>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/036/036-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_36.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -128,7 +128,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/035-sobre-vacinacao-e-saude-publica</guid>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/035/035-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_35.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -140,7 +140,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/034-sobre-a-simulacao-da-onu</guid>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/034/034-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_34.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -152,7 +152,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/033-sobre-algoritmos-e-contas-publicas</guid>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/033/033-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_33.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -164,7 +164,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/032-sobre-genomica-e-envelhecimento</guid>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/032/032-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_32.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -176,7 +176,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</guid>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/031/031-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEnteder_31_NEWS.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -188,7 +188,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/030-sobre-diagnostico-rapido-do-zika-virus</guid>
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/030/030-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -200,7 +200,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</guid>
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/029/029-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_29_Manuscritos_do_mar_morto_e_demonologia.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -212,7 +212,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</guid>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/028/028-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_28_NEWS.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -224,7 +224,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/027-recados-desculpas-e-e-mails</guid>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/027/027-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_027.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -236,7 +236,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/026-sobre-ecologia-evolutiva</guid>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/026/026-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_026_ecologia_evolutiva.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -248,7 +248,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/025-sobre-relacionamento-com-a-vida-academica</guid>
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/025/025-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_025_Discutindo_o_relacionamento_com_a_vida_academica.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -260,7 +260,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</guid>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/024/024-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_024_NEWS.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -272,7 +272,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</guid>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/023/023-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_023_telomeros_e_falencia_da_medula.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -284,7 +284,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</guid>
       <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/022/022-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -296,7 +296,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</guid>
       <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/021/021-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -308,7 +308,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/020-sobre-machismo-na-ciencia-brasileira</guid>
       <pubDate>Wed, 05 Apr 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/020/020-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_020_machismo_na_ciencia_brasileira.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -320,7 +320,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/019-sobre-deep-learning</guid>
       <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/019/019-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -332,7 +332,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</guid>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/018/018-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_018_CRISPR_e_modificacao_de_genomas.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -344,7 +344,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</guid>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/017/017-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_017_NEWS_fix.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -356,7 +356,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</guid>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/016/016-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -368,7 +368,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</guid>
       <pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/015/015-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_015_NEWS_.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -380,7 +380,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/014-sobre-astrobiologia</guid>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/014/014-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_014_sobre_astrobiologia.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -392,7 +392,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</guid>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/013/013-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_013_NEWS_avaliacao_CNPq_orcamento_MEC.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -404,7 +404,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/012-sobre-a-historia-da-biologia-estrutural</guid>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/012/012-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_012_DROPS_historia_da_biologia_estrutural.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -416,7 +416,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/011-sobre-biologia-do-desenvolvimento</guid>
       <pubDate>Sun, 14 Aug 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/011/011-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_011_sobre_Biologia_do_desenvolvimento.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -428,7 +428,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/010-sobre-creative-commons-e-inovacao</guid>
       <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/010/010-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_010_DROPS_creative_commons_e_inovacao.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -440,7 +440,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</guid>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/009/009-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_009_NEWS_sobre_fusao_do_MCTI_e_MC_ranking_nature_e_novos_INCTS.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -452,7 +452,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</guid>
       <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/008/008-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_008_sobre_neurociencia_e_calcificacao_cerebral.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -464,7 +464,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</guid>
       <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/007/007-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_007_DROPS_02_Prevendo_epidemias_e_Epitrack_no_The_Venture.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -476,7 +476,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</guid>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/006/006-capa.png"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_006_NEWS_1_sobre_supercomputador_fosfoetanolamina-premio-fotografia-guardioes_da_saude.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -488,7 +488,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/005-sobre-saude-mental-infantil-e-autismo</guid>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/005/005-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_005_sobre_saude_mental_e_autismo.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -500,7 +500,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</guid>
       <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/004/004-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_004_DROPS_001_SOBRE_CROWNDFUNDING_PARA_DIAGNOSTICO_DO_ZIKA_v_02.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -512,7 +512,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/003-sobre-oceanografia-quimica</guid>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/003/003-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_003_sobre_oceanografia_quimica.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -524,7 +524,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/002-sobre-abelhas-e-polinizacao</guid>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/002/002-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_002_sobre_abelhas_e_polinizao.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -536,7 +536,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/001-sobre-evolucao-de-proteinas</guid>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/001/001-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_001_sobre_evoluo_de_proteinas.mp3" length="0" type="audio/mpeg"/>
     </item>
     <item>
@@ -548,7 +548,7 @@
       <guid>https://podentender.github.io/blog/public_html/episodio/000-meca-suas-pesquisas</guid>
       <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
       <googleplay:author>PODEntender</googleplay:author>
-      <googleplay:image/>
+      <googleplay:image href="/assets/images/episode/000/000-capa.jpg"/>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender-000.mp3" length="0" type="audio/mpeg"/>
     </item>
   </channel>

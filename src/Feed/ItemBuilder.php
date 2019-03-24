@@ -109,7 +109,12 @@ class ItemBuilder
         $element->appendChild($dom->createElement('pubDate', $this->pubDate));
 
         $element->appendChild($dom->createElement('googleplay:author', $this->author));
-        $element->appendChild($dom->createElement('googleplay:image', $this->image));
+
+        if ($this->cover) {
+            $googlePlayImage = $dom->createElement('googleplay:image');
+            $googlePlayImage->setAttribute('href', $this->cover);
+            $element->appendChild($googlePlayImage);
+        }
 
         foreach ($this->enclosures as $enclosure) {
             $element->appendChild($enclosure->toDOMElement($dom));

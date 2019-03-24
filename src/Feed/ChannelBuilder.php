@@ -121,11 +121,16 @@ class ChannelBuilder
 
         $element->appendChild($dom->createElement('googleplay:author', $this->author));
         $element->appendChild($dom->createElement('googleplay:category', $this->category));
-        $element->appendChild($dom->createElement('googleplay:image', $this->image));
 
-        $image = $dom->createElement('itunes:image');
-        $image->setAttribute('href', $this->image);
-        $element->appendChild($image);
+        if ($this->image) {
+            $googlePlayImage = $dom->createElement('googleplay:image');
+            $googlePlayImage->setAttribute('href', $this->image);
+            $element->appendChild($googlePlayImage);
+
+            $image = $dom->createElement('itunes:image');
+            $image->setAttribute('href', $this->image);
+            $element->appendChild($image);
+        }
 
         foreach ($this->items as $item) {
             $element->appendChild($item->toDOMElement($dom));
