@@ -46,34 +46,34 @@ descoberta da estrutura do DNA, quem são os ídolos teen dos químicos que trab
 estrutural e que essa é a melhor área das ciências (segundo conclusão do julgamento imparcial
 e neutro de Tonho).
 
-## Comentado no episódio
+## Imagens do Episódio
 
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/012/padrao-difracao-raio-x.jpg',
-    'alt' => 'Imagem de um padrão de difração de raios-X',
-    'title' => 'Imagem de um padrão de difração de raios-X',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/012/imagem-51-rosalind-franklin.jpg',
-    'alt' => 'A famosa imagem 51 de Rosalind Fraklin',
-    'title' => 'A famosa imagem 51 de Rosalind Fraklin',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/012/watson-crick.jpg',
-    'alt' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
-    'title' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/012/rosalind-franklin.jpg',
-    'alt' => 'Foto Rosalind Franklin',
-    'title' => 'Foto Rosalind Franklin',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/012/max-perutz.jpg',
-    'alt' => 'Foto Max Perultz',
-    'title' => 'Foto Max Perultz',
+@include('_partials.episode.gallery', [
+    'items' => [
+        [
+            'url' => '/assets/images/episode/012/padrao-difracao-raio-x.jpg',
+            'alt' => 'Imagem de um padrão de difração de raios-X',
+            'title' => 'Imagem de um padrão de difração de raios-X',
+        ],
+        [
+            'url' => '/assets/images/episode/012/imagem-51-rosalind-franklin.jpg',
+            'alt' => 'A famosa imagem 51 de Rosalind Fraklin',
+            'title' => 'A famosa imagem 51 de Rosalind Fraklin',
+        ],
+        [
+            'url' => '/assets/images/episode/012/watson-crick.jpg',
+            'alt' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
+            'title' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
+        ],
+        [
+            'url' => '/assets/images/episode/012/watson-crick.jpg',
+            'alt' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
+            'title' => 'Famosa imagem comentada no episódio, observe a cara de "esse dia foi muito louco" de Watson (canto inferior esquerdo)',
+        ],
+        [
+            'url' => '/assets/images/episode/012/max-perutz.jpg',
+            'alt' => 'Foto Max Perultz',
+            'title' => 'Foto Max Perultz',
+        ],
+    ],
 ])

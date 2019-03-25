@@ -38,10 +38,14 @@ Universidade de Monash, Austrália.
 Junte-se ao Dalton (Fabio Neves), Carol Lacerda, Dr. Faixa Preta (Fernando Bachega) e Hozana Castillo
 e entenda como podemos descobrir a influência de genes no processo de desenvolvimento de vários seres vivos.
 
-## Comentado no episódio
+## Imagens do Episódio
 
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/011/marcacao-azul.jpg',
-    'alt' => 'Imagem ilustrando marcação azul comentada no episódio',
-    'title' => 'Imagem ilustrando marcação azul comentada no episódio',
+@include('_partials.episode.gallery', [
+    'items' => [
+        [
+            'url' => '/assets/images/episode/011/marcacao-azul.jpg',
+            'alt' => 'Imagem ilustrando marcação azul comentada no episódio',
+            'title' => 'Imagem ilustrando marcação azul comentada no episódio',
+        ],
+    ],
 ])
