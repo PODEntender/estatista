@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2017-02-15
+oldLink: https://podentender.com/2017/02/017-sobre-fechamento-uerj-orcamento-cnpq-e-fapesp-e-institutos-do-rio-grande-do-sul.html
 episode:
   number: '017'
   date: 2017-02-15
   title: 'Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul'
   description: Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_017_NEWS_fix.mp3
-  disqus: '5010 https://podentender.com/?p=5010'
+  disqus: '5010 http://dragoesdegaragem.com/podentender/?p=5010'
   cover:
     url: '/assets/images/episode/017/017-capa.png'
     title: 'Capa do episódio: PODEntender #017 - Possível fechamento da UERJ, recursos não garantidos para o CNPQ e FAPESP, fechamento dos institutos do Rio Grande do Sul'  
