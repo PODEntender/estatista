@@ -3,6 +3,7 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2019-02-11
+oldLink: https://podentender.com/2019/02/42-felipe-abal-sobre-nazismo-e-nazistas-no-brasil.html
 episode:
   number: '042'
   date: 2019-02-11
