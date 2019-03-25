@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2018-03-10
+oldLink: https://podentender.com/2018/03/28-news.html
 episode:
   number: '028'
   date: 2018-03-10
   title: 'Sobre Brasil na elite da matemática, febre amarela e novo bloqueio do orçamento'
   description: Brasil foi aprovado para o fazer parte do grupo de elite da União Internacional de Matemática, pesquisadores brasileiros detectaram o vírus da febre amarela e um novo bloqueio de verbas do orçamento do Ministério de Ciência, Tecnologia e Comunicação foi feito.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_28_NEWS.mp3
-  disqus: '5227 https://podentender.com/?p=5227'
+  disqus: '5227 http://dragoesdegaragem.com/podentender/?p=5227'
   cover:
     url: '/assets/images/episode/028/028-capa.png'
     title: 'Capa do episódio: PODEntender #028 - Matemática: Brasil é aprovado como membro de grupo de elite. Febre Amarela: vírus é detectado em novo tipo de mosquito. 477 milhões: orçamento da ciência e tecnologia bloqueado.'

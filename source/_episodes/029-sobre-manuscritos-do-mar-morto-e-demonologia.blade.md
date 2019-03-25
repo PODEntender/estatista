@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-04-03
+oldLink: https://podentender.com/2018/04/manuscritos-do-mar-morto-demonologia-tupa-guerra.html
 episode:
   number: '029'
   date: 2018-04-03
   title: 'Sobre manuscritos do mar morto e demonologia'
   description: Os manuscritos do Mar Morto são uma das maiores descobertas do século XX e funcionam como uma janela para a mente de pessoas que viveram há milhares de anos. Hoje você vai descobrir o trabalho de Tupá Guerra, historiadora e especialista em demonologia.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_29_Manuscritos_do_mar_morto_e_demonologia.mp3
-  disqus: '5364 https://podentender.com/?p=5364'
+  disqus: '5364 http://podentender.com/?p=5364'
   cover:
     url: '/assets/images/episode/029/029-capa.jpg'
     title: 'Capa do episódio: Manuscritos do mar morto e demonologia com Tupá Guerra'
