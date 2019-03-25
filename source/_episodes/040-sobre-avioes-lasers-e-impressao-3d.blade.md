@@ -3,6 +3,7 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-11-25
+oldLink: https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html
 episode:
   number: '040'
   date: 2018-11-25
@@ -57,34 +58,34 @@ de aviões. Tamy é Engenheira de Energia pela Universidade Federal do ABC (com 
 of California, Davis, EUA), doutora em Engenharia Mecânica pela Virginia Polytechnic Institute
 and State University, EUA e atualmente pós-doutoranda na Bundeswehr University Munich, na Alemanha.
 
-## Comentado no episódio
+## Imagens do Episódio
 
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/040/experimento-em-tunel-de-vento.png',
-    'alt' => 'Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).',
-    'title' => 'Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/040/experimento-motor-aviao-piv.jpg',
-    'alt' => 'Experimento em um motor de avião utilizando PIV.',
-    'title' => 'Experimento em um motor de avião utilizando PIV.',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/040/aviao-baleia.jpg',
-    'alt' => 'Avião baleia; NASA/MIT/Aurora Flight Sciences',
-    'title' => 'Avião baleia; NASA/MIT/Aurora Flight Sciences',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/040/aviao-baleia-02.jpg',
-    'alt' => 'Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson',
-    'title' => 'Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/040/carta-anderson.jpg',
-    'alt' => 'Carta do ouvinte Anderson Gomes lida no bloco de e-mails',
-    'title' => 'Carta do ouvinte Anderson Gomes lida no bloco de e-mails',
+@include('_partials.episode.gallery', [
+    'items' => [
+        [
+            'url' => '/assets/images/episode/040/experimento-em-tunel-de-vento.png',
+            'alt' => 'Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).',
+            'title' => 'Experimento em túnel de vento utilizando a técnica de medição de velocidade "particle image velocimetry" (PIV, velocimetria por imagem de partículas).',
+        ],
+        [
+            'url' => '/assets/images/episode/040/experimento-motor-aviao-piv.jpg',
+            'alt' => 'Experimento em um motor de avião utilizando PIV.',
+            'title' => 'Experimento em um motor de avião utilizando PIV.',
+        ],
+        [
+            'url' => '/assets/images/episode/040/aviao-baleia.jpg',
+            'alt' => 'Avião baleia; NASA/MIT/Aurora Flight Sciences',
+            'title' => 'Avião baleia; NASA/MIT/Aurora Flight Sciences',
+        ],
+        [
+            'url' => '/assets/images/episode/040/aviao-baleia-02.jpg',
+            'alt' => 'Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson',
+            'title' => 'Detalhes do avião baleia; Don Foley/NASA/Lillian Gipson',
+        ],
+        [
+            'url' => '/assets/images/episode/040/carta-anderson.jpg',
+            'alt' => 'Carta do ouvinte Anderson Gomes lida no bloco de e-mails',
+            'title' => 'Carta do ouvinte Anderson Gomes lida no bloco de e-mails',
+        ],
+    ],
 ])

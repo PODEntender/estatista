@@ -3,6 +3,7 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2018-11-04
+oldLink: https://podentender.com/2018/11/celulas-tronco-cancer-e-ia.html
 episode:
   number: '039'
   date: 2018-11-04

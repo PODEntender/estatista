@@ -3,6 +3,7 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-12-30
+oldLink: https://podentender.com/2018/12/psicologia-do-sono.html
 episode:
   number: '041'
   date: 2018-12-30

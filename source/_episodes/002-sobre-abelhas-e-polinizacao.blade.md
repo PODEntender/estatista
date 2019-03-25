@@ -47,22 +47,24 @@ filme “Meu Primeiro Amor”, que abelhas machos não servem para
 muita coisa e como alunos de iniciação científica sofrem em
 laboratórios que estudam abelhas.
 
-## Comentado no episódio
+## Imagens do Episódio
 
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/002/tamanho-abelhas.png',
-    'alt' => 'Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)',
-    'title' => 'Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/002/sistema-marcacao-abelhas.jpg',
-    'alt' => 'Sistema de marcação das abelhas',
-    'title' => 'Sistema de marcação das abelhas',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/002/patricia-observando-abelhas.png',
-    'alt' => 'Patrícia na chuva e de olho nas abelhas',
-    'title' => 'Patrícia na chuva e de olho nas abelhas',
+@include('_partials.episode.gallery', [
+    'items' => [
+        [
+            'url' => '/assets/images/episode/002/tamanho-abelhas.png',
+            'alt' => 'Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)',
+            'title' => 'Tamanho das Abelhas estudadas por Patrícia Nunes (~3-4 mm)',
+        ],
+        [
+            'url' => '/assets/images/episode/002/sistema-marcacao-abelhas.jpg',
+            'alt' => 'Sistema de marcação das abelhas',
+            'title' => 'Sistema de marcação das abelhas',
+        ],
+        [
+            'url' => '/assets/images/episode/002/patricia-observando-abelhas.png',
+            'alt' => 'Patrícia na chuva e de olho nas abelhas',
+            'title' => 'Patrícia na chuva e de olho nas abelhas',
+        ],
+    ],
 ])

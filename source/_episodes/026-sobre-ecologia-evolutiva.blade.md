@@ -34,16 +34,19 @@ conversa com o **Prof. Dr. Bruno Spacek** da Universidade Federal do Pará (UFPA
 Aprenda como estudar a dinâmica de populações analisando o maior predador do mundo,
 as temíveis baratas d’água que estão por todo nosso Brasilzão.
 
-## Comentado no episódio
+## Imagens do Episódio
 
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/026/barata-dagua-alimentando.jpg',
-    'alt' => 'Imagem da barata d\'água se alimentando',
-    'title' => 'Imagem da barata d\'água se alimentando',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/026/tamanho-relativo-barata-dagua.jpg',
-    'alt' => 'Tamanho relativo da barata d\'água',
-    'title' => 'Tamanho relativo da barata d\'água',
+@include('_partials.episode.gallery', [
+    'items' => [
+        [
+            'url' => '/assets/images/episode/026/barata-dagua-alimentando.jpg',
+            'alt' => 'Imagem da barata d\'água se alimentando',
+            'title' => 'Imagem da barata d\'água se alimentando',
+        ],
+        [
+            'url' => '/assets/images/episode/026/tamanho-relativo-barata-dagua.jpg',
+            'alt' => 'Tamanho relativo da barata d\'água',
+            'title' => 'Tamanho relativo da barata d\'água',
+        ],
+    ],
 ])

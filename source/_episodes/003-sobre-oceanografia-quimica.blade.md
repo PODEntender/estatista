@@ -50,76 +50,69 @@ Antártida, que nadar com tubarões é muito tranquilo e a
 gloriosa rotina de luxo e glamour de quem trabalha estudando
 ilhas oceânicas.
 
-## Comentado no episódio
+## Imagens do Episódio
 
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/base-pesquisa-brasileira-antartida.jpg',
-    'alt' => 'Base de pesquisa brasileira na Antartida',
-    'title' => 'Base de pesquisa brasileira na Antartida',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/patrick-sensualizando-a-menos-dez.jpg',
-    'alt' => 'Patrick sensualizando a -10ºC',
-    'title' => 'Patrick sensualizando a -10ºC',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo.jpg',
-    'alt' => 'Arquipélago de São Pedro e São Paulo',
-    'title' => 'Arquipélago de São Pedro e São Paulo',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo-2.jpg',
-    'alt' => 'Arquipélago de São Pedro e São Paulo',
-    'title' => 'Arquipélago de São Pedro e São Paulo',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/base-de-pesquisa-do-arquipelago-de-sao-pedro-e-sao-paulo.jpg',
-    'alt' => 'Base de Pesquisa do Arquipélago de São Pedro e São Paulo',
-    'title' => 'Base de Pesquisa do Arquipélago de São Pedro e São Paulo',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/atol-das-rocas.jpg',
-    'alt' => 'Atol das Rocas',
-    'title' => 'Atol das Rocas',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/atol-das-rocas-2.jpg',
-    'alt' => 'Atol das Rocas',
-    'title' => 'Atol das Rocas',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/atol-das-rocas-3.jpg',
-    'alt' => 'Atol das Rocas',
-    'title' => 'Atol das Rocas',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/patrick-aves-atol-das-rocas.jpg',
-    'alt' => 'Patrick sensualizando com as aves do Atol das Rocas',
-    'title' => 'Patrick sensualizando com as aves do Atol das Rocas',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/ilha-da-trindade.jpg',
-    'alt' => 'Ilha da Trindade',
-    'title' => 'Ilha da Trindade',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/ilha-da-trindade-2.jpg',
-    'alt' => 'Ilha da Trindade',
-    'title' => 'Ilha da Trindade',
-])
-
-@include('_partials.episode.image', [
-    'url' => '/assets/images/episode/003/ilha-da-trindade-3.jpg',
-    'alt' => 'Ilha da Trindade',
-    'title' => 'Ilha da Trindade',
+@include('_partials.episode.gallery', [
+    'items' => [
+        [
+            'url' => '/assets/images/episode/003/base-pesquisa-brasileira-antartida.jpg',
+            'alt' => 'Base de pesquisa brasileira na Antartida',
+            'title' => 'Base de pesquisa brasileira na Antartida',
+        ],
+        [
+            'url' => '/assets/images/episode/003/patrick-sensualizando-a-menos-dez.jpg',
+            'alt' => 'Patrick sensualizando a -10ºC',
+            'title' => 'Patrick sensualizando a -10ºC',
+        ],
+        [
+            'url' => '/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo.jpg',
+            'alt' => 'Arquipélago de São Pedro e São Paulo',
+            'title' => 'Arquipélago de São Pedro e São Paulo',
+        ],
+        [
+            'url' => '/assets/images/episode/003/arquipelago-de-sao-pedro-e-sao-paulo-2.jpg',
+            'alt' => 'Arquipélago de São Pedro e São Paulo',
+            'title' => 'Arquipélago de São Pedro e São Paulo',
+        ],
+        [
+            'url' => '/assets/images/episode/003/base-de-pesquisa-do-arquipelago-de-sao-pedro-e-sao-paulo.jpg',
+            'alt' => 'Base de Pesquisa do Arquipélago de São Pedro e São Paulo',
+            'title' => 'Base de Pesquisa do Arquipélago de São Pedro e São Paulo',
+        ],
+        [
+            'url' => '/assets/images/episode/003/atol-das-rocas.jpg',
+            'alt' => 'Atol das Rocas',
+            'title' => 'Atol das Rocas',
+        ],
+        [
+            'url' => '/assets/images/episode/003/atol-das-rocas-2.jpg',
+            'alt' => 'Atol das Rocas',
+            'title' => 'Atol das Rocas',
+        ],
+        [
+            'url' => '/assets/images/episode/003/atol-das-rocas-3.jpg',
+            'alt' => 'Atol das Rocas',
+            'title' => 'Atol das Rocas',
+        ],
+        [
+            'url' => '/assets/images/episode/003/patrick-aves-atol-das-rocas.jpg',
+            'alt' => 'Patrick sensualizando com as aves do Atol das Rocas',
+            'title' => 'Patrick sensualizando com as aves do Atol das Rocas',
+        ],
+        [
+            'url' => '/assets/images/episode/003/ilha-da-trindade.jpg',
+            'alt' => 'Ilha da Trindade',
+            'title' => 'Ilha da Trindade',
+        ],
+        [
+            'url' => '/assets/images/episode/003/ilha-da-trindade-2.jpg',
+            'alt' => 'Ilha da Trindade',
+            'title' => 'Ilha da Trindade',
+        ],
+        [
+            'url' => '/assets/images/episode/003/ilha-da-trindade-3.jpg',
+            'alt' => 'Ilha da Trindade',
+            'title' => 'Ilha da Trindade',
+        ],
+    ],
 ])

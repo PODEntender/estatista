@@ -1,0 +1,29 @@
+@import '../colors';
+@import '../mixins/media';
+
+.episode {
+  &__gallery {
+    margin-bottom: 50px;
+
+    @include above-mobile {
+      display: grid;
+      grid-template-columns: repeat(2, 50%);
+    }
+  }
+
+  &__gallery-item {
+
+  }
+
+  &__gallery-item-caption {
+    color: $primary-text-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px;
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
+}
