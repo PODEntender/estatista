@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-08-14
+oldLink: https://podentender.com/2016/08/podentender-011-sobre-biologia-do-desenvolvimento.html
 episode:
   number: '011'
   date: 2016-08-14
   title: Sobre biologia do desenvolvimento
   description: Um dos fenômenos mais complexos que existem no universo é o nascimento de um novo ser vivo. Uma sinfonia molecular incrivelmente complexa ocorre todos os dias no nosso planeta para que uma célula seja capaz de se tornar uma criança com uma vida inteira pela frente.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_011_sobre_Biologia_do_desenvolvimento.mp3
-  disqus: '4855 https://podentender.com/?p=4855'
+  disqus: '4855 http://podentender.com/?p=4855'
   cover:
     url: '/assets/images/episode/011/011-capa.jpg'
     title: 'Capa do episódio: PODEntender #011 - Biologia do desenvolvimento com Hozana Castillo'

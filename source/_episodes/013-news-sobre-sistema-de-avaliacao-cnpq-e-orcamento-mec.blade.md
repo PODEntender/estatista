@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2016-10-10
+oldLink: https://podentender.com/2016/10/podentender-013-news-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec.html
 episode:
   number: '013'
   date: 2016-10-10
   title: 'Sobre sistema de avaliação do CNPq e orçamento do MEC'
   description: Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_013_NEWS_avaliacao_CNPq_orcamento_MEC.mp3
-  disqus: '4893 https://podentender.com/?p=4893'
+  disqus: '4893 http://podentender.com/?p=4893'
   cover:
     url: '/assets/images/episode/013/013-capa.png'
     title: 'Capa do episódio: PODEntender #013 - Avaliação do CNPq & Orçamento do MEC' 
