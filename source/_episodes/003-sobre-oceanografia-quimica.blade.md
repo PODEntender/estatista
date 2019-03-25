@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-03-17
+oldLink: https://podentender.com/2016/03/podentender-003-sobre-oceanografia-quimica.html
 episode:
   number: '003'
   date: 2016-03-17
   title: Sobre oceanografia química
   description: Entenda como é identificada a poluição invisível e como agrotóxicos e outros poluentes foram parar em uma ilha há centenas de quilômetros do litoral brasileiro. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_003_sobre_oceanografia_quimica.mp3
-  disqus: '14 https://podentender.com/?p=14'
+  disqus: '14 http://podentender.com/2016/03/17/podentender-003-sobre-oceanografia-quimica/'
   cover:
     url: '/assets/images/episode/003/003-capa.jpg'
     title: 'Capa do episódio: PODEntender #013 - Oceanografia Química com Patrick Simões Dias'

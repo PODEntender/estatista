@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2016-05-12
+oldLink: https://podentender.com/2016/05/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture.html
 episode:
   number: '007'
   date: 2016-05-12
   title: Sobre prever epidemias e Epitrack no The Venture
   description: Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_007_DROPS_02_Prevendo_epidemias_e_Epitrack_no_The_Venture.mp3
-  disqus: '10 https://podentender.com/?p=10'
+  disqus: '10 http://podentender.com/2016/05/12/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture/'
   cover:
     url: '/assets/images/episode/007/007-capa.jpg'
     title: 'Capa do episódio: PODEntender #007 - Prevendo epidemias & Epitrack no the venture'
