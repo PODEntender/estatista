@@ -10,7 +10,7 @@ episode:
   title: 'Sobre escravidão e direito de propriedade no Brasil'
   description: A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse direito de propriedade.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_38.mp3
-  disqus: '5540 http://podentender.com/?p=5540'
+  disqus: '5429 http://podentender.com/?p=5429'
   cover:
     url: '/assets/images/episode/038/038-capa.jpg'
     title: 'Capa do episódio: Escravidão e Direito de Propriedade no Brasil, com Mariana Armond'
