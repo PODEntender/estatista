@@ -3,6 +3,8 @@
     @include('_partials.episode.player')
     <section class="paragraphs-list">
         @yield('content')
+
+        @include('_partials.episode.commented')
     </section>
 
     @include('_partials.episode.comments')
