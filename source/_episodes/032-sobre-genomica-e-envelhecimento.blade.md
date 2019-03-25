@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-05-27
+oldLink: https://podentender.com/2018/05/podcast-genomica-e-envelhecimento.html
 episode:
   number: '032'
   date: 2018-05-27
   title: 'Sobre genômica e envelhecimento'
   description: Pela primeira vez na história da humanidade temos um grande número de seres humanos vivendo cerca de 80 anos, mas nossos genes não foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_32.mp3
-  disqus: '5425 https://podentender.com/?p=5425'
+  disqus: '5425 http://podentender.com/?p=5425'
   cover:
     url: '/assets/images/episode/032/032-capa.jpg'
     title: 'Capa do episódio: Genômica e envelhecimento com Michel Naslavsky'
