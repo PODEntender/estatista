@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-10-20
+oldLink: https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html
 episode:
   number: '038'
   date: 2018-10-20
   title: 'Sobre escravidão e direito de propriedade no Brasil'
   description: A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse direito de propriedade.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_38.mp3
-  disqus: '5429 https://podentender.com/?p=5429'
+  disqus: '5429 http://podentender.com/?p=5429'
   cover:
     url: '/assets/images/episode/038/038-capa.jpg'
     title: 'Capa do episódio: Escravidão e Direito de Propriedade no Brasil, com Mariana Armond'
