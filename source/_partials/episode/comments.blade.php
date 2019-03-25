@@ -5,9 +5,9 @@ $disqus = $disqus ?? [
 @endphp
 
 <aside class="episode__comments">
-    <h1 class="episode__comments__title">
+    <h2 class="episode__comments__title">
         Comentários
-    </h1>
+    </h2>
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
