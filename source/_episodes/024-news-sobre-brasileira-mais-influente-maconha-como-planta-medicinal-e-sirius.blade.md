@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2017-06-04
+oldLink: https://podentender.com/2017/06/024-sobre-brasileira-mais-influenciadora-maconha-e-sirius.html
 episode:
   number: '024'
   date: 2017-06-04
   title: 'Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius'
   description: Quer saber qual é a brasileira, cientista, que tem maior influência no mundo? Ou talvez descobrir que até o maior empreendimento científico brasileiro está correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avanço.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_024_NEWS.mp3
-  disqus: '5188 https://podentender.com/?p=5188'
+  disqus: '5188 http://dragoesdegaragem.com/podentender/?p=5188'
   cover:
     url: '/assets/images/episode/024/024-capa.png'
     title: 'Capa do episódio: PODEntender #024 - Cientista Brasileira entre as pessoas mais influentes do mundo, maconha considerada planta medicinal pela anvisa, Sirius aguarda liberação de recursos'

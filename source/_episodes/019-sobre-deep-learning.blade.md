@@ -3,13 +3,14 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2017-03-22
+oldLink: https://podentender.com/2017/03/019-sobre-deep-learning.html
 episode:
   number: '019'
   date: 2017-03-22
   title: 'Sobre Deep Learning'
   description: O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3
-  disqus: '5138 https://podentender.com/?p=5138'
+  disqus: '5138 http://dragoesdegaragem.com/podentender/?p=5138'
   cover:
     url: '/assets/images/episode/019/019-capa.png'
     title: 'Capa do episódio: PODEntender #019 - Deep Learning'
