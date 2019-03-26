@@ -12,7 +12,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_39.mp3
   disqus: '5592 https://podentender.com/?p=5592'
   cover:
-    url: '/assets/images/episode/039/039-capa.jpg'
+    url: '/assets/images/episode/039/039-capa-16x9.jpg'
     title: 'Capa do episódio: Machine Learning e Câncer, com Tathiane Malta'
 tags:
   - cancer
