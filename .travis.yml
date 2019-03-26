@@ -11,7 +11,10 @@ install:
 
 script:
   - composer run build
-  - mv build_production/ public_html/
+  - mv build_production/ .build/
+  - rm -rf *
+  - mv .build/* ./
+  - echo $CNAME > CNAME
 
 deploy:
   provider: pages
