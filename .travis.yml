@@ -12,7 +12,7 @@ install:
 script:
   - composer run build
   - mv build_production/ .build/
-  - rm -rf *
+  - rm -rf * travis.yml .gitignore
   - mv .build/* ./
   - echo $CNAME > CNAME
 
