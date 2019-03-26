@@ -12,7 +12,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_38.mp3
   disqus: '5429 http://podentender.com/?p=5429'
   cover:
-    url: '/assets/images/episode/038/038-capa.jpg'
+    url: '/assets/images/episode/038/038-capa-16x9.jpg'
     title: 'Capa do episódio: Escravidão e Direito de Propriedade no Brasil, com Mariana Armond'
 tags:
   - historia
