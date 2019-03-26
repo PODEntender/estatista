@@ -12,7 +12,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_37.mp3
   disqus: '5540 http://podentender.com/?p=5540'
   cover:
-    url: '/assets/images/episode/037/037-capa.jpg'
+    url: '/assets/images/episode/037/037-capa-16x9.jpg'
     title: 'Capa do episódio: Linguagem e Percepção do Mundo, com Mariana Fogaça'
 tags:
   - comunicacao
