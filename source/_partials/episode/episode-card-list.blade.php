@@ -4,12 +4,16 @@ $show = function (string $field) use ($hidden) {
     return !in_array($field, $hidden);
 };
 
-$field = function (string $name, string $value, string $default = '') use ($show) {
+$field = function (string $name, string $value, ?int $size = null) use ($show) {
     if (false === $show($name)) {
         return null;
     }
 
-    return $value ? $value : $default;
+    if ($size) {
+        return substr($value, 0, $size) . '(...)';
+    }
+
+    return $value ?? null;
 };
 @endphp
 
@@ -29,14 +33,14 @@ $field = function (string $name, string $value, string $default = '') use ($show
                         'episode-card--no-padding',
                     ],
                     'episode' => [
-                        'url' => $field('url', $episode->getUrl(), '#'),
+                        'url' => $field('url', $episode->getUrl()) ?? '#',
                         'image' => $field('image', $page->baseUrl . $episode->episode['cover']['url']),
                         'timestamp' => $field('timestamp', $episode->episode['date']),
                         'title' => $field(
                             'title',
                             "Episódio #{$episode->episode['number']} - {$episode->episode['title']}"
                         ),
-                        'description' => $field('description', $episode->episode['description']),
+                        'description' => $field('description', $episode->episode['description'], 120),
                     ],
                 ])
             </li>
