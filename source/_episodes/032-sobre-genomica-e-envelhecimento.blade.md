@@ -9,6 +9,7 @@ episode:
   date: 2018-05-27
   title: 'Sobre genômica e envelhecimento'
   description: Pela primeira vez na história da humanidade temos um grande número de seres humanos vivendo cerca de 80 anos, mas nossos genes não foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas. 
+  guid: 'https://podentender.com/?p=5425'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_32.mp3
   disqus: '5425 http://podentender.com/?p=5425'
   cover:

@@ -10,6 +10,7 @@ episode:
   title: Sobre abelhas e polinização
   description: Saiba mais sobre o desaparecimento das abelhas ao redor do mundo e a triste consequência apocalíptica que se aproxima. 
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_002_sobre_abelhas_e_polinizao.mp3
+  guid: 'https://podentender.com/?p=15'
   disqus: '15 http://podentender.com/2016/02/19/podentender-podcast-sobre-abelhas-e-polinizacao/'
   cover:
     url: '/assets/images/episode/002/002-capa.jpg'

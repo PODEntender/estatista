@@ -9,6 +9,7 @@ episode:
   date: 2017-03-01
   title: 'Sobre modificação de genomas e CRISPR/Cas9'
   description: Venha descobrir como saber se uma mitocôndria está respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e não se assuste com esse nome!
+  guid: 'https://podentender.com/?p=5114'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_018_CRISPR_e_modificacao_de_genomas.mp3
   disqus: '5114 http:\/\/dragoesdegaragem.com\/podentender\/?p=5114'
   cover:

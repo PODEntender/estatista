@@ -9,6 +9,7 @@ episode:
   date: 2017-05-03
   title: 'Sobre Zika Vírus e o artigo brasileiro na Nature'
   description: Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença? 
+  guid: 'https://podentender.com/?p=5163'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3
   disqus: '5163 http://dragoesdegaragem.com/podentender/?p=5163'
   cover:

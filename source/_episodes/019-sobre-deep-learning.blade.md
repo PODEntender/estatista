@@ -9,6 +9,7 @@ episode:
   date: 2017-03-22
   title: 'Sobre Deep Learning'
   description: O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?
+  guid: 'https://podentender.com/?p=5138'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3
   disqus: '5138 http://dragoesdegaragem.com/podentender/?p=5138'
   cover:

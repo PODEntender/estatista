@@ -10,6 +10,7 @@ episode:
   title: 'Sobre nazismo e nazistas no Brasil'
   description: O Doutor em História Felipe Abal fala sobre a fuga dos nazistas Franz Stangl e Gustav Wagner ao Brasil após derrota da Alemanha na Segunda Guerra Mundial.
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_42.mp3
+  guid: 'https://podentender.com/?p=5677'
   disqus: '5677 https://podentender.com/?p=5677'
   cover:
     url: '/assets/images/episode/042/042-capa-16x9.jpg'

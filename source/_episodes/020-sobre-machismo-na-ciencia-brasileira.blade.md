@@ -9,6 +9,7 @@ episode:
   date: 2017-04-05
   title: 'Sobre machismo na ciência brasileira'
   description: Como o machismo influencia a vida acadêmica e o dia a dia de cientistas dentro de seus espaços de trabalho? Será que essa realidade é diferente das outras profissões?  Como enxergar e combater as agressões e a rotina assustadora e desnecessariamente mais difícil e presente na vida das mulheres.
+  guid: 'https://podentender.com/?p=5146'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_020_machismo_na_ciencia_brasileira.mp3
   disqus: '5146 http://dragoesdegaragem.com/podentender/?p=5146'
   cover:

@@ -9,6 +9,7 @@ episode:
   date: 2017-07-13
   title: 'Sobre ecologia evolutiva'
   description: Vários fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores é um trabalho para a Ecologia Evolutiva.  
+  guid: 'https://podentender.com/?p=5210'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_026_ecologia_evolutiva.mp3
   disqus: '5210 http://dragoesdegaragem.com/podentender/?p=5210'
   cover:

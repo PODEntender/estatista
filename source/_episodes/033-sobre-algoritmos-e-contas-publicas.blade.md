@@ -9,6 +9,7 @@ episode:
   date: 2018-06-25
   title: 'Sobre algorítmos e contas públicas'
   description: Há pouco mais de uma década, monitorar o uso de dinheiro público exigia muito investimento e muitas horas de profissionais especializados, o que limitava a capacidade de controle social das contas públicas a um grupo muito pequeno de brasileiros e brasileiras. Mas com o avanço da tecnologia, uma parte significativa da população tem acesso a mais poder computacional do que a NASA precisou para mandar o homem à lua. 
+  guid: 'https://podentender.com/?p=5426'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_33.mp3
   disqus: '5426 http://podentender.com/?p=5426'
   cover:

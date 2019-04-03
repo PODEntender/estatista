@@ -9,6 +9,7 @@ episode:
   date: 2016-10-10
   title: 'Sobre sistema de avaliação do CNPq e orçamento do MEC'
   description: Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.
+  guid: 'https://podentender.com/?p=4893'
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_013_NEWS_avaliacao_CNPq_orcamento_MEC.mp3
   disqus: '4893 http://podentender.com/?p=4893'
   cover:
