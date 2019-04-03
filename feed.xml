@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://beta.podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Wed, 03 Apr 2019 23:40:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 23:44:21 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -69,8 +69,8 @@
     <item>
       <guid isPermaLink="false">https://podentender.com/?p=5633</guid>
       <title>Sobre a psicologia do sono</title>
-      <link>https://beta.podentender.com/episodio/psicologia-do-sono</link>
-      <comments>https://beta.podentender.com/episodio/psicologia-do-sono</comments>
+      <link>https://beta.podentender.com/episodio/041-sobre-a-psicologia-do-sono</link>
+      <comments>https://beta.podentender.com/episodio/041-sobre-a-psicologia-do-sono</comments>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3" length="0" type="audio/mpeg"/>
       <itunes:subtitle>Você já se questionou por que nós precisamos dormir? Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono.</itunes:subtitle>
