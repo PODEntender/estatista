@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/PODEntender/blog.svg?branch=master)](https://travis-ci.org/PODEntender/blog)
 
-Blog
+Estatista
 ---
 
 Pacote para geração do blog estático do site [https://podentender.com]().
