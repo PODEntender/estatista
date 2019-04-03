@@ -4,6 +4,8 @@ namespace PODEntender\Feed;
 
 class ChannelBuilder
 {
+    const DATE_FORMAT = 'D, d M Y H:i:s O';
+
     /** @var FeedBuilder */
     private $feedBuilder;
 
@@ -11,30 +13,48 @@ class ChannelBuilder
     private $title;
 
     /** @var string */
-    private $author;
+    private $subtitle;
 
     /** @var string */
-    private $link;
+    private $description;
 
     /** @var string */
-    private $image;
+    private $lastBuildDate;
 
     /** @var string */
-    private $category;
-
-    /** @var string */
-    private $type;
+    private $language;
 
     /** @var string */
     private $generator;
 
     /** @var string */
-    private $language;
+    private $managingEditor;
 
-    /** @var bool */
+    /** @var string */
+    private $imageUrl;
+
+    /** @var string */
+    private $url;
+
+    /** @var string */
+    private $feedUrl;
+
+    /** @var string */
+    private $author;
+
+    /** @var string */
     private $explicit;
 
-    /** @var array FeedItem[] */
+    /** @var string */
+    private $type;
+
+    /** @var string */
+    private $email;
+
+    /** @var string */
+    private $category;
+
+    /** @var ItemBuilder[] */
     private $items = [];
 
     public function __construct(FeedBuilder $feedBuilder)
@@ -48,21 +68,21 @@ class ChannelBuilder
         return $this;
     }
 
-    public function author(string $author): ChannelBuilder
+    public function subtitle(string $subtitle): ChannelBuilder
     {
-        $this->author = $author;
+        $this->subtitle = $subtitle;
         return $this;
     }
 
-    public function link(string $link): ChannelBuilder
+    public function description(string $description): ChannelBuilder
     {
-        $this->link = $link;
+        $this->description = $description;
         return $this;
     }
 
-    public function generator(string $generator): ChannelBuilder
+    public function lastBuildDate(string $lastBuildDate): ChannelBuilder
     {
-        $this->generator = $generator;
+        $this->lastBuildDate = $lastBuildDate;
         return $this;
     }
 
@@ -72,15 +92,45 @@ class ChannelBuilder
         return $this;
     }
 
-    public function image(string $image): ChannelBuilder
+    public function generator(string $generator): ChannelBuilder
     {
-        $this->image = $image;
+        $this->generator = $generator;
         return $this;
     }
 
-    public function category(string $category): ChannelBuilder
+    public function managingEditor(string $managingEditor): ChannelBuilder
     {
-        $this->category = $category;
+        $this->managingEditor = $managingEditor;
+        return $this;
+    }
+
+    public function imageUrl(string $imageUrl): ChannelBuilder
+    {
+        $this->imageUrl = $imageUrl;
+        return $this;
+    }
+
+    public function url(string $url): ChannelBuilder
+    {
+        $this->url = $url;
+        return $this;
+    }
+
+    public function feedUrl(string $feedUrl): ChannelBuilder
+    {
+        $this->feedUrl = $feedUrl;
+        return $this;
+    }
+
+    public function author(string $author): ChannelBuilder
+    {
+        $this->author = $author;
+        return $this;
+    }
+
+    public function explicit(string $explicit): ChannelBuilder
+    {
+        $this->explicit = $explicit;
         return $this;
     }
 
@@ -90,9 +140,15 @@ class ChannelBuilder
         return $this;
     }
 
-    public function explicit(bool $explicit): ChannelBuilder
+    public function email(string $email): ChannelBuilder
     {
-        $this->explicit = $explicit;
+        $this->email = $email;
+        return $this;
+    }
+
+    public function category(string $category): ChannelBuilder
+    {
+        $this->category = $category;
         return $this;
     }
 
@@ -113,24 +169,48 @@ class ChannelBuilder
     {
         $element = $dom->createElement('channel');
         $element->appendChild($dom->createElement('title', $this->title));
-        $element->appendChild($dom->createElement('link', $this->link));
+        $element->appendChild($dom->createElement('link', $this->url));
+        $element->appendChild($dom->createElement('description', $this->description));
+        $element->appendChild($dom->createElement('lastBuildDate', $this->lastBuildDate));
         $element->appendChild($dom->createElement('language', $this->language));
         $element->appendChild($dom->createElement('generator', $this->generator));
-        $element->appendChild($dom->createElement('category', $this->category));
-        $element->appendChild($dom->createElement('type', $this->type));
+        $element->appendChild($dom->createElement('managingEditor', $this->managingEditor));
+        $element->appendChild($dom->createElement('category', htmlentities($this->category)));
 
-        $element->appendChild($dom->createElement('googleplay:author', $this->author));
-        $element->appendChild($dom->createElement('googleplay:category', $this->category));
+        $image = $dom->createElement('image');
+        $image->appendChild($dom->createElement('title', $this->title));
+        $image->appendChild($dom->createElement('url', $this->imageUrl));
+        $image->appendChild($dom->createElement('link', $this->url));
+        $element->appendChild($image);
 
-        if ($this->image) {
-            $googlePlayImage = $dom->createElement('googleplay:image');
-            $googlePlayImage->setAttribute('href', $this->image);
-            $element->appendChild($googlePlayImage);
+        $atomLink = $dom->createElement('atom:link');
+        $atomLink->setAttribute('href', $this->feedUrl);
+        $atomLink->setAttribute('rel', 'self');
+        $atomLink->setAttribute('type', 'application/rss+xml');
+        $element->appendChild($atomLink);
 
-            $image = $dom->createElement('itunes:image');
-            $image->setAttribute('href', $this->image);
-            $element->appendChild($image);
-        }
+        $element->appendChild($dom->createElement('itunes:subtitle', $this->subtitle));
+        $element->appendChild($dom->createElement('itunes:summary', $this->description));
+        $element->appendChild($dom->createElement('itunes:author', $this->author));
+        $element->appendChild($dom->createElement('itunes:explicit', $this->explicit));
+        $element->appendChild($dom->createElement('itunes:type', $this->type));
+
+        $category = $dom->createElement('itunes:category');
+        $category->setAttribute('text', $this->category);
+        $element->appendChild($category);
+
+        $itunesImage = $dom->createElement('itunes:image');
+        $itunesImage->setAttribute('href', $this->imageUrl);
+        $element->appendChild($itunesImage);
+
+
+        $itunesOwner = $dom->createElement('itunes:owner');
+        $itunesOwner->appendChild($dom->createElement('itunes:name', $this->author));
+        $itunesOwner->appendChild($dom->createElement('itunes:email', $this->email));
+        $element->appendChild($itunesOwner);
+
+
+        $element->appendChild($dom->createElement('googleplay:description', $this->description));
 
         foreach ($this->items as $item) {
             $element->appendChild($item->toDOMElement($dom));

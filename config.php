@@ -37,6 +37,7 @@ return [
             ],
         ],
     ],
+    'feed' => require __DIR__ . '/config/feed.php',
     'menu' => [
         'items' => [
             'Sobre' => '/sobre',

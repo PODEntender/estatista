@@ -10,28 +10,36 @@ class ItemBuilder
     private $channelBuilder;
 
     /** @var string */
+    private $guid;
+
+    /** @var string */
     private $title;
+
+    private $subtitle;
 
     /** @var string */
     private $link;
 
     /** @var string */
-    private $cover;
+    private $comments;
+
+    /** @var string */
+    private $pubDate;
+
+    /** @var string */
+    private $description;
 
     /** @var string */
     private $author;
 
     /** @var string */
-    private $summary;
+    private $explicit;
 
     /** @var string */
     private $duration;
 
-    /** @var string */
-    private $guid;
-
-    /** @var string */
-    private $pubDate;
+    /** @var string[] */
+    private $categories = [];
 
     /** @var EnclosureBuilder[] */
     private $enclosures = [];
@@ -41,51 +49,68 @@ class ItemBuilder
         $this->channelBuilder = $channelBuilder;
     }
 
-    public function title(string $title): ItemBuilder
-    {
-        $this->title = $title;
-        return $this;
-    }
-
-    public function link(string $link): ItemBuilder
-    {
-        $this->link = $link;
-        return $this;
-    }
-
-    public function cover(string $cover): ItemBuilder
-    {
-        $this->cover = $cover;
-        return $this;
-    }
-
-    public function author(string $author): ItemBuilder
-    {
-        $this->author = $author;
-        return $this;
-    }
-
-    public function summary(string $summary): ItemBuilder
-    {
-        $this->summary = $summary;
-        return $this;
-    }
-
-    public function duration(string $duration): ItemBuilder
-    {
-        $this->duration = $duration;
-        return $this;
-    }
-
-    public function guid(string $guid): ItemBuilder
+    public function guid(string $guid): self
     {
         $this->guid = $guid;
         return $this;
     }
 
-    public function pubDate(int $time): ItemBuilder
+    public function title(string $title): self
     {
-        $this->pubDate = date(self::DATE_FORMAT, $time);
+        $this->title = $title;
+        return $this;
+    }
+
+    public function subtitle(string $subtitle): self
+    {
+        $this->subtitle = $subtitle;
+        return $this;
+    }
+
+    public function link(string $link): self
+    {
+        $this->link = $link;
+        return $this;
+    }
+
+    public function comments(string $comments): self
+    {
+        $this->comments = $comments;
+        return $this;
+    }
+
+    public function pubDate(string $pubDate): self
+    {
+        $this->pubDate = $pubDate;
+        return $this;
+    }
+
+    public function description(string $description): self
+    {
+        $this->description = $description;
+        return $this;
+    }
+
+    public function author(string $author): self
+    {
+        $this->author = $author;
+        return $this;
+    }
+
+    public function explicit(string $explicit): self
+    {
+        $this->explicit = $explicit;
+        return $this;
+    }
+
+    public function duration(string $duration): self
+    {
+        $this->duration = $duration;
+        return $this;
+    }
+
+    public function addCategory(string $category): self {
+        $this->categories[] = $category;
         return $this;
     }
 
@@ -100,25 +125,29 @@ class ItemBuilder
     public function toDOMElement(\DOMDocument $dom): \DOMElement
     {
         $element = $dom->createElement('item');
+
+        $guid = $dom->createElement('guid', $this->guid);
+        $guid->setAttribute('isPermaLink', 'false');
+        $element->appendChild($guid);
+
         $element->appendChild($dom->createElement('title', $this->title));
         $element->appendChild($dom->createElement('link', $this->link));
-        $element->appendChild($dom->createElement('itunes:author', $this->author));
-        $element->appendChild($dom->createElement('itunes:summary', $this->summary));
-        $element->appendChild($dom->createElement('itunes:duration', $this->duration));
-        $element->appendChild($dom->createElement('guid', $this->guid));
+        $element->appendChild($dom->createElement('comments', $this->comments));
         $element->appendChild($dom->createElement('pubDate', $this->pubDate));
 
-        $element->appendChild($dom->createElement('googleplay:author', $this->author));
-
-        if ($this->cover) {
-            $googlePlayImage = $dom->createElement('googleplay:image');
-            $googlePlayImage->setAttribute('href', $this->cover);
-            $element->appendChild($googlePlayImage);
+        foreach ($this->categories as $category) {
+            $element->appendChild($dom->createElement('category', htmlentities($category)));
         }
 
         foreach ($this->enclosures as $enclosure) {
             $element->appendChild($enclosure->toDOMElement($dom));
         }
+
+        $element->appendChild($dom->createElement('itunes:subtitle', $this->subtitle));
+        $element->appendChild($dom->createElement('itunes:summary', $this->description));
+        $element->appendChild($dom->createElement('itunes:author', $this->author));
+        $element->appendChild($dom->createElement('itunes:explicit', $this->explicit));
+        $element->appendChild($dom->createElement('itunes:duration', $this->duration));
 
         return $element;
     }
