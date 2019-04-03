@@ -22,7 +22,7 @@
 
             @if($episode['timestamp'])
             <time  class="episode-card-compact__release-date" datetime="{{ date('Y-m-d', $episode['timestamp']) }}">
-                {{ date('d \d\e F \d\e Y', $episode['timestamp']) }}
+                {{ strftime('%d de %B de %Y', $episode['timestamp']) }}
             </time>
             @endif
 

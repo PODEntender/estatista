@@ -14,7 +14,7 @@
 
     <small class="episode__cover__details">
         <time property="na:datePublished" datetime="{{ $page->episode['date'] }}" pubdate="pubdate">
-            {{ date('d \d\e F \d\e Y', $page->episode['date']) }}
+            {{ strftime('%d de %B de %Y', $page->episode['date']) }}
         </time>
         | em <a class="episode__cover__details--bold link" href="{{ $page->baseUrl }}/categoria/{{ strtolower($page->category) }}">{{ $page->category }}</a>
     </small>
