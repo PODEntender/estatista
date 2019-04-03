@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/PODEntender/blog.svg?branch=master)](https://travis-ci.org/PODEntender/blog)
+[![Build Status](https://travis-ci.org/PODEntender/estatista.svg?branch=master)](https://travis-ci.org/PODEntender/estatista)
 
 Estatista
 ---
@@ -7,14 +7,14 @@ Pacote para geração do blog estático do site [https://podentender.com]().
 
 Neste projeto encontram-se os posts do site no formato `.blade.md`. Ao atualizar
 qualquer um dos arquivos, o site será gerado novamente através do `Travis CI` e
-publicado no branch [gh-pages](https://github.com/PODEntender/blog/tree/gh-pages). 
+publicado no branch [gh-pages](https://github.com/PODEntender/estatista/tree/gh-pages). 
 
 ### Páginas disponíveis
 
 Para visitar as páginas existentes, recomenda-se (por enquanto) utilizar
 o endereço `/sitemap.xml`. Lá estão listadas as páginas públicas do projeto.
 
-No `gh-pages` o endereço é [public_html/sitemap.xml](https://podentender.github.io/blog/public_html/sitemap.xml). 
+No `gh-pages` o endereço é [public_html/sitemap.xml](https://podentender.github.io/estatista/sitemap.xml). 
 
 ### Tecnologias
 
