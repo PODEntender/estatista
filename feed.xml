@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://beta.podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Wed, 03 Apr 2019 23:26:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 23:40:46 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -28,7 +28,7 @@
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5884</guid>
       <title>Sobre Pesquisa no Ensino Médio e Maracujá #OPodcastÉDelas2019</title>
       <link>https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</link>
       <comments>https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</comments>
@@ -41,7 +41,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5864</guid>
       <title>Ministro da Ciência e Pós-Graduação a Distância</title>
       <link>https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</link>
       <comments>https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</comments>
@@ -54,7 +54,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5677</guid>
       <title>Sobre nazismo e nazistas no Brasil</title>
       <link>https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</link>
       <comments>https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</comments>
@@ -67,7 +67,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/psicologia-do-sono</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5633</guid>
       <title>Sobre a psicologia do sono</title>
       <link>https://beta.podentender.com/episodio/psicologia-do-sono</link>
       <comments>https://beta.podentender.com/episodio/psicologia-do-sono</comments>
@@ -80,7 +80,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5611</guid>
       <title>Sobre aviões, lasers e impressão 3D</title>
       <link>https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</link>
       <comments>https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</comments>
@@ -93,7 +93,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5592</guid>
       <title>Sobre células-tronco, câncer e inteligência artificial</title>
       <link>https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</link>
       <comments>https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</comments>
@@ -106,7 +106,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5429</guid>
       <title>Sobre escravidão e direito de propriedade no Brasil</title>
       <link>https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</link>
       <comments>https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</comments>
@@ -119,7 +119,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5540</guid>
       <title>Sobre linguagem e percepção do mundo</title>
       <link>https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</link>
       <comments>https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</comments>
@@ -132,7 +132,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5491</guid>
       <title>Sobre saúde coletiva e racismo</title>
       <link>https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</link>
       <comments>https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</comments>
@@ -145,7 +145,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5483</guid>
       <title>Sobre vacinação e saúde pública</title>
       <link>https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</link>
       <comments>https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</comments>
@@ -158,7 +158,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5476</guid>
       <title>Sobre a simulação da ONU</title>
       <link>https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</link>
       <comments>https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</comments>
@@ -171,7 +171,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5426</guid>
       <title>Sobre algorítmos e contas públicas</title>
       <link>https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</link>
       <comments>https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</comments>
@@ -184,7 +184,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5425</guid>
       <title>Sobre genômica e envelhecimento</title>
       <link>https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</link>
       <comments>https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</comments>
@@ -197,7 +197,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5451</guid>
       <title>Sobre enzima que degrada plástico, pele impressa em 3d, vacina contra o câncer e reprodutibilidade da ciência brasileira</title>
       <link>https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</link>
       <comments>https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</comments>
@@ -210,7 +210,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5414</guid>
       <title>Sobre diagnóstico rápido do Zika Vírus</title>
       <link>https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</link>
       <comments>https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</comments>
@@ -223,7 +223,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5364</guid>
       <title>Sobre manuscritos do mar morto e demonologia</title>
       <link>https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</link>
       <comments>https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</comments>
@@ -236,7 +236,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5227</guid>
       <title>Sobre Brasil na elite da matemática, febre amarela e novo bloqueio do orçamento</title>
       <link>https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</link>
       <comments>https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</comments>
@@ -249,7 +249,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5219</guid>
       <title>Recados, desculpas e e-mails</title>
       <link>https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</link>
       <comments>https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</comments>
@@ -262,7 +262,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5210</guid>
       <title>Sobre ecologia evolutiva</title>
       <link>https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</link>
       <comments>https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</comments>
@@ -275,7 +275,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5202</guid>
       <title>Sobre relacionamento com a vida acadêmica</title>
       <link>https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</link>
       <comments>https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</comments>
@@ -288,7 +288,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5188</guid>
       <title>Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius</title>
       <link>https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</link>
       <comments>https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</comments>
@@ -301,7 +301,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5175</guid>
       <title>Sobre telômeros e falência da medula óssea</title>
       <link>https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</link>
       <comments>https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</comments>
@@ -314,7 +314,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5163</guid>
       <title>Sobre Zika Vírus e o artigo brasileiro na Nature</title>
       <link>https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</link>
       <comments>https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</comments>
@@ -327,7 +327,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5155</guid>
       <title>Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira</title>
       <link>https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</link>
       <comments>https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</comments>
@@ -340,7 +340,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5146</guid>
       <title>Sobre machismo na ciência brasileira</title>
       <link>https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</link>
       <comments>https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</comments>
@@ -353,7 +353,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/019-sobre-deep-learning</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5138</guid>
       <title>Sobre Deep Learning</title>
       <link>https://beta.podentender.com/episodio/019-sobre-deep-learning</link>
       <comments>https://beta.podentender.com/episodio/019-sobre-deep-learning</comments>
@@ -366,7 +366,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5114</guid>
       <title>Sobre modificação de genomas e CRISPR/Cas9</title>
       <link>https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</link>
       <comments>https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</comments>
@@ -379,7 +379,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=5010</guid>
       <title>Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul</title>
       <link>https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</link>
       <comments>https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</comments>
@@ -392,7 +392,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4926</guid>
       <title>Sobre ciência básica e ciência aplicada</title>
       <link>https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</link>
       <comments>https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</comments>
@@ -405,7 +405,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4916</guid>
       <title>Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA</title>
       <link>https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</link>
       <comments>https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</comments>
@@ -418,7 +418,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/014-sobre-astrobiologia</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4900</guid>
       <title>Sobre astrobiologia</title>
       <link>https://beta.podentender.com/episodio/014-sobre-astrobiologia</link>
       <comments>https://beta.podentender.com/episodio/014-sobre-astrobiologia</comments>
@@ -431,7 +431,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4893</guid>
       <title>Sobre sistema de avaliação do CNPq e orçamento do MEC</title>
       <link>https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</link>
       <comments>https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</comments>
@@ -444,7 +444,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4873</guid>
       <title>Sobre a história da biologia estrutural</title>
       <link>https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</link>
       <comments>https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</comments>
@@ -457,7 +457,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4855</guid>
       <title>Sobre biologia do desenvolvimento</title>
       <link>https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</link>
       <comments>https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</comments>
@@ -470,7 +470,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=4821</guid>
       <title>Sobre Creative Commons e Inovação</title>
       <link>https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</link>
       <comments>https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</comments>
@@ -483,7 +483,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=8</guid>
       <title>Sobre fusão do MCTI, ranking Nature e novos INCTs</title>
       <link>https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</link>
       <comments>https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</comments>
@@ -496,7 +496,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=9</guid>
       <title>Sobre neurociência e calcificação cerebral</title>
       <link>https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</link>
       <comments>https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</comments>
@@ -509,7 +509,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=10</guid>
       <title>Sobre prever epidemias e Epitrack no The Venture</title>
       <link>https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</link>
       <comments>https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</comments>
@@ -522,7 +522,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=11</guid>
       <title>Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde</title>
       <link>https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</link>
       <comments>https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</comments>
@@ -535,7 +535,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=12</guid>
       <title>Sobre saúde mental infantil e autismo</title>
       <link>https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</link>
       <comments>https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</comments>
@@ -548,7 +548,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=13</guid>
       <title>Sobre crowdfunding para diagnóstico de Zika vírus</title>
       <link>https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</link>
       <comments>https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</comments>
@@ -561,7 +561,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=14</guid>
       <title>Sobre oceanografia química</title>
       <link>https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</link>
       <comments>https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</comments>
@@ -574,7 +574,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=15</guid>
       <title>Sobre abelhas e polinização</title>
       <link>https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</link>
       <comments>https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</comments>
@@ -587,7 +587,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=16</guid>
       <title>Sobre evolução de proteínas</title>
       <link>https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</link>
       <comments>https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</comments>
@@ -600,7 +600,7 @@
       <itunes:duration>00:00:00</itunes:duration>
     </item>
     <item>
-      <guid isPermaLink="false">https://beta.podentender.com/episodio/000-meca-suas-pesquisas</guid>
+      <guid isPermaLink="false">https://podentender.com/?p=20</guid>
       <title>Meça suas pesquisas</title>
       <link>https://beta.podentender.com/episodio/000-meca-suas-pesquisas</link>
       <comments>https://beta.podentender.com/episodio/000-meca-suas-pesquisas</comments>
