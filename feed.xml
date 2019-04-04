@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://beta.podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Thu, 04 Apr 2019 00:01:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:31:37 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,19 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5891</guid>
+      <title>PODEntender #45 sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019</title>
+      <link>https://beta.podentender.com/episodio/045-podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019</link>
+      <comments>https://beta.podentender.com/episodio/045-podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019</comments>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_45.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Giovanna Merli pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse espaço poderia ser melhor.</itunes:subtitle>
+      <itunes:summary>Giovanna Merli pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse espaço poderia ser melhor.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
     <item>
       <guid isPermaLink="false">https://podentender.com/?p=5884</guid>
       <title>Sobre Pesquisa no Ensino Médio e Maracujá #OPodcastÉDelas2019</title>
