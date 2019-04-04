@@ -1,1010 +1,616 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
-xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
->
-
-<channel>
-	<title>Podcast de divulgação científica | PODEntender</title>
-	<atom:link href="http://podentender.com/feed" rel="self" type="application/rss+xml" />
-	<link>https://podentender.com</link>
-	<description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-	<lastBuildDate>Sat, 30 Mar 2019 13:33:43 +0000</lastBuildDate>
-	<language>pt-BR</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0.4</generator>
-
-<image>
-	<url>https://podentender.com/wp-content/uploads/2016/06/cropped-FAVICON_Itunes-1-32x32.png</url>
-	<title>Podcast de divulgação científica | PODEntender</title>
-	<link>https://podentender.com</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-<!-- podcast_generator="Blubrry PowerPress/7.4" mode="advanced" feedslug="feed" Blubrry PowerPress Podcasting plugin for WordPress (https://www.blubrry.com/powerpress/) -->
-	<itunes:summary>O PODEntender é um podcast de divulgação científica que tem como principal objetivo apresentar e aproximar a realidade da ciência brasileira para o público brasileiro. Neste podcast, nós alternamos os episódios entre três formatos de programa: 1) o PODEntender [Entrevistas], no qual trazemos cientistas brasileiros para conversar sobre seus trabalhos, o 2) PODEntender [DROPS], no qual conversamos sobre os mais diversos temas relacionado à ciência e o 3) PODEntender [NEWS], no qual comentamos notícias relacionadas ao mundo da ciência brasileira. Destacamos que esse podcast foi vencedor dos prêmios &quot;Jaleco de Ouro&quot; edição 2016, &quot;Best Procastinator of the Year&quot; edição 2017 e concorre na categoria &quot;Mas, só estuda?&quot; na prestigiosa premiação Lattes de Ouro deste ano.</itunes:summary>
-	<itunes:author>PODEntender</itunes:author>
-	<itunes:explicit>clean</itunes:explicit>
-	<itunes:image href="http://podentender.com/wp-content/uploads/powerpress/favcom.png" />
-	<itunes:type>episodic</itunes:type>
-	<itunes:owner>
-		<itunes:name>PODEntender</itunes:name>
-		<itunes:email>amdnsk@gmail.com</itunes:email>
-	</itunes:owner>
-	<managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
-	<itunes:subtitle>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:subtitle>
-	<image>
-		<title>Podcast de divulgação científica | PODEntender</title>
-		<url>http://podentender.com/wp-content/uploads/powerpress/favcom.png</url>
-		<link>https://podentender.com</link>
-	</image>
-	<itunes:category text="Science &amp; Medicine">
-	</itunes:category>
-	<googleplay:description>O PODEntender é um podcast de divulgação científica que tem como principal objetivo apresentar e aproximar a realidade da ciência brasileira para o público brasileiro. Neste podcast, nós alternamos os episódios entre três formatos de programa: 1) o PODEntender [Entrevistas], no qual trazemos cientistas brasileiros para conversar sobre seus trabalhos, o 2) PODEntender [DROPS], no qual conversamos sobre os mais diversos temas relacionado à ciência e o 3) PODEntender [NEWS], no qual comentamos notícias relacionadas ao mundo da ciência brasileira. Destacamos que esse podcast foi vencedor dos prêmios &amp;quot;Jaleco de Ouro&amp;quot; edição 2016, &amp;quot;Best Procastinator of the Year&amp;quot; edição 2017 e concorre na categoria &amp;quot;Mas, só estuda?&amp;quot; na prestigiosa premiação Lattes de Ouro deste ano.</googleplay:description>
-	<item>
-		<title>PODEntender #45 sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019</title>
-		<link>https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html</link>
-		<comments>https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html#respond</comments>
-		<pubDate>Wed, 27 Mar 2019 21:56:42 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Drops]]></category>
-		<category><![CDATA[Podcast]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5891</guid>
-		<description><![CDATA[<p>Neste episódio conversamos com Giovanna Merli, Mestre em Arquitetura e Urbanismo pela Universidade Federal de Uberlândia. Ela pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html">PODEntender #45 sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[
-<p>Neste episódio conversamos com Giovanna Merli, Mestre em Arquitetura e Urbanismo pela Universidade Federal de Uberlândia. Ela pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse espaço poderia ser melhor.</p>
-
-
-
-<p>Junte-se a Antonio Marinho e Carol Lacerda e venha descobrir mais sobre as cidades e a ocupação dos espaços urbanos pelas mulheres.</p>
-
-
-
-<h2 id="mce_7">Comentado no episódio</h2>
-
-
-
-<ul><li><a href="https://repositorio.ufu.br/handle/123456789/23988">Dissertação de mestrado de Giovanna</a></li></ul>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html">PODEntender #45 sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_45.mp3" length="110857241" type="audio/mpeg" />
-		<itunes:subtitle>Neste episódio conversamos com Giovanna Merli, Mestre em Arquitetura e Urbanismo pela Universidade Federal de Uberlândia. Ela pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam,</itunes:subtitle>
-		<itunes:summary><![CDATA[<br />
-Neste episódio conversamos com Giovanna Merli, Mestre em Arquitetura e Urbanismo pela Universidade Federal de Uberlândia. Ela pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse espaço poderia ser melhor.<br />
-<br />
-<br />
-<br />
-Junte-se a Antonio Marinho e Carol Lacerda e venha descobrir mais sobre as cidades e a ocupação dos espaços urbanos pelas mulheres.<br />
-<br />
-<br />
-<br />
-Comentado no episódio<br />
-<br />
-<br />
-<br />
-* <a href="https://repositorio.ufu.br/handle/123456789/23988">Dissertação de mestrado de Giovanna</a><br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:34:15</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #44 sobre Pesquisa no ensino médio e maracujá #OPodcastÉDelas2019</title>
-		<link>https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html</link>
-		<comments>https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html#respond</comments>
-		<pubDate>Tue, 12 Mar 2019 22:23:36 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Entrevista]]></category>
-		<category><![CDATA[Podcast]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5884</guid>
-		<description><![CDATA[<p>Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista. Aluna do Instituto Federal de Educação [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html">PODEntender #44 sobre Pesquisa no ensino médio e maracujá #OPodcastÉDelas2019</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[
-<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="https://podentender.com/wp-content/uploads/2019/03/maracuja.jpg" alt="" data-id="5885" data-link="https://podentender.com/?attachment_id=5885" class="wp-image-5885"/></figure></li></ul>
-
-
-
-<p>Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista. <br> Aluna do Instituto Federal de Educação do Rio Grande do Sul do campus de Osório, Juliana desenvolveu um filme plástico biodegradável a partir do resíduo agroindustrial do maracujá.<br> Além da importância de seu trabalho para o desenvolvimento de uma agricultura familiar sustentável, a redução do impacto de plásticos no meio ambiente e seu olhar sobre aquilo que é descartado/ não aproveitado, também conversamos sobre o futuro e seus planos de vida.<br> Venha com a gente conhecer um pouco mais sobre a trajetória desta jovem pesquisadora e se prepare para dizer por aí que entende bastante sobre o trabalho de nossa representante na cerimônia de premiação do Nobel que ocorrerá em Dezembro de 2019.<br> Foto: Divulgação / IFRS</p>
-
-
-
-<h2>Comentado no episódio</h2>
-
-
-
-<ul><li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8479033E4">Currículo Lattes de Juliana</a></li><li><a href="http://www.jovemcientista.cnpq.br/">Prêmio Jovem Cientistas</a></li><li><a href="https://twitter.com/julianadiota">Twitter </a>e <a href="https://www.instagram.com/juestradioto/">Instagram</a> de Juliana</li></ul>
-
-
-
-<h2>Super pesquisa PODEntender</h2>
-
-
-
-<p>Se você ainda não respondeu, não esqueça de dar seu alô na nossa super pesquisa PODEntender através <a href="http://bit.ly/PesquisaPODEntender">desse link</a>.</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html">PODEntender #44 sobre Pesquisa no ensino médio e maracujá #OPodcastÉDelas2019</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_44.mp3" length="147030178" type="audio/mpeg" />
-		<itunes:subtitle>Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista.</itunes:subtitle>
-		<itunes:summary><![CDATA[<br />
-<br />
-<br />
-<br />
-<br />
-Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista. <br> Aluna do Instituto Federal de Educação do Rio Grande do Sul do campus de Osório, Juliana desenvolveu um filme plástico biodegradável a partir do resíduo agroindustrial do maracujá.<br> Além da importância de seu trabalho para o desenvolvimento de uma agricultura familiar sustentável, a redução do impacto de plásticos no meio ambiente e seu olhar sobre aquilo que é descartado/ não aproveitado, também conversamos sobre o futuro e seus planos de vida.<br> Venha com a gente conhecer um pouco mais sobre a trajetória desta jovem pesquisadora e se prepare para dizer por aí que entende bastante sobre o trabalho de nossa representante na cerimônia de premiação do Nobel que ocorrerá em Dezembro de 2019.<br> Foto: Divulgação / IFRS<br />
-<br />
-<br />
-<br />
-Comentado no episódio<br />
-<br />
-<br />
-<br />
-* <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8479033E4">Currículo Lattes de Juliana</a>* <a href="http://www.jovemcientista.cnpq.br/">Prêmio Jovem Cientistas</a>* <a href="https://twitter.com/julianadiota">Twitter </a>e <a href="https://www.instagram.com/juestradioto/">Instagram</a> de Juliana<br />
-<br />
-<br />
-<br />
-Super pesquisa PODEntender<br />
-<br />
-<br />
-<br />
-Se você ainda não respondeu, não esqueça de dar seu alô na nossa super pesquisa PODEntender através <a href="http://bit.ly/PesquisaPODEntender">desse link</a>.<br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>2:06:49</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #43 Ministro da Ciência e Pós-Graduação à Distância</title>
-		<link>https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html</link>
-		<comments>https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html#respond</comments>
-		<pubDate>Mon, 25 Feb 2019 10:05:14 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Podcast]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5864</guid>
-		<description><![CDATA[<p>Neste episódio de notícias do PODEntender Antônio Marinho (Tonho) e Carol Lacerda (10 dan do Kumon) comentam sobre dois ocorridos recentes muito importantes para o andamento da ciência no Brasil. Na primeira parte é comentado sobre a entrevista do ministro [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html">PODEntender #43 Ministro da Ciência e Pós-Graduação à Distância</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://podentender.com/wp-content/uploads/2019/02/43-news-site.jpg" alt="" class="wp-image-5865"/><figcaption>Capa do episódio: News, PODEntender #043.</figcaption></figure></div>
-
-
-
-<p>Neste episódio de notícias do PODEntender Antônio Marinho (Tonho) e Carol Lacerda (10 dan do Kumon) comentam sobre dois ocorridos recentes muito importantes para o andamento da ciência no Brasil.</p>
-
-
-
-<p>Na primeira parte é comentado sobre a entrevista do ministro Marcos Pontes ao Jornal da Ciência, onde comentou sobre os planos de sua Pasta para o ano de 2019. Seguido de matéria sobre a liberação de cursos de pós-graduação para a modalidade à distância. A seguir um pequeno resumo sobre o que foi comentado no episódio.</p>
-
-
-
-<h2>Ministério da Ciência quer aumentar participação do setor privado</h2>
-
-
-
-<p>O atual ministro da ciência e tecnologia, Marcos Pontes, foi recentemente entrevistado pelo Jornal da Ciência e esclareceu algumas de suas ambições para o ano de 2019. O Ministro quer ampliar o protagonismo da ciência na economia do país.</p>
-
-
-
-<p>Pontes pontua que o ministério sofreu cortes durante os últimos anos que o levaram a um ponto em que se faz necessário recuperar a importância da ciência no Brasil. E é isso que pretende fazer durante o ano de 2019.</p>
-
-
-
-<p>O ministro aponta a importância em aproximar o ministério da ciência e tecnologia com o da economia, e que pretende estabelecer um contato constante com o ministro Paulo Guedes. A intenção é de melhorar o orçamento para 2020 ao apresentar os resultados dos planos de 2019.</p>
-
-
-
-<p>A comunicação constante com Paulo Guedes visa também recuperar os investimentos em pesquisa destinados ao CNPq, órgão essencial para o desenvolvimento de pesquisa básica no Brasil. O orçamento aprovado no ano passado não pode ser modificado pelo ministério da ciência, diz Pontes.</p>
-
-
-
-<p>Através da aproximação do setor privado à pesquisa e desenvolvimento, o plano de Marcos Pontes é de elevar o investimento de 1,3% do PIB para 2%. Para ele as pesquisas que dão retorno financeiro irão atrair cada vez mais o investimento do setor privado na área.</p>
-
-
-
-<p>O ministro também fala sobre a aproximação de seu ministério com o Ministério da Educação, através da qual pretende levar a ciência e tecnologia para as escolas de ensino fundamental e médio. A ideia é atrair mais jovens a seguir a carreira científica.</p>
-
-
-
-<h2>Capes regulamenta pós-graduação a distância</h2>
-
-
-
-<p>Desde o fim do ano passado (2018) a Capes aprovou a regulamentação do ensino de pós-graduação <em>stricto sensu</em> na modalidade a distância para instituições de ensino superior no Brasil.</p>
-
-
-
-<p>O vice-presidente de operações de EAD da Estácio, Adriano Pistore, indica que a mudança é muito positiva, e que atualmente os alunos de pós-graduação já contam com uma autonomia muito grande e muitas vezes a distância.</p>
-
-
-
-<p>A medida visa aumentar a oferta de cursos de mestrado e doutorado em regiões onde há carência em determinados tipos de curso. Tais cursos ainda assim requerem atividades presenciais como estágio obrigatório, seminários e pesquisa de campo.</p>
-
-
-
-<p>Ainda em dezembro de 2018 o governo federal aumentou para 40% a carga horária a distância para graduações presenciais. A porcentagem anterior era de 20%. Essa medida pode aquecer o mercado de EAD e auxiliar na consolidação do ensino híbrido no Brasil.</p>
-
-
-
-<h2>Comentado no episódio</h2>
-
-
-
-<ul><li><a href="http://www.jornaldaciencia.org.br/precisamos-recuperar-o-prestigio-da-ciencia-brasileira-afirma-marcos-pontes/">Entrevista com ministro Marcos Pontes</a></li><li><a href="https://desafiosdaeducacao.com.br/mestrados-doutorados-ead-no-brasil/">Matéria sobre pós graduação EAD</a></li><li><a href="https://www.facebook.com/bioinformaticabr">Projeto Bioinformática Brasil</a></li><li><a href="https://www.youtube.com/channel/UCdgCNb87T4I-303KHF6FBhw">Canal Porta afora</a></li><li><a href="https://www.imdb.com/title/tt7825208/">Filme Marighella</a></li></ul>
-
-
-
-<h2>Super pesquisa PODEntender</h2>
-
-
-
-<p>Se você ainda não respondeu, não esqueça de dar seu alô na nossa super pesquisa PODEntender através <a href="http://bit.ly/PesquisaPODEntender">desse link</a>.</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html">PODEntender #43 Ministro da Ciência e Pós-Graduação à Distância</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_43.mp3" length="78218787" type="audio/mpeg" />
-		<itunes:subtitle>Neste episódio de notícias do PODEntender Antônio Marinho (Tonho) e Carol Lacerda (10 dan do Kumon) comentam sobre dois ocorridos recentes muito importantes para o andamento da ciência no Brasil. Na primeira parte é comentado sobre a entrevista do mini...</itunes:subtitle>
-		<itunes:summary><![CDATA[<br />
-Capa do episódio: News, PODEntender #043.<br />
-<br />
-<br />
-<br />
-Neste episódio de notícias do PODEntender Antônio Marinho (Tonho) e Carol Lacerda (10 dan do Kumon) comentam sobre dois ocorridos recentes muito importantes para o andamento da ciência no Brasil.<br />
-<br />
-<br />
-<br />
-Na primeira parte é comentado sobre a entrevista do ministro Marcos Pontes ao Jornal da Ciência, onde comentou sobre os planos de sua Pasta para o ano de 2019. Seguido de matéria sobre a liberação de cursos de pós-graduação para a modalidade à distância. A seguir um pequeno resumo sobre o que foi comentado no episódio.<br />
-<br />
-<br />
-<br />
-Ministério da Ciência quer aumentar participação do setor privado<br />
-<br />
-<br />
-<br />
-O atual ministro da ciência e tecnologia, Marcos Pontes, foi recentemente entrevistado pelo Jornal da Ciência e esclareceu algumas de suas ambições para o ano de 2019. O Ministro quer ampliar o protagonismo da ciência na economia do país.<br />
-<br />
-<br />
-<br />
-Pontes pontua que o ministério sofreu cortes durante os últimos anos que o levaram a um ponto em que se faz necessário recuperar a importância da ciência no Brasil. E é isso que pretende fazer durante o ano de 2019.<br />
-<br />
-<br />
-<br />
-O ministro aponta a importância em aproximar o ministério da ciência e tecnologia com o da economia, e que pretende estabelecer um contato constante com o ministro Paulo Guedes. A intenção é de melhorar o orçamento para 2020 ao apresentar os resultados dos planos de 2019.<br />
-<br />
-<br />
-<br />
-A comunicação constante com Paulo Guedes visa também recuperar os investimentos em pesquisa destinados ao CNPq, órgão essencial para o desenvolvimento de pesquisa básica no Brasil. O orçamento aprovado no ano passado não pode ser modificado pelo ministério da ciência, diz Pontes.<br />
-<br />
-<br />
-<br />
-Através da aproximação do setor privado à pesquisa e desenvolvimento, o plano de Marcos Pontes é de elevar o investimento de 1,3% do PIB para 2%. Para ele as pesquisas que dão retorno financeiro irão atrair cada vez mais o investimento do setor privado na área.<br />
-<br />
-<br />
-<br />
-O ministro também fala sobre a aproximação de seu ministério com o Ministério da Educação, através da qual pretende levar a ciência e tecnologia para as escolas de ensino fundamental e médio. A ideia é atrair mais jovens a seguir a carreira científica.<br />
-<br />
-<br />
-<br />
-Capes regulamenta pós-graduação a distância<br />
-<br />
-<br />
-<br />
-Desde o fim do ano passado (2018) a Capes aprovou a regulamentação do ensino de pós-graduação stricto sensu na modalidade a distância para instituições de ensino superior no Brasil.<br />
-<br />
-<br />
-<br />
-O vice-presidente de operações de EAD da Estácio, Adriano Pistore, indica que a mudança é muito positiva, e que atualmente os alunos de pós-graduação já contam com uma autonomia muito grande e muitas vezes a distância.<br />
-<br />
-<br />
-<br />
-A medida visa aumentar a oferta de cursos de mestrado e doutorado em regiões onde há carência em determinados tipos de curso. Tais cursos ainda assim requerem atividades presenciais como estágio obrigatório, seminários e pesquisa de campo.<br />
-<br />
-<br />
-<br />
-Ainda em dezembro de 2018 o governo federal aumentou para 40% a carga horária a distância para graduações presenciais. A porcentagem anterior era de 20%. Essa medida pode aquecer o mercado de EAD e auxiliar na consolidação do ensino híbrido no Brasil.<br />
-<br />
-<br />
-<br />
-Comentado no episódio<br />
-<br />
-<br />
-<br />
-* <a href="http://www.jornaldaciencia.org.br/precisamos-recuperar-o-prestigio-da-ciencia-brasileira-afirma-marcos-pontes/">Entrevista com ministro Marcos Pontes</a>* <a href="https://desafiosdaeducacao.com.br/mestrados-doutorados-ead-no-brasil/">Matéria sobre pós graduação EAD</a>* <a href="https://www.facebook.com/bioinformaticabr">Projeto Bioinformática Brasil</a>* <a href="https://www.youtube.com/channel/UCdgCNb87T4I-303KHF6FBhw">Canal Porta a...]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:07:12</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #042 sobre nazismo e nazistas no Brasil</title>
-		<link>https://podentender.com/2019/02/42-felipe-abal-sobre-nazismo-e-nazistas-no-brasil.html</link>
-		<comments>https://podentender.com/2019/02/42-felipe-abal-sobre-nazismo-e-nazistas-no-brasil.html#respond</comments>
-		<pubDate>Mon, 11 Feb 2019 22:25:45 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Drops]]></category>
-		<category><![CDATA[Podcast]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5677</guid>
-		<description><![CDATA[<p>O período entre 1920 e 1945 ficará marcado para sempre na história da humanidade como o regime nazifascista. O nazifascismo foi uma doutrina política totalitária, nacionalista, anticomunista e é responsável pelo mais conhecido genocídio da história. Nessa época, o Brasil [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/02/42-felipe-abal-sobre-nazismo-e-nazistas-no-brasil.html">PODEntender #042 sobre nazismo e nazistas no Brasil</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="aligncenter is-resized"><img src="https://podentender.com/wp-content/uploads/2019/02/Podcast-sobre-nazismo-e-nazistas-no-Brasil.jpg" alt="Podcast de ciência sobre nazismo e nazistas no Brasil com Felipe Abal. " class="wp-image-5678" width="1024" height="768"/><figcaption>Capa do episódio 42: Nazismo e nazistas no Brasil, com Felipe Abal.<br></figcaption></figure></div>
-
-
-
-<p>O período entre <strong>1920 e 1945</strong> ficará marcado para sempre na história da humanidade como o <strong>regime nazifascista</strong>. O nazifascismo foi uma doutrina política totalitária, nacionalista, anticomunista e é responsável pelo mais conhecido genocídio da história.</p>
-
-
-
-<p>Nessa época, <strong>o Brasil temia uma grande revolução comunista</strong> no país e seu então presidente Getúlio Vargas admirava algumas posições do regime nazifascista. Foi tamanha a admiração que o Brasil só entrou em guerra contra o Eixo próximo ao seu fim em 1942, tendo o Brasil prestado visitas a campos de concentração anteriormente.</p>
-
-
-
-<p>Neste episódio conversamos com <strong>Felipe Cittolin Abal</strong> (Universidade de Passo Fundo &#8211; UPF) para entender sua pesquisa sobre a história de dois <strong>ex-agentes da </strong><em><strong>Schutzstaffel</strong></em><strong> (SS)</strong> que <strong>se abrigaram no Brasil</strong>. Gustav Wagner foi subcomandante no campo de extermínio em Sobibor, enquanto Franz Stangl havia sido comandante dos campos de extermínio de Sobibor e Treblinka e mais tarde viria a trabalhar na Volkswagen do Brasil.</p>
-
-
-
-<br>
-
-
-
-<h2>Franz Stangl foi um dentre vários nazistas na América Latina</h2>
-
-
-
-<p>Felipe explica que <strong>Franz Stangl</strong> monitorou os funcionários para que cooperassem com o regime militar brasileiro na Volkswagen do Brasil. Porém não se tem certeza de que a empresa conhecia o passado do austríaco.</p>
-
-
-
-<p>Conversamos também sobre a trajetória de <strong>Gustav Wagner</strong> antes e depois de sua fuga ao Brasil, como foi reconhecido anos depois por uma de suas vítimas e como se deu seu processo de extradição que custou anos, muitos esforços e nunca foi concluído.</p>
-
-
-
-<p>Junte-se a Antonio Marinho (Tonho), Carol Lacerda (10° dan do Kumon), Fabio Neves (Dalton) nesta conversa com Felipe Abal, doutor em história pela Universidade de Passo Fundo, para entender melhor como ocorreram estes processos e aprender sobre diversas outras curiosidades sobre nazistas que fugiram para a América Latina após a Segunda Guerra Mundial.</p>
-
-
-
-<p>Escute o podcast também no <a rel="noreferrer noopener" href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank"><strong>Spotify</strong></a>!</p>
-
-
-
-<p><strong>Comentado no episódio:</strong></p>
-
-
-
-<ul><li>Entre em contato com Felipe Abal: <a href="https://twitter.com/abalfelipe">Twitter</a> | <a href="https://marcianazambillo.academia.edu/FelipeAbal">Academia</a> | <a href="https://felipeabal.com/">Site</a><a href="http://twitter.com/viracasacas"></a></li><li><a href="http://viracasacas.com/">Podcast Viracasacas</a> | <a href="http://twitter.com/viracasacas">@viracasacas</a></li></ul>
-
-
-
-<br>
-
-
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&#038;OneJS=1&#038;Operation=GetAdHtml&#038;MarketPlace=BR&#038;source=ac&#038;ref=tf_til&#038;ad_type=product_link&#038;tracking_id=podentender0e-20&#038;marketplace=amazon&#038;region=BR&#038;placement=B07L5V83V9&#038;asins=B07L5V83V9&#038;linkId=af684159eff1cde3616aa44fa5cd45a4&#038;show_border=false&#038;link_opens_in_new_window=true&#038;price_color=333333&#038;title_color=0066c0&#038;bg_color=ffffff">
-    </iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&#038;OneJS=1&#038;Operation=GetAdHtml&#038;MarketPlace=BR&#038;source=ac&#038;ref=tf_til&#038;ad_type=product_link&#038;tracking_id=podentender0e-20&#038;marketplace=amazon&#038;region=BR&#038;placement=8536245484&#038;asins=8536245484&#038;linkId=051f06174a9b03b661f4af97be0af192&#038;show_border=false&#038;link_opens_in_new_window=true&#038;price_color=333333&#038;title_color=0066c0&#038;bg_color=ffffff">
-    </iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&#038;OneJS=1&#038;Operation=GetAdHtml&#038;MarketPlace=BR&#038;source=ac&#038;ref=tf_til&#038;ad_type=product_link&#038;tracking_id=podentender0e-20&#038;marketplace=amazon&#038;region=BR&#038;placement=8562696129&#038;asins=8562696129&#038;linkId=7d8e331d37d889da4d35bbf206183f93&#038;show_border=false&#038;link_opens_in_new_window=true&#038;price_color=333333&#038;title_color=0066c0&#038;bg_color=ffffff">
-    </iframe>
-<br>
-
-
-
-<p><strong>Indicações indicativas:</strong></p>
-
-
-
-<ul><li><a href="https://open.spotify.com/artist/5A70LBFCFtNwOmbPj5g5uc">Dona Onete</a> &#8211; <a href="https://iradex.net/17304/aos-30-00-desgracadamente-maravilhosa/">Podcast Aos 30</a></li><li><a href="https://www.youtube.com/channel/UC0fGGprihDIlQ3ykWvcb9hg">Tese Onze </a></li></ul>
-
-
-
-<p><strong>Fale com o PODEntender:</strong></p>
-
-
-
-<ul><li><a rel="noreferrer noopener" href="https://twitter.com/PODEntender" target="_blank">Twitter do PODEntender</a></li><li><a rel="noreferrer noopener" href="https://www.facebook.com/podentender/" target="_blank">Facebook do PODEntender</a></li><li><a rel="noreferrer noopener" href="https://www.instagram.com/podentender/" target="_blank">Instagram do PODEntender</a></li><li><a rel="noreferrer noopener" href="https://www.facebook.com/groups/167741300540604/" target="_blank">O maior grupo em linha reta da América Latina</a></li><li><a rel="noreferrer noopener" href="https://twitter.com/carollacerda" target="_blank">Carol</a>&nbsp;|&nbsp;<a rel="noreferrer noopener" href="https://twitter.com/fb_dalton" target="_blank">Dalton</a>&nbsp;|&nbsp;<a rel="noreferrer noopener" href="https://twitter.com/katarinaholanda" target="_blank">Katarina</a>&nbsp;|&nbsp;<a rel="noreferrer noopener" href="https://twitter.com/tonhodomar" target="_blank">Tonho</a>&nbsp;|&nbsp;<a rel="noreferrer noopener" href="https://twitter.com/ferbachega" target="_blank">Bachega</a>&nbsp;|&nbsp;<a rel="noreferrer noopener" href="https://twitter.com/tchecao" target="_blank">Thiago</a>&nbsp;| <a rel="noreferrer noopener" href="https://twitter.com/nawarian" target="_blank">Nawarian</a></li></ul>
-
-
-
-<p></p>
-
-
-
-<p><strong>Participe&nbsp;da&nbsp;nossa&nbsp;pesquisa&nbsp;de&nbsp;ouvintes!</strong></p>
-
-
-
-<center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqtg2Qqvx3iYCe_HWIQCe3QGKsmO_Ic_IRluz0Fa1-0lxglA/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-
-
-
-<p></p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2019/02/42-felipe-abal-sobre-nazismo-e-nazistas-no-brasil.html">PODEntender #042 sobre nazismo e nazistas no Brasil</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2019/02/42-felipe-abal-sobre-nazismo-e-nazistas-no-brasil.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_42.mp3" length="125814680" type="audio/mpeg" />
-		<itunes:subtitle>O período entre 1920 e 1945 ficará marcado para sempre na história da humanidade como o regime nazifascista. O nazifascismo foi uma doutrina política totalitária, nacionalista, anticomunista e é responsável pelo mais conhecido genocídio da história.</itunes:subtitle>
-		<itunes:summary><![CDATA[<br />
-Capa do episódio 42: Nazismo e nazistas no Brasil, com Felipe Abal.<br><br />
-<br />
-<br />
-<br />
-O período entre 1920 e 1945 ficará marcado para sempre na história da humanidade como o regime nazifascista. O nazifascismo foi uma doutrina política totalitária, nacionalista, anticomunista e é responsável pelo mais conhecido genocídio da história.<br />
-<br />
-<br />
-<br />
-Nessa época, o Brasil temia uma grande revolução comunista no país e seu então presidente Getúlio Vargas admirava algumas posições do regime nazifascista. Foi tamanha a admiração que o Brasil só entrou em guerra contra o Eixo próximo ao seu fim em 1942, tendo o Brasil prestado visitas a campos de concentração anteriormente.<br />
-<br />
-<br />
-<br />
-Neste episódio conversamos com Felipe Cittolin Abal (Universidade de Passo Fundo &#8211; UPF) para entender sua pesquisa sobre a história de dois ex-agentes da Schutzstaffel (SS) que se abrigaram no Brasil. Gustav Wagner foi subcomandante no campo de extermínio em Sobibor, enquanto Franz Stangl havia sido comandante dos campos de extermínio de Sobibor e Treblinka e mais tarde viria a trabalhar na Volkswagen do Brasil.<br />
-<br />
-<br />
-<br />
-<br><br />
-<br />
-<br />
-<br />
-Franz Stangl foi um dentre vários nazistas na América Latina<br />
-<br />
-<br />
-<br />
-Felipe explica que Franz Stangl monitorou os funcionários para que cooperassem com o regime militar brasileiro na Volkswagen do Brasil. Porém não se tem certeza de que a empresa conhecia o passado do austríaco.<br />
-<br />
-<br />
-<br />
-Conversamos também sobre a trajetória de Gustav Wagner antes e depois de sua fuga ao Brasil, como foi reconhecido anos depois por uma de suas vítimas e como se deu seu processo de extradição que custou anos, muitos esforços e nunca foi concluído.<br />
-<br />
-<br />
-<br />
-Junte-se a Antonio Marinho (Tonho), Carol Lacerda (10° dan do Kumon), Fabio Neves (Dalton) nesta conversa com Felipe Abal, doutor em história pela Universidade de Passo Fundo, para entender melhor como ocorreram estes processos e aprender sobre diversas outras curiosidades sobre nazistas que fugiram para a América Latina após a Segunda Guerra Mundial.<br />
-<br />
-<br />
-<br />
-Escute o podcast também no <a rel="noreferrer noopener" href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank">Spotify</a>!<br />
-<br />
-<br />
-<br />
-Comentado no episódio:<br />
-<br />
-<br />
-<br />
-* Entre em contato com Felipe Abal: <a href="https://twitter.com/abalfelipe">Twitter</a> | <a href="https://marcianazambillo.academia.edu/FelipeAbal">Academia</a> | <a href="https://felipeabal.com/">Site</a><a href="http://twitter.com/viracasacas"></a>* <a href="http://viracasacas.com/">Podcast Viracasacas</a> | <a href="http://twitter.com/viracasacas">@viracasacas</a><br />
-<br />
-<br />
-<br />
-<br><br />
-<br />
-<br />
-<br />
-<br />
-    <br />
-<br />
-    <br />
-<br />
-    <br />
-<br><br />
-<br />
-<br />
-<br />
-Indicações indicativas:<br />
-<br />
-<br />
-<br />
-* <a href="https://open.spotify.com/artist/5A70LBFCFtNwOmbPj5g5uc">Dona Onete</a> &#8211; <a href="https://iradex.net/17304/aos-30-00-desgracadamente-maravilhosa/">Podcast Aos 30</a>* <a href="https://www.youtube.com/channel/UC0fGGprihDIlQ3ykWvcb9hg">Tese Onze </a><br />
-<br />
-<br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-<br />
-<br />
-* <a rel="noreferrer noopener" href="https://twitter.com/PODEntender" target="_blank">Twitter do PODEntender</a>* <a rel="noreferrer noopener" href="https://www.facebook.com/podentender/" target="_blank">Facebook do PODEntender</a>* <a rel="noreferrer noopener" href="https://www.instagram.com/podentender/" target="_blank">Instagram do PODEntender</a>* <a rel="noreferrer noopener" href="https://www.facebook.com/groups/167741300540604/" target="_blank">O maior grupo em linha reta da América Latina</a>* <a rel="noreferrer noopener" href="https://twitter.com/carollacerda" target="_blank">Carol</a>&nbsp;|&nbsp;<a rel="noreferrer noopene...]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:52:02</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #041 sobre porque dormimos</title>
-		<link>https://podentender.com/2018/12/psicologia-do-sono.html</link>
-		<comments>https://podentender.com/2018/12/psicologia-do-sono.html#respond</comments>
-		<pubDate>Sun, 30 Dec 2018 20:21:12 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Entrevista]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[Altay de Souza]]></category>
-		<category><![CDATA[Ciências humanas]]></category>
-		<category><![CDATA[Psicologia Experimental]]></category>
-		<category><![CDATA[Sono]]></category>
-		<category><![CDATA[USP]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5633</guid>
-		<description><![CDATA[<p>Você já se questionou por que nós precisamos dormir? Infelizmente, não temos uma resposta definitiva, mas existem pesquisadores(as) tentando responder essa pergunta e neste episódio você vai conhecer um deles. Junte-se a Antonio Marinho (Tonho), Fabio Neves (Dalton), Carol Lacerda [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/12/psicologia-do-sono.html">PODEntender #041 sobre porque dormimos</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[
-<p>Você já se questionou por que nós precisamos dormir? Infelizmente, não temos uma resposta definitiva, mas existem pesquisadores(as) tentando responder essa pergunta e neste episódio você vai conhecer um deles. Junte-se a Antonio Marinho (Tonho), Fabio Neves (Dalton), Carol Lacerda (10 dan do Kumon) e Fernando Bachega (o amante profissional) em uma conversa com <strong>Altay Lino de Souza</strong>, pesquisador da Universidade Federal de São Paulo (UNIFESP), também conhecido como Altay do podcast <strong>Naruhodo</strong>. Neste episódio, discutimos sobre as <strong>4 causas de Aristóteles e o que isso tem a ver com a barba e o sono</strong>. </p>
-
-
-
-<p>Altay é graduado em Psicologia, mestre e doutor em Psicologia Experimental pela Universidade de São Paulo (USP) e pós doutor pelo Centro de Matemática, Computação e Cognição da Universidade Federal do ABC (UFABC), com período pós-doutoral na Universidade de Toronto e também pós doutorado no Departamento de Psicobiologia da UNIFESP. </p>
-
-
-
-<p>Escute o podcast também no <a rel="noreferrer noopener" href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank"><strong>Spotify</strong></a>!</p>
-
-
-
-<figure class="wp-block-image"><img src="https://podentender.com/wp-content/uploads/2018/12/Psicologia-do-sono.jpg" alt="Podcast de ciência sobre psicologia do sono com Altay de Souza (Naruhodo)." class="wp-image-5634"/><figcaption><br></figcaption></figure>
-
-
-
-<p><strong>Comentado no episódio:</strong></p>
-
-
-
-<ul><li>Entre em contato com Altay de Souza:&nbsp;<a rel="noreferrer noopener" aria-label="Entre em contato com Altay de Souza:&nbsp;Lattes&nbsp;| Twitter Naruhodo #94 - O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?) (abre em uma nova aba)" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4702840H9" target="_blank">Lattes</a>&nbsp;| <a rel="noreferrer noopener" aria-label="Entre em contato com Altay de Souza:&nbsp;Lattes&nbsp;| Twitter Naruhodo #94 - O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?) (abre em uma nova aba)" href="https://twitter.com/altayals" target="_blank">Twitter</a></li><li><a rel="noreferrer noopener" aria-label="Entre em contato com Altay de Souza:&nbsp;Lattes&nbsp;| Twitter Naruhodo #94 - O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?) (abre em uma nova aba)" href="https://www.b9.com.br/78405/naruhodo-94-o-que-e-o-teorema-de-bayes-e-o-que-horoscopo-tem-a-ver-com-isso/" target="_blank">Naruhodo #94 &#8211; O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?)</a></li><li><a href="https://amarinhosn.github.io">Barraquinha acadêmica virtual de Tonho</a></li></ul>
-
-
-
-<p><strong>Indicações indicativas:</strong></p>
-
-
-
-<ul><li><a href="https://www.projetohumanos.com.br/">Nova temporada do Projeto Humanos</a></li><li><a href="https://twitter.com/Pixel_Dailies ">Pixel Dailies</a></li></ul>
-
-
-
-<p><strong>Fale com o PODEntender:</strong></p>
-
-
-
-<ul><li><a href="https://twitter.com/PODEntender" target="_blank" rel="noreferrer noopener">Twitter do PODEntender</a></li><li><a href="https://www.facebook.com/podentender/" target="_blank" rel="noreferrer noopener">Facebook do PODEntender</a></li><li><a href="https://www.instagram.com/podentender/" target="_blank" rel="noreferrer noopener">Instagram do PODEntender</a></li><li><a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noreferrer noopener">O maior grupo em linha reta da América Latina</a></li><li><a href="https://twitter.com/carollacerda" target="_blank" rel="noreferrer noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noreferrer noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noreferrer noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noreferrer noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noreferrer noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noreferrer noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noreferrer noopener">Nawarian</a></li></ul>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/12/psicologia-do-sono.html">PODEntender #041 sobre porque dormimos</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2018/12/psicologia-do-sono.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_41.mp3" length="135820606" type="audio/mpeg" />
-		<itunes:subtitle>Você já se questionou por que nós precisamos dormir? Infelizmente, não temos uma resposta definitiva, mas existem pesquisadores(as) tentando responder essa pergunta e neste episódio você vai conhecer um deles. Junte-se a Antonio Marinho (Tonho),</itunes:subtitle>
-		<itunes:summary><![CDATA[<br />
-Você já se questionou por que nós precisamos dormir? Infelizmente, não temos uma resposta definitiva, mas existem pesquisadores(as) tentando responder essa pergunta e neste episódio você vai conhecer um deles. Junte-se a Antonio Marinho (Tonho), Fabio Neves (Dalton), Carol Lacerda (10 dan do Kumon) e Fernando Bachega (o amante profissional) em uma conversa com Altay Lino de Souza, pesquisador da Universidade Federal de São Paulo (UNIFESP), também conhecido como Altay do podcast Naruhodo. Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono. <br />
-<br />
-<br />
-<br />
-Altay é graduado em Psicologia, mestre e doutor em Psicologia Experimental pela Universidade de São Paulo (USP) e pós doutor pelo Centro de Matemática, Computação e Cognição da Universidade Federal do ABC (UFABC), com período pós-doutoral na Universidade de Toronto e também pós doutorado no Departamento de Psicobiologia da UNIFESP. <br />
-<br />
-<br />
-<br />
-Escute o podcast também no <a rel="noreferrer noopener" href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank">Spotify</a>!<br />
-<br />
-<br />
-<br />
-<br><br />
-<br />
-<br />
-<br />
-Comentado no episódio:<br />
-<br />
-<br />
-<br />
-* Entre em contato com Altay de Souza:&nbsp;<a rel="noreferrer noopener" aria-label="Entre em contato com Altay de Souza:&nbsp;Lattes&nbsp;| Twitter Naruhodo #94 - O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?) (abre em uma nova aba)" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4702840H9" target="_blank">Lattes</a>&nbsp;| <a rel="noreferrer noopener" aria-label="Entre em contato com Altay de Souza:&nbsp;Lattes&nbsp;| Twitter Naruhodo #94 - O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?) (abre em uma nova aba)" href="https://twitter.com/altayals" target="_blank">Twitter</a>* <a rel="noreferrer noopener" aria-label="Entre em contato com Altay de Souza:&nbsp;Lattes&nbsp;| Twitter Naruhodo #94 - O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?) (abre em uma nova aba)" href="https://www.b9.com.br/78405/naruhodo-94-o-que-e-o-teorema-de-bayes-e-o-que-horoscopo-tem-a-ver-com-isso/" target="_blank">Naruhodo #94 &#8211; O que é o Teorema de Bayes? (E o que horóscopo tem a ver com isso?)</a>* <a href="https://amarinhosn.github.io">Barraquinha acadêmica virtual de Tonho</a><br />
-<br />
-<br />
-<br />
-Indicações indicativas:<br />
-<br />
-<br />
-<br />
-* <a href="https://www.projetohumanos.com.br/">Nova temporada do Projeto Humanos</a>* <a href="https://twitter.com/Pixel_Dailies ">Pixel Dailies</a><br />
-<br />
-<br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-<br />
-<br />
-* <a href="https://twitter.com/PODEntender" target="_blank" rel="noreferrer noopener">Twitter do PODEntender</a>* <a href="https://www.facebook.com/podentender/" target="_blank" rel="noreferrer noopener">Facebook do PODEntender</a>* <a href="https://www.instagram.com/podentender/" target="_blank" rel="noreferrer noopener">Instagram do PODEntender</a>* <a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noreferrer noopener">O maior grupo em linha reta da América Latina</a>* <a href="https://twitter.com/carollacerda" target="_blank" rel="noreferrer noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noreferrer noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noreferrer noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noreferrer noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noreferrer noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noreferrer noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noreferrer noopener">Nawarian</a><br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>2:07:22</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #040 sobre aviões, lasers e impressão 3D</title>
-		<link>https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html</link>
-		<comments>https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html#respond</comments>
-		<pubDate>Sun, 25 Nov 2018 17:45:48 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Entrevista]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[aviação]]></category>
-		<category><![CDATA[aviões]]></category>
-		<category><![CDATA[impressão 3d]]></category>
-		<category><![CDATA[lasers]]></category>
-		<category><![CDATA[nasa]]></category>
-		<category><![CDATA[Tamara Guimarães]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5611</guid>
-		<description><![CDATA[<p>Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato &#8220;padrão&#8221; com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html">PODEntender #040 sobre aviões, lasers e impressão 3D</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p><span style="font-weight: 400;">Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato &#8220;padrão&#8221; com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases poluentes e sejam mais silenciosos. </span></p>
-<p><span style="font-weight: 400;">Uma maneira inovadora de fazer isso é através de <em>Boundary Layer Ingestion</em> (BLI), que consiste em colocar os motores próximos à superfície do avião. O resultado é a diminuição do arrasto na aeronave e da velocidade do ar entrando nos motores, que diminui a energia gasta pelos motores para produzir o mesmo impulso. Neste episódio, conheça mais sobre a&nbsp;pesquisa em dinâmica dos fluidos fundamental, o estudo a física por trás de fenômenos de transporte, mais especificamente a física do ar que entra nos motores de avião. </span></p>
-<p>Junte-se a Tonho (Antonio Marinho), Carol Lacerda (10° dan do Kumon), Dalton (Fábio Neves) e Katarina Holanda nesta conversa com <strong>Tamara Guimarães</strong>&nbsp;para entender o papel do uso de&nbsp;lasers e impressão de 3D no desenvolvimento de aviões.&nbsp; Tamy é Engenheira de Energia pela Universidade Federal do ABC (com graduação sanduíche na <em>University of California</em>, Davis, EUA), doutora&nbsp;em Engenharia Mecânica pela <em>Virginia Polytechnic Institute and State University</em>, EUA e atualmente pós-doutoranda na <em>Bundeswehr University Munich</em>, na Alemanha.</p>
-<p>Escute o podcast também no <a href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank" rel="noopener"><strong>Spotify</strong></a>!</p>
-<p><img class="aligncenter size-full wp-image-5612" src="https://podentender.com/wp-content/uploads/2018/11/Avião.jpg" alt="Podcast de ciência sobre física, laser e motores de avião" width="1023" height="682"></p>
-<p><strong>Comentado no episódio:</strong></p>
-<ul>
-<li>Entre em contato com Tamara Guimarães: <a href="https://scholar.google.com/citations?user=Kpy4ylQAAAAJ&amp;hl=uk" target="_blank" rel="noopener">Google Scholar</a> |&nbsp;<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4275423J6" target="_blank" rel="noopener">Lattes</a>&nbsp;| <a href="https://twitter.com/tamygb" target="_blank" rel="noopener nofollow">Twitter</a></li>
-<li>Canal <a href="https://www.youtube.com/channel/UCLXl1V6n82Dyg1VhVgSL0nw" target="_blank" rel="noopener">Aviões e Músicas</a></li>
-<li>Nerdcast <a href="https://jovemnerd.com.br/nerdcast/profissao-mecanico-de-aviao/" target="_blank" rel="noopener">Profissão: Mecânico de Avião</a></li>
-<li>Blog Cientistas Feministas:&nbsp;<a href="https://cientistasfeministas.wordpress.com/2016/10/27/aplicacao-de-impressao-3d-e-lasers-no-desenvolvimento-de-avioes/" target="_blank" rel="noopener">Aplicação de impressão 3D e lasers no desenvolvimento de aviões</a></li>
-</ul>
-<p><strong>Indicações indicativas:</strong></p>
-<ul>
-<li>Filme &#8220;A Star is Born&#8221;</li>
-<li>Canal&nbsp;<a href="https://www.youtube.com/watch?v=tCrLnfwX088" target="_blank" rel="noopener">NPR Tiny Desk Concert</a></li>
-<li>Episódio do podcast &#8220;O Nome Disso é Mundo&#8221; com Kat e Tonho: <a href="https://www.onomedissoemundo.com/2018/11/ondem-171-polonia/" target="_blank" rel="noopener">Sorria, você está na Polônia!</a></li>
-</ul>
-<p><strong>Fale com o PODEntender:</strong></p>
-<ul>
-<li><a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a></li>
-<li><a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a></li>
-<li><a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a></li>
-<li><a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a></li>
-<li><a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a></li>
-</ul>
-<p><div id="attachment_5615" style="width: 610px" class="wp-caption aligncenter"><img class="wp-image-5615" src="https://podentender.com/wp-content/uploads/2018/11/podcast-aviões.png" alt="Podcast de divulgação científica sobre aviões, impressão 3D e lasers" width="600" height="183"><p class="wp-caption-text">Experimento em túnel de vento utilizando a técnica de medição de velocidade &#8220;particle image velocimetry&#8221; (PIV, velocimetria por imagem de partículas).</p></div></p>
-<p><div id="attachment_5617" style="width: 610px" class="wp-caption aligncenter"><img class="wp-image-5617" src="https://podentender.com/wp-content/uploads/2018/11/photo_2018-11-25_13-53-38.jpg" alt="Desenvolvimento de aviões" width="600" height="504"><p class="wp-caption-text">Experimento em um motor de avião utilizando PIV.</p></div></p>
-<p style="text-align: center;">Conheça o que chamamos de&nbsp;<strong>avião baleinha</strong>, com o<span style="font-weight: 400;">s motores próximos à superfície e não embaixo das asas<br />
-</span>(clique na imagem para ler mais):</p>
-<p><div id="attachment_5613" style="width: 610px" class="wp-caption aligncenter"><a href="https://www1.grc.nasa.gov/aeronautics/bli/"><img class="wp-image-5613 size-full" src="https://podentender.com/wp-content/uploads/2018/11/artists-impression-aurora-d8-aircraft-600x401.jpg" alt="Podcast de divulgação científica sobre desenvolvimento de aviões" width="600" height="401"></a><p class="wp-caption-text">NASA/MIT/Aurora Flight Sciences</p></div></p>
-<p><div id="attachment_5614" style="width: 610px" class="wp-caption aligncenter"><a href="https://www.nasa.gov/aero/reduce-fuel-burn-with-a-dose-of-bli"><img class="wp-image-5614" src="https://podentender.com/wp-content/uploads/2018/11/boundary-layer-v9b-info-sm.jpg" alt="Podcast de divulgação científica sobre desenvolvimento de aviões" width="600" height="398"></a><p class="wp-caption-text">Don Foley/NASA/Lillian Gipson</p></div></p>
-<p style="text-align: center;">Carta do ouvinte Anderson Gomes lida no bloco de e-mails:</p>
-<p><img class="aligncenter wp-image-5627" src="https://podentender.com/wp-content/uploads/2018/11/Carta-ao-PODEntender.jpg" alt="Carta de ouvinte ao podcast de ciência PODEntender" width="600" height="1434"></p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html">PODEntender #040 sobre aviões, lasers e impressão 3D</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender40.mp3" length="105218310" type="audio/mpeg" />
-		<itunes:subtitle>Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato “padrão” com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é […]</itunes:subtitle>
-		<itunes:summary><![CDATA[Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato &#8220;padrão&#8221; com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases poluentes e sejam mais silenciosos. <br />
-Uma maneira inovadora de fazer isso é através de Boundary Layer Ingestion (BLI), que consiste em colocar os motores próximos à superfície do avião. O resultado é a diminuição do arrasto na aeronave e da velocidade do ar entrando nos motores, que diminui a energia gasta pelos motores para produzir o mesmo impulso. Neste episódio, conheça mais sobre a&nbsp;pesquisa em dinâmica dos fluidos fundamental, o estudo a física por trás de fenômenos de transporte, mais especificamente a física do ar que entra nos motores de avião. <br />
-Junte-se a Tonho (Antonio Marinho), Carol Lacerda (10° dan do Kumon), Dalton (Fábio Neves) e Katarina Holanda nesta conversa com Tamara Guimarães&nbsp;para entender o papel do uso de&nbsp;lasers e impressão de 3D no desenvolvimento de aviões.&nbsp; Tamy é Engenheira de Energia pela Universidade Federal do ABC (com graduação sanduíche na University of California, Davis, EUA), doutora&nbsp;em Engenharia Mecânica pela Virginia Polytechnic Institute and State University, EUA e atualmente pós-doutoranda na Bundeswehr University Munich, na Alemanha.<br />
-Escute o podcast também no <a href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank" rel="noopener">Spotify</a>!<br />
-<br />
-Comentado no episódio:<br />
-<br />
-* Entre em contato com Tamara Guimarães: <a href="https://scholar.google.com/citations?user=Kpy4ylQAAAAJ&amp;hl=uk" target="_blank" rel="noopener">Google Scholar</a> |&nbsp;<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4275423J6" target="_blank" rel="noopener">Lattes</a>&nbsp;| <a href="https://twitter.com/tamygb" target="_blank" rel="noopener nofollow">Twitter</a><br />
-* Canal <a href="https://www.youtube.com/channel/UCLXl1V6n82Dyg1VhVgSL0nw" target="_blank" rel="noopener">Aviões e Músicas</a><br />
-* Nerdcast <a href="https://jovemnerd.com.br/nerdcast/profissao-mecanico-de-aviao/" target="_blank" rel="noopener">Profissão: Mecânico de Avião</a><br />
-* Blog Cientistas Feministas:&nbsp;<a href="https://cientistasfeministas.wordpress.com/2016/10/27/aplicacao-de-impressao-3d-e-lasers-no-desenvolvimento-de-avioes/" target="_blank" rel="noopener">Aplicação de impressão 3D e lasers no desenvolvimento de aviões</a><br />
-<br />
-Indicações indicativas:<br />
-<br />
-* Filme &#8220;A Star is Born&#8221;<br />
-* Canal&nbsp;<a href="https://www.youtube.com/watch?v=tCrLnfwX088" target="_blank" rel="noopener">NPR Tiny Desk Concert</a><br />
-* Episódio do podcast &#8220;O Nome Disso é Mundo&#8221; com Kat e Tonho: <a href="https://www.onomedissoemundo.com/2018/11/ondem-171-polonia/" target="_blank" rel="noopener">Sorria, você está na Polônia!</a><br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-* <a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a><br />
-* <a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a><br />
-* <a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a><br />
-* <a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a><br />
-* <a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter...]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:37:08</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #039 sobre células-tronco, câncer e inteligência artificial</title>
-		<link>https://podentender.com/2018/11/celulas-tronco-cancer-e-ia.html</link>
-		<comments>https://podentender.com/2018/11/celulas-tronco-cancer-e-ia.html#respond</comments>
-		<pubDate>Sun, 04 Nov 2018 17:36:53 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Drops]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[câncer]]></category>
-		<category><![CDATA[células tronco]]></category>
-		<category><![CDATA[inteligência artificial]]></category>
-		<category><![CDATA[machine learning]]></category>
-		<category><![CDATA[USP]]></category>
-
-		<guid isPermaLink="false">https://podentender.com/?p=5592</guid>
-		<description><![CDATA[<p>Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Para a nossa alegria (olha a revolução das máquinas [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/11/celulas-tronco-cancer-e-ia.html">PODEntender #039 sobre células-tronco, câncer e inteligência artificial</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Para a nossa alegria <del>(olha a revolução das máquinas chegando)</del>, as tecnologias de inteligência artificial e machine learning já podem ser aplicadas com confiabilidade para reconhecimento e classificação de padrões.</p>
-<p>Neste episódio você vai conhecer o trabalho da doutora e pesquisadora brasileira&nbsp;<strong>Tathiane Malta</strong>, publicado na revista científica Cell. Em seu trabalho, Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células oncogênicas (células cancerígenas).</p>
-<p>Junte-se a Tonho (Antonio Marinho), Dalton (Fábio Neves) e Katarina Holanda em mais esta conversa com <strong>Tathiane Malta</strong>, doutora pela USP de Ribeirão Preto, sobre esse trabalho que representa um importante passo para que possamos entender melhor as diferenças e semelhanças entre células tronco e células cancerígenas.</p>
-<p>Escute o podcast também no <a href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank" rel="noopener"><strong>Spotify</strong></a>!</p>
-<p><img class="aligncenter wp-image-5599 size-full" title="Capa do episódio" src="https://podentender.com/wp-content/uploads/2018/11/podcast-podentender-39-thathiane-malta-inteligencia-artificial-ciencia-de-dados-celulas-tronco-cancer-oncogenese-USP-Ribeirao-Preto-1.jpg" alt="Foto de capa do episódio: Machine Learning, células-tronco e câncer, com Thatiane Malta" width="1023" height="683"></p>
-<p><strong>Comentado no episódio:</strong></p>
-<ul>
-<li>Contato com Tathi Malta: <a href="athimalta@gmail.com" target="_blank" rel="noopener">E-mail</a>&nbsp;| <a href="https://twitter.com/tathimalta" target="_blank" rel="noopener nofollow">Twitter</a></li>
-<li><a href="http://www.cell.com/cell/fulltext/S0092-8674%2818%2930358-1#.WsZ88J8Lqmg.facebook">Artigo na Cell</a></li>
-<li><a href="https://www.youtube.com/watch?list=PLAudUnJeNg4uICtW3BhvWjpzJFUkirASz&amp;params=OAFIAVgG&amp;v=5ZsK4K4XAw0&amp;mode=NORMAL&amp;app=desktop">Vídeo explicando o artigo</a></li>
-<li><a href="https://www.youtube.com/watch?v=fKCiEPX_OWY">Vídeo Ciência USP</a></li>
-<li><a href="https://cancergenome.nih.gov/">Banco de dados TCGA</a></li>
-</ul>
-<p><strong>Indicações indicativas:</strong></p>
-<ul>
-<li>Jogo Dear Esther</li>
-<li>Série Dark Net</li>
-</ul>
-<p><strong>Fale com o PODEntender:</strong></p>
-<ul>
-<li><a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a></li>
-<li><a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a></li>
-<li><a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a></li>
-<li><a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a></li>
-<li><a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a></li>
-</ul>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/11/celulas-tronco-cancer-e-ia.html">PODEntender #039 sobre células-tronco, câncer e inteligência artificial</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2018/11/celulas-tronco-cancer-e-ia.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_39.mp3" length="122541552" type="audio/mpeg" />
-		<itunes:subtitle>Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras.</itunes:subtitle>
-		<itunes:summary><![CDATA[Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Para a nossa alegria (olha a revolução das máquinas chegando), as tecnologias de inteligência artificial e machine learning já podem ser aplicadas com confiabilidade para reconhecimento e classificação de padrões.<br />
-Neste episódio você vai conhecer o trabalho da doutora e pesquisadora brasileira&nbsp;Tathiane Malta, publicado na revista científica Cell. Em seu trabalho, Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células oncogênicas (células cancerígenas).<br />
-Junte-se a Tonho (Antonio Marinho), Dalton (Fábio Neves) e Katarina Holanda em mais esta conversa com Tathiane Malta, doutora pela USP de Ribeirão Preto, sobre esse trabalho que representa um importante passo para que possamos entender melhor as diferenças e semelhanças entre células tronco e células cancerígenas.<br />
-Escute o podcast também no <a href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank" rel="noopener">Spotify</a>!<br />
-<br />
-Comentado no episódio:<br />
-<br />
-* Contato com Tathi Malta: <a href="athimalta@gmail.com" target="_blank" rel="noopener">E-mail</a>&nbsp;| <a href="https://twitter.com/tathimalta" target="_blank" rel="noopener nofollow">Twitter</a><br />
-* <a href="http://www.cell.com/cell/fulltext/S0092-8674%2818%2930358-1#.WsZ88J8Lqmg.facebook">Artigo na Cell</a><br />
-* <a href="https://www.youtube.com/watch?list=PLAudUnJeNg4uICtW3BhvWjpzJFUkirASz&amp;params=OAFIAVgG&amp;v=5ZsK4K4XAw0&amp;mode=NORMAL&amp;app=desktop">Vídeo explicando o artigo</a><br />
-* <a href="https://www.youtube.com/watch?v=fKCiEPX_OWY">Vídeo Ciência USP</a><br />
-* <a href="https://cancergenome.nih.gov/">Banco de dados TCGA</a><br />
-<br />
-Indicações indicativas:<br />
-<br />
-* Jogo Dear Esther<br />
-* Série Dark Net<br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-* <a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a><br />
-* <a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a><br />
-* <a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a><br />
-* <a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a><br />
-* <a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a><br />
-<br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:45:07</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #038 sobre escravidão e direito de propriedade no Brasil</title>
-		<link>https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html</link>
-		<comments>https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html#respond</comments>
-		<pubDate>Sat, 20 Oct 2018 19:09:29 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Entrevista]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[Direito]]></category>
-		<category><![CDATA[Direito de propriedade]]></category>
-		<category><![CDATA[Escravidão]]></category>
-		<category><![CDATA[Mariana Armond]]></category>
-		<category><![CDATA[Max-Planck]]></category>
-		<category><![CDATA[Podcast de ciência]]></category>
-		<category><![CDATA[USP]]></category>
-
-		<guid isPermaLink="false">http://podentender.com/?p=5429</guid>
-		<description><![CDATA[<p>A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html">PODEntender #038 sobre escravidão e direito de propriedade no Brasil</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a <strong>escravidão</strong> foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse <strong>direito de propriedade</strong>. Os escravos tinham algum direito? Como um(a) escravo(a) liberto(a) poderia comprovar seu status de liberdade? Entenda melhor essas e outras questões neste episódio do PODEntender.</p>
-<p>Junte-se a Tonho (Antonio Marinho), Carol Lacerda (10° dan do Kumon) e Katarina Holanda em uma conversa com <strong>Mariana Armond Dias Paes</strong>, graduada (UFMG), mestre (USP) e doutora em Direito (USP e Max-Planck-Institut für europäische Rechtsgeschichte, em Frankfurt).</p>
-<p>Escute o podcast também no <a href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank" rel="noopener"><strong>Spotify</strong></a>!</p>
-<p><img class="aligncenter size-full wp-image-5584" src="https://podentender.com/wp-content/uploads/2018/10/Escravidão-1.jpg" alt="Podcast de ciência com Mariana Armond - Escravidão e Direito de Propriedade no Brasil" width="1023" height="682"></p>
-<p><strong>Comentado no episódio:</strong></p>
-<ul>
-<li>Redes e contato de Mariana: <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4243571U4" target="_blank" rel="noopener nofollow">Currículo Lattes</a>&nbsp;| <a href="http://rg-mpg.academia.edu/MarianaArmondDiasPaes" target="_blank" rel="noopener nofollow">Academia.edu</a>&nbsp;|&nbsp;<a href="mailto:mdiaspaes@gmail.com" target="_blank" rel="noopener">E-mail</a>&nbsp;| <a href="https://twitter.com/mdiaspaes" target="_blank" rel="noopener nofollow">Twitter</a></li>
-<li><a href="https://cientistasfeministas.wordpress.com" target="_blank" rel="noopener">Blog Cientistas Feministas</a></li>
-</ul>
-<p><strong>Fale com o PODEntender:</strong></p>
-<ul>
-<li><a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a></li>
-<li><a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a></li>
-<li><a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a></li>
-<li><a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a></li>
-<li><a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a></li>
-</ul>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html">PODEntender #038 sobre escravidão e direito de propriedade no Brasil</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_38.mp3" length="77117688" type="audio/mpeg" />
-		<itunes:subtitle>A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser […]</itunes:subtitle>
-		<itunes:summary><![CDATA[A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse direito de propriedade. Os escravos tinham algum direito? Como um(a) escravo(a) liberto(a) poderia comprovar seu status de liberdade? Entenda melhor essas e outras questões neste episódio do PODEntender.<br />
-Junte-se a Tonho (Antonio Marinho), Carol Lacerda (10° dan do Kumon) e Katarina Holanda em uma conversa com Mariana Armond Dias Paes, graduada (UFMG), mestre (USP) e doutora em Direito (USP e Max-Planck-Institut für europäische Rechtsgeschichte, em Frankfurt).<br />
-Escute o podcast também no <a href="https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F?si=__lHW1hASOCaOqtD1brlYw" target="_blank" rel="noopener">Spotify</a>!<br />
-<br />
-Comentado no episódio:<br />
-<br />
-* Redes e contato de Mariana: <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4243571U4" target="_blank" rel="noopener nofollow">Currículo Lattes</a>&nbsp;| <a href="http://rg-mpg.academia.edu/MarianaArmondDiasPaes" target="_blank" rel="noopener nofollow">Academia.edu</a>&nbsp;|&nbsp;<a href="mailto:mdiaspaes@gmail.com" target="_blank" rel="noopener">E-mail</a>&nbsp;| <a href="https://twitter.com/mdiaspaes" target="_blank" rel="noopener nofollow">Twitter</a><br />
-* <a href="https://cientistasfeministas.wordpress.com" target="_blank" rel="noopener">Blog Cientistas Feministas</a><br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-* <a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a><br />
-* <a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a><br />
-* <a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a><br />
-* <a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a><br />
-* <a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a><br />
-<br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:17:27</itunes:duration>
-		<rawvoice:poster url="https://podentender.com/wp-content/uploads/2018/10/2018-10-20-20.39.25.jpg" />
-	</item>
-		<item>
-		<title>PODEntender #037 sobre linguagem e percepção do mundo</title>
-		<link>https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html</link>
-		<comments>https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html#respond</comments>
-		<pubDate>Sun, 30 Sep 2018 21:16:52 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Drops]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[comunicação]]></category>
-		<category><![CDATA[Divulgação científica]]></category>
-		<category><![CDATA[etologia]]></category>
-		<category><![CDATA[linguagem]]></category>
-		<category><![CDATA[Mariana Fogaça]]></category>
-		<category><![CDATA[podcast]]></category>
-		<category><![CDATA[Podcast de ciência]]></category>
-		<category><![CDATA[Psicologia Experimental]]></category>
-		<category><![CDATA[USP]]></category>
-
-		<guid isPermaLink="false">http://podentender.com/?p=5540</guid>
-		<description><![CDATA[<p>A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma relação entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta relação? Como essa relação se expressa nos [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html">PODEntender #037 sobre linguagem e percepção do mundo</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma <strong>relação entre o processo evolutivo e as necessidades da linguagem</strong>. Como podemos estudar esta relação? Como essa relação se expressa nos outros animais? Qual é a diferença entre <strong>linguagem e comunicação</strong>? Junte-se a Tonho (Antonio Marinho), Carol Lacerda (10 dan do Kumon) e Katarina Holanda numa conversa com <strong>Mariana Fogaça</strong>, bióloga e doutora em ciências pelo Departamento de Psicologia Experimental da Universidade de São Paulo (USP), e descubra o que sabemos sobre isso e o que ainda é mistério sobre o surgimento da linguagem.</p>
-<p><img class="alignnone wp-image-5541 size-full" src="http://podentender.com/wp-content/uploads/2018/09/Linguagem.jpg" alt="Podcast de ciência sobre linguagem e percepção do mundo" width="1023" height="683"></p>
-<p><strong>Comentado no episódio:</strong></p>
-<ul>
-<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4257371H8" target="_blank" rel="noopener">Currículo Lattes de Mariana</a></li>
-<li><a href="https://www.instagram.com/maridfogaca/" target="_blank" rel="noopener">Instagram de Mariana</a></li>
-<li><a href="http://www.neoprego.wordpress.com" target="_blank" rel="noopener">Site Neoprego</a></li>
-<li><a href="https://cientistasfeministas.wordpress.com" target="_blank" rel="noopener">Cientistas Feministas</a></li>
-</ul>
-<p><strong>Indicações indicativas:<br />
-</strong></p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=L6cDDmk-O5A">Série Maniac</a></li>
-<li><a href="https://www.youtube.com/watch?v=TcGDRGZ960s">Jogo Freedom Wars (PS Vita)</a></li>
-</ul>
-<p><strong>Fale com o PODEntender:</strong></p>
-<ul>
-<li><a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a></li>
-<li><a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a></li>
-<li><a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a></li>
-<li><a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a></li>
-<li><a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a></li>
-</ul>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html">PODEntender #037 sobre linguagem e percepção do mundo</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_37.mp3" length="103903139" type="audio/mpeg" />
-		<itunes:subtitle>A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma relação entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta relação?</itunes:subtitle>
-		<itunes:summary><![CDATA[A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma relação entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta relação? Como essa relação se expressa nos outros animais? Qual é a diferença entre linguagem e comunicação? Junte-se a Tonho (Antonio Marinho), Carol Lacerda (10 dan do Kumon) e Katarina Holanda numa conversa com Mariana Fogaça, bióloga e doutora em ciências pelo Departamento de Psicologia Experimental da Universidade de São Paulo (USP), e descubra o que sabemos sobre isso e o que ainda é mistério sobre o surgimento da linguagem.<br />
-<br />
-Comentado no episódio:<br />
-<br />
-* <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4257371H8" target="_blank" rel="noopener">Currículo Lattes de Mariana</a><br />
-* <a href="https://www.instagram.com/maridfogaca/" target="_blank" rel="noopener">Instagram de Mariana</a><br />
-* <a href="http://www.neoprego.wordpress.com" target="_blank" rel="noopener">Site Neoprego</a><br />
-* <a href="https://cientistasfeministas.wordpress.com" target="_blank" rel="noopener">Cientistas Feministas</a><br />
-<br />
-Indicações indicativas:<br /><br />
-<br />
-<br />
-* <a href="https://www.youtube.com/watch?v=L6cDDmk-O5A">Série Maniac</a><br />
-* <a href="https://www.youtube.com/watch?v=TcGDRGZ960s">Jogo Freedom Wars (PS Vita)</a><br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-* <a href="https://twitter.com/PODEntender" target="_blank" rel="noopener">Twitter do PODEntender</a><br />
-* <a href="https://www.facebook.com/podentender/" target="_blank" rel="noopener">Facebook do PODEntender</a><br />
-* <a href="https://www.instagram.com/podentender/" target="_blank" rel="noopener">Instagram do PODEntender</a><br />
-* <a href="https://www.facebook.com/groups/167741300540604/" target="_blank" rel="noopener">O maior grupo em linha reta da América Latina</a><br />
-* <a href="https://twitter.com/carollacerda" target="_blank" rel="noopener">Carol</a>&nbsp;|&nbsp;<a href="https://twitter.com/fb_dalton" target="_blank" rel="noopener">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda" target="_blank" rel="noopener">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar" target="_blank" rel="noopener">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;|&nbsp;<a href="https://twitter.com/tchecao" target="_blank" rel="noopener">Thiago</a>&nbsp;| <a href="https://twitter.com/nawarian" target="_blank" rel="noopener">Nawarian</a><br />
-<br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:36:24</itunes:duration>
-	</item>
-		<item>
-		<title>PODEntender #036 sobre saúde coletiva e racismo</title>
-		<link>https://podentender.com/2018/09/saude-coletiva-e-racismo.html</link>
-		<comments>https://podentender.com/2018/09/saude-coletiva-e-racismo.html#respond</comments>
-		<pubDate>Wed, 12 Sep 2018 17:02:15 +0000</pubDate>
-		<dc:creator><![CDATA[podentender]]></dc:creator>
-				<category><![CDATA[Entrevista]]></category>
-		<category><![CDATA[Podcast]]></category>
-		<category><![CDATA[Emanuelle Goes]]></category>
-		<category><![CDATA[racismo]]></category>
-		<category><![CDATA[saúde coletiva]]></category>
-		<category><![CDATA[Saúde Pública]]></category>
-
-		<guid isPermaLink="false">http://podentender.com/?p=5491</guid>
-		<description><![CDATA[<p>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os [&#8230;]</p>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/09/saude-coletiva-e-racismo.html">PODEntender #036 sobre saúde coletiva e racismo</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>O <strong>racismo</strong> é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as <strong>diferenças entre os acessos aos serviços de saúde,</strong> poderiam ser medidas facilmente.</p>
-<p>Neste episódio do podcast, você vai conhecer o trabalho da Dra. Emanuelle Goes do<strong> Instituto de Saúde Coletiva da Universidade Federal da Bahia</strong>, que em seu doutorado estudou se existem diferenças entre o acesso a serviços de saúde entre mulheres negras, pardas e brancas.</p>
-<p><img class="aligncenter size-full wp-image-5500" src="http://podentender.com/wp-content/uploads/2018/09/Racismo.jpg" alt="Podcast de ciência sobre saúde coletiva e racismo" width="1023" height="682"></p>
-<p><strong>Comentado no episódio:</strong></p>
-<ul>
-<li><a href="http://populacaonegraesaude.blogspot.com" target="_blank" rel="noopener">Blog de Emanuelle sobre <strong>população negra e saúde</strong></a></li>
-<li><a href="https://www.ibge.gov.br/" target="_blank" rel="noopener">Site do IBGE</a></li>
-<li><a href="http://lattes.cnpq.br/7884228259408443" target="_blank" rel="noopener">Currículo Lattes de Emanuelle</a>:&nbsp;Mestra em Enfermagem pela Universidade Federal da Bahia com concentração em <strong>Gênero, Cuidado e Administração em Saúde</strong>, na Linha de Pesquisa Mulher, Gênero e Saúde. Doutora em Saúde Pública com concentração em <strong>Epidemiologia</strong> (ISC/UFBA). Doutorado Sanduíche na Faculdade de Psicologia e Ciências da Educação (Universidade do Porto).</li>
-</ul>
-<p><strong>Indicações indicativas:<br />
-</strong></p>
-<ul>
-<li>Série <a href="https://www.youtube.com/watch?v=_v8Fm3O8cp0">Sharp Objects</a></li>
-<li>Série <a href="https://www.youtube.com/watch?v=YtzgFRBvRy8">O Alienista</a></li>
-</ul>
-<p><strong>Fale com o PODEntender:</strong></p>
-<ul>
-<li><a href="https://twitter.com/PODEntender">Twitter do PODEntender</a></li>
-<li><a href="https://www.facebook.com/podentender/">Facebook do PODEntender</a></li>
-<li><a href="https://www.instagram.com/podentender/">Instagram do PODEntender</a></li>
-<li><a href="https://twitter.com/carollacerda">Carol</a>&nbsp;| <a href="https://twitter.com/fb_dalton">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;| <a href="https://twitter.com/tchecao">Thiago</a></li>
-</ul>
-<p>O post <a rel="nofollow" href="https://podentender.com/2018/09/saude-coletiva-e-racismo.html">PODEntender #036 sobre saúde coletiva e racismo</a> apareceu primeiro em <a rel="nofollow" href="https://podentender.com">Podcast de divulgação científica | PODEntender</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://podentender.com/2018/09/saude-coletiva-e-racismo.html/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-<enclosure url="http://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_36.mp3" length="118250948" type="audio/mpeg" />
-		<itunes:subtitle>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os […]</itunes:subtitle>
-		<itunes:summary><![CDATA[O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.<br />
-Neste episódio do podcast, você vai conhecer o trabalho da Dra. Emanuelle Goes do Instituto de Saúde Coletiva da Universidade Federal da Bahia, que em seu doutorado estudou se existem diferenças entre o acesso a serviços de saúde entre mulheres negras, pardas e brancas.<br />
-<br />
-Comentado no episódio:<br />
-<br />
-* <a href="http://populacaonegraesaude.blogspot.com" target="_blank" rel="noopener">Blog de Emanuelle sobre população negra e saúde</a><br />
-* <a href="https://www.ibge.gov.br/" target="_blank" rel="noopener">Site do IBGE</a><br />
-* <a href="http://lattes.cnpq.br/7884228259408443" target="_blank" rel="noopener">Currículo Lattes de Emanuelle</a>:&nbsp;Mestra em Enfermagem pela Universidade Federal da Bahia com concentração em Gênero, Cuidado e Administração em Saúde, na Linha de Pesquisa Mulher, Gênero e Saúde. Doutora em Saúde Pública com concentração em Epidemiologia (ISC/UFBA). Doutorado Sanduíche na Faculdade de Psicologia e Ciências da Educação (Universidade do Porto).<br />
-<br />
-Indicações indicativas:<br /><br />
-<br />
-<br />
-* Série <a href="https://www.youtube.com/watch?v=_v8Fm3O8cp0">Sharp Objects</a><br />
-* Série <a href="https://www.youtube.com/watch?v=YtzgFRBvRy8">O Alienista</a><br />
-<br />
-Fale com o PODEntender:<br />
-<br />
-* <a href="https://twitter.com/PODEntender">Twitter do PODEntender</a><br />
-* <a href="https://www.facebook.com/podentender/">Facebook do PODEntender</a><br />
-* <a href="https://www.instagram.com/podentender/">Instagram do PODEntender</a><br />
-* <a href="https://twitter.com/carollacerda">Carol</a>&nbsp;| <a href="https://twitter.com/fb_dalton">Dalton</a>&nbsp;|&nbsp;<a href="https://twitter.com/katarinaholanda">Katarina</a>&nbsp;|&nbsp;<a href="https://twitter.com/tonhodomar">Tonho</a>&nbsp;|&nbsp;<a href="https://twitter.com/ferbachega" target="_blank" rel="noopener">Bachega</a>&nbsp;| <a href="https://twitter.com/tchecao">Thiago</a><br />
-<br />]]></itunes:summary>
-		<itunes:author>PODEntender</itunes:author>
-		<itunes:explicit>clean</itunes:explicit>
-		<itunes:duration>1:49:47</itunes:duration>
-	</item>
-	</channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>PODEntender</title>
+    <link>https://beta.podentender.com</link>
+    <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
+    <lastBuildDate>Thu, 04 Apr 2019 00:01:45 +0000</lastBuildDate>
+    <language>pt-BR</language>
+    <generator>https://github.com/podentender/estatista</generator>
+    <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
+    <category>Science &amp; Medicine</category>
+    <image>
+      <title>PODEntender</title>
+      <url>http://podentender.com/wp-content/uploads/powerpress/favcom.png</url>
+      <link>https://beta.podentender.com</link>
+    </image>
+    <atom:link href="https://beta.podentender.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:subtitle>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:subtitle>
+    <itunes:summary>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:summary>
+    <itunes:author>PODEntender</itunes:author>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Science &amp; Medicine"/>
+    <itunes:image href="http://podentender.com/wp-content/uploads/powerpress/favcom.png"/>
+    <itunes:owner>
+      <itunes:name>PODEntender</itunes:name>
+      <itunes:email>amdnsk@gmail.com</itunes:email>
+    </itunes:owner>
+    <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5884</guid>
+      <title>Sobre Pesquisa no Ensino Médio e Maracujá #OPodcastÉDelas2019</title>
+      <link>https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</link>
+      <comments>https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</comments>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_44.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista.</itunes:subtitle>
+      <itunes:summary>Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5864</guid>
+      <title>Ministro da Ciência e Pós-Graduação a Distância</title>
+      <link>https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</link>
+      <comments>https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</comments>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_43.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Tonho e Carol Lacerda: Marcos Pontes ao Jornal da Ciência comenta planos para o ano de 2019. Capes libera cursos de pós-graduação na modalidae EAD.</itunes:subtitle>
+      <itunes:summary>Tonho e Carol Lacerda: Marcos Pontes ao Jornal da Ciência comenta planos para o ano de 2019. Capes libera cursos de pós-graduação na modalidae EAD.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5677</guid>
+      <title>Sobre nazismo e nazistas no Brasil</title>
+      <link>https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</link>
+      <comments>https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</comments>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_42.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>O Doutor em História Felipe Abal fala sobre a fuga dos nazistas Franz Stangl e Gustav Wagner ao Brasil após derrota da Alemanha na Segunda Guerra Mundial.</itunes:subtitle>
+      <itunes:summary>O Doutor em História Felipe Abal fala sobre a fuga dos nazistas Franz Stangl e Gustav Wagner ao Brasil após derrota da Alemanha na Segunda Guerra Mundial.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5633</guid>
+      <title>Sobre a psicologia do sono</title>
+      <link>https://beta.podentender.com/episodio/041-sobre-a-psicologia-do-sono</link>
+      <comments>https://beta.podentender.com/episodio/041-sobre-a-psicologia-do-sono</comments>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Você já se questionou por que nós precisamos dormir? Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono.</itunes:subtitle>
+      <itunes:summary>Você já se questionou por que nós precisamos dormir? Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5611</guid>
+      <title>Sobre aviões, lasers e impressão 3D</title>
+      <link>https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</link>
+      <comments>https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</comments>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender40.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato “padrão” com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases poluentes e sejam mais silenciosos.</itunes:subtitle>
+      <itunes:summary>Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato “padrão” com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases poluentes e sejam mais silenciosos.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5592</guid>
+      <title>Sobre células-tronco, câncer e inteligência artificial</title>
+      <link>https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</link>
+      <comments>https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</comments>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_39.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células cancerígenas.</itunes:subtitle>
+      <itunes:summary>Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células cancerígenas.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5429</guid>
+      <title>Sobre escravidão e direito de propriedade no Brasil</title>
+      <link>https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</link>
+      <comments>https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</comments>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_38.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse direito de propriedade.</itunes:subtitle>
+      <itunes:summary>A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse direito de propriedade.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5540</guid>
+      <title>Sobre linguagem e percepção do mundo</title>
+      <link>https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</link>
+      <comments>https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</comments>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_37.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma relação entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta relação? Como essa relação se expressa nos outros animais? Qual é a diferença entre linguagem e comunicação?</itunes:subtitle>
+      <itunes:summary>A linguagem certamente está relacionada às necessidades e costumes de uma população, portanto, é razoável supor que existe uma relação entre o processo evolutivo e as necessidades da linguagem. Como podemos estudar esta relação? Como essa relação se expressa nos outros animais? Qual é a diferença entre linguagem e comunicação?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5491</guid>
+      <title>Sobre saúde coletiva e racismo</title>
+      <link>https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</link>
+      <comments>https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</comments>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_36.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</itunes:subtitle>
+      <itunes:summary>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5483</guid>
+      <title>Sobre vacinação e saúde pública</title>
+      <link>https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</link>
+      <comments>https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</comments>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_35.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Está rolando neste mês a campanha de vacinação da Poliomielite, então é um momento oportuno para saber mais sobre a relação entre vacinação e saúde pública. Você já pensou na logística necessária para vacinar um país grande como o Brasil?</itunes:subtitle>
+      <itunes:summary>Está rolando neste mês a campanha de vacinação da Poliomielite, então é um momento oportuno para saber mais sobre a relação entre vacinação e saúde pública. Você já pensou na logística necessária para vacinar um país grande como o Brasil?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5476</guid>
+      <title>Sobre a simulação da ONU</title>
+      <link>https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</link>
+      <comments>https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</comments>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_34.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Você sabe como os países ao redor do mundo interagem na Organização das Nações Unidas (ONU)? Qual é o seu papel em dialogar com governos mundiais? Como são organizadas as reuniões e para que servem? Saiba como funciona a ONU nesse episódio DROPS junto a Ana Luisa Demoraes Campos.</itunes:subtitle>
+      <itunes:summary>Você sabe como os países ao redor do mundo interagem na Organização das Nações Unidas (ONU)? Qual é o seu papel em dialogar com governos mundiais? Como são organizadas as reuniões e para que servem? Saiba como funciona a ONU nesse episódio DROPS junto a Ana Luisa Demoraes Campos.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5426</guid>
+      <title>Sobre algorítmos e contas públicas</title>
+      <link>https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</link>
+      <comments>https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</comments>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_33.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Há pouco mais de uma década, monitorar o uso de dinheiro público exigia muito investimento e muitas horas de profissionais especializados, o que limitava a capacidade de controle social das contas públicas a um grupo muito pequeno de brasileiros e brasileiras. Mas com o avanço da tecnologia, uma parte significativa da população tem acesso a mais poder computacional do que a NASA precisou para mandar o homem à lua.</itunes:subtitle>
+      <itunes:summary>Há pouco mais de uma década, monitorar o uso de dinheiro público exigia muito investimento e muitas horas de profissionais especializados, o que limitava a capacidade de controle social das contas públicas a um grupo muito pequeno de brasileiros e brasileiras. Mas com o avanço da tecnologia, uma parte significativa da população tem acesso a mais poder computacional do que a NASA precisou para mandar o homem à lua.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5425</guid>
+      <title>Sobre genômica e envelhecimento</title>
+      <link>https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</link>
+      <comments>https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</comments>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_32.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Pela primeira vez na história da humanidade temos um grande número de seres humanos vivendo cerca de 80 anos, mas nossos genes não foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas.</itunes:subtitle>
+      <itunes:summary>Pela primeira vez na história da humanidade temos um grande número de seres humanos vivendo cerca de 80 anos, mas nossos genes não foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5451</guid>
+      <title>Sobre enzima que degrada plástico, pele impressa em 3d, vacina contra o câncer e reprodutibilidade da ciência brasileira</title>
+      <link>https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</link>
+      <comments>https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</comments>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEnteder_31_NEWS.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Você sabia que uma vacina contra o câncer desenvolvida no Brasil foi testada com sucesso em cobáias? E que pesquisadores brasileiros trabalharam no melhoramento da eficiência de enzima que degrada plástico? E que uma pesquisadora brasileira trabalhou no desenvolvimento de pele impressa em 3D para substituir uso de animais em testes de cosméticos? Já ouviu falar da crise de reprodutibilidade da ciência e na iniciativa brasileira para verificar a reprodutibilidade de cientistas brasileiros?</itunes:subtitle>
+      <itunes:summary>Você sabia que uma vacina contra o câncer desenvolvida no Brasil foi testada com sucesso em cobáias? E que pesquisadores brasileiros trabalharam no melhoramento da eficiência de enzima que degrada plástico? E que uma pesquisadora brasileira trabalhou no desenvolvimento de pele impressa em 3D para substituir uso de animais em testes de cosméticos? Já ouviu falar da crise de reprodutibilidade da ciência e na iniciativa brasileira para verificar a reprodutibilidade de cientistas brasileiros?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5414</guid>
+      <title>Sobre diagnóstico rápido do Zika Vírus</title>
+      <link>https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</link>
+      <comments>https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</comments>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia? Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?</itunes:subtitle>
+      <itunes:summary>Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia? Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5364</guid>
+      <title>Sobre manuscritos do mar morto e demonologia</title>
+      <link>https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</link>
+      <comments>https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</comments>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_29_Manuscritos_do_mar_morto_e_demonologia.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Os manuscritos do Mar Morto são uma das maiores descobertas do século XX e funcionam como uma janela para a mente de pessoas que viveram há milhares de anos. Hoje você vai descobrir o trabalho de Tupá Guerra, historiadora e especialista em demonologia.</itunes:subtitle>
+      <itunes:summary>Os manuscritos do Mar Morto são uma das maiores descobertas do século XX e funcionam como uma janela para a mente de pessoas que viveram há milhares de anos. Hoje você vai descobrir o trabalho de Tupá Guerra, historiadora e especialista em demonologia.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5227</guid>
+      <title>Sobre Brasil na elite da matemática, febre amarela e novo bloqueio do orçamento</title>
+      <link>https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</link>
+      <comments>https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</comments>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_28_NEWS.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Brasil foi aprovado para o fazer parte do grupo de elite da União Internacional de Matemática, pesquisadores brasileiros detectaram o vírus da febre amarela e um novo bloqueio de verbas do orçamento do Ministério de Ciência, Tecnologia e Comunicação foi feito.</itunes:subtitle>
+      <itunes:summary>Brasil foi aprovado para o fazer parte do grupo de elite da União Internacional de Matemática, pesquisadores brasileiros detectaram o vírus da febre amarela e um novo bloqueio de verbas do orçamento do Ministério de Ciência, Tecnologia e Comunicação foi feito.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5219</guid>
+      <title>Recados, desculpas e e-mails</title>
+      <link>https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</link>
+      <comments>https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</comments>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_027.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>O PODEntender ainda não retornou para valer, mas não poderíamos deixar nossos(as) queridos(as) ouvintes sem um último episódio em 2017!</itunes:subtitle>
+      <itunes:summary>O PODEntender ainda não retornou para valer, mas não poderíamos deixar nossos(as) queridos(as) ouvintes sem um último episódio em 2017!</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5210</guid>
+      <title>Sobre ecologia evolutiva</title>
+      <link>https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</link>
+      <comments>https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</comments>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_026_ecologia_evolutiva.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Vários fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores é um trabalho para a Ecologia Evolutiva.</itunes:subtitle>
+      <itunes:summary>Vários fatores determinam a quantidade de animais que habitam um determinado lugar e estudar esses fatores é um trabalho para a Ecologia Evolutiva.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5202</guid>
+      <title>Sobre relacionamento com a vida acadêmica</title>
+      <link>https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</link>
+      <comments>https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</comments>
+      <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_025_Discutindo_o_relacionamento_com_a_vida_academica.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Mês dos namorados, muito amor no ar, certo? Mas nem só de romance vive a ciência e precisamos discutir nosso relacionamento com a vida acadêmica. Às vezes o amor pela ciência fica abalado e o relacionamento precisa ser discutido.</itunes:subtitle>
+      <itunes:summary>Mês dos namorados, muito amor no ar, certo? Mas nem só de romance vive a ciência e precisamos discutir nosso relacionamento com a vida acadêmica. Às vezes o amor pela ciência fica abalado e o relacionamento precisa ser discutido.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5188</guid>
+      <title>Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius</title>
+      <link>https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</link>
+      <comments>https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</comments>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_024_NEWS.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Quer saber qual é a brasileira, cientista, que tem maior influência no mundo? Ou talvez descobrir que até o maior empreendimento científico brasileiro está correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avanço.</itunes:subtitle>
+      <itunes:summary>Quer saber qual é a brasileira, cientista, que tem maior influência no mundo? Ou talvez descobrir que até o maior empreendimento científico brasileiro está correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avanço.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5175</guid>
+      <title>Sobre telômeros e falência da medula óssea</title>
+      <link>https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</link>
+      <comments>https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</comments>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_023_telomeros_e_falencia_da_medula.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>A cada dia que passa você perde um pedacinho das pontas dos seus cromossomos e os telômeros estão lá para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses telômeros são mais curtos do que deveriam?</itunes:subtitle>
+      <itunes:summary>A cada dia que passa você perde um pedacinho das pontas dos seus cromossomos e os telômeros estão lá para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses telômeros são mais curtos do que deveriam?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5163</guid>
+      <title>Sobre Zika Vírus e o artigo brasileiro na Nature</title>
+      <link>https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</link>
+      <comments>https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</comments>
+      <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença?</itunes:subtitle>
+      <itunes:summary>Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5155</guid>
+      <title>Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira</title>
+      <link>https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</link>
+      <comments>https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</comments>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.</itunes:subtitle>
+      <itunes:summary>Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5146</guid>
+      <title>Sobre machismo na ciência brasileira</title>
+      <link>https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</link>
+      <comments>https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</comments>
+      <pubDate>Wed, 05 Apr 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_020_machismo_na_ciencia_brasileira.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Como o machismo influencia a vida acadêmica e o dia a dia de cientistas dentro de seus espaços de trabalho? Será que essa realidade é diferente das outras profissões?  Como enxergar e combater as agressões e a rotina assustadora e desnecessariamente mais difícil e presente na vida das mulheres.</itunes:subtitle>
+      <itunes:summary>Como o machismo influencia a vida acadêmica e o dia a dia de cientistas dentro de seus espaços de trabalho? Será que essa realidade é diferente das outras profissões?  Como enxergar e combater as agressões e a rotina assustadora e desnecessariamente mais difícil e presente na vida das mulheres.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5138</guid>
+      <title>Sobre Deep Learning</title>
+      <link>https://beta.podentender.com/episodio/019-sobre-deep-learning</link>
+      <comments>https://beta.podentender.com/episodio/019-sobre-deep-learning</comments>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?</itunes:subtitle>
+      <itunes:summary>O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5114</guid>
+      <title>Sobre modificação de genomas e CRISPR/Cas9</title>
+      <link>https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</link>
+      <comments>https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</comments>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_018_CRISPR_e_modificacao_de_genomas.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Venha descobrir como saber se uma mitocôndria está respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e não se assuste com esse nome!</itunes:subtitle>
+      <itunes:summary>Venha descobrir como saber se uma mitocôndria está respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e não se assuste com esse nome!</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5010</guid>
+      <title>Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul</title>
+      <link>https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</link>
+      <comments>https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</comments>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_017_NEWS_fix.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.</itunes:subtitle>
+      <itunes:summary>Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4926</guid>
+      <title>Sobre ciência básica e ciência aplicada</title>
+      <link>https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</link>
+      <comments>https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</comments>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?</itunes:subtitle>
+      <itunes:summary>Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4916</guid>
+      <title>Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA</title>
+      <link>https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</link>
+      <comments>https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</comments>
+      <pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_015_NEWS_.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Saiba mais sobre Garatea-L, a primeira missão brasileira à lua, os novos equipamentos para a base brasileira de pesquisas na Antártida e mosquitos utilizados contra o ZIKA.</itunes:subtitle>
+      <itunes:summary>Saiba mais sobre Garatea-L, a primeira missão brasileira à lua, os novos equipamentos para a base brasileira de pesquisas na Antártida e mosquitos utilizados contra o ZIKA.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4900</guid>
+      <title>Sobre astrobiologia</title>
+      <link>https://beta.podentender.com/episodio/014-sobre-astrobiologia</link>
+      <comments>https://beta.podentender.com/episodio/014-sobre-astrobiologia</comments>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_014_sobre_astrobiologia.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Será que existe vida fora da terra? Se existir, ela poderia sobreviver as condições extremas que encontramos no nosso universo? Procurar como descobrir a resposta dessas e outras perguntas faz parte do dia-a-dia de Douglas Galante, pesquisador do Laboratório Nacional de Luz Síncrotron (LNLS) do Centro Nacional de Pesquisa em Energia e Materiais (CNPEM).</itunes:subtitle>
+      <itunes:summary>Será que existe vida fora da terra? Se existir, ela poderia sobreviver as condições extremas que encontramos no nosso universo? Procurar como descobrir a resposta dessas e outras perguntas faz parte do dia-a-dia de Douglas Galante, pesquisador do Laboratório Nacional de Luz Síncrotron (LNLS) do Centro Nacional de Pesquisa em Energia e Materiais (CNPEM).</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4893</guid>
+      <title>Sobre sistema de avaliação do CNPq e orçamento do MEC</title>
+      <link>https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</link>
+      <comments>https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</comments>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_013_NEWS_avaliacao_CNPq_orcamento_MEC.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.</itunes:subtitle>
+      <itunes:summary>Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4873</guid>
+      <title>Sobre a história da biologia estrutural</title>
+      <link>https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</link>
+      <comments>https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</comments>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_012_DROPS_historia_da_biologia_estrutural.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Talvez você não tenha reparado, mas hoje é possível saber as posições dos átomos de moléculas que compõem os seres vivos.</itunes:subtitle>
+      <itunes:summary>Talvez você não tenha reparado, mas hoje é possível saber as posições dos átomos de moléculas que compõem os seres vivos.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4855</guid>
+      <title>Sobre biologia do desenvolvimento</title>
+      <link>https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</link>
+      <comments>https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</comments>
+      <pubDate>Sun, 14 Aug 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_011_sobre_Biologia_do_desenvolvimento.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Um dos fenômenos mais complexos que existem no universo é o nascimento de um novo ser vivo. Uma sinfonia molecular incrivelmente complexa ocorre todos os dias no nosso planeta para que uma célula seja capaz de se tornar uma criança com uma vida inteira pela frente.</itunes:subtitle>
+      <itunes:summary>Um dos fenômenos mais complexos que existem no universo é o nascimento de um novo ser vivo. Uma sinfonia molecular incrivelmente complexa ocorre todos os dias no nosso planeta para que uma célula seja capaz de se tornar uma criança com uma vida inteira pela frente.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=4821</guid>
+      <title>Sobre Creative Commons e Inovação</title>
+      <link>https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</link>
+      <comments>https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</comments>
+      <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_010_DROPS_creative_commons_e_inovacao.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Neste episódio, conversamos com **Laure Stelmastchuk**, doutoranda em Física Aplicada do IFSC-USP, sobre as vantagens e desvantagens do modelo de patentes e como licenças como Creative Commons podem ser uma boa alternativa para pesquisadores brasileiros.</itunes:subtitle>
+      <itunes:summary>Neste episódio, conversamos com **Laure Stelmastchuk**, doutoranda em Física Aplicada do IFSC-USP, sobre as vantagens e desvantagens do modelo de patentes e como licenças como Creative Commons podem ser uma boa alternativa para pesquisadores brasileiros.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=8</guid>
+      <title>Sobre fusão do MCTI, ranking Nature e novos INCTs</title>
+      <link>https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</link>
+      <comments>https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</comments>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_009_NEWS_sobre_fusao_do_MCTI_e_MC_ranking_nature_e_novos_INCTS.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Conversamos sobre a fusão do Ministério da Ciência, Tecnologia e Inovação (MCTI) com o Ministério das Comunicações, o desempenho das intituições de pesquisa brasileira no ranking da Nature e o anúncio dos 37 novos Intitutos Nacionais de Ciência e Tecnologia (INCTs).</itunes:subtitle>
+      <itunes:summary>Conversamos sobre a fusão do Ministério da Ciência, Tecnologia e Inovação (MCTI) com o Ministério das Comunicações, o desempenho das intituições de pesquisa brasileira no ranking da Nature e o anúncio dos 37 novos Intitutos Nacionais de Ciência e Tecnologia (INCTs).</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=9</guid>
+      <title>Sobre neurociência e calcificação cerebral</title>
+      <link>https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</link>
+      <comments>https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</comments>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_008_sobre_neurociencia_e_calcificacao_cerebral.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>É possível que ossos estejam se formando dentro do seu cérebro neste exato momento. Este é um processo conhecido como calcificação cerebral, que está ligado a varias doenças neurológicas. Tentar entender por que e como isso ocorre é o trabalho de Eraldo Fonseca Junior.</itunes:subtitle>
+      <itunes:summary>É possível que ossos estejam se formando dentro do seu cérebro neste exato momento. Este é um processo conhecido como calcificação cerebral, que está ligado a varias doenças neurológicas. Tentar entender por que e como isso ocorre é o trabalho de Eraldo Fonseca Junior.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=10</guid>
+      <title>Sobre prever epidemias e Epitrack no The Venture</title>
+      <link>https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</link>
+      <comments>https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</comments>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_007_DROPS_02_Prevendo_epidemias_e_Epitrack_no_The_Venture.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.</itunes:subtitle>
+      <itunes:summary>Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=11</guid>
+      <title>Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde</title>
+      <link>https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</link>
+      <comments>https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</comments>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_006_NEWS_1_sobre_supercomputador_fosfoetanolamina-premio-fotografia-guardioes_da_saude.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Comentamos sobre a importância do Santos Dummond, o maior supercomputador da América Latina, a aprovação do uso da fosfoetanolamina por parte do nosso governo, uma matéria sobre a brasileira que ganhou um prêmio de fotografia científica e o aplicativo de vigilância participativa Guardiões da Saúde.</itunes:subtitle>
+      <itunes:summary>Comentamos sobre a importância do Santos Dummond, o maior supercomputador da América Latina, a aprovação do uso da fosfoetanolamina por parte do nosso governo, uma matéria sobre a brasileira que ganhou um prêmio de fotografia científica e o aplicativo de vigilância participativa Guardiões da Saúde.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=12</guid>
+      <title>Sobre saúde mental infantil e autismo</title>
+      <link>https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</link>
+      <comments>https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</comments>
+      <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_005_sobre_saude_mental_e_autismo.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Como interagir com uma criança que não quer se relacionar? Como as expectativas que temos e criamos para a infância podem gerar sofrimento? Seu filho não consegue se concentrar nas aulas? Será que ele precisa de ajuda? O que é, como identificar e como lidar com sinais de autismo em crianças?</itunes:subtitle>
+      <itunes:summary>Como interagir com uma criança que não quer se relacionar? Como as expectativas que temos e criamos para a infância podem gerar sofrimento? Seu filho não consegue se concentrar nas aulas? Será que ele precisa de ajuda? O que é, como identificar e como lidar com sinais de autismo em crianças?</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=13</guid>
+      <title>Sobre crowdfunding para diagnóstico de Zika vírus</title>
+      <link>https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</link>
+      <comments>https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</comments>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_004_DROPS_001_SOBRE_CROWNDFUNDING_PARA_DIAGNOSTICO_DO_ZIKA_v_02.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Uma equipe de pesquisadores lançou ma campanha de crowdfunding para desenvolver um método de diagnóstico do vírus.</itunes:subtitle>
+      <itunes:summary>Uma equipe de pesquisadores lançou ma campanha de crowdfunding para desenvolver um método de diagnóstico do vírus.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=14</guid>
+      <title>Sobre oceanografia química</title>
+      <link>https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</link>
+      <comments>https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</comments>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_003_sobre_oceanografia_quimica.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Entenda como é identificada a poluição invisível e como agrotóxicos e outros poluentes foram parar em uma ilha há centenas de quilômetros do litoral brasileiro.</itunes:subtitle>
+      <itunes:summary>Entenda como é identificada a poluição invisível e como agrotóxicos e outros poluentes foram parar em uma ilha há centenas de quilômetros do litoral brasileiro.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=15</guid>
+      <title>Sobre abelhas e polinização</title>
+      <link>https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</link>
+      <comments>https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</comments>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_002_sobre_abelhas_e_polinizao.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Saiba mais sobre o desaparecimento das abelhas ao redor do mundo e a triste consequência apocalíptica que se aproxima.</itunes:subtitle>
+      <itunes:summary>Saiba mais sobre o desaparecimento das abelhas ao redor do mundo e a triste consequência apocalíptica que se aproxima.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=16</guid>
+      <title>Sobre evolução de proteínas</title>
+      <link>https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</link>
+      <comments>https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</comments>
+      <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_001_sobre_evoluo_de_proteinas.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Por alguma razão, duas enzimas foram cruciais nesse processo e descobrir o que aconteceu ao longo da história evolutiva dessas enzimas é o trabalho do Dalton (Fabio Neves).</itunes:subtitle>
+      <itunes:summary>Por alguma razão, duas enzimas foram cruciais nesse processo e descobrir o que aconteceu ao longo da história evolutiva dessas enzimas é o trabalho do Dalton (Fabio Neves).</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=20</guid>
+      <title>Meça suas pesquisas</title>
+      <link>https://beta.podentender.com/episodio/000-meca-suas-pesquisas</link>
+      <comments>https://beta.podentender.com/episodio/000-meca-suas-pesquisas</comments>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender-000.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Tonho, Bachega e Dalton discutem sobre os problemas na ciência brasileira e a urgência acerca da divulgação científica.</itunes:subtitle>
+      <itunes:summary>Tonho, Bachega e Dalton discutem sobre os problemas na ciência brasileira e a urgência acerca da divulgação científica.</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+  </channel>
 </rss>
