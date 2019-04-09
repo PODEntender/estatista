@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://beta.podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Tue, 09 Apr 2019 08:50:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2019 13:26:52 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,19 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <guid isPermaLink="false">https://podentender.com/?p=5897</guid>
+      <title>Sobre licença maternidade no Lattes e audiência do Minsitro da Ciência Marcos Pontes sobre o AST</title>
+      <link>https://beta.podentender.com/episodio/046-sobre-licenca-maternidade-no-lattes-e-audiencia-do-minsitro-da-ciencia-marcos-pontes-sobre-o-ast</link>
+      <comments>https://beta.podentender.com/episodio/046-sobre-licenca-maternidade-no-lattes-e-audiencia-do-minsitro-da-ciencia-marcos-pontes-sobre-o-ast</comments>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_46.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Inclusão do período de licença maternidade e paternidade no currículo lattes. Marcos Pontes esclarece o AST (Acordo de Salvaguardas Tecnológicas).</itunes:subtitle>
+      <itunes:summary>Inclusão do período de licença maternidade e paternidade no currículo lattes. Marcos Pontes esclarece o AST (Acordo de Salvaguardas Tecnológicas).</itunes:summary>
+      <itunes:author>PODEntender</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
     <item>
       <guid isPermaLink="false">https://podentender.com/?p=5891</guid>
       <title>Sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019</title>
