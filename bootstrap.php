@@ -2,10 +2,10 @@
 
 use PODEntender\EventHandler\Episode\GenerateRecommendedEpisodeListAfterCollect;
 use PODEntender\EventHandler\Episode\DecorateConfigWithEpisodesInformationAfterCollect;
-use PODEntender\EventHandler\Episode\PostProcessFilesAfterBuild;
+use PODEntender\Infrastructure\Application\Service\FileProcessing\JigsawPostProcessFilesAfterBuild;
 use PODEntender\EventHandler\Category\GenerateCategoriesAfterCollections;
 use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
-use PODEntender\Infrastructure\Application\Service\FileProcessing\JigsawGenerateRssFeed;
+use PODEntender\Infrastructure\Application\Service\FileProcessing\JigsawGenerateRssFeedAfterBuild;
 use TightenCo\Jigsaw\Jigsaw;
 
 /** @var $container \Illuminate\Container\Container */
@@ -23,7 +23,7 @@ $events->afterCollections([
 ]);
 
 $events->afterBuild([
-    JigsawGenerateRssFeed::class,
+    JigsawGenerateRssFeedAfterBuild::class,
+    JigsawPostProcessFilesAfterBuild::class,
     SitemapListener::class,
-    PostProcessFilesAfterBuild::class,
 ]);

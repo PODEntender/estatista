@@ -4,9 +4,10 @@ namespace PODEntender\Infrastructure\Application\Service\FileProcessing;
 
 use PODEntender\Application\Service\FileProcessing\GenerateRssFeed;
 use PODEntender\Domain\Model\FileProcessing\RssFeedConfiguration;
+use PODEntender\Infrastructure\Application\Service\JigsawEventHandler;
 use TightenCo\Jigsaw\Jigsaw;
 
-class JigsawGenerateRssFeed
+class JigsawGenerateRssFeedAfterBuild implements JigsawEventHandler
 {
     public function handle(Jigsaw $jigsaw): void
     {

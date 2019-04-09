@@ -1,32 +1,39 @@
 <?php
 
-namespace PODEntender\EventHandler\Episode;
+namespace PODEntender\Application\Service\FileProcessing;
 
-use PODEntender\EventHandler\HandlerInterface;
-use TightenCo\Jigsaw\Jigsaw;
+use PODEntender\Domain\Model\FileProcessing\OutputFile;
+use PODEntender\Domain\Model\FileProcessing\OutputFileCollection;
+use PODEntender\Domain\Model\FileProcessing\OutputFileRepository;
 use Symfony\Component\DomCrawler\Crawler;
 
-class PostProcessFilesAfterBuild implements HandlerInterface
+class PostProcessFiles
 {
-    public function handle(Jigsaw $jigsaw): void
+    private $outputFilesRepository;
+
+    public function __construct(OutputFileRepository $outputFilesRepository)
     {
-        collect($jigsaw->getOutputPaths())
-            ->map(function (string $path) use ($jigsaw) {
-                return $jigsaw->getDestinationPath() . $path . '/index.html';
-            })
-            ->filter(function (string $path) {
-                return file_exists($path);
-            })
-            ->each(function (string $path) use ($jigsaw) {
-                $builtContent = file_get_contents($path);
-                $crawler = new Crawler();
-                $crawler->addHtmlContent($builtContent);
+        $this->outputFilesRepository = $outputFilesRepository;
+    }
 
-                $this->decorateParagraphs($crawler);
-                $this->decorateHeadings($crawler);
+    public function handle(): OutputFileCollection
+    {
+        $files = $this->outputFilesRepository->all();
+        $processedFiles = new OutputFileCollection();
 
-                file_put_contents($path, $crawler->getNode(0)->ownerDocument->saveHTML());
-            });
+        foreach ($files as $file) {
+            $crawler = new Crawler();
+            $crawler->addHtmlContent($file->content());
+
+            $this->decorateParagraphs($crawler);
+            $this->decorateHeadings($crawler);
+
+            $processedFiles->append(
+                new OutputFile($file->path(), $crawler->getNode(0)->ownerDocument->saveHTML())
+            );
+        }
+
+        return $processedFiles;
     }
 
     private function decorateParagraphs(Crawler $crawler): void

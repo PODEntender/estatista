@@ -2,10 +2,12 @@
 
 use \Illuminate\Container\Container;
 
+use PODEntender\Domain\Model\FileProcessing\OutputFileRepository;
 use TightenCo\Jigsaw\PathResolvers\BasicOutputPathResolver;
 use PODEntender\Domain\Model\FileProcessing\RssFeedConfiguration;
 use PODEntender\Domain\Model\Post\PostRepository;
 use PODEntender\Infrastructure\Domain\Model\Post\JigsawPostRepository;
+use PODEntender\Infrastructure\Domain\Model\FileProcessing\JigsawBuiltOutputFilesRepository;
 use TightenCo\Jigsaw\Jigsaw;
 
 return function (Container $dic, Jigsaw $jigsaw) {
@@ -47,4 +49,5 @@ return function (Container $dic, Jigsaw $jigsaw) {
     ));
 
     $dic->bind(PostRepository::class, JigsawPostRepository::class);
+    $dic->bind(OutputFileRepository::class, JigsawBuiltOutputFilesRepository::class);
 };
