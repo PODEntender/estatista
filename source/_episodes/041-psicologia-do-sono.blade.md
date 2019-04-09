@@ -10,7 +10,7 @@ episode:
   title: 'Sobre a psicologia do sono'
   description: Você já se questionou por que nós precisamos dormir? Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono.
   guid: 'https://podentender.com/?p=5633'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3
   disqus: '5633 https://podentender.com/?p=5633'
   cover:
     url: '/assets/images/episode/041/041-capa-16x9.jpg'

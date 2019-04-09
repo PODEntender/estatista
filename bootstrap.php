@@ -1,25 +1,20 @@
 <?php
 
 use PODEntender\EventHandler\Episode\GenerateRecommendedEpisodeListAfterCollect;
-use PODEntender\EventHandler\Episode\GenerateRssFeedAfterBuild;
 use PODEntender\EventHandler\Episode\DecorateConfigWithEpisodesInformationAfterCollect;
 use PODEntender\EventHandler\Episode\PostProcessFilesAfterBuild;
 use PODEntender\EventHandler\Category\GenerateCategoriesAfterCollections;
 use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
+use PODEntender\Infrastructure\Application\Service\FileProcessing\JigsawGenerateRssFeed;
+use TightenCo\Jigsaw\Jigsaw;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
 
-/**
- * You can run custom code at different stages of the build process by
- * listening to the 'beforeBuild', 'afterCollections', and 'afterBuild' events.
- *
- * For example:
- *
- * $events->beforeBuild(function (Jigsaw $jigsaw) {
- *     // Your code here
- * });
- */
+$events->beforeBuild(function (Jigsaw $jigsaw) use ($container) {
+    $configureDependencyInjection = require __DIR__ . '/config/dependency-injection.php';
+    $configureDependencyInjection($container, $jigsaw);
+});
 
 $events->afterCollections([
     $container->make(DecorateConfigWithEpisodesInformationAfterCollect::class),
@@ -28,7 +23,7 @@ $events->afterCollections([
 ]);
 
 $events->afterBuild([
+    JigsawGenerateRssFeed::class,
     SitemapListener::class,
-    GenerateRssFeedAfterBuild::class,
     PostProcessFilesAfterBuild::class,
 ]);

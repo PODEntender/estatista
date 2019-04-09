@@ -9,7 +9,7 @@ episode:
   date: 2018-11-25
   title: 'Sobre aviões, lasers e impressão 3D'
   description: Nós estamos bem acostumados a ver aviões como os Boeing 777/787 ou a família Airbus 3XX, que possuem o formato “padrão” com um motor embaixo de cada asa. Grande parte da pesquisa no ramo de aviação hoje em dia é focada em aumentar a eficiência desses motores para que consumam menos combustível, emitam menos gases poluentes e sejam mais silenciosos.
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender40.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender40.mp3
   guid: 'https://podentender.com/?p=5611'
   disqus: '5611 https://podentender.com/?p=5611'
   cover:

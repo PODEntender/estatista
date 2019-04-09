@@ -10,7 +10,7 @@ episode:
   title: 'Sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019'
   description: 'Giovanna Merli pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse espaço poderia ser melhor.'
   guid: 'https://podentender.com/?p=5891'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_45.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_45.mp3
   disqus: '5891 https://podentender.com/?p=5891'
   cover:
     url: '/assets/images/episode/045/045-capa.jpg'

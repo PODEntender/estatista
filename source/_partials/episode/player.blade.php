@@ -1,14 +1,14 @@
 <section class="player-card">
     <audio class="player-card__player" controls preload="none">
-        <source src="{{ $page->episode['blubrry'] }}">
+        <source src="{{ $page->episode['audioUrl'] }}">
     </audio>
 
     <p class="player-card__subscribe">
         Podcast:
-        <a title="Reproduzir em uma nova janela" href="{{ $page->episode['blubrry'] }}" class="link player-card__subscribe-link" target="_blank">
+        <a title="Reproduzir em uma nova janela" href="{{ $page->episode['audioUrl'] }}" class="link player-card__subscribe-link" target="_blank">
             Reproduzir em uma nova janela
         </a> |
-        <a title="Baixar" href="{{ $page->episode['blubrry'] }}" class="link player-card__subscribe-link">
+        <a title="Baixar" href="{{ $page->episode['audioUrl'] }}" class="link player-card__subscribe-link">
             Baixar
         </a>
     </p>

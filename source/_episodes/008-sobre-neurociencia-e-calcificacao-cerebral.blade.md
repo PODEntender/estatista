@@ -10,7 +10,7 @@ episode:
   title: Sobre neurociência e calcificação cerebral
   description: É possível que ossos estejam se formando dentro do seu cérebro neste exato momento. Este é um processo conhecido como calcificação cerebral, que está ligado a varias doenças neurológicas. Tentar entender por que e como isso ocorre é o trabalho de Eraldo Fonseca Junior.  
   guid: 'https://podentender.com/?p=9'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_008_sobre_neurociencia_e_calcificacao_cerebral.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_008_sobre_neurociencia_e_calcificacao_cerebral.mp3
   disqus: '9 http://podentender.com/2016/05/29/podentender-005-sobre-neurociencia-e-calcificacao-cerebra/'
   cover:
     url: '/assets/images/episode/008/008-capa.jpg'

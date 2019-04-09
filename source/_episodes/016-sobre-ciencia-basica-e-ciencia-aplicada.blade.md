@@ -10,7 +10,7 @@ episode:
   title: 'Sobre ciência básica e ciência aplicada'
   description: Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?
   guid: 'https://podentender.com/?p=4926'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3
   disqus: '4926 http://podentender.com/?p=4926'
   cover:
     url: '/assets/images/episode/016/016-capa.jpg'

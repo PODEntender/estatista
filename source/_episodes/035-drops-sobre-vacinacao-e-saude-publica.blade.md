@@ -10,7 +10,7 @@ episode:
   title: 'Sobre vacinação e saúde pública'
   description: Está rolando neste mês a campanha de vacinação da Poliomielite, então é um momento oportuno para saber mais sobre a relação entre vacinação e saúde pública. Você já pensou na logística necessária para vacinar um país grande como o Brasil?
   guid: 'https://podentender.com/?p=5483'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_35.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_35.mp3
   disqus: '5483 http://podentender.com/?p=5483'
   cover:
     url: '/assets/images/episode/035/035-capa.jpg'

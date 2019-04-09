@@ -10,7 +10,7 @@ episode:
   title: Sobre crowdfunding para diagnóstico de Zika vírus
   description: Uma equipe de pesquisadores lançou ma campanha de crowdfunding para desenvolver um método de diagnóstico do vírus.  
   guid: 'https://podentender.com/?p=13'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_004_DROPS_001_SOBRE_CROWNDFUNDING_PARA_DIAGNOSTICO_DO_ZIKA_v_02.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_004_DROPS_001_SOBRE_CROWNDFUNDING_PARA_DIAGNOSTICO_DO_ZIKA_v_02.mp3
   disqus: '13 http://podentender.com/2016/03/31/podentender-drops-001-sobre-crowndfunding-para-diagnostico-de-zika-virus/'
   cover:
     url: '/assets/images/episode/004/004-capa.jpg'

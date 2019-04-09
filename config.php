@@ -2,7 +2,7 @@
 
 setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 
-return [
+$config = [
     'production' => false,
     'baseUrl' => 'http://localhost:3000',
     'googleAnalyticsId' => 'GA-TEST-ID',
@@ -37,7 +37,6 @@ return [
             ],
         ],
     ],
-    'feed' => require __DIR__ . '/config/feed.php',
     'menu' => [
         'items' => [
             'Sobre' => '/sobre',
@@ -59,9 +58,6 @@ return [
         ],
     ],
 
-    // Helper methods
-    'url' => new \PODEntender\Helper\Url(),
-
     'assets' => [
         'logo' => '/assets/images/logo.png',
         'icons' => [
@@ -69,3 +65,11 @@ return [
         ],
     ],
 ];
+
+return array_merge(
+    $config,
+    require __DIR__ . '/config/functions.php',
+    [
+        'feed' => require __DIR__ . '/config/feed.php',
+    ]
+);

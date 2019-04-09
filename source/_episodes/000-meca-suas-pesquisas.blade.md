@@ -9,7 +9,7 @@ episode:
   date: 2015-12-12
   title: Meça suas pesquisas
   description: Tonho, Bachega e Dalton discutem sobre os problemas na ciência brasileira e a urgência acerca da divulgação científica. 
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender-000.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender-000.mp3
   guid: 'https://podentender.com/?p=20'
   disqus: '20 http://podentender.com/2015/12/12/podentender-000-meca-suas-pesquisas/'
   cover:

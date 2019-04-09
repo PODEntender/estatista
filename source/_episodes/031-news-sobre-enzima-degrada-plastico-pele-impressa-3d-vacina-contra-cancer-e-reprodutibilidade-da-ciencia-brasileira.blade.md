@@ -10,7 +10,7 @@ episode:
   title: 'Sobre enzima que degrada plástico, pele impressa em 3d, vacina contra o câncer e reprodutibilidade da ciência brasileira'
   description: Você sabia que uma vacina contra o câncer desenvolvida no Brasil foi testada com sucesso em cobáias? E que pesquisadores brasileiros trabalharam no melhoramento da eficiência de enzima que degrada plástico? E que uma pesquisadora brasileira trabalhou no desenvolvimento de pele impressa em 3D para substituir uso de animais em testes de cosméticos? Já ouviu falar da crise de reprodutibilidade da ciência e na iniciativa brasileira para verificar a reprodutibilidade de cientistas brasileiros?
   guid: 'https://podentender.com/?p=5451'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEnteder_31_NEWS.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEnteder_31_NEWS.mp3
   disqus: '5451 http://podentender.com/?p=5451'
   cover:
     url: '/assets/images/episode/031/031-capa.png'

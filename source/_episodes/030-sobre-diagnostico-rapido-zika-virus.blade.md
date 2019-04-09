@@ -10,7 +10,7 @@ episode:
   title: 'Sobre diagnóstico rápido do Zika Vírus'
   description: Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia? Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?
   guid: 'https://podentender.com/?p=5414'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3
   disqus: '5414 http://podentender.com/?p=5414'
   cover:
     url: '/assets/images/episode/030/030-capa.jpg'

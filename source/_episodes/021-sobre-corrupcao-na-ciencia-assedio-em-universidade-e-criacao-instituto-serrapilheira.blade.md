@@ -10,7 +10,7 @@ episode:
   title: 'Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira'
   description: Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.
   guid: 'https://podentender.com/?p=5155'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3
   disqus: '5155 http://dragoesdegaragem.com/podentender/?p=5155'
   cover:
     url: '/assets/images/episode/021/021-capa.png'

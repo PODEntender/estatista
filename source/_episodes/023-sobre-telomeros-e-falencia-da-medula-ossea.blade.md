@@ -10,7 +10,7 @@ episode:
   title: 'Sobre telômeros e falência da medula óssea'
   description: A cada dia que passa você perde um pedacinho das pontas dos seus cromossomos e os telômeros estão lá para serem consumidos antes dos seus genes. Uma hora eles acabam, mas normalmente as pessoas morrem antes disso acontecer. O que acontece quando esses telômeros são mais curtos do que deveriam?  
   guid: 'https://podentender.com/?p=5175'
-  blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_023_telomeros_e_falencia_da_medula.mp3
+  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_023_telomeros_e_falencia_da_medula.mp3
   disqus: '5175 http://dragoesdegaragem.com/podentender/?p=5175'
   cover:
     url: '/assets/images/episode/023/023-capa.png'
