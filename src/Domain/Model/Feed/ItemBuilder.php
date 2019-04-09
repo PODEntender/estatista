@@ -1,6 +1,7 @@
 <?php
 
-namespace PODEntender\Feed;
+namespace PODEntender\Domain\Model\Feed;
+
 class ItemBuilder
 {
     const DATE_FORMAT = 'D, d M Y H:i:s O';

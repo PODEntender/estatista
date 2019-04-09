@@ -1,6 +1,6 @@
 <?php
 
-namespace PODEntender\Feed;
+namespace PODEntender\Domain\Model\Feed;
 
 class FeedBuilder
 {

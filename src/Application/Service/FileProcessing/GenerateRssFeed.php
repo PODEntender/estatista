@@ -5,9 +5,9 @@ namespace PODEntender\Application\Service\FileProcessing;
 use PODEntender\Domain\Model\FileProcessing\RssFeedConfiguration;
 use PODEntender\Domain\Model\Post\AudioEpisode;
 use PODEntender\Domain\Model\Post\PostRepository;
-use PODEntender\Feed\ChannelBuilder;
-use PODEntender\Feed\FeedBuilder;
-use PODEntender\Feed\ItemBuilder;
+use PODEntender\Domain\Model\Feed\ChannelBuilder;
+use PODEntender\Domain\Model\Feed\FeedBuilder;
+use PODEntender\Domain\Model\Feed\ItemBuilder;
 
 class GenerateRssFeed
 {
