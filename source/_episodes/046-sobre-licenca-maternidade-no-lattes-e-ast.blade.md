@@ -13,7 +13,7 @@ episode:
   blubrry: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_46.mp3
   disqus: '5897 https://podentender.com/?p=5897'
   cover:
-    url: '/assets/images/episode/046/046-capa.jpg'
+    url: '/assets/images/episode/046/capa.jpg'
     title: 'Capa do episódio: PODEntender #046, news'
 tags:
   - mctic
