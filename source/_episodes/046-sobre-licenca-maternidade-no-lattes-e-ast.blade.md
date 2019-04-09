@@ -17,6 +17,7 @@ episode:
     title: 'Capa do episódio: PODEntender #046, news'
 tags:
   - mctic
+  - cnpq
   - lattes
   - maternidade
   - feminismo
