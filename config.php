@@ -53,7 +53,14 @@ $config = [
     ],
     'collections' => [
         'episodes' => [
-            'path' => new \PODEntender\Slug\Episode(),
+            'path' => function (\TightenCo\Jigsaw\PageVariable $page) {
+                $builder = new \PODEntender\Domain\Model\Post\EpisodeSlugBuilder();
+                return $builder->build(
+                    $page->episode['number'],
+                    $page->episode['title'],
+                    $page->episode['slug'] ?? null
+                );
+            },
             'sort' => ['-date'],
         ],
     ],
