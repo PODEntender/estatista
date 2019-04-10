@@ -2,20 +2,8 @@
 
 namespace PODEntender\Domain\Model\Post;
 
-use ArrayObject;
-use InvalidArgumentException;
+use Illuminate\Support\Collection;
 
-class PostCollection extends ArrayObject
+class PostCollection extends Collection
 {
-    public function __construct(array $posts = []) {
-        $nonPostItems = array_filter($posts, function ($post) {
-            return !$post instanceof Post;
-        });
-
-        if (count($nonPostItems) > 0) {
-            throw new InvalidArgumentException('PostCollection elements must be instanceof Post.');
-        }
-
-        parent::__construct($posts);
-    }
 }

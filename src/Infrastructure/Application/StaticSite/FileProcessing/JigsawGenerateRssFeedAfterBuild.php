@@ -1,10 +1,10 @@
 <?php
 
-namespace PODEntender\Infrastructure\Application\Service\FileProcessing;
+namespace PODEntender\Infrastructure\Application\StaticSite\FileProcessing;
 
 use PODEntender\Application\Service\FileProcessing\GenerateRssFeed;
 use PODEntender\Domain\Model\FileProcessing\RssFeedConfiguration;
-use PODEntender\Infrastructure\Application\Service\JigsawEventHandler;
+use PODEntender\Infrastructure\Application\StaticSite\JigsawEventHandler;
 use TightenCo\Jigsaw\Jigsaw;
 
 class JigsawGenerateRssFeedAfterBuild implements JigsawEventHandler
@@ -17,6 +17,6 @@ class JigsawGenerateRssFeedAfterBuild implements JigsawEventHandler
         /** @var GenerateRssFeed $handler */
         $handler = $jigsaw->app->make(GenerateRssFeed::class);
 
-        $handler->handle($configuration);
+        $handler->execute($configuration);
     }
 }

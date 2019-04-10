@@ -1,6 +1,6 @@
 <?php
 
-namespace PODEntender\Infrastructure\Application\Service;
+namespace PODEntender\Infrastructure\Application\StaticSite;
 
 use TightenCo\Jigsaw\Jigsaw;
 

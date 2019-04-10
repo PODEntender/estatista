@@ -16,7 +16,7 @@ class PostProcessFiles
         $this->outputFilesRepository = $outputFilesRepository;
     }
 
-    public function handle(): OutputFileCollection
+    public function execute(): OutputFileCollection
     {
         $files = $this->outputFilesRepository->all();
         $processedFiles = new OutputFileCollection();

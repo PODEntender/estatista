@@ -10,6 +10,6 @@
     @include('_partials.episode.comments')
 
     @include('_partials.episode.recommendations.main', [
-        'recommendations' => $page->recommended ?? []
+        'recommendations' => $page->recommendations,
     ])
 </article>

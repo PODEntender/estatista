@@ -9,7 +9,6 @@ $metaDescription = 'Episódios: ' . implode(
         })
         ->toArray()
 );
-
 @endphp
 
 @section('head')
@@ -94,7 +93,18 @@ $metaDescription = 'Episódios: ' . implode(
 
         @include('_partials.episode.episode-card-list', [
             'title' => '',
-            'episodes' => $pagination->items,
+            'episodes' => $pagination->items->map(function ($page) {
+                /** @var \PODEntender\Domain\Model\Post\AudioEpisode $episode */
+                $episode = $page->audioEpisode;
+
+                return [
+                    'url' => $episode->url(),
+                    'image' => $episode->cover(),
+                    'timestamp' => $episode->createdAt()->getTimestamp(),
+                    'title' => $episode->title(),
+                    'description' => substr($episode->description(), 0, 146) . ' ...',
+                ];
+            })->toArray(),
             'hidden' => [],
         ])
 

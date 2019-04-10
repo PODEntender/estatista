@@ -1,9 +1,9 @@
 <?php
 
-namespace PODEntender\Infrastructure\Application\Service\FileProcessing;
+namespace PODEntender\Infrastructure\Application\StaticSite\FileProcessing;
 
 use PODEntender\Application\Service\FileProcessing\PostProcessFiles;
-use PODEntender\Infrastructure\Application\Service\JigsawEventHandler;
+use PODEntender\Infrastructure\Application\StaticSite\JigsawEventHandler;
 use TightenCo\Jigsaw\Jigsaw;
 
 class JigsawPostProcessFilesAfterBuild implements JigsawEventHandler
@@ -13,7 +13,7 @@ class JigsawPostProcessFilesAfterBuild implements JigsawEventHandler
         /** @var PostProcessFiles $handler */
         $handler = $jigsaw->app->make(PostProcessFiles::class);
 
-        $outputFiles = $handler->handle();
+        $outputFiles = $handler->execute();
 
         foreach ($outputFiles as $outputFile) {
             file_put_contents($outputFile->path(), $outputFile->content());

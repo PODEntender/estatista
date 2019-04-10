@@ -4,7 +4,6 @@ namespace PODEntender\Infrastructure\Domain\Model\Post;
 
 use PODEntender\Domain\Model\Post\PostRepository;
 
-
 use PODEntender\Domain\Model\Post\AudioEpisodeCollection;
 use PODEntender\Domain\Model\Post\Post;
 use PODEntender\Domain\Model\Post\PostCollection;

@@ -20,7 +20,8 @@ class Recommendation
     {
         $tags = $post->tags() ?? [];
 
-        $recommended = collect($this->postRepository->withAudio()->getArrayCopy())
+        $recommended = $this->postRepository
+            ->withAudio()
             ->filter(function (AudioEpisode $episode) use ($post) {
                 return $post->url() !== $episode->url();
             })

@@ -23,7 +23,7 @@ class GenerateRssFeed
         $this->postsRepository = $postsRepository;
     }
 
-    public function handle(RssFeedConfiguration $configuration): void
+    public function execute(RssFeedConfiguration $configuration): void
     {
         $builder = $this->builder
             ->channel()
@@ -43,10 +43,10 @@ class GenerateRssFeed
             ->email($configuration->email())
             ->category($configuration->category());
 
-        $episodes = $this->postsRepository->withAudio();
-        $episodes->uasort(function (AudioEpisode $ep1, AudioEpisode $ep2) {
-            return $ep1->createdAt() < $ep2->createdAt();
-        });
+        $episodes = $this->postsRepository->withAudio()
+            ->sortByDesc(function (AudioEpisode $episode) {
+                return $episode->createdAt();
+            });
 
         /** @var AudioEpisode $episode */
         foreach ($episodes as $episode) {

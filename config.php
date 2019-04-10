@@ -4,7 +4,8 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 
 $config = [
     'production' => false,
-    'baseUrl' => 'http://localhost:3000',
+//    'baseUrl' => 'http://localhost:3000',
+    'baseUrl' => 'http://192.168.178.65:3000',
     'googleAnalyticsId' => 'GA-TEST-ID',
     'googleTagManagerId' => 'GTM-TEST-ID',
     'meta' => [

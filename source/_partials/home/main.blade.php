@@ -4,7 +4,6 @@ $episodes = [
     'Drops' => $latestEpisodesPerCategory['Drops'],
     'News' => $latestEpisodesPerCategory['News'],
 ];
-
 @endphp
 
 <section class="content">
@@ -30,7 +29,9 @@ $episodes = [
     @foreach($episodes as $categoryName => $categoryEpisodes)
         @include('_partials.episode.recommendations.main', [
             'title' => $categoryName,
-            'recommendations' => $categoryEpisodes,
+            'recommendations' => $categoryEpisodes->map(function ($episode) {
+                return $episode->audioEpisode;
+            }),
         ])
     @endforeach
 </section>
