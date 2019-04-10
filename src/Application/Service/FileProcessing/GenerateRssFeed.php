@@ -70,6 +70,9 @@ class GenerateRssFeed
         }
 
         $outputContent = $builder->close()->toXml();
+
+        // @todo -> this does not belong here
         file_put_contents($configuration->outputFilepath(), $outputContent);
     }
 }
+
