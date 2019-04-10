@@ -2,10 +2,9 @@
 
 namespace PODEntender\Domain\Model\Post;
 
-use ArrayObject;
 use InvalidArgumentException;
 
-class AudioEpisodeCollection extends ArrayObject
+class AudioEpisodeCollection extends PostCollection
 {
     public function __construct(array $episodes = []) {
         $nonEpisodeItems = array_filter($episodes, function ($episode) {

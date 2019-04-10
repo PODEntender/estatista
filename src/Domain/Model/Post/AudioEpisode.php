@@ -23,6 +23,7 @@ class AudioEpisode extends Post
         string $content,
         string $category,
         PostImageCollection $images,
+        array $tags,
         DateTimeInterface $createdAt,
         DateTimeInterface $updatedAt,
         string $explicit,
@@ -39,6 +40,7 @@ class AudioEpisode extends Post
             $content,
             $category,
             $images,
+            $tags,
             $createdAt,
             $updatedAt
         );

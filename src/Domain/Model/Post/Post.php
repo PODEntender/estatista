@@ -22,9 +22,13 @@ class Post
 
     private $images;
 
+    private $tags;
+
     private $createdAt;
 
     private $updatedAt;
+
+    private $recommended;
 
     public function __construct(
         string $guid,
@@ -35,6 +39,7 @@ class Post
         string $content,
         string $category,
         PostImageCollection $images,
+        array $tags,
         DateTimeInterface $createdAt,
         DateTimeInterface $updatedAt
     ) {
@@ -46,8 +51,11 @@ class Post
         $this->content = $content;
         $this->category = $category;
         $this->images = $images;
+        $this->tags = $tags;
         $this->createdAt = $createdAt;
         $this->updatedAt = $updatedAt;
+
+        $this->recommended = new PostCollection();
     }
 
     public function guid(): string
@@ -90,6 +98,17 @@ class Post
         return $this->images;
     }
 
+    public function cover(): string
+    {
+        return $this->images->offsetGet(0)->url();
+    }
+
+    // @todo -> create a proper TagCollection and Tag entity
+    public function tags(): array
+    {
+        return $this->tags;
+    }
+
     public function createdAt(): DateTimeInterface
     {
         return $this->createdAt;
@@ -98,5 +117,18 @@ class Post
     public function updatedAt(): DateTimeInterface
     {
         return $this->updatedAt;
+    }
+
+    public function recommended(): PostCollection
+    {
+        return $this->recommended;
+    }
+
+    public function addRecommendations(PostCollection $recommendations): self
+    {
+        $newSelf = clone $this;
+        $newSelf->recommended = $recommendations;
+
+        return $newSelf;
     }
 }

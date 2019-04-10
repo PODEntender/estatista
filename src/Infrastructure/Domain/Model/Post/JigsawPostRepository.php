@@ -8,12 +8,12 @@ use PODEntender\Domain\Model\Post\PostRepository;
 use PODEntender\Domain\Model\Post\AudioEpisodeCollection;
 use PODEntender\Domain\Model\Post\Post;
 use PODEntender\Domain\Model\Post\PostCollection;
+use PODEntender\Infrastructure\Domain\Factory\JigsawPostFactory;
 use TightenCo\Jigsaw\Jigsaw;
 use TightenCo\Jigsaw\PageVariable;
 
 class JigsawPostRepository implements PostRepository
 {
-    /** @var Jigsaw */
     private $jigsaw;
 
     public function __construct(Jigsaw $jigsaw)
@@ -26,7 +26,9 @@ class JigsawPostRepository implements PostRepository
         return new PostCollection(
             $collection
                 ->map(function (PageVariable $post) {
-                    return $post->makePostEntity();
+                    $factory = $this->jigsaw->app->make(JigsawPostFactory::class);
+
+                    return $factory->newPostFromPageVariable($post);
                 })
                 ->toArray()
         );
@@ -37,7 +39,9 @@ class JigsawPostRepository implements PostRepository
         return new AudioEpisodeCollection(
             $collection
                 ->map(function (PageVariable $post) {
-                    return $post->makeAudioEpisodeEntity();
+                    $factory = $this->jigsaw->app->make(JigsawPostFactory::class);
+
+                    return $factory->newAudioEpisodeFromPageVariable($post);
                 })
                 ->toArray()
         );
@@ -45,7 +49,10 @@ class JigsawPostRepository implements PostRepository
 
     public function latestPost(): Post
     {
-        return $this->jigsaw->getCollection('episodes')->sortByDesc('postDate')->first()->makePostEntity();
+        $factory = $this->jigsaw->app->make(JigsawPostFactory::class);
+        $post = $this->jigsaw->getCollection('episodes')->sortByDesc('postDate')->first();
+
+        return $factory->newPostFromPageVariable($post);
     }
 
     public function latestPosts(int $amount): PostCollection

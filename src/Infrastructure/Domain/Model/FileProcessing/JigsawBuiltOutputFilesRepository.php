@@ -27,9 +27,7 @@ class JigsawBuiltOutputFilesRepository implements OutputFileRepository
                     return file_exists($path);
                 })
                 ->map(function (string $path) {
-                    $content = file_get_contents($path);
-
-                    return new OutputFile($path, $content);
+                    return new OutputFile($path, file_get_contents($path));
                 })
                 ->toArray()
         );

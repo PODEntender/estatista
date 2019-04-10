@@ -2,14 +2,26 @@
 
 namespace PODEntender\Infrastructure\Domain\Factory;
 
+use PODEntender\Domain\Model\FileProcessing\RssFeedConfiguration;
 use PODEntender\Domain\Model\Post\AudioEpisode;
 use PODEntender\Domain\Model\Post\Post;
 use PODEntender\Domain\Model\Post\PostImage;
 use PODEntender\Domain\Model\Post\PostImageCollection;
+use PODEntender\Domain\Service\Post\Recommendation;
 use TightenCo\Jigsaw\PageVariable;
 
 class JigsawPostFactory
 {
+    private $feedConfiguration;
+
+    private $recommendationService;
+
+    public function __construct(RssFeedConfiguration $feedConfiguration, Recommendation $recommendationService)
+    {
+        $this->feedConfiguration = $feedConfiguration;
+        $this->recommendationService = $recommendationService;
+    }
+
     public function newPostFromPageVariable(PageVariable $page): Post
     {
         $date = new \DateTime();
@@ -25,6 +37,7 @@ class JigsawPostFactory
             $page->getContent(),
             $episode['category'],
             $this->createImageCollectionFromPageVariable($page),
+            $page->tags ?? [],
             \DateTimeImmutable::createFromMutable($date->setTimestamp($page->date)),
             \DateTimeImmutable::createFromMutable($date->setTimestamp($episode['date']))
         );
@@ -45,9 +58,10 @@ class JigsawPostFactory
             $page->getContent(),
             $page->get('category'),
             $this->createImageCollectionFromPageVariable($page),
+            $page->tags ?? [],
             \DateTimeImmutable::createFromMutable($date->setTimestamp($page->date)),
             \DateTimeImmutable::createFromMutable($date->setTimestamp($episode['date'])),
-            'explicit',
+            $this->feedConfiguration->explicit(),
             $episode['audioDuration'] ?? '00:00:00',
             $episode['audioUrl'],
             $page->getBaseUrl() . $episode['cover']['url'] ?? ''
