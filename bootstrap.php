@@ -1,6 +1,5 @@
 <?php
 
-use PODEntender\EventHandler\Episode\DecorateConfigWithEpisodesInformationAfterCollect;
 use PODEntender\EventHandler\Category\GenerateCategoriesAfterCollections;
 
 use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
@@ -18,7 +17,6 @@ $events->beforeBuild(function (Jigsaw $jigsaw) use ($container) {
 });
 
 $events->afterCollections([
-    $container->make(DecorateConfigWithEpisodesInformationAfterCollect::class),
     $container->make(GenerateCategoriesAfterCollections::class),
     JigsawDecoratePagesAfterCollect::class,
 ]);

@@ -18,20 +18,18 @@ $episodes = [
             ],
         ],
         'episode' => [
-            'url' => $lastEpisode->getUrl(),
-            'image' => $page->baseUrl . $lastEpisode->episode['cover']['url'],
-            'timestamp' => $lastEpisode->episode['date'],
-            'title' => "Episódio #{$lastEpisode->episode['number']} - {$lastEpisode->episode['title']}",
-            'description' => $lastEpisode->episode['description'],
+            'url' => $lastEpisode->url(),
+            'image' => $lastEpisode->cover(),
+            'timestamp' => $lastEpisode->createdAt()->getTimestamp(),
+            'title' => $lastEpisode->title(),
+            'description' => $lastEpisode->description(),
         ],
     ])
 
     @foreach($episodes as $categoryName => $categoryEpisodes)
         @include('_partials.episode.recommendations.main', [
             'title' => $categoryName,
-            'recommendations' => $categoryEpisodes->map(function ($episode) {
-                return $episode->audioEpisode;
-            }),
+            'recommendations' => $categoryEpisodes,
         ])
     @endforeach
 </section>
