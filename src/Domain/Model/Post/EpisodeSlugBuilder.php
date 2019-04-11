@@ -2,6 +2,8 @@
 
 namespace PODEntender\Domain\Model\Post;
 
+use Illuminate\Support\Str;
+
 class EpisodeSlugBuilder
 {
     const PREFIX = 'episodio/';
@@ -13,7 +15,7 @@ class EpisodeSlugBuilder
         }
 
         $number = str_pad($episodeNumber, 3, 0, \STR_PAD_LEFT);
-        $slug = str_slug($episodeTitle, '-');
+        $slug = Str::slug($episodeTitle, '-');
 
         return self::PREFIX . sprintf('%s-%s', $number, $slug);
     }
