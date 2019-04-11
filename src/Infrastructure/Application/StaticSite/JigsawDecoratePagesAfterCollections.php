@@ -9,7 +9,7 @@ use PODEntender\Infrastructure\Domain\Factory\JigsawPostFactory;
 use TightenCo\Jigsaw\Jigsaw;
 use TightenCo\Jigsaw\PageVariable;
 
-class JigsawDecoratePagesAfterCollect implements JigsawEventHandler
+class JigsawDecoratePagesAfterCollections implements JigsawEventHandler
 {
     const NUMBER_OF_RECOMMENDED_EPISODES = 3;
 
