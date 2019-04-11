@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/PODEntender/estatista.svg?branch=master)](https://travis-ci.org/PODEntender/estatista)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PODEntender/estatista/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PODEntender/estatista/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/PODEntender/estatista/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Code Coverage](https://scrutinizer-ci.com/g/PODEntender/estatista/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/PODEntender/estatista/?branch=master)
 
 Estatista
 ---
