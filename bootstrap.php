@@ -1,12 +1,11 @@
 <?php
 
-use PODEntender\EventHandler\Category\GenerateCategoriesAfterCollections;
-
 use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
 use TightenCo\Jigsaw\Jigsaw;
 use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawPostProcessFilesAfterBuild;
 use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawGenerateRssFeedAfterBuild;
 use PODEntender\Infrastructure\Application\StaticSite\JigsawDecoratePagesAfterCollections;
+use PODEntender\Infrastructure\Application\StaticSite\GenerateCategoriesAfterCollections;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
@@ -17,8 +16,8 @@ $events->beforeBuild(function (Jigsaw $jigsaw) use ($container) {
 });
 
 $events->afterCollections([
-    $container->make(GenerateCategoriesAfterCollections::class),
     JigsawDecoratePagesAfterCollections::class,
+    GenerateCategoriesAfterCollections::class,
 ]);
 
 $events->afterBuild([
