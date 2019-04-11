@@ -6,7 +6,7 @@ window.toggleMenu = () => document
 const loadImage = (img) => img.setAttribute('src', img.getAttribute('data-src'));
 const removeClass = (className) => (elm) => elm.classList.remove(className);
 
-if (typeof IntersectionObserver == 'undefined') {
+if (typeof window.IntersectionObserver == 'undefined') {
   window.initDisqus && window.initDisqus();
 
   setTimeout(() => {
@@ -16,8 +16,8 @@ if (typeof IntersectionObserver == 'undefined') {
   }, 300);
 }
 
-if (typeof IntersectionObserver != 'undefined') {
-  window.imagesObserver = new IntersectionObserver((entries, observer) => {
+if (typeof window.IntersectionObserver != 'undefined') {
+  window.imagesObserver = new window.IntersectionObserver((entries, observer) => {
     entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
       const target = entry.target;
       loadImage(target);
@@ -33,7 +33,7 @@ if (typeof IntersectionObserver != 'undefined') {
 
   const commentsSection = document.querySelector('.episode__comments');
   if (commentsSection) {
-    window.commentsObserver = new IntersectionObserver((entries, observer) => {
+    window.commentsObserver = new window.IntersectionObserver((entries, observer) => {
       entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
         window.initDisqus && window.initDisqus();
 
