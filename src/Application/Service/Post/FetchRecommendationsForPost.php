@@ -17,6 +17,8 @@ class FetchRecommendationsForPost
 
     public function execute(Post $post, int $limit): PostCollection
     {
-        return $this->recommendationService->recommendEpisodesForPost($post, $limit);
+        return $this->recommendationService
+            ->recommendEpisodesForPost($post, $limit)
+            ->take($limit);
     }
 }
