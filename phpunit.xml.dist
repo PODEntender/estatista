@@ -9,7 +9,7 @@
          beStrictAboutChangesToGlobalState="true"
          beStrictAboutCoversAnnotation="true"
          beStrictAboutResourceUsageDuringSmallTests="true"
-         forceCoversAnnotation="true">
+         forceCoversAnnotation="false">
     <testsuites>
         <testsuite name="unit">
             <directory>test/unit</directory>
