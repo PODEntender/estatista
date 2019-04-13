@@ -46,8 +46,8 @@ class JigsawPostFactory
         $episode = $page->episode;
 
         return new AudioEpisode(
-            $page->getUrl(),
             $page->episode['guid'] ?? $page->getUrl(),
+            $page->getUrl(),
             $episode['title'],
             $episode['description'],
             $episode['author'] ?? '',
