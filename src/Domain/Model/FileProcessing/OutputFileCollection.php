@@ -2,22 +2,16 @@
 
 namespace PODEntender\Domain\Model\FileProcessing;
 
-use ArrayObject;
-use InvalidArgumentException;
+use Illuminate\Support\Collection;
 
-class OutputFileCollection extends ArrayObject
+class OutputFileCollection extends Collection
 {
-    public function __construct(array $files = []) {
-        $nonOutputFileItems = array_filter($files, function ($file) {
-            return !$file instanceof OutputFile;
-        });
-
-        if (count($nonOutputFileItems) > 0) {
-            throw new InvalidArgumentException(
-                'OutputFileCollection elements must be instanceof OutputFile.'
-            );
-        }
-
-        parent::__construct($files);
+    public function fetchByPath(string $path): ?OutputFile
+    {
+        return $this
+            ->filter(function (OutputFile $file) use ($path) {
+                return $file->path() === $path;
+            })
+            ->first();
     }
 }

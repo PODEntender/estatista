@@ -28,7 +28,7 @@ class PostProcessFiles
             $this->decorateParagraphs($crawler);
             $this->decorateHeadings($crawler);
 
-            $processedFiles->append(
+            $processedFiles->add(
                 new OutputFile($file->path(), $crawler->getNode(0)->ownerDocument->saveHTML())
             );
         }
