@@ -18,7 +18,7 @@ class PostProcessFilesTest extends TestCase
     /** @var PostProcessFiles */
     private $postProcessFilesService;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         $this->outputFileRepository = $this->prophesize(OutputFileRepository::class);
         $this->outputFileRepository->all()->willReturn($this->fetchTestableInputFilesCollection());
