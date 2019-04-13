@@ -121,11 +121,13 @@ class ItemBuilder
     public function toDOMElement(\DOMDocument $dom): \DOMElement
     {
         $element = $dom->createElement('item');
-        $element->appendChild($dom->createElement('guid', $this->guid));
         $element->appendChild($dom->createElement('title', $this->title));
         $element->appendChild($dom->createElement('link', $this->link));
         $element->appendChild($dom->createElement('comments', $this->comments));
         $element->appendChild($dom->createElement('pubDate', $this->pubDate));
+        $guid = $dom->createElement('guid', $this->guid);
+        $guid->setAttribute('isPermaLink', 'false');
+        $element->appendChild($guid);
 
         foreach ($this->categories as $category) {
             $categoryElement = $dom->createElement('category');
