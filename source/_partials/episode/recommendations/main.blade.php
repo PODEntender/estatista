@@ -1,6 +1,8 @@
 @if($recommendations->count() > 0)
 <section class="recommended-episodes">
-    <h1 class="recommended-episodes__title">{{ $title ?? 'Para você continuar entendendo' }}</h1>
+    <h1 class="recommended-episodes__title {{ implode(' ', $classes ?? []) }}">
+        {{ $title ?? 'Para você continuar entendendo' }}
+    </h1>
 
     @include('_partials.episode.episode-card-list', [
         'title' => '',

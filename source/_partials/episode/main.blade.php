@@ -10,6 +10,9 @@
     @include('_partials.episode.comments')
 
     @include('_partials.episode.recommendations.main', [
+        'classes' => [
+            'gtm-view-recommended-list',
+        ],
         'recommendations' => $page->recommendations,
     ])
 </article>
