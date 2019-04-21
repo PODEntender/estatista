@@ -23,13 +23,15 @@ class Recommendation
         $recommended = $this->postRepository
             ->withAudio()
             ->filter(function (AudioEpisode $episode) use ($post) {
-                return $post->url() !== $episode->url();
+                return $post->guid() !== $episode->guid();
+            })
+            ->sortByDesc(function (AudioEpisode $episode) {
+                return $episode->createdAt();
             })
             ->sortByDesc(function (AudioEpisode $episode) use ($tags) {
                 return count(array_intersect($episode->tags() ?? [], $tags));
             })
-            ->take($amount)
-            ->toArray();
+            ->take($amount);
 
         return new AudioEpisodeCollection($recommended);
     }
