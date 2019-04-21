@@ -1,5 +1,5 @@
 @if(count($episodes) > 0)
-<section class="episode-card-list">
+<section class="episode-card-list {{ implode(' ', $classes ?? []) }}">
     @if($title)
     <h1 class="episode-card-list__title">
         {{ $title  }}

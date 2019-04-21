@@ -1,6 +1,6 @@
 @if($recommendations->count() > 0)
 <section class="recommended-episodes">
-    <h1 class="recommended-episodes__title {{ implode(' ', $classes ?? []) }}">
+    <h1 class="recommended-episodes__title">
         {{ $title ?? 'Para você continuar entendendo' }}
     </h1>
 
@@ -15,7 +15,8 @@
                 'description' => substr($episode->description(), 0, 146) . ' ...',
             ];
         })->toArray(),
-        'hidden' => ['description']
+        'hidden' => ['description'],
+        'classes' => $classes ?? [],
     ])
 </section>
 @endif
