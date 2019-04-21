@@ -18,7 +18,12 @@
 
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src</directory>
+            <directory suffix=".php">src/Application</directory>
+            <directory suffix=".php">src/Infrastructure</directory>
+            <directory suffix=".php">src/Domain/Service</directory>
+            <directory suffix=".php">src/Domain/Model/Feed</directory>
+
+            <file>src/Domain/Model/Post/EpisodeSlugBuilder.php</file>
         </whitelist>
     </filter>
 </phpunit>
