@@ -2,6 +2,7 @@
 
 namespace PODEntender\Application\Service\FileProcessing;
 
+use PODEntender\Domain\Model\FileProcessing\OutputFile;
 use PODEntender\Domain\Model\FileProcessing\RssFeedConfiguration;
 use PODEntender\Domain\Model\Post\AudioEpisode;
 use PODEntender\Domain\Model\Post\PostRepository;
@@ -17,13 +18,12 @@ class GenerateRssFeed
     /** @var PostRepository */
     private $postsRepository;
 
-    public function __construct(FeedBuilder $builder, PostRepository $postsRepository)
-    {
+    public function __construct(FeedBuilder $builder, PostRepository $postsRepository) {
         $this->builder = $builder;
         $this->postsRepository = $postsRepository;
     }
 
-    public function execute(RssFeedConfiguration $configuration): void
+    public function execute(RssFeedConfiguration $configuration): OutputFile
     {
         $builder = $this->builder
             ->channel()
@@ -69,10 +69,6 @@ class GenerateRssFeed
                 ->type('audio/mpeg');
         }
 
-        $outputContent = $builder->close()->toXml();
-
-        // @todo -> this does not belong here
-        file_put_contents($configuration->outputFilepath(), $outputContent);
+        return new OutputFile($configuration->outputFilepath(), $builder->close()->toXml());
     }
 }
-

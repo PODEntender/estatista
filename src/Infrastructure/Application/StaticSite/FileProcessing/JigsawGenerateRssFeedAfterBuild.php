@@ -17,6 +17,7 @@ class JigsawGenerateRssFeedAfterBuild implements JigsawEventHandler
         /** @var GenerateRssFeed $handler */
         $handler = $jigsaw->app->make(GenerateRssFeed::class);
 
-        $handler->execute($configuration);
+        $outputXmlFile = $handler->execute($configuration);
+        file_put_contents($outputXmlFile->path(), $outputXmlFile->content());
     }
 }
