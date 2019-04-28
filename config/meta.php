@@ -16,8 +16,9 @@ return [
         'author' => [
             '@type' => 'Organization',
             'name' => 'PODEntender',
-            'logo' => '/assets/images/favcom.png',
+            'logo' => 'https://podentender.com/assets/images/favcom.png',
             'contactPoint' => [
+                'url' => 'https://podentender.com',
                 'email' => 'contato@podentender.com',
                 'contactType' => 'Customer Service',
             ],

@@ -34,7 +34,7 @@
         ],
         'contactPoint' => [
             '@type' => 'ContactPoint',
-            'url' => $page->getUrl(),
+            'url' => $page->meta['schemas']['author']['contactPoint']['url'],
             'email' => $page->meta['schemas']['author']['contactPoint']['email'],
             'contactType' => $page->meta['schemas']['author']['contactPoint']['contactType'],
         ],
