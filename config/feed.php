@@ -14,7 +14,7 @@ return [
     'email' => 'amdnsk@gmail.com',
     'category' => 'Science & Medicine',
     'imageUrl' => '/assets/images/favcom.png',
-    'feedUrl' => 'https://beta.podentender.com/feed.xml',
-    'url' => 'https://beta.podentender.com',
+    'feedUrl' => 'https://podentender.com/feed.xml',
+    'url' => 'https://podentender.com',
     'outputFilepath' => 'feed.xml',
 ];
