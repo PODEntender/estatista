@@ -4,14 +4,14 @@
     <title>PODEntender</title>
     <link>https://beta.podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sun, 28 Apr 2019 09:17:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2019 20:21:16 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
     <category>Science &amp; Medicine</category>
     <image>
       <title>PODEntender</title>
-      <url>http://podentender.com/wp-content/uploads/powerpress/favcom.png</url>
+      <url>/assets/images/favcom.png</url>
       <link>https://beta.podentender.com</link>
     </image>
     <atom:link href="https://beta.podentender.com/feed.xml" rel="self" type="application/rss+xml"/>
@@ -21,7 +21,7 @@
     <itunes:explicit>clean</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="Science &amp; Medicine"/>
-    <itunes:image href="http://podentender.com/wp-content/uploads/powerpress/favcom.png"/>
+    <itunes:image href="/assets/images/favcom.png"/>
     <itunes:owner>
       <itunes:name>PODEntender</itunes:name>
       <itunes:email>amdnsk@gmail.com</itunes:email>
@@ -29,8 +29,8 @@
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
     <item>
       <title>Sobre licença maternidade no Lattes e audiência do Minsitro da Ciência Marcos Pontes sobre o AST</title>
-      <link>https://beta.podentender.com/episodio/046-sobre-licenca-maternidade-no-lattes-e-audiencia-do-minsitro-da-ciencia-marcos-pontes-sobre-o-ast</link>
-      <comments>https://beta.podentender.com/episodio/046-sobre-licenca-maternidade-no-lattes-e-audiencia-do-minsitro-da-ciencia-marcos-pontes-sobre-o-ast</comments>
+      <link>https://podentender.com/episodio/046-sobre-licenca-maternidade-no-lattes-e-audiencia-do-minsitro-da-ciencia-marcos-pontes-sobre-o-ast</link>
+      <comments>https://podentender.com/episodio/046-sobre-licenca-maternidade-no-lattes-e-audiencia-do-minsitro-da-ciencia-marcos-pontes-sobre-o-ast</comments>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5897</guid>
       <category><![CDATA[News]]></category>
@@ -40,12 +40,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/046/capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/046/capa.jpg"/>
     </item>
     <item>
       <title>Sobre Mulheres, arquitetura e espaços urbanos #OPodcastÉDelas2019</title>
-      <link>https://beta.podentender.com/episodio/045-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019</link>
-      <comments>https://beta.podentender.com/episodio/045-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019</comments>
+      <link>https://podentender.com/episodio/045-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019</link>
+      <comments>https://podentender.com/episodio/045-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019</comments>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5891</guid>
       <category><![CDATA[Drops]]></category>
@@ -55,12 +55,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/045/045-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/045/045-capa.jpg"/>
     </item>
     <item>
       <title>Sobre Pesquisa no Ensino Médio e Maracujá #OPodcastÉDelas2019</title>
-      <link>https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</link>
-      <comments>https://beta.podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</comments>
+      <link>https://podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</link>
+      <comments>https://podentender.com/episodio/044-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019</comments>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5884</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -70,12 +70,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/044/044-capa-16x9.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/044/044-capa-16x9.jpg"/>
     </item>
     <item>
       <title>Ministro da Ciência e Pós-Graduação a Distância</title>
-      <link>https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</link>
-      <comments>https://beta.podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</comments>
+      <link>https://podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</link>
+      <comments>https://podentender.com/episodio/043-ministro-da-ciencia-e-pos-graduacao-a-distancia</comments>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5864</guid>
       <category><![CDATA[News]]></category>
@@ -85,12 +85,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/043/043-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/043/043-capa.jpg"/>
     </item>
     <item>
       <title>Sobre nazismo e nazistas no Brasil</title>
-      <link>https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</link>
-      <comments>https://beta.podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</comments>
+      <link>https://podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</link>
+      <comments>https://podentender.com/episodio/042-sobre-nazismo-e-nazistas-no-brasil</comments>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5677</guid>
       <category><![CDATA[Drops]]></category>
@@ -100,12 +100,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/042/042-capa-16x9.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/042/042-capa-16x9.jpg"/>
     </item>
     <item>
       <title>Sobre a psicologia do sono</title>
-      <link>https://beta.podentender.com/episodio/041-sobre-a-psicologia-do-sono</link>
-      <comments>https://beta.podentender.com/episodio/041-sobre-a-psicologia-do-sono</comments>
+      <link>https://podentender.com/episodio/041-sobre-a-psicologia-do-sono</link>
+      <comments>https://podentender.com/episodio/041-sobre-a-psicologia-do-sono</comments>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5633</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -115,12 +115,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/041/041-capa-16x9.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/041/041-capa-16x9.jpg"/>
     </item>
     <item>
       <title>Sobre aviões, lasers e impressão 3D</title>
-      <link>https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</link>
-      <comments>https://beta.podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</comments>
+      <link>https://podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</link>
+      <comments>https://podentender.com/episodio/040-sobre-avioes-lasers-e-impressao-3d</comments>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5611</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -130,12 +130,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/040/040-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/040/040-capa.jpg"/>
     </item>
     <item>
       <title>Sobre células-tronco, câncer e inteligência artificial</title>
-      <link>https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</link>
-      <comments>https://beta.podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</comments>
+      <link>https://podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</link>
+      <comments>https://podentender.com/episodio/039-sobre-celulas-tronco-cancer-e-inteligencia-artificial</comments>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5592</guid>
       <category><![CDATA[Drops]]></category>
@@ -145,12 +145,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/039/039-capa-16x9.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/039/039-capa-16x9.jpg"/>
     </item>
     <item>
       <title>Sobre escravidão e direito de propriedade no Brasil</title>
-      <link>https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</link>
-      <comments>https://beta.podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</comments>
+      <link>https://podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</link>
+      <comments>https://podentender.com/episodio/038-sobre-escravidao-e-direito-de-propriedade-no-brasil</comments>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5429</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -160,12 +160,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/038/038-capa-16x9.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/038/038-capa-16x9.jpg"/>
     </item>
     <item>
       <title>Sobre linguagem e percepção do mundo</title>
-      <link>https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</link>
-      <comments>https://beta.podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</comments>
+      <link>https://podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</link>
+      <comments>https://podentender.com/episodio/037-sobre-linguagem-e-percepcao-do-mundo</comments>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5540</guid>
       <category><![CDATA[Drops]]></category>
@@ -175,12 +175,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/037/037-capa-16x9.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/037/037-capa-16x9.jpg"/>
     </item>
     <item>
       <title>Sobre saúde coletiva e racismo</title>
-      <link>https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</link>
-      <comments>https://beta.podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</comments>
+      <link>https://podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</link>
+      <comments>https://podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</comments>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5491</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -190,12 +190,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/036/036-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/036/036-capa.jpg"/>
     </item>
     <item>
       <title>Sobre vacinação e saúde pública</title>
-      <link>https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</link>
-      <comments>https://beta.podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</comments>
+      <link>https://podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</link>
+      <comments>https://podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</comments>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5483</guid>
       <category><![CDATA[Drops]]></category>
@@ -205,12 +205,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/035/035-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/035/035-capa.jpg"/>
     </item>
     <item>
       <title>Sobre a simulação da ONU</title>
-      <link>https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</link>
-      <comments>https://beta.podentender.com/episodio/034-sobre-a-simulacao-da-onu</comments>
+      <link>https://podentender.com/episodio/034-sobre-a-simulacao-da-onu</link>
+      <comments>https://podentender.com/episodio/034-sobre-a-simulacao-da-onu</comments>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5476</guid>
       <category><![CDATA[Drops]]></category>
@@ -220,12 +220,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/034/034-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/034/034-capa.jpg"/>
     </item>
     <item>
       <title>Sobre algorítmos e contas públicas</title>
-      <link>https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</link>
-      <comments>https://beta.podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</comments>
+      <link>https://podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</link>
+      <comments>https://podentender.com/episodio/033-sobre-algoritmos-e-contas-publicas</comments>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5426</guid>
       <category><![CDATA[Drops]]></category>
@@ -235,12 +235,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/033/033-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/033/033-capa.jpg"/>
     </item>
     <item>
       <title>Sobre genômica e envelhecimento</title>
-      <link>https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</link>
-      <comments>https://beta.podentender.com/episodio/032-sobre-genomica-e-envelhecimento</comments>
+      <link>https://podentender.com/episodio/032-sobre-genomica-e-envelhecimento</link>
+      <comments>https://podentender.com/episodio/032-sobre-genomica-e-envelhecimento</comments>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5425</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -250,12 +250,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/032/032-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/032/032-capa.jpg"/>
     </item>
     <item>
       <title>Sobre enzima que degrada plástico, pele impressa em 3d, vacina contra o câncer e reprodutibilidade da ciência brasileira</title>
-      <link>https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</link>
-      <comments>https://beta.podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</comments>
+      <link>https://podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</link>
+      <comments>https://podentender.com/episodio/031-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira</comments>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5451</guid>
       <category><![CDATA[News]]></category>
@@ -265,12 +265,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/031/031-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/031/031-capa.png"/>
     </item>
     <item>
       <title>Sobre diagnóstico rápido do Zika Vírus</title>
-      <link>https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</link>
-      <comments>https://beta.podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</comments>
+      <link>https://podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</link>
+      <comments>https://podentender.com/episodio/030-sobre-diagnostico-rapido-do-zika-virus</comments>
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5414</guid>
       <category><![CDATA[Drops]]></category>
@@ -280,12 +280,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/030/030-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/030/030-capa.jpg"/>
     </item>
     <item>
       <title>Sobre manuscritos do mar morto e demonologia</title>
-      <link>https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</link>
-      <comments>https://beta.podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</comments>
+      <link>https://podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</link>
+      <comments>https://podentender.com/episodio/029-sobre-manuscritos-do-mar-morto-e-demonologia</comments>
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5364</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -295,12 +295,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/029/029-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/029/029-capa.jpg"/>
     </item>
     <item>
       <title>Sobre Brasil na elite da matemática, febre amarela e novo bloqueio do orçamento</title>
-      <link>https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</link>
-      <comments>https://beta.podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</comments>
+      <link>https://podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</link>
+      <comments>https://podentender.com/episodio/028-sobre-brasil-na-elite-da-matematica-febre-amarela-e-novo-bloqueio-do-orcamento</comments>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5227</guid>
       <category><![CDATA[News]]></category>
@@ -310,12 +310,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/028/028-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/028/028-capa.png"/>
     </item>
     <item>
       <title>Recados, desculpas e e-mails</title>
-      <link>https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</link>
-      <comments>https://beta.podentender.com/episodio/027-recados-desculpas-e-e-mails</comments>
+      <link>https://podentender.com/episodio/027-recados-desculpas-e-e-mails</link>
+      <comments>https://podentender.com/episodio/027-recados-desculpas-e-e-mails</comments>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5219</guid>
       <category><![CDATA[Recados]]></category>
@@ -325,12 +325,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/027/027-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/027/027-capa.png"/>
     </item>
     <item>
       <title>Sobre ecologia evolutiva</title>
-      <link>https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</link>
-      <comments>https://beta.podentender.com/episodio/026-sobre-ecologia-evolutiva</comments>
+      <link>https://podentender.com/episodio/026-sobre-ecologia-evolutiva</link>
+      <comments>https://podentender.com/episodio/026-sobre-ecologia-evolutiva</comments>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5210</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -340,12 +340,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/026/026-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/026/026-capa.png"/>
     </item>
     <item>
       <title>Sobre relacionamento com a vida acadêmica</title>
-      <link>https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</link>
-      <comments>https://beta.podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</comments>
+      <link>https://podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</link>
+      <comments>https://podentender.com/episodio/025-sobre-relacionamento-com-a-vida-academica</comments>
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5202</guid>
       <category><![CDATA[Drops]]></category>
@@ -355,12 +355,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/025/025-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/025/025-capa.png"/>
     </item>
     <item>
       <title>Sobre brasileira mais inlfuente, maconha como planta medicinal e Sirius</title>
-      <link>https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</link>
-      <comments>https://beta.podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</comments>
+      <link>https://podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</link>
+      <comments>https://podentender.com/episodio/024-sobre-brasileira-mais-inlfuente-maconha-como-planta-medicinal-e-sirius</comments>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5188</guid>
       <category><![CDATA[News]]></category>
@@ -370,12 +370,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/024/024-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/024/024-capa.png"/>
     </item>
     <item>
       <title>Sobre telômeros e falência da medula óssea</title>
-      <link>https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</link>
-      <comments>https://beta.podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</comments>
+      <link>https://podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</link>
+      <comments>https://podentender.com/episodio/023-sobre-telomeros-e-falencia-da-medula-ossea</comments>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5175</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -385,12 +385,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/023/023-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/023/023-capa.png"/>
     </item>
     <item>
       <title>Sobre Zika Vírus e o artigo brasileiro na Nature</title>
-      <link>https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</link>
-      <comments>https://beta.podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</comments>
+      <link>https://podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</link>
+      <comments>https://podentender.com/episodio/022-sobre-zika-virus-e-o-artigo-brasileiro-na-nature</comments>
       <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5163</guid>
       <category><![CDATA[Drops]]></category>
@@ -400,12 +400,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/022/022-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/022/022-capa.png"/>
     </item>
     <item>
       <title>Sobre corrupção na ciência, assédio em universidade e criação do Instituto Serrapilheira</title>
-      <link>https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</link>
-      <comments>https://beta.podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</comments>
+      <link>https://podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</link>
+      <comments>https://podentender.com/episodio/021-sobre-corrupcao-na-ciencia-assedio-em-universidade-e-criacao-do-instituto-serrapilheira</comments>
       <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5155</guid>
       <category><![CDATA[News]]></category>
@@ -415,12 +415,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/021/021-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/021/021-capa.png"/>
     </item>
     <item>
       <title>Sobre machismo na ciência brasileira</title>
-      <link>https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</link>
-      <comments>https://beta.podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</comments>
+      <link>https://podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</link>
+      <comments>https://podentender.com/episodio/020-sobre-machismo-na-ciencia-brasileira</comments>
       <pubDate>Wed, 05 Apr 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5146</guid>
       <category><![CDATA[Drops]]></category>
@@ -430,12 +430,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/020/020-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/020/020-capa.png"/>
     </item>
     <item>
       <title>Sobre Deep Learning</title>
-      <link>https://beta.podentender.com/episodio/019-sobre-deep-learning</link>
-      <comments>https://beta.podentender.com/episodio/019-sobre-deep-learning</comments>
+      <link>https://podentender.com/episodio/019-sobre-deep-learning</link>
+      <comments>https://podentender.com/episodio/019-sobre-deep-learning</comments>
       <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5138</guid>
       <category><![CDATA[Drops]]></category>
@@ -445,12 +445,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/019/019-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/019/019-capa.png"/>
     </item>
     <item>
       <title>Sobre modificação de genomas e CRISPR/Cas9</title>
-      <link>https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</link>
-      <comments>https://beta.podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</comments>
+      <link>https://podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</link>
+      <comments>https://podentender.com/episodio/018-sobre-modificacao-de-genomas-e-crisprcas9</comments>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5114</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -460,12 +460,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/018/018-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/018/018-capa.png"/>
     </item>
     <item>
       <title>Sobre fechamento da UERJ, orçamento do CNPq e da FAPESP e os Institutos do Rio Grande do Sul</title>
-      <link>https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</link>
-      <comments>https://beta.podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</comments>
+      <link>https://podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</link>
+      <comments>https://podentender.com/episodio/017-sobre-fechamento-da-uerj-orcamento-do-cnpq-e-da-fapesp-e-os-institutos-do-rio-grande-do-sul</comments>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=5010</guid>
       <category><![CDATA[News]]></category>
@@ -475,12 +475,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/017/017-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/017/017-capa.png"/>
     </item>
     <item>
       <title>Sobre ciência básica e ciência aplicada</title>
-      <link>https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</link>
-      <comments>https://beta.podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</comments>
+      <link>https://podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</link>
+      <comments>https://podentender.com/episodio/016-sobre-ciencia-basica-e-ciencia-aplicada</comments>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4926</guid>
       <category><![CDATA[Drops]]></category>
@@ -490,12 +490,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/016/016-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/016/016-capa.jpg"/>
     </item>
     <item>
       <title>Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA</title>
-      <link>https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</link>
-      <comments>https://beta.podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</comments>
+      <link>https://podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</link>
+      <comments>https://podentender.com/episodio/015-sobre-missao-brasileira-a-lua-novos-equipamentos-para-a-base-de-pesquisa-na-antartida-e-mosquitos-contra-zika</comments>
       <pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4916</guid>
       <category><![CDATA[News]]></category>
@@ -505,12 +505,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/015/015-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/015/015-capa.png"/>
     </item>
     <item>
       <title>Sobre astrobiologia</title>
-      <link>https://beta.podentender.com/episodio/014-sobre-astrobiologia</link>
-      <comments>https://beta.podentender.com/episodio/014-sobre-astrobiologia</comments>
+      <link>https://podentender.com/episodio/014-sobre-astrobiologia</link>
+      <comments>https://podentender.com/episodio/014-sobre-astrobiologia</comments>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4900</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -520,12 +520,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/014/014-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/014/014-capa.jpg"/>
     </item>
     <item>
       <title>Sobre sistema de avaliação do CNPq e orçamento do MEC</title>
-      <link>https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</link>
-      <comments>https://beta.podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</comments>
+      <link>https://podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</link>
+      <comments>https://podentender.com/episodio/013-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec</comments>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4893</guid>
       <category><![CDATA[News]]></category>
@@ -535,12 +535,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/013/013-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/013/013-capa.png"/>
     </item>
     <item>
       <title>Sobre a história da biologia estrutural</title>
-      <link>https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</link>
-      <comments>https://beta.podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</comments>
+      <link>https://podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</link>
+      <comments>https://podentender.com/episodio/012-sobre-a-historia-da-biologia-estrutural</comments>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4873</guid>
       <category><![CDATA[Drops]]></category>
@@ -550,12 +550,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/012/012-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/012/012-capa.jpg"/>
     </item>
     <item>
       <title>Sobre biologia do desenvolvimento</title>
-      <link>https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</link>
-      <comments>https://beta.podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</comments>
+      <link>https://podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</link>
+      <comments>https://podentender.com/episodio/011-sobre-biologia-do-desenvolvimento</comments>
       <pubDate>Sun, 14 Aug 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4855</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -565,12 +565,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/011/011-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/011/011-capa.jpg"/>
     </item>
     <item>
       <title>Sobre Creative Commons e Inovação</title>
-      <link>https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</link>
-      <comments>https://beta.podentender.com/episodio/010-sobre-creative-commons-e-inovacao</comments>
+      <link>https://podentender.com/episodio/010-sobre-creative-commons-e-inovacao</link>
+      <comments>https://podentender.com/episodio/010-sobre-creative-commons-e-inovacao</comments>
       <pubDate>Sun, 26 Jun 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=4821</guid>
       <category><![CDATA[Drops]]></category>
@@ -580,12 +580,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/010/010-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/010/010-capa.jpg"/>
     </item>
     <item>
       <title>Sobre fusão do MCTI, ranking Nature e novos INCTs</title>
-      <link>https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</link>
-      <comments>https://beta.podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</comments>
+      <link>https://podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</link>
+      <comments>https://podentender.com/episodio/009-sobre-fusao-do-mcti-ranking-nature-e-novos-incts</comments>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=8</guid>
       <category><![CDATA[News]]></category>
@@ -595,12 +595,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/009/009-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/009/009-capa.png"/>
     </item>
     <item>
       <title>Sobre neurociência e calcificação cerebral</title>
-      <link>https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</link>
-      <comments>https://beta.podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</comments>
+      <link>https://podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</link>
+      <comments>https://podentender.com/episodio/008-sobre-neurociencia-e-calcificacao-cerebral</comments>
       <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=9</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -610,12 +610,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/008/008-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/008/008-capa.jpg"/>
     </item>
     <item>
       <title>Sobre prever epidemias e Epitrack no The Venture</title>
-      <link>https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</link>
-      <comments>https://beta.podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</comments>
+      <link>https://podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</link>
+      <comments>https://podentender.com/episodio/007-sobre-prever-epidemias-e-epitrack-no-the-venture</comments>
       <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=10</guid>
       <category><![CDATA[Drops]]></category>
@@ -625,12 +625,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/007/007-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/007/007-capa.jpg"/>
     </item>
     <item>
       <title>Sobre supercomputador, fosfoetonalamina, prêmio fotografia e Guardiões da Saúde</title>
-      <link>https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</link>
-      <comments>https://beta.podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</comments>
+      <link>https://podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</link>
+      <comments>https://podentender.com/episodio/006-sobre-supercomputador-fosfoetonalamina-premio-fotografia-e-guardioes-da-saude</comments>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=11</guid>
       <category><![CDATA[News]]></category>
@@ -640,12 +640,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/006/006-capa.png"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/006/006-capa.png"/>
     </item>
     <item>
       <title>Sobre saúde mental infantil e autismo</title>
-      <link>https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</link>
-      <comments>https://beta.podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</comments>
+      <link>https://podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</link>
+      <comments>https://podentender.com/episodio/005-sobre-saude-mental-infantil-e-autismo</comments>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=12</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -655,12 +655,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/005/005-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/005/005-capa.jpg"/>
     </item>
     <item>
       <title>Sobre crowdfunding para diagnóstico de Zika vírus</title>
-      <link>https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</link>
-      <comments>https://beta.podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</comments>
+      <link>https://podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</link>
+      <comments>https://podentender.com/episodio/004-sobre-crowdfunding-para-diagnostico-de-zika-virus</comments>
       <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=13</guid>
       <category><![CDATA[Drops]]></category>
@@ -670,12 +670,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/004/004-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/004/004-capa.jpg"/>
     </item>
     <item>
       <title>Sobre oceanografia química</title>
-      <link>https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</link>
-      <comments>https://beta.podentender.com/episodio/003-sobre-oceanografia-quimica</comments>
+      <link>https://podentender.com/episodio/003-sobre-oceanografia-quimica</link>
+      <comments>https://podentender.com/episodio/003-sobre-oceanografia-quimica</comments>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=14</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -685,12 +685,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/003/003-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/003/003-capa.jpg"/>
     </item>
     <item>
       <title>Sobre abelhas e polinização</title>
-      <link>https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</link>
-      <comments>https://beta.podentender.com/episodio/002-sobre-abelhas-e-polinizacao</comments>
+      <link>https://podentender.com/episodio/002-sobre-abelhas-e-polinizacao</link>
+      <comments>https://podentender.com/episodio/002-sobre-abelhas-e-polinizacao</comments>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=15</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -700,12 +700,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/002/002-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/002/002-capa.jpg"/>
     </item>
     <item>
       <title>Sobre evolução de proteínas</title>
-      <link>https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</link>
-      <comments>https://beta.podentender.com/episodio/001-sobre-evolucao-de-proteinas</comments>
+      <link>https://podentender.com/episodio/001-sobre-evolucao-de-proteinas</link>
+      <comments>https://podentender.com/episodio/001-sobre-evolucao-de-proteinas</comments>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=16</guid>
       <category><![CDATA[Entrevista]]></category>
@@ -715,12 +715,12 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/001/001-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/001/001-capa.jpg"/>
     </item>
     <item>
       <title>Meça suas pesquisas</title>
-      <link>https://beta.podentender.com/episodio/000-meca-suas-pesquisas</link>
-      <comments>https://beta.podentender.com/episodio/000-meca-suas-pesquisas</comments>
+      <link>https://podentender.com/episodio/000-meca-suas-pesquisas</link>
+      <comments>https://podentender.com/episodio/000-meca-suas-pesquisas</comments>
       <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://podentender.com/?p=20</guid>
       <category><![CDATA[Drops]]></category>
@@ -730,7 +730,7 @@
       <itunes:author/>
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://beta.podentender.com/assets/images/episode/000/000-capa.jpg"/>
+      <itunes:image href="https://podentender.com/assets/images/episode/000/000-capa.jpg"/>
     </item>
   </channel>
 </rss>
