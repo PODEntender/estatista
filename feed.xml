@@ -11,7 +11,7 @@
     <category>Science &amp; Medicine</category>
     <image>
       <title>PODEntender</title>
-      <url>/assets/images/favcom.png</url>
+      <url>https://podentender.com/assets/images/favcom.png</url>
       <link>https://podentender.com</link>
     </image>
     <atom:link href="https://podentender.com/feed.xml" rel="self" type="application/rss+xml"/>
