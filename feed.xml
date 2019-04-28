@@ -2,9 +2,9 @@
 <rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>PODEntender</title>
-    <link>https://beta.podentender.com</link>
+    <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sun, 28 Apr 2019 20:53:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2019 20:56:16 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -12,9 +12,9 @@
     <image>
       <title>PODEntender</title>
       <url>/assets/images/favcom.png</url>
-      <link>https://beta.podentender.com</link>
+      <link>https://podentender.com</link>
     </image>
-    <atom:link href="https://beta.podentender.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://podentender.com/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:subtitle>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:subtitle>
     <itunes:summary>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:summary>
     <itunes:author>PODEntender</itunes:author>
