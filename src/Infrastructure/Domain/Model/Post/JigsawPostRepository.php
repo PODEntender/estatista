@@ -15,9 +15,12 @@ class JigsawPostRepository implements PostRepository
 {
     private $jigsaw;
 
-    public function __construct(Jigsaw $jigsaw)
+    private $jigsawPostFactory;
+
+    public function __construct(Jigsaw $jigsaw, JigsawPostFactory $jigsawPostFactory)
     {
         $this->jigsaw = $jigsaw;
+        $this->jigsawPostFactory = $jigsawPostFactory;
     }
 
     private function jigsawCollectionToPostCollection(PageVariable $collection): PostCollection
@@ -25,9 +28,7 @@ class JigsawPostRepository implements PostRepository
         return new PostCollection(
             $collection
                 ->map(function (PageVariable $post) {
-                    $factory = $this->jigsaw->app->make(JigsawPostFactory::class);
-
-                    return $factory->newPostFromPageVariable($post);
+                    return $this->jigsawPostFactory->newPostFromPageVariable($post);
                 })
                 ->toArray()
         );
@@ -38,9 +39,7 @@ class JigsawPostRepository implements PostRepository
         return new AudioEpisodeCollection(
             $collection
                 ->map(function (PageVariable $post) {
-                    $factory = $this->jigsaw->app->make(JigsawPostFactory::class);
-
-                    return $factory->newAudioEpisodeFromPageVariable($post);
+                    return $this->jigsawPostFactory->newAudioEpisodeFromPageVariable($post);
                 })
                 ->toArray()
         );
@@ -48,10 +47,12 @@ class JigsawPostRepository implements PostRepository
 
     public function latestPost(): Post
     {
-        $factory = $this->jigsaw->app->make(JigsawPostFactory::class);
-        $post = $this->jigsaw->getCollection('episodes')->sortByDesc('postDate')->first();
-
-        return $factory->newPostFromPageVariable($post);
+        return $this->jigsawPostFactory->newPostFromPageVariable(
+            $this->jigsaw
+                ->getCollection('episodes')
+                ->sortByDesc('postDate')
+                ->first()
+        );
     }
 
     public function latestPosts(int $amount): PostCollection
@@ -78,7 +79,9 @@ class JigsawPostRepository implements PostRepository
         return $this->jigsawCollectionToAudioEpisodeCollection(
             $this->jigsaw
                 ->getCollection('episodes')
-                ->whereNotIn('episode.audioUrl', [null])
+                ->filter(function (PageVariable $page) {
+                    return !is_null($page->episode['audioUrl']);
+                })
         );
     }
 }

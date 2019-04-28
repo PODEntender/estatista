@@ -31,7 +31,7 @@ class JigsawPostFactory
             $episode['description'],
             $episode['author'],
             $page->getContent(),
-            $episode['category'],
+            $page->category,
             $this->createImageCollectionFromPageVariable($page),
             $page->tags ?? [],
             \DateTimeImmutable::createFromMutable($date->setTimestamp($page->date)),
