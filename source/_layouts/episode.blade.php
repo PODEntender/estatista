@@ -24,6 +24,9 @@
 <meta name="twitter:url" content="{{ $page->getUrl() }}">
 
 <link rel="canonical" href="{{ $page->getUrl() }}">
+@if ($page->oldLink)
+<link rel="oldLink" href="{{ $page->oldLink }}">
+@endif
 
 @include('_partials.meta.json-ld-script', [
     'schema' => [
