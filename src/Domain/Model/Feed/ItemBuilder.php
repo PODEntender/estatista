@@ -122,6 +122,7 @@ class ItemBuilder
     {
         $element = $dom->createElement('item');
         $element->appendChild($dom->createElement('title', $this->title));
+        $element->appendChild($dom->createElement('description', $this->description));
         $element->appendChild($dom->createElement('link', $this->link));
         $element->appendChild($dom->createElement('comments', $this->comments));
         $element->appendChild($dom->createElement('pubDate', $this->pubDate));

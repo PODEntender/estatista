@@ -64,9 +64,9 @@ class GenerateRssFeed
                 ->duration($episode->duration())
                 ->addCategory($episode->category())
                 ->addEnclosure()
-                ->url($episode->audioUrl())
-                ->length('0')
-                ->type('audio/mpeg');
+                    ->url($episode->audioUrl())
+                    ->length('0')
+                    ->type('audio/mpeg');
         }
 
         return new OutputFile($configuration->outputFilepath(), $builder->close()->toXml());

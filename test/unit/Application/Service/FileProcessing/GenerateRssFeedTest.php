@@ -147,6 +147,7 @@ class GenerateRssFeedTest extends TestCase
         $reader = new SimpleXMLElement($this->generateRssFeed->execute($this->rssConfiguration)->content());
 
         $this->assertEquals($actualEpisode->title(), $reader->xpath('channel/item/title')[0]);
+        $this->assertEquals($actualEpisode->description(), $reader->xpath('channel/item/description')[0]);
         $this->assertEquals($actualEpisode->url(), $reader->xpath('channel/item/link')[0]);
         $this->assertEquals($actualEpisode->url(), $reader->xpath('channel/item/comments')[0]);
         $this->assertEquals(
