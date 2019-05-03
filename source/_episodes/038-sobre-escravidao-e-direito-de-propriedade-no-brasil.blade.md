@@ -3,7 +3,7 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-10-20
-oldLink: https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html
+oldLink: https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html
 episode:
   number: '038'
   date: 2018-10-20
