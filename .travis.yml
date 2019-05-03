@@ -14,6 +14,8 @@ script:
   - mv build_production/ .build/
   - rm -rf * travis.yml .gitignore
   - mv .build/* ./
+  - mv 404/index.html ./404.html
+  - rm -rf ./404/
   - echo $CNAME > CNAME
 
 deploy:
