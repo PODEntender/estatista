@@ -2,6 +2,8 @@
 
 @section('head')
     <title>{{ $page->meta['title'] }}</title>
+
+    <meta name="robots" content="noindex, nofollow">
 @endsection
 
 @section('body')
