@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('head')
-    <title>{{ $page->meta['title'] }}</title>
+    <title>Página não encontrada | {{ $page->meta['title'] }}</title>
 
     <meta name="robots" content="noindex, nofollow">
 @endsection
