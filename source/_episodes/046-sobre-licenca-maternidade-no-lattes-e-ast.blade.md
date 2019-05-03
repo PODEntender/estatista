@@ -10,6 +10,7 @@ episode:
   title: 'Sobre licença maternidade no Lattes e audiência do Minsitro da Ciência Marcos Pontes sobre o AST'
   description: 'Inclusão do período de licença maternidade e paternidade no currículo lattes. Marcos Pontes esclarece o AST (Acordo de Salvaguardas Tecnológicas).'
   guid: 'https://podentender.com/?p=5897'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_46.mp3
   disqus: '5897 https://podentender.com/?p=5897'
   cover:

@@ -10,6 +10,7 @@ episode:
   title: Sobre prever epidemias e Epitrack no The Venture
   description: Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.
   guid: 'https://podentender.com/?p=10'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_007_DROPS_02_Prevendo_epidemias_e_Epitrack_no_The_Venture.mp3
   disqus: '10 http://podentender.com/2016/05/12/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture/'
   cover:

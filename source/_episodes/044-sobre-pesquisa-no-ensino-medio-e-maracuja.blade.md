@@ -10,6 +10,7 @@ episode:
   title: 'Sobre Pesquisa no Ensino Médio e Maracujá #OPodcastÉDelas2019'
   description: 'Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista.'
   guid: 'https://podentender.com/?p=5884'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_44.mp3
   disqus: '5884 https://podentender.com/?p=5884'
   cover:

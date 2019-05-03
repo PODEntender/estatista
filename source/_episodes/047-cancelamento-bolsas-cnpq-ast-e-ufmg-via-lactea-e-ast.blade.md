@@ -10,6 +10,7 @@ episode:
   title: 'Sobre cancelamento em Massa de Bolsas do CNPq, UFMG na Via Láctea e AST'
   description: 'Cancelamento de bolsas no CNPq até Outubro de 2019. AST. Filipe Andrade (UFMG) identifica aglomerados estelares na Via Láctea.'
   guid: 'https://podentender.com/?p=5905'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_47.mp3
   disqus: '5905 https://podentender.com/?p=5905'
   cover:

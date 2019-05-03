@@ -10,6 +10,7 @@ episode:
   title: 'Sobre missão brasileira à lua, novos equipamentos para a base de pesquisa na antártida e mosquitos contra ZIKA'
   description: Saiba mais sobre Garatea-L, a primeira missão brasileira à lua, os novos equipamentos para a base brasileira de pesquisas na Antártida e mosquitos utilizados contra o ZIKA.
   guid: 'https://podentender.com/?p=4916'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_015_NEWS_.mp3
   disqus: '4916 http://podentender.com/?p=4916'
   cover:

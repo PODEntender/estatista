@@ -10,6 +10,7 @@ episode:
   title: 'Sobre saúde coletiva e racismo'
   description: O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.
   guid: 'https://podentender.com/?p=5491'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_36.mp3
   disqus: '5491 http://podentender.com/?p=5491'
   cover:

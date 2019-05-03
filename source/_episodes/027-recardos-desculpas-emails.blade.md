@@ -10,6 +10,7 @@ episode:
   title: 'Recados, desculpas e e-mails'
   description: O PODEntender ainda não retornou para valer, mas não poderíamos deixar nossos(as) queridos(as) ouvintes sem um último episódio em 2017!
   guid: 'https://podentender.com/?p=5219'
+  audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_027.mp3
   disqus: '5219 http://dragoesdegaragem.com/podentender/?p=5219'
   cover:
