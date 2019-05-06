@@ -1,3 +1,5 @@
+@import '../../mixins/media';
+
 .share {
   position: sticky;
   top: 20%;
@@ -6,7 +8,9 @@
   height: 0;
 
   &__item {
-    position: relative;
-    left: -10%;
+    @include desktop-only {
+      position: relative;
+      left: -10%;
+    }
   }
 }
