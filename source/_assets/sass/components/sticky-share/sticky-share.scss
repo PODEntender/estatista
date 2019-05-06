@@ -1,0 +1,75 @@
+@import '../../mixins/media';
+@import '../../colors';
+@import '../../z-index';
+
+$icon-size: 30px;
+
+.share-container {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+
+  @include desktop-only {
+    position: fixed;
+    top: 15%;
+    left: auto;
+    height: 0;
+  }
+}
+
+.share {
+  display: flex;
+  position: absolute;
+  background-color: $website-background-color;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  z-index: $max-level;
+  opacity: 0.95;
+  border: 0 solid $accent-color;
+  border-top-width: 1px;
+  padding: 10px 0;
+
+  @include desktop-only {
+    position: relative;
+    flex-direction: column;
+    text-align: initial;
+    border: 0;
+    padding: 0;
+    height: 0;
+  }
+
+  &__text {
+    line-height: $icon-size;
+    flex: 2;
+    color: $accent-color;
+    border: 0 solid $accent-color;
+    border-right-width: 1px;
+    padding-right: 10px;
+    font-weight: 500;
+    width: fit-content;
+
+    @include desktop-only {
+      position: relative;
+      left: -10%;
+      border: 0;
+    }
+  }
+
+  &__item {
+    flex: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    width: fit-content;
+
+    @include desktop-only {
+      position: relative;
+      left: -10%;
+      margin: 10px 0;
+    }
+  }
+
+  &__icon {
+    vertical-align: middle;
+  }
+}

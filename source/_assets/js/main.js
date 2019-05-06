@@ -1,3 +1,7 @@
+import share from './functions/share';
+
+window.share = share;
+
 window.toggleMenu = () => document
   .querySelector('.side-menu')
   .classList
