@@ -2,14 +2,17 @@
 @import '../../colors';
 @import '../../z-index';
 
+$icon-size: 30px;
+
 .share-container {
   position: fixed;
   bottom: 50px;
   left: 0;
 
   @include desktop-only {
-    position: sticky;
-    top: 20%;
+    position: fixed;
+    top: 15%;
+    left: auto;
     height: 0;
   }
 }
@@ -37,13 +40,14 @@
   }
 
   &__text {
-    line-height: 30px;
+    line-height: $icon-size;
     flex: 2;
     color: $accent-color;
     border: 0 solid $accent-color;
     border-right-width: 1px;
     padding-right: 10px;
     font-weight: 500;
+    width: fit-content;
 
     @include desktop-only {
       position: relative;
@@ -55,6 +59,8 @@
   &__item {
     flex: 1;
     vertical-align: middle;
+    cursor: pointer;
+    width: fit-content;
 
     @include desktop-only {
       position: relative;
