@@ -1,3 +1,5 @@
+const shared = [];
+
 const fetchUrl = (type, url, title) => {
   switch (type) {
     case 'facebook':
@@ -5,7 +7,7 @@ const fetchUrl = (type, url, title) => {
         .replace(':url', url)
         .replace(':title', title || '');
     case 'twitter':
-      return 'http://twitter.com/intent/tweet?text=:title: :url&via=podentender'
+      return 'http://twitter.com/intent/tweet?text=:title :url&via=podentender'
         .replace(':url', url)
         .replace(':title', title || '');
     case 'linkedin':
@@ -24,7 +26,16 @@ const fetchUrl = (type, url, title) => {
 export default function share(type, url, title) {
   const toOpen = fetchUrl(type, url, title);
 
-  if (toOpen) {
-    window.open(toOpen, 'share-dialog', 'width=640, height=420');
+  if (!toOpen) {
+    return;
+  }
+
+  window.open(toOpen, 'share-dialog');
+  window.dataLayer = window.dataLayer || [];
+  const eventName = 'share-' + type;
+
+  if (shared.indexOf(eventName) === -1) {
+    window.dataLayer.push({event: 'share-' + type});
+    shared.push(eventName);
   }
 }
