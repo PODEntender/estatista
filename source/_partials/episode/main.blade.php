@@ -1,6 +1,6 @@
 <article class="content">
     @include('_partials.components.sticky-share', [
-        'url' => $page->getUrl(),
+        'url' => isset($page->social['shortLink']) ? $page->social['shortLink'] : $page->getUrl(),
         'title' => 'Olha que onda o episódio ' . $page->episode['title'] . ': ',
     ])
     @include('_partials.episode.cover.main')
