@@ -1,16 +1,69 @@
 @import '../../mixins/media';
+@import '../../colors';
+@import '../../z-index';
+
+.share-container {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+
+  @include desktop-only {
+    position: sticky;
+    top: 20%;
+    height: 0;
+  }
+}
 
 .share {
-  position: sticky;
-  top: 20%;
   display: flex;
-  flex-direction: column;
-  height: 0;
+  position: absolute;
+  background-color: $website-background-color;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  z-index: $max-level;
+  opacity: 0.95;
+  border: 0 solid $accent-color;
+  border-top-width: 1px;
+  padding: 10px 0;
 
-  &__item {
+  @include desktop-only {
+    position: relative;
+    flex-direction: column;
+    text-align: initial;
+    border: 0;
+    padding: 0;
+    height: 0;
+  }
+
+  &__text {
+    line-height: 30px;
+    flex: 2;
+    color: $accent-color;
+    border: 0 solid $accent-color;
+    border-right-width: 1px;
+    padding-right: 10px;
+    font-weight: 500;
+
     @include desktop-only {
       position: relative;
       left: -10%;
+      border: 0;
     }
+  }
+
+  &__item {
+    flex: 1;
+    vertical-align: middle;
+
+    @include desktop-only {
+      position: relative;
+      left: -10%;
+      margin: 10px 0;
+    }
+  }
+
+  &__icon {
+    vertical-align: middle;
   }
 }
