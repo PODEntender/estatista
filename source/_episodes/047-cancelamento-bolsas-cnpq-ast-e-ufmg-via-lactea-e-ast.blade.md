@@ -8,9 +8,7 @@ episode:
   number: '047'
   date: 2019-04-22
   title: 'CNPq poderá cancelar bolsas até Outubro de 2019, UFMG na Via Láctea e Acordo de Salvaguardas Tecnológicas'
-  description: 'Dalton e Níckolas comentam sobre o possível cancelamento das bolsas do CNPq até Outubro de 2019 devido a
-cortes no orçamento. Também falamos sobre a descoberta de aglomerados na Via Láctea pelo pesquisador Filipe Andrade da
-UFMG e acompanhamos a audiência pública no Congresso Nacional sobre o Acordo de Salvaguardas Tecnológicas (AST).'
+  description: 'Dalton e Níckolas comentam sobre o possível cancelamento das bolsas do CNPq até Outubro de 2019 devido a cortes no orçamento. Também falamos sobre a descoberta de aglomerados na Via Láctea pelo pesquisador Filipe Andrade da UFMG e acompanhamos a audiência pública no Congresso Nacional sobre o Acordo de Salvaguardas Tecnológicas (AST).'
   guid: 'https://podentender.com/?p=5905'
   audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_47.mp3
