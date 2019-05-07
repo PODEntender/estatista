@@ -9,6 +9,7 @@
     color: $primary-title-color;
     letter-spacing: normal;
     font-size: $font-size-primary-heading;
+    line-height: calc(#{$font-size-primary-heading} * 1.4);
   }
 
   &__secondary {
