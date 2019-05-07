@@ -7,8 +7,10 @@ oldLink: https://podentender.com/2019/04/cancelamento-bolsas-cnpq-ast-e-ufmg-via
 episode:
   number: '047'
   date: 2019-04-22
-  title: 'Sobre cancelamento em Massa de Bolsas do CNPq, UFMG na Via Láctea e AST'
-  description: 'Cancelamento de bolsas no CNPq até Outubro de 2019. AST. Filipe Andrade (UFMG) identifica aglomerados estelares na Via Láctea.'
+  title: 'CNPq poderá cancelar bolsas até Outubro de 2019, UFMG na Via Láctea e Acordo de Salvaguardas Tecnológicas'
+  description: 'Dalton e Níckolas comentam sobre o possível cancelamento das bolsas do CNPq até Outubro de 2019 devido a
+cortes no orçamento. Também falamos sobre a descoberta de aglomerados na Via Láctea pelo pesquisador Filipe Andrade da
+UFMG e acompanhamos a audiência pública no Congresso Nacional sobre o Acordo de Salvaguardas Tecnológicas (AST).'
   guid: 'https://podentender.com/?p=5905'
   audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_47.mp3
@@ -19,6 +21,7 @@ episode:
 tags:
   - mctic
   - cnpq
+  - cortes
   - ufmg
   - universo
   - ast
@@ -44,6 +47,56 @@ links:
   
 ---
 
-Neste episódio de notícias do PODEntender, Dalton e Níckolas comentam sobre os acontecimentos recentes no mundo da ciência Brasileira.
+Neste episódio de notícias do PODEntender, Dalton e Níckolas comentam sobre os acontecimentos recentes no mundo da
+ciência Brasileira.
 
-São postos em pauta o eminente cancelamento de bolsas no CNPq até Outubro de 2019 devido a cortes no orçamento, o trabalho do pesquisador Filipe Andrade (UFMG) que identificou três aglomerados estelares na Via Láctea e atualizações sobre o Acordo de Salvaguardas Tecnológicas (AST).
+São postos em pauta o eminente cancelamento de bolsas no CNPq até Outubro de 2019 devido a cortes no orçamento, o
+trabalho do pesquisador Filipe Andrade (UFMG) que identificou três aglomerados estelares na Via Láctea e atualizações
+sobre o Acordo de Salvaguardas Tecnológicas (AST).
+
+## CNPq poderá cancelar bolsas até Outubro de 2019
+
+João Luiz Filgueiras de Azevedo, que é o atual presidente do CNPq, afirmou durante uma entrevista ao G1 que o orçamento
+confirmado para 2019 deve garantir o pagamento de bolsas somente até o mês de Setembro. Para que pudéssemos fechar o ano
+com todas as bolsas em dia, seriam necessários outros R$ 300 milhões.
+
+Além dos cortes anunciados para 2019, o ano já se abriu com um déficit do ano anterior: cerca de R$ 80 milhões do
+orçamento deste ano precisou ser alocado para bolsas ainda de 2018.
+
+Agravando ainda mais a situação, um contingenciamento de R$ 2,13 bilhões ao Ministério da Ciência e Tecnologia, Inovação
+e Comunicação (MCTIC) foi anunciado em 29 de Março de 2019.
+
+– Atualização (não citado no podcast): 30 de Abril de 2019. O Ministério da Educação (MEC) anunciou ainda um
+contingenciamento de 30% da verba de todas Universidades Federais brasileiras. A medida inicialmente era destinada
+somente as federais UnB (Brasília), UFBA (Bahia) e UFF (Niterói) sob alegação do ministro Abraham Weintraub de que as
+universidades apresentam fraco desempenho. Posteriormente o MEC recuou nesta alegação e decidiu que a medida iria
+abranger a todas universidades federais brasileiras.
+
+## Doutorando, Filipe Andrade enviou a UFMG para o espaço
+
+O pesquisador Filipe Andrade Ferreira da Universidade Federal de Minas Gerais (UFMG) identificou três novos aglomerados
+estelares na Via Láctea.
+
+O doutorando é parte de um grupo de estudos do Departamento de Física da UFMG e tem como orientadores os professores
+Wagner José Corradi Barbosa e João Francisco Coelho dos Santos.
+
+A descoberta se deu através da análise dos dados abertos disponibilizados pela missão do satélite Gaia. Através destes
+dados Filipe conseguiu identificar os aglomerados que nomeou de UFMG-1, UFMG-2 e UFMG-3.
+
+Nas referências desta publicação você encontra a entrevista de Filipe com Luíza Glória da Rádio UFMG Educativa e também
+os links para a missão Gaia.
+
+## Marcos Pontes participou de audiência no Congresso Nacional para debater sobre o AST
+
+No dia 10 de Abril de 2019 o ministro do MCTIC, Marcos Pontes, participou de uma audiência pública no Congresso Nacional
+buscou esclarecer o Acordo de Salvaguardas Tecnológicas.
+
+Questionado por alguns deputados, Pontes esclareceu o Brasil se manterá soberano sobre seu território e que
+profissionais credenciados poderão ter acesso a qualquer área da base espacial de Alcântara (MA).
+
+O ministro ainda apontou que o uso comercial de Alcântara poderá render cerca de US$ 3,5 bilhões por ano, o que poderia
+aumentar a renda destinada ao ministério. A origem deste cálculo, porém, não está muito clara para os podentendedores...
+
+– Atualização: (não citado no podcast) 07 de Maio de 2019. O perfil de Facebook intitulado “Progressista” indagou ao
+ministro sobre a origem do valor de US$ 3,5 bilhões em uma publicação sobre o AST. O ministro porém não indicou uma
+referência direta e sugeriu a leitura de seu Booklet. Você pode acompanhar esta publicação [aqui](https://www.facebook.com/astronauta.marcospontes/photos/a.541771605853977/2348545145176605/?type=3&comment_id=2348595568504896&comment_tracking=%7B%22tn%22%3A%22R%22%7D).
