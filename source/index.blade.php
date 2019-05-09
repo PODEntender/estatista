@@ -21,6 +21,7 @@
 <meta name="twitter:url" content="{{ $page->baseUrl }}">
 
 <link rel="canonical" href="{{ $page->baseUrl }}">
+<link type="application/rss+xml" rel="alternate" title="PODEntender - Podcast de divulgação científica e muita fuleragem" href="https://podentender.com/feed.xml"/>
 
 @include('_partials.meta.json-ld-script', [
     'schema' => [
