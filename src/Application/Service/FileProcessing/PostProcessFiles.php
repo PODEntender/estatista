@@ -41,7 +41,7 @@ class PostProcessFiles
         foreach ($crawler->filter('.paragraphs-list p') as $paragraph) {
             $classes = array_merge(
                 explode(' ', $paragraph->getAttribute('class')),
-                ['paragraph paragraph--justified']
+                ['paragraph']
             );
 
             $paragraph->setAttribute('class', trim(implode(' ', $classes)));

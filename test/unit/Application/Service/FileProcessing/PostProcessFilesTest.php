@@ -45,7 +45,7 @@ class PostProcessFilesTest extends TestCase
         );
 
         $this->assertStringContainsString('paragraph', $paragraphClasses);
-        $this->assertStringContainsString('paragraph--justified', $paragraphClasses);
+        $this->assertStringNotContainsString('paragraph--justified', $paragraphClasses);
         $this->assertStringContainsString('paragraph--bold', $paragraphClasses);
     }
 
