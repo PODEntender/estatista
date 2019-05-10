@@ -8,6 +8,7 @@ $icon-size: 30px;
   position: fixed;
   bottom: 50px;
   left: 0;
+  z-index: $max-level;
 
   @include desktop-only {
     position: fixed;
