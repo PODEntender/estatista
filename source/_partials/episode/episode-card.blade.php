@@ -25,6 +25,6 @@
     @endif
 
     @if($episode['description'])
-    <p class="paragraph paragraph--justified">{{ $episode['description'] }}</p>
+    <p class="paragraph">{{ $episode['description'] }}</p>
     @endif
 </a>
