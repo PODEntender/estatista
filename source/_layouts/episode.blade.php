@@ -2,7 +2,7 @@
 
 @section('head')
 <title>
-    Episódio #{{ str_pad($page->episode['number'], 3, '0', STR_PAD_LEFT) }} - {{ $page->episode['title'] }} | {{ $page->meta['title'] }}
+    {{ $page->episode['title'] }} | {{ $page->meta['title'] }}
 </title>
 
 <meta name="description" content="{{ $page->episode['description'] }}">
@@ -32,7 +32,7 @@
     'schema' => [
         '@context' => 'http://schema.org',
         '@type' => 'Article',
-        'name' => 'Episódio #'. str_pad($page->episode['number'], 3, '0', STR_PAD_LEFT) . ' - '. $page->episode['title'] . ' | ' . $page->meta['title'],
+        'name' => $page->episode['title'] . ' | ' . $page->meta['title'],
         'description' => $page->episode['description'],
         'image' => [$page->getBaseUrl() . $page->episode['cover']['url']],
         'url' => $page->getUrl(),
