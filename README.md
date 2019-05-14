@@ -6,7 +6,7 @@
 Estatista
 ---
 
-Pacote para geração do blog estático do site [https://podentender.com]().
+Pacote para geração do blog estático do site [https://podentender.com](https://podentender.com).
 
 Neste projeto encontram-se os posts do site no formato `.blade.md`. Ao atualizar
 qualquer um dos arquivos, o site será gerado novamente através do `Travis CI` e
