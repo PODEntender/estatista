@@ -69,7 +69,7 @@ class PostProcessFiles
         ];
 
         foreach ($post->redirects() as $redirect) {
-            $header[] = sprintf('  - "%s"', $redirect);
+            $header[] = sprintf('  - "%s"', parse_url($redirect)['path']);
         }
 
         $header[] = '---';

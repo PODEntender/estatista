@@ -133,8 +133,8 @@ HTML
         $post = $this->prophesize(AudioEpisode::class);
         $post->url()->willReturn('/test-canonical-url');
         $post->redirects()->willReturn([
-            '/first/redirect',
-            '/second-redirect',
+            'https://test.com/first/redirect',
+            'tcp://testding.net/second-redirect',
         ]);
 
         return new AudioEpisodeCollection([$post->reveal()]);
