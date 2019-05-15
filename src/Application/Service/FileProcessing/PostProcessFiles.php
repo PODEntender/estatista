@@ -69,7 +69,7 @@ class PostProcessFiles
         ];
 
         foreach ($post->redirects() as $redirect) {
-            $header[] = '  - ' . $redirect;
+            $header[] = sprintf('  - "%s"', $redirect);
         }
 
         $header[] = '---';

@@ -105,8 +105,8 @@ class PostProcessFilesTest extends TestCase
         $lines = explode(PHP_EOL, $testFileContent);
         $this->assertEquals('---', $lines[0]);
         $this->assertEquals('redirect_from:', $lines[1]);
-        $this->assertEquals('  - /first/redirect', $lines[2]);
-        $this->assertEquals('  - /second-redirect', $lines[3]);
+        $this->assertEquals('  - "/first/redirect"', $lines[2]);
+        $this->assertEquals('  - "/second-redirect"', $lines[3]);
         $this->assertEquals('---', $lines[4]);
     }
 
