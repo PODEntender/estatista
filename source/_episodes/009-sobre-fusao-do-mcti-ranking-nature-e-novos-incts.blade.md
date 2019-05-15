@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2016-06-12
-oldLink: https://podentender.com/2016/06/podentender-009-news-sobre-fusao-do-mcti-ranking-nature-novos-incts.html
+redirects:
+  - https://podentender.com/2016/06/podentender-009-news-sobre-fusao-do-mcti-ranking-nature-novos-incts.html
+  - http://podentender.com/2016/06/12/podentender-009-news-sobre-fusao-do-mcti-ranking-nature-novos-incts/
+  - https://podentender.com/?p=8
 episode:
   number: '009'
   date: 2016-06-12

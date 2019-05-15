@@ -17,6 +17,7 @@ script:
   - mv 404/index.html ./404.html
   - rm -rf ./404/
   - echo $CNAME > CNAME
+  - echo -e "plugins:\n  - jekyll-redirect-from" > _config.yml
 
 deploy:
   provider: pages

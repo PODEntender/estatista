@@ -13,7 +13,7 @@ class JigsawPostProcessFilesAfterBuild implements JigsawEventHandler
         /** @var PostProcessFiles $handler */
         $handler = $jigsaw->app->make(PostProcessFiles::class);
 
-        $outputFiles = $handler->execute();
+        $outputFiles = $handler->execute($jigsaw->getConfig('production'));
 
         foreach ($outputFiles as $outputFile) {
             file_put_contents($outputFile->path(), $outputFile->content());

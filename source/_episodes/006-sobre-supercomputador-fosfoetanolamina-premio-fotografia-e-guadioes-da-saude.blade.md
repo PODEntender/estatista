@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2016-04-28
-oldLink: https://podentender.com/2016/04/podentender-news-001-sobre-supercomputador-fosfoetanolamina-premio-fotografia-e-guardioes-da-saude.html
+redirects:
+  - https://podentender.com/2016/04/podentender-news-001-sobre-supercomputador-fosfoetanolamina-premio-fotografia-e-guardioes-da-saude.html
+  - http://podentender.com/2016/04/28/podentender-news-001-sobre-supercomputador-fosfoetanolamina-premio-fotografia-e-guardioes-da-saude/
+  - https://podentender.com/?p=11
 episode:
   number: '006'
   date: 2016-04-28

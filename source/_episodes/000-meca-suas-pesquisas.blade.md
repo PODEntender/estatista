@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2015-12-12
-oldLink: https://podentender.com/2015/12/podentender-000-meca-suas-pesquisas-2.html
+redirects:
+  - https://podentender.com/2015/12/podentender-000-meca-suas-pesquisas-2.html
+  - http://podentender.com/2015/12/12/podentender-000-meca-suas-pesquisas/
+  - https://podentender.com/?p=20
 episode:
   number: '000'
   date: 2015-12-12

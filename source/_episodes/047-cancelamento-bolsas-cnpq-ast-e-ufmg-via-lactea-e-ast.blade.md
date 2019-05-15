@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2019-04-22
-oldLink: https://podentender.com/2019/04/cancelamento-bolsas-cnpq-ast-e-ufmg-via-lactea-e-ast.html
+redirects:
+  - https://podentender.com/episodio/047-sobre-cancelamento-em-massa-de-bolsas-do-cnpq-ufmg-na-via-lactea-e-ast
+  - https://podentender.com/2019/04/cancelamento-bolsas-cnpq-ast-e-ufmg-via-lactea-e-ast.html
+  - https://podentender.com/?p=5905
 episode:
   number: '047'
   date: 2019-04-22

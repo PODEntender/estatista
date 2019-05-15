@@ -2,8 +2,11 @@
 extends: _layouts.episode
 section: content
 category: Drops
-date: 2016-05-12
-oldLink: https://podentender.com/2016/05/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture.html
+date: 2016-05-12 
+redirects:
+  - https://podentender.com/2016/05/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture.html
+  - http://podentender.com/2016/05/12/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture/
+  - https://podentender.com/?p=10
 episode:
   number: '007'
   date: 2016-05-12

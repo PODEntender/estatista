@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-04-14
-oldLink: https://podentender.com/2016/04/podentender-004-sobre-saude-mental-infantil-e-autismo.html
+redirects:
+  - https://podentender.com/2016/04/podentender-004-sobre-saude-mental-infantil-e-autismo.html
+  - http://podentender.com/2016/04/14/podentender-004-sobre-saude-mental-infantil-e-autismo/
+  - https://podentender.com/?p=12
 episode:
   number: '005'
   date: 2016-04-14

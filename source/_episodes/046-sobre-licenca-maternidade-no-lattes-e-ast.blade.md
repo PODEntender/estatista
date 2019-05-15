@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2019-04-08
-oldLink: https://podentender.com/2019/04/sobre-licenca-maternidade-no-lattes-e-ast.html
+redirects:
+  - https://podentender.com/2019/04/sobre-licenca-maternidade-no-lattes-e-ast.html
+  - https://podentender.com/?p=5897
 episode:
   number: '046'
   date: 2019-04-08

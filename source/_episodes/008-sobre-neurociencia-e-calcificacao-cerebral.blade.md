@@ -2,8 +2,11 @@
 extends: _layouts.episode
 section: content
 category: Entrevista
-date: 2016-05-29
-oldLink: https://podentender.com/2016/05/podentender-005-sobre-neurociencia-e-calcificacao-cerebra.html
+date: 2016-05-29 
+redirects:
+  - https://podentender.com/2016/05/podentender-005-sobre-neurociencia-e-calcificacao-cerebra.html
+  - http://podentender.com/2016/05/29/podentender-005-sobre-neurociencia-e-calcificacao-cerebra/
+  - https://podentender.com/?p=9
 episode:
   number: '008'
   date: 2016-05-29

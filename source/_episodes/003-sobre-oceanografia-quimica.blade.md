@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-03-17
-oldLink: https://podentender.com/2016/03/podentender-003-sobre-oceanografia-quimica.html
+redirects:
+  - https://podentender.com/2016/03/podentender-003-sobre-oceanografia-quimica.html
+  - http://podentender.com/2016/03/17/podentender-003-sobre-oceanografia-quimica/
+  - https://podentender.com/?p=14
 episode:
   number: '003'
   date: 2016-03-17

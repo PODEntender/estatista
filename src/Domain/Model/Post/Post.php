@@ -30,6 +30,8 @@ class Post
 
     private $recommended;
 
+    private $redirects;
+
     public function __construct(
         string $guid,
         string $url,
@@ -56,6 +58,7 @@ class Post
         $this->updatedAt = $updatedAt;
 
         $this->recommended = new PostCollection();
+        $this->redirects = [];
     }
 
     public function guid(): string
@@ -130,5 +133,17 @@ class Post
         $newSelf->recommended = $recommendations;
 
         return $newSelf;
+    }
+
+    public function redirects(): array
+    {
+        return $this->redirects ?? [];
+    }
+
+    public function addRedirect(string $from): self
+    {
+        $this->redirects[] = $from;
+
+        return $this;
     }
 }

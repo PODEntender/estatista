@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2019-02-25
-oldLink: https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html
+redirects:
+  - https://podentender.com/2019/02/podentender-43-ministro-da-ciencia-e-pos-graduacao-a-distancia.html
+  - https://podentender.com/?p=5864
 episode:
   number: '043'
   date: 2019-02-25

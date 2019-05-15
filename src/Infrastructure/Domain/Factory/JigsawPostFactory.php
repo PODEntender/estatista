@@ -45,7 +45,7 @@ class JigsawPostFactory
 
         $episode = $page->episode;
 
-        return new AudioEpisode(
+        $episode = new AudioEpisode(
             $page->episode['guid'] ?? $page->getUrl(),
             $page->getUrl(),
             $episode['title'],
@@ -62,6 +62,12 @@ class JigsawPostFactory
             $episode['audioUrl'],
             $page->getBaseUrl() . $episode['cover']['url'] ?? ''
         );
+
+        foreach ($page->redirects ?? [] as $url) {
+            $episode->addRedirect($url);
+        }
+
+        return $episode;
     }
 
     private function createImageCollectionFromPageVariable(PageVariable $page): PostImageCollection

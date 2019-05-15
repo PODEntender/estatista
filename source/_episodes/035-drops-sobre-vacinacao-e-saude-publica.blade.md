@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2018-08-10
-oldLink: https://podentender.com/2018/08/35-vacinacao-e-saude-publica-rafaela-cavalcanti.html
+redirects:
+  - https://podentender.com/2018/08/35-vacinacao-e-saude-publica-rafaela-cavalcanti.html
+  - http://podentender.com/?p=5483
 episode:
   number: '035'
   date: 2018-08-10

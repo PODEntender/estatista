@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-02-19
-oldLink: https://podentender.com/2016/02/podentender-podcast-sobre-abelhas-e-polinizacao.html
+redirects:
+  - https://podentender.com/2016/02/podentender-podcast-sobre-abelhas-e-polinizacao.html
+  - http://podentender.com/2016/02/19/podentender-podcast-sobre-abelhas-e-polinizacao/
+  - https://podentender.com/?p=15
 episode:
   number: '002'
   date: 2016-02-19

@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2016-03-31
-oldLink: https://podentender.com/2016/03/podentender-drops-001-sobre-crowndfunding-para-diagnostico-de-zika-virus.html
+redirects:
+  - https://podentender.com/2016/03/podentender-drops-001-sobre-crowndfunding-para-diagnostico-de-zika-virus.html
+  - http://podentender.com/2016/03/31/podentender-drops-001-sobre-crowndfunding-para-diagnostico-de-zika-virus/
+  - https://podentender.com/?p=13
 episode:
   number: '004'
   date: 2016-03-31

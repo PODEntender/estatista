@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-01-12
-oldLink: https://podentender.com/2016/01/podentender-001-sobre-evolucao-de-proteinas_12.html
+redirects:
+  - https://podentender.com/2016/01/podentender-001-sobre-evolucao-de-proteinas_12.html
+  - http://podentender.com/2016/01/12/podentender-001-sobre-evolucao-de-proteinas_12/
+  - https://podentender.com/?p=16
 episode:
   number: '001'
   date: 2016-01-12
