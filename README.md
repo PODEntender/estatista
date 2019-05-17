@@ -17,7 +17,7 @@ publicado no branch [gh-pages](https://github.com/PODEntender/estatista/tree/gh-
 Para visitar as páginas existentes, recomenda-se (por enquanto) utilizar
 o endereço `/sitemap.xml`. Lá estão listadas as páginas públicas do projeto.
 
-No `gh-pages` o endereço é [public_html/sitemap.xml](https://podentender.github.io/estatista/sitemap.xml). 
+No `gh-pages` o endereço é [public_html/sitemap.xml](https://podentender.com/sitemap.xml). 
 
 ### Tecnologias
 
