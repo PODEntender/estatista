@@ -11,6 +11,7 @@ class RobotsTxtStringBuilder
             ->map(function (RulesSet $rule) {
                 return array_merge(
                     [
+                        '',
                         'User-Agent: ' . $rule->userAgent(),
                     ],
                     array_map(function ($string) {
