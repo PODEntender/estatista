@@ -6,6 +6,7 @@ use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawPostP
 use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawGenerateRssFeedAfterBuild;
 use PODEntender\Infrastructure\Application\StaticSite\JigsawDecoratePagesAfterCollections;
 use PODEntender\Infrastructure\Application\StaticSite\GenerateCategoriesAfterCollections;
+use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawGenerateRobotsTxtFileAfterBuild;
 
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
@@ -21,6 +22,7 @@ $events->afterCollections([
 ]);
 
 $events->afterBuild([
+    JigsawGenerateRobotsTxtFileAfterBuild::class,
     JigsawPostProcessFilesAfterBuild::class,
     JigsawGenerateRssFeedAfterBuild::class,
     SitemapListener::class,
