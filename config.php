@@ -36,5 +36,6 @@ return array_merge(
         'feed' => require __DIR__ . '/config/feed.php',
         'menu' => require __DIR__ . '/config/menu.php',
         'meta' => require __DIR__ . '/config/meta.php',
+        'robots' => require __DIR__ . '/config/robots.php',
     ]
 );
