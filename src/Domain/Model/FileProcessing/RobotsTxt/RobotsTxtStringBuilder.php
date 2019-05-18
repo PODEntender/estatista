@@ -14,10 +14,10 @@ class RobotsTxtStringBuilder
                         '',
                         'User-Agent: ' . $rule->userAgent(),
                     ],
-                    array_map(function ($string) {
+                    array_map(function (string $string) {
                         return "Allow: $string";
                     }, $rule->allowRules()),
-                    array_map(function ($string) {
+                    array_map(function (string $string) {
                         return "Disallow: $string";
                     }, $rule->disallowRules())
                 );
