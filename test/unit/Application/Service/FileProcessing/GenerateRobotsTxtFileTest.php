@@ -39,7 +39,7 @@ class GenerateRobotsTxtFileTest extends TestCase
         $secondRuleSet->addAllowRules(['/home', '/blog']);
         $secondRuleSet->addDisallowRules(['/about']);
         $robotsTxt = new RobotsTxt('https://podentender.com/sitemap.xml', new RulesSetCollection([$firstRuleSet, $secondRuleSet]));
-        $builder = new RobotsTxtStringBuilder($robotsTxt);
+        $builder = new RobotsTxtStringBuilder();
         $robotsTxtGenerator = new GenerateRobotsTxtFile($builder);
         $expected = 
 <<<EOF

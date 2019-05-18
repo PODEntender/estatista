@@ -13,7 +13,7 @@ class JigsawRobotsTxtFactory
     {
         return new RobotsTxt(
             $configuration['sitemap'],
-            new RulesSetCollection($configuration['rulesSetCollection']->map(function ($rules) {
+            new RulesSetCollection($configuration['rulesSetCollection']->map(function (Collection $rules) {
                 $rulesSet = new RulesSet($rules['User-Agent']);
                 $rulesSet->addAllowRules($rules['Allow']->toArray());
                 $rulesSet->addDisallowRules($rules['Disallow']->toArray());
