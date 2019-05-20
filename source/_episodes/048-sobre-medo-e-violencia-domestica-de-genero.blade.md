@@ -13,7 +13,7 @@ episode:
   audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_48.mp3
   disqus: 'https://podentender.com/ep048'
   cover:
-    url: '/assets/images/episode/048/capa.jpg'
+    url: '/assets/images/episode/048/capa.png'
     title: 'Capa do episódio: PODEntender #048, Sobre medo e vergonha como barreiras para superar a violência doméstica de gênero'
 tags:
   - violencia
