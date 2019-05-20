@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Mon, 20 May 2019 10:13:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 19:56:37 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>Sobre medo e vergonha como barreiras para superar a violência doméstica de gênero</title>
+      <description>A doutora Maria Fernanda estudou como o medo e a vergonha influenciam na decisão das mulheres ao percorrer o que Montserrat Sargot definiu como Rota Crítica.</description>
+      <link>https://podentender.com/episodio/048-sobre-medo-e-vergonha-como-barreiras-para-superar-a-violencia-domestica-de-genero</link>
+      <comments>https://podentender.com/episodio/048-sobre-medo-e-vergonha-como-barreiras-para-superar-a-violencia-domestica-de-genero</comments>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep048</guid>
+      <category><![CDATA[Drops]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_48.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>A doutora Maria Fernanda estudou como o medo e a vergonha influenciam na decisão das mulheres ao percorrer o que Montserrat Sargot definiu como Rota Crítica.</itunes:subtitle>
+      <itunes:summary>A doutora Maria Fernanda estudou como o medo e a vergonha influenciam na decisão das mulheres ao percorrer o que Montserrat Sargot definiu como Rota Crítica.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/048/capa.png"/>
+    </item>
     <item>
       <title>CNPq poderá cancelar bolsas até Outubro de 2019, UFMG na Via Láctea e Acordo de Salvaguardas Tecnológicas</title>
       <description>Dalton e Níckolas comentam sobre o possível cancelamento das bolsas do CNPq até Outubro de 2019 devido a cortes no orçamento. Também falamos sobre a descoberta de aglomerados na Via Láctea pelo pesquisador Filipe Andrade da UFMG e acompanhamos a audiência pública no Congresso Nacional sobre o Acordo de Salvaguardas Tecnológicas (AST).</description>
