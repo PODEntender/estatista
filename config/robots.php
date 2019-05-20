@@ -6,9 +6,7 @@ return [
         'rulesSetCollection' => [
             [
                 'User-Agent' => '*',
-                'Disallow' => [
-                    '*.html',
-                ],
+                'Disallow' => [],
                 'Allow' => []
             ],
         ],
