@@ -1,4 +1,3 @@
 Sitemap: https://podentender.com/sitemap.xml
 
 User-Agent: *
-Disallow: *.html
