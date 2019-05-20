@@ -26,6 +26,7 @@ tags:
 links:
   'Currículo Lattes de Fernanda': 'http://bit.ly/lattes-fernanda-terra'
   'Trabalho de Fernanda sobre medo e vergonha como barreiras para superar a violência doméstica de gênero': 'http://bit.ly/trabalho-medo'
+  'Curso de Prevenção e Enfrentamento da Violência em Serviços de Saúde': 'http://bit.ly/curso-prevencao-enfrentamento-violencia'
   'E-mail de Fernanda: mfterra@gmail.com': 'mailto:mfterra@gmail.com'
   'Podcast Vamos Falar Sobre Música': 'http://bit.ly/vamos-falar-de-musica'
   'Blog phpsp.org.br': 'http://bit.ly/blog-phpsp'
