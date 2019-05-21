@@ -7,10 +7,14 @@
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 
-<meta name="og:title" content="{{ $page->meta['title'] }}">
-<meta name="og:description" content="{{ $page->meta['description'] }}">
-<meta name="og:image" content="{{ $page->baseUrl . $page->assets->logo }}">
-<meta name="og:url" content="{{ $page->baseUrl }}">
+<meta property="og:title" content="{{ $page->meta['title'] }}">
+<meta property="og:url" content="{{ $page->baseUrl . '/sobre/' }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ $page->meta['locale'] }}">
+<meta property="og:description" content="{{ $page->meta['description'] }}">
+<meta property="og:image" content="{{ $page->baseUrl . $page->meta['image'] }}">
+<meta property="og:image:secure_url" content="{{ $page->baseUrl . $page->meta['image'] }}">
+<meta property="og:image:alt" content="{{ $page->meta['description'] }}">
 
 <meta name="twitter:card" content="{{ $page->meta['twitter']['card'] }}">
 <meta name="twitter:site" content="{{ $page->meta['twitter']['account'] }}">
