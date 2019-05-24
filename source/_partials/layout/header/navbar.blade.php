@@ -1,9 +1,9 @@
 <header class="header_bar">
-    <h1 class="header_bar__logo">
+    <div class="header_bar__logo">
         <a href="{{ $page->baseUrl }}" title="{{ $page->meta['title'] }}">
             <img src="{{ $page->baseUrl . $page->assets->logo }}" alt="{{ $page->meta['title'] }}" />
         </a>
-    </h1>
+    </div>
     <section class="header_bar__menu">
         <button role="button" aria-label="Open Menu" class="header_bar__menu__icon" onclick="typeof toggleMenu == 'function' && toggleMenu()">
             <img data-src="{{ $page->baseUrl . $page->assets->icons->menu }}" class="lazy-image" alt="Open Menu" />
