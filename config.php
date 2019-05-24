@@ -20,6 +20,7 @@ $config = [
             },
             'sort' => ['-date'],
         ],
+        'authors' => [],
     ],
     'assets' => [
         'logo' => '/assets/images/logo.png',

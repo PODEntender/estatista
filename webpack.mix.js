@@ -13,7 +13,6 @@ mix.webpackConfig({
 
 mix.js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css')
-    .sass('source/_assets/sass/episode/main.scss', 'css')
     .options({
         processCssUrls: false,
     }).version();

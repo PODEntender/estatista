@@ -1,0 +1,23 @@
+@import '../mixins/media';
+
+.author {
+  &__picture {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    @include above-mobile {
+      float: left;
+      padding: 10px;
+      width: auto;
+    }
+  }
+
+  &__bio {
+    padding-top: 1px;
+  }
+
+  &__bio .paragraph {
+    margin: 5px 0;
+  }
+}

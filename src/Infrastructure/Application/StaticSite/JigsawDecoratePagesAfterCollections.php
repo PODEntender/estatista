@@ -41,5 +41,16 @@ class JigsawDecoratePagesAfterCollections implements JigsawEventHandler
 
                 $page->recommendations = $recommendedEpisodes;
             });
+
+        $jigsaw->getCollection('authors')
+            ->each(function (PageVariable $authorPage) use ($jigsaw) {
+                $authorPage->episodes = $jigsaw->getCollection('episodes')
+                    ->filter(function (PageVariable $episode) use ($authorPage) {
+                        return in_array($authorPage->author['uid'], $episode->tags ?? []);
+                    })
+                    ->sortByDesc(function (PageVariable $episode) {
+                        return $episode->date;
+                    });
+            });
     }
 }
