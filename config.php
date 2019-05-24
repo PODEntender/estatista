@@ -20,7 +20,13 @@ $config = [
             },
             'sort' => ['-date'],
         ],
-        'authors' => [],
+        'authors' => [
+            'path' => function (\TightenCo\Jigsaw\PageVariable $page) {
+                $builder = new \PODEntender\Domain\Model\Author\AuthorSlugBuilder();
+
+                return $builder->build($page->author['uid']);
+            },
+        ],
     ],
     'assets' => [
         'logo' => '/assets/images/logo.png',
