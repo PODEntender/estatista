@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 @section('head')
 <title>
-    {{ $page->author['name'] }} | {{ $page->meta['title'] }}
+    {{ $page->author['name'] }} | {{ $page->meta['creatorName'] }}
 </title>
 
 <meta name="description" content="{{ $page->meta['description'] }}">
