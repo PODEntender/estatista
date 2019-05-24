@@ -64,12 +64,7 @@
             Sobre o PODEntender
         </h1>
 
-        <br>
-
         <section class="paragraphs-list">
-            <h2 class="heading heading__secondary">
-                Num resumo bem curto!
-            </h2>
             <p class="paragraph">
                 O PODEntender é uma iniciativa independente de divulgação da ciência Brasileira.
                 Nosso principal objetivo é mostrar a todo Brasileiro como funciona o processo de
