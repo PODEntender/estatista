@@ -113,6 +113,14 @@
             </p>
 
             <h2 class="heading heading__secondary">
+                E quem faz o PODEntender?
+            </h2>
+
+            <br>
+            @include('_partials.authors.author-card-list', ['authors' => $page->allAuthors])
+            <br>
+
+            <h2 class="heading heading__secondary">
                 Então bora começar a ouvir!
             </h2>
             <p class="paragraph">
