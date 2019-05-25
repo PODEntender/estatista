@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2017-06-04
-oldLink: https://podentender.com/2017/06/024-sobre-brasileira-mais-influenciadora-maconha-e-sirius.html
+redirects:
+  - https://podentender.com/2017/06/024-sobre-brasileira-mais-influenciadora-maconha-e-sirius.html
+  - https://podentender.com/?p=5188
+  - http://dragoesdegaragem.com/podentender/?p=5188
 episode:
   number: '024'
   date: 2017-06-04

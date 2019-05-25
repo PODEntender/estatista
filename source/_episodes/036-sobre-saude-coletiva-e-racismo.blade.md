@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-08-10
-oldLink: https://podentender.com/2018/09/saude-coletiva-e-racismo.html
+redirects:
+  - https://podentender.com/2018/09/saude-coletiva-e-racismo.html
+  - http://podentender.com/?p=5491
 episode:
   number: '036'
   date: 2018-08-10

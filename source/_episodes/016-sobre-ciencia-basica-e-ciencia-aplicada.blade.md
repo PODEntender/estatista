@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2017-02-01
-oldLink: https://podentender.com/2017/02/ciencia-basica-e-aplicada-podentender.html
+redirects:
+  - https://podentender.com/2017/02/ciencia-basica-e-aplicada-podentender.html
+  - https://podentender.com/?p=4926
 episode:
   number: '016'
   date: 2017-02-01

@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2018-03-10
-oldLink: https://podentender.com/2018/03/28-news.html
+redirects:
+  - https://podentender.com/2018/03/28-news.html
+  - http://dragoesdegaragem.com/podentender/?p=5227
 episode:
   number: '028'
   date: 2018-03-10

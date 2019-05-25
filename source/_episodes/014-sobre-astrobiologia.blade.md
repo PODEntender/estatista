@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-11-26
-oldLink: https://podentender.com/2016/11/014-sobre-astrobiologia.html
+redirects:
+  - https://podentender.com/2016/11/014-sobre-astrobiologia.html
+  - https://podentender.com/2016/11/014-sobre-astrobiologia.html
+  - http://podentender.com/?p=4900
 episode:
   number: '014'
   date: 2016-11-26

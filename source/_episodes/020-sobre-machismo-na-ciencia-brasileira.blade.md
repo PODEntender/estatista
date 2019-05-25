@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2017-04-05
-oldLink: https://podentender.com/2017/04/020-sobre-machismo-na-ciencia-brasileira.html
+redirects:
+  - https://podentender.com/2017/04/020-sobre-machismo-na-ciencia-brasileira.html
+  - https://podentender.com/?p=5146
 episode:
   number: '020'
   date: 2017-04-05

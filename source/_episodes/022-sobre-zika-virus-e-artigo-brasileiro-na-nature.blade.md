@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2017-05-03
-oldLink: https://podentender.com/2017/05/022-sobre-zika-e-nature.html
+redirects:
+  - https://podentender.com/2017/05/022-sobre-zika-e-nature.html
+  - https://podentender.com/?p=5163
+  - http://dragoesdegaragem.com/podentender/?p=5163
 episode:
   number: '022'
   date: 2017-05-03

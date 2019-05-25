@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2018-09-30
-oldLink: https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html
+redirects:
+  - https://podentender.com/2018/09/linguagem-e-percepcao-do-mundo.html
+  - http://podentender.com/?p=5540
 episode:
   number: '037'
   date: 2018-09-30

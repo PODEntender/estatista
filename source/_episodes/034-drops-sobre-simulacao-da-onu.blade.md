@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2018-07-31
-oldLink: https://podentender.com/2018/07/simulando-a-onu.html
+redirects:
+  - https://podentender.com/2018/07/simulando-a-onu.html
+  - http://podentender.com/?p=5476
 episode:
   number: '034'
   date: 2018-07-31

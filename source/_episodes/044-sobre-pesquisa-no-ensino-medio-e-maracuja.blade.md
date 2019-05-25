@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2019-03-12
-oldLink: https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html
+redirects:
+  - https://podentender.com/2019/03/podentender-44-sobre-pesquisa-no-ensino-medio-e-maracuja-opodcastedelas2019.html
+  - https://podentender.com/?p=5884
 episode:
   number: '044'
   date: 2019-03-12

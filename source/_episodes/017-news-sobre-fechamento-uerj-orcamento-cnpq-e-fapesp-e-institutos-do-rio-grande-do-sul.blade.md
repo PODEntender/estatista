@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2017-02-15
-oldLink: https://podentender.com/2017/02/017-sobre-fechamento-uerj-orcamento-cnpq-e-fapesp-e-institutos-do-rio-grande-do-sul.html
+redirects:
+  - https://podentender.com/2017/02/017-sobre-fechamento-uerj-orcamento-cnpq-e-fapesp-e-institutos-do-rio-grande-do-sul.html
+  - http://dragoesdegaragem.com/podentender/?p=5010
+  - https://podentender.com/?p=5010
 episode:
   number: '017'
   date: 2017-02-15

@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2016-09-01
-oldLink: https://podentender.com/2016/09/012-drops-sobre-historia-da-biologia-estrutural.html
+redirects:
+  - https://podentender.com/2016/09/012-drops-sobre-historia-da-biologia-estrutural.html
+  - http://podentender.com/?p=4873
 episode:
   number: '012'
   date: 2016-09-01

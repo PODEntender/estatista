@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-11-25
-oldLink: https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html
+redirects:
+  - https://podentender.com/2018/11/fisica-desenvolvimento-de-avioes.html
+  - https://podentender.com/?p=5611
 episode:
   number: '040'
   date: 2018-11-25

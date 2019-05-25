@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2017-05-18
-oldLink: https://podentender.com/2017/05/podentender-023-telomeros-e-falencia-da-medula.html
+redirects:
+  - https://podentender.com/2017/05/podentender-023-telomeros-e-falencia-da-medula.html
+  - http://dragoesdegaragem.com/podentender/?p=5175
+  - https://podentender.com/?p=5175
 episode:
   number: '023'
   date: 2017-05-18

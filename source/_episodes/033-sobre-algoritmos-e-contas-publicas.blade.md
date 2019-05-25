@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2018-06-25
-oldLink: https://podentender.com/2018/06/serenata-de-amor-algoritmos-contas-publicas.html
+redirects:
+  - https://podentender.com/2018/06/serenata-de-amor-algoritmos-contas-publicas.html
+  - https://podentender.com/?p=5426
 episode:
   number: '033'
   date: 2018-06-25

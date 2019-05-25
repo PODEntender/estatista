@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2016-12-18
-oldLink: https://podentender.com/2016/12/missao-brasileira-lua-podentender.html
+redirects:
+  - https://podentender.com/2016/12/missao-brasileira-lua-podentender.html
+  - http://podentender.com/?p=4916
 episode:
   number: '015'
   date: 2016-12-18

@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-05-27
-oldLink: https://podentender.com/2018/05/podcast-genomica-e-envelhecimento.html
+redirects:
+  - https://podentender.com/2018/05/podcast-genomica-e-envelhecimento.html
+  - http://podentender.com/?p=5425
 episode:
   number: '032'
   date: 2018-05-27

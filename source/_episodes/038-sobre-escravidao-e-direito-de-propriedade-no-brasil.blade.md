@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-10-20
-oldLink: https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html
+redirects:
+  - https://podentender.com/2018/10/escravidao-direito-de-propriedade-brasil.html
+  - https://podentender.com/?p=5429
 episode:
   number: '038'
   date: 2018-10-20

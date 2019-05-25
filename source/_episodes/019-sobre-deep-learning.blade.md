@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2017-03-22
-oldLink: https://podentender.com/2017/03/019-sobre-deep-learning.html
+redirects:
+  - https://podentender.com/2017/03/019-sobre-deep-learning.html
+  - https://podentender.com/?p=5138
+  - http://dragoesdegaragem.com/podentender/?p=5138
 episode:
   number: '019'
   date: 2017-03-22

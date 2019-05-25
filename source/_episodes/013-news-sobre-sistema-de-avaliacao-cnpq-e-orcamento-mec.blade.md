@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2016-10-10
-oldLink: https://podentender.com/2016/10/podentender-013-news-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec.html
+redirects:
+  - https://podentender.com/2016/10/podentender-013-news-sobre-sistema-de-avaliacao-do-cnpq-e-orcamento-do-mec.html
+  - https://podentender.com/?p=4893
 episode:
   number: '013'
   date: 2016-10-10

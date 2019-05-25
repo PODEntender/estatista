@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2016-06-26
-oldLink: https://podentender.com/2016/06/podentender-010-drops-sobre-creative-commons-e-inovacao.html
+redirects:
+  - https://podentender.com/2016/06/podentender-010-drops-sobre-creative-commons-e-inovacao.html
+  - http://podentender.com/?p=4821
 episode:
   number: '010'
   date: 2016-06-26

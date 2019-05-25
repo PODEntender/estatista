@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Recados
 date: 2017-12-30
-oldLink: https://podentender.com/2017/12/27-recados-desculpas-e-emails.html
+redirects:
+  - https://podentender.com/2017/12/27-recados-desculpas-e-emails.html
+  - https://podentender.com/?p=5219
+  - http://dragoesdegaragem.com/podentender/?p=5219
 episode:
   number: '027'
   date: 2017-12-30

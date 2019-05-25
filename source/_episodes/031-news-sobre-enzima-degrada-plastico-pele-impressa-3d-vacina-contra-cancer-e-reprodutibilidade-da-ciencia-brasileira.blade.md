@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2018-05-07
-oldLink: https://podentender.com/2018/05/31-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira.html
+redirects:
+  - https://podentender.com/2018/05/31-sobre-enzima-que-degrada-plastico-pele-impressa-em-3d-vacina-contra-o-cancer-e-reprodutibilidade-da-ciencia-brasileira.html
+  - http://podentender.com/?p=5451
 episode:
   number: '031'
   date: 2018-05-07

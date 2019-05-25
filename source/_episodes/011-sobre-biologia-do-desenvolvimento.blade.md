@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2016-08-14
-oldLink: https://podentender.com/2016/08/podentender-011-sobre-biologia-do-desenvolvimento.html
+redirects:
+  - https://podentender.com/2016/08/podentender-011-sobre-biologia-do-desenvolvimento.html
+  - https://podentender.com/?p=4855
 episode:
   number: '011'
   date: 2016-08-14

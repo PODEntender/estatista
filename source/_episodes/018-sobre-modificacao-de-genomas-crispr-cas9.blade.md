@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2017-03-01
-oldLink: https://podentender.com/2017/03/podentender-018-sobre-modificacao-de-genomas-e-crispr-cas9-2.html
+redirects:
+  - https://podentender.com/2017/03/podentender-018-sobre-modificacao-de-genomas-e-crispr-cas9-2.html
+  - https://podentender.com/?p=5114
 episode:
   number: '018'
   date: 2017-03-01

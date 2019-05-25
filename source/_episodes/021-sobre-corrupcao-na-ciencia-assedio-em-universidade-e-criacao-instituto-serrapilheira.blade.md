@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: News
 date: 2017-04-20
-oldLink: https://podentender.com/2017/04/021-sobre-corrupcao-na-ciencia-assedio-e-serrapilheira.html
+redirects:
+  - https://podentender.com/2017/04/021-sobre-corrupcao-na-ciencia-assedio-e-serrapilheira.html
+  - http://dragoesdegaragem.com/podentender/?p=5155
 episode:
   number: '021'
   date: 2017-04-20

@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2019-03-27
-oldLink: https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html
+redirects:
+  - https://podentender.com/2019/03/podentender-45-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019.html
+  - https://podentender.com/?p=5891
 episode:
   number: '045'
   date: 2019-03-27

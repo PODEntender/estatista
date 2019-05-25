@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2017-06-28
-oldLink: https://podentender.com/2017/06/relacionamento-com-a-vida-academica.html
+redirects:
+  - https://podentender.com/2017/06/relacionamento-com-a-vida-academica.html
+  - http://dragoesdegaragem.com/podentender/?p=5202
+  - https://podentender.com/?p=5202
 episode:
   number: '025'
   date: 2017-06-28

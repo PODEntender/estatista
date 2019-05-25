@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2018-04-03
-oldLink: https://podentender.com/2018/04/manuscritos-do-mar-morto-demonologia-tupa-guerra.html
+redirects:
+  - https://podentender.com/2018/04/manuscritos-do-mar-morto-demonologia-tupa-guerra.html
+  - http://podentender.com/?p=5364
 episode:
   number: '029'
   date: 2018-04-03

@@ -3,7 +3,10 @@ extends: _layouts.episode
 section: content
 category: Entrevista
 date: 2017-07-13
-oldLink: https://podentender.com/2017/07/ecologia-evolutiva.html
+redirects:
+  - https://podentender.com/2017/07/ecologia-evolutiva.html
+  - https://podentender.com/?p=5210
+  - http://dragoesdegaragem.com/podentender/?p=5210
 episode:
   number: '026'
   date: 2017-07-13

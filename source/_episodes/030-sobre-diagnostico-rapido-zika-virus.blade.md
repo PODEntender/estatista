@@ -3,7 +3,9 @@ extends: _layouts.episode
 section: content
 category: Drops
 date: 2018-04-21
-oldLink: https://podentender.com/2018/04/podcast-zika.html
+redirects:
+  - https://podentender.com/2018/04/podcast-zika.html
+  - http://podentender.com/?p=5414
 episode:
   number: '030'
   date: 2018-04-21
