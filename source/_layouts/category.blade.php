@@ -21,17 +21,17 @@ $metaDescription = 'Episódios: ' . implode(
 <meta name="author" content="{{ $page->baseUrl }}">
 <meta name="publisher" content="{{ $page->baseUrl }}">
 
-<meta property="og:title" content="{{ $page->episode['title'] }}">
+<meta property="og:title" content="{{ $page->pagination->collection }} | Página {{ $pagination->currentPage }} de {{ $pagination->totalPages }} | {{ $page->meta['title'] }}">
 <meta property="og:description" content="{{ $metaDescription }}">
-<meta property="og:image" content="{{ $page->episode['cover']['url'] }}">
+<meta property="og:image" content="{{ $page->baseUrl . $page->meta['image'] }}">
 <meta property="og:url" content="{{ $page->getUrl() }}">
 
 <meta name="twitter:card" content="{{ $page->meta['twitter']['card'] }}">
 <meta name="twitter:site" content="{{ $page->meta['twitter']['account'] }}">
 <meta name="twitter:creator" content="{{ $page->meta['twitter']['account'] }}">
-<meta name="twitter:title" content="{{ $page->episode['title'] }}">
+<meta name="twitter:title" content="{{ $page->pagination->collection }} | Página {{ $pagination->currentPage }} de {{ $pagination->totalPages }} | {{ $page->meta['title'] }}">
 <meta name="twitter:description" content="{{ $metaDescription }}">
-<meta name="twitter:image" content="{{ $page->episode['cover']['url'] }}">
+<meta name="twitter:image" content="{{ $page->baseUrl . $page->meta['twitter']['image'] }}">
 <meta name="twitter:url" content="{{ $page->getUrl() }}">
 
 <link rel="canonical" href="{{ $page->getUrl() }}">

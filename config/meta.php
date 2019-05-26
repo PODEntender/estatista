@@ -12,6 +12,7 @@ return [
     'twitter' => [
         'card' => 'summary_large_image',
         'account' => '@podentender',
+        'image' => '/assets/images/logo-twitter-card.jpg',
     ],
     'schemas' => [
         'author' => [

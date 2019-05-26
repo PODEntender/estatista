@@ -21,7 +21,7 @@
 <meta name="twitter:creator" content="{{ $page->meta['twitter']['account'] }}">
 <meta name="twitter:title" content="{{ $page->meta['title'] }}">
 <meta name="twitter:description" content="{{ $page->meta['description'] }}">
-<meta name="twitter:image" content="{{ $page->baseUrl . $page->assets->logo }}">
+<meta name="twitter:image" content="{{ $page->baseUrl . $page->meta['twitter']['image'] }}">
 <meta name="twitter:url" content="{{ $page->baseUrl }}">
 
 <link rel="canonical" href="{{ $page->baseUrl }}">
