@@ -24,10 +24,6 @@ tags:
   - carol
   - nawarian
 links:
-  'Currículo Lattes de Fernanda': 'http://bit.ly/lattes-fernanda-terra'
-  'Trabalho de Fernanda sobre medo e vergonha como barreiras para superar a violência doméstica de gênero': 'http://bit.ly/trabalho-medo'
-  'Curso de Prevenção e Enfrentamento da Violência em Serviços de Saúde': 'http://bit.ly/curso-prevencao-enfrentamento-violencia'
-  'E-mail de Fernanda: mfterra@gmail.com': 'mailto:mfterra@gmail.com'
   'Podcast Vamos Falar Sobre Música': 'http://bit.ly/vamos-falar-de-musica'
   'Blog phpsp.org.br': 'http://bit.ly/blog-phpsp'
   'Programa ciência na escola': 'http://bit.ly/ciencia-na-escola-mctic'
@@ -46,3 +42,25 @@ importantes e que devemos sempre meter a colher onde for necessário.
 E é sempre bom lembrar. O ligue **180** é o telefone disponível 24 horas por dia para receber denuncias. Porém não
 somente denúncias! Eles também estão lá para lhe aconselhar e orientar sobre a legislação vigente e sobre os serviços de
 apoio disponíveis. 
+
+## Sobre a nossa convidada: Maria Fernanda Terra
+
+Fernanda formou-se enfermeira pela Universidade Federal de São Paulo (UNIFESP), especializou-se em áreas da saúde
+pública e tornou-se mestre em enfermagem e doutora em medicina pela Universidade de São Paulo (USP).
+
+As linhas de pesquisa de Fernanda incluem **Gênero e Saúde**, **Violência de Gênero** e **Saúde Coletiva**,
+**Integralidade e Cuidado em Saúde** e **Integralidade na Atenção à Saúde da Mulher**. Áreas nas quais desenvolveu
+diversos trabalhos acadêmicos e atuou também na prática.
+
+Fernanda também é professora e orientadora em cursos na área da saúde, atuando desde 2013 em instituições como a
+Faculdade de Ciências Médicas da Santa Casa de São Paulo (FCMSCSP).
+
+Você pode encontrar mais informações sobre a trajetória profissional de Maria Fernanda Terra em seu currículo na
+plataforma Lattes, [disponível aqui](http://bit.ly/lattes-fernanda-terra).
+
+Para entender um pouco sobre uma das linhas de pesquisa de Fernanda, o PODEntender recomenda a leitura de seu artigo
+entitulado [Medo e vergonha como barreiras para superar a violência doméstica de gênero](http://bit.ly/trabalho-medo).
+
+Durante este episódios divulgamos também seu curso de [Prevenção e Enfrentamento da Violência em Serviços de Saúde](http://bit.ly/curso-prevencao-enfrentamento-violencia).
+Para dúvidas sobre o curso ou demais contatos, você pode entrar em contato com Fernanda através de seu e-mail
+[mfterra@gmail.com](mailto:mfterra@gmail.com).
