@@ -27,6 +27,10 @@ $config = [
             'menu' => '/assets/images/icons/menu.svg',
         ],
     ],
+    'links' => [
+        'itunes' => 'https://podcasts.apple.com/br/podcast/podentender/id1067682515',
+        'spotify' => 'https://open.spotify.com/show/5awOQWYbQNkOxdrr3hgf2F',
+    ],
 ];
 
 return array_merge(

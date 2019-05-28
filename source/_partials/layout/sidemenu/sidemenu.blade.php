@@ -4,16 +4,16 @@
         <img class="lazy-image" data-src="{{ $page->baseUrl }}/assets/images/icons/close.svg" alt="Close Menu" width="16">
     </button>
     <ul>
-        @foreach($page->menu->items as $item => $link)
-            <li class="side-menu__item">
-                <a class="side-menu__item__link" href="{{ $page->baseUrl . $link }}">{{ $item }}</a>
-            </li>
-        @endforeach
-        <li class="side-menu__separator"></li>
-        @foreach($page->menu->social as $item => $link)
-            <li class="side-menu__item">
-                <a class="side-menu__item__link" href="{{ $link }}" target="_blank" rel="noopener">{{ $item }}</a>
-            </li>
+        @foreach($page->menu->items as $key => $group)
+            @if ($key > 0)
+                <li class="side-menu__separator"></li>
+            @endif
+
+            @foreach ($group as $item => $link)
+                <li class="side-menu__item">
+                    <a class="side-menu__item__link" href="{{ $link }}">{{ $item }}</a>
+                </li>
+            @endforeach
         @endforeach
     </ul>
 </nav>
