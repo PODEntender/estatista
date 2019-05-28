@@ -24,7 +24,7 @@
 <meta name="twitter:image" content="{{ $page->baseUrl . $page->meta['twitter']['image'] }}">
 <meta name="twitter:url" content="{{ $page->baseUrl }}">
 
-<link rel="canonical" href="{{ $page->baseUrl }}">
+<link rel="canonical" href="{{ $page->getUrl() }}">
 
 @include('_partials.meta.json-ld-script', [
     'schema' => [
