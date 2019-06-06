@@ -7,7 +7,7 @@ episode:
   number: '049'
   date: 2019-06-05
   title: 'Medo, Cultura, Sociedade e Vigotski'
-  description: 'Neste drops do PODEntender você passa a conhecer o trabalho de Henrique Meira de Castro (PUC-SP), o Famigerado Kpeta!'
+  description: 'O que são e como se manifestam as emoções, qual o efeito social e psicológico que elas têm sobre nós e que coragem e resiliência são na realidade papo furado.'
   guid: 'https://podentender.com/ep049'
   audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_49.mp3
@@ -46,11 +46,16 @@ Kpeta!
 Henrique é formado psicólogo pela UNESP, mestre em educação pela PUC-SP e atuou como professor e analista de gestão de
 conhecimento.
 
-Ele nos explica algumas teorias sobre como e porquê se dão as diversas emoções, e como a humanidade percebeu e
-lidou com o medo durante a história.
+Durante este episódio você pode entender diferentes teorias sobre o que são e como se manifestam as emoções,
+qual o efeito social e psicológico que elas têm sobre nós e que coragem e resiliência são na realidade papo
+furado!
 
-Traçamos também através do materialismo histórico e dialético uma relação entre o medo e poder
-([qualquer relação com este post não é mera coincidência](/episodio/048-sobre-medo-e-vergonha-como-barreiras-para-superar-a-violencia-domestica-de-genero/))
-citando exemplos de textos bíblicos, lendas indígenas e notícias sensacionalistas dos tempos atuais.
+Traçamos, através do materialismo histórico e dialético, uma relação entre o medo e poder
+([qualquer relação com o episódio de Fernanda não é mera coincidência](/episodio/048-sobre-medo-e-vergonha-como-barreiras-para-superar-a-violencia-domestica-de-genero/))
+citando exemplos de textos bíblicos, lendas indígenas, notícias sensacionalistas e jornais de "expreme que sai
+sangue" dos tempos atuais.
+
+Assim como apontado durante o [episódio sobre arquitetura e espaços urbanos](/episodio/045-sobre-mulheres-arquitetura-e-espacos-urbanos-opodcastedelas2019),
+vimos como o medo altera a nossa percepção de mundo e por consequência molda como nos comportamos perante a ele.
 
 Para entrar em contato com Henrique Meira você pode verificar os links abaixo ou enviar um e-mail no [castrohm@gmail.com](mailto:castrohm@gmail.com).
