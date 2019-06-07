@@ -1,4 +1,4 @@
-@if($recommendations->count() > 0)
+@if($recommendations && $recommendations->count() > 0)
 <section class="recommended-episodes">
     <h1 class="recommended-episodes__title">
         {{ $title ?? 'Para você continuar entendendo' }}
