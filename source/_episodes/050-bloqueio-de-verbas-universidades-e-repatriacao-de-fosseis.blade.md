@@ -4,7 +4,7 @@ section: content
 category: News
 date: 2019-06-17
 redirects:
-  - https://podentender.com/episodio/050-trf-1-derruba-suspensao-do-bloqueio-de-verbas-nas-universidades-e-repatriacao-de-fosseis-ao-brasil/
+  - https://podentender.com/episodio/050-trf-1-derruba-suspensao-do-bloqueio-de-verbas-nas-universidades-e-repatriacao-de-fosseis-ao-brasil
 episode:
   number: '050'
   date: 2019-06-17
