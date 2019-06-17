@@ -27,7 +27,10 @@ tags:
   - tonho
   - nawarian
 links:
+  'Matéria sobre judicial para cancelar o bloqueio de verbas': 'https://noticias.r7.com/educacao/juiza-federal-ordena-desbloqueio-de-verbas-de-universidades-federais-08062019'
+  'Solicitação de suspensão da ordem judicial ao TRF-1': 'https://noticias.r7.com/educacao/agu-quer-derrubar-liminar-que-sustou-bloqueio-de-verbas-do-mec-11062019'
   'Matéria do Correio do Povo sobre a suspensão': 'https://www.correiodopovo.com.br/not%C3%ADcias/ensino/trf-1-derruba-suspens%C3%A3o-de-bloqueio-de-verbas-de-universidades-1.345023'
+  'Sobre as verbas discricionárias': 'https://www.bbc.com/portuguese/brasil-48283522'
   'Matéria do Sputnik News sobre repatriação dos fósseis': 'https://br.sputniknews.com/brasil/2019051413881562-brasil-fosseis-franca-ciencia/'
 ---
 
