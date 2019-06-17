@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Mon, 17 Jun 2019 09:26:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 20:44:15 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>TRF-1 derruba suspensão do bloqueio de verbas nas universidades e repatriação de fósseis ao Brasil</title>
+      <description>Tonho e Nawarian comentam sobre a medida aprovada pelo TRF-1 que torna válido novamente o bloqueio de verbas em universidades e sobre a repatriação de fósseis extraviados ao Brasil.</description>
+      <link>https://podentender.com/episodio/050-trf-1-derruba-suspensao-do-bloqueio-de-verbas-nas-universidades-e-repatriacao-de-fosseis-ao-brasil</link>
+      <comments>https://podentender.com/episodio/050-trf-1-derruba-suspensao-do-bloqueio-de-verbas-nas-universidades-e-repatriacao-de-fosseis-ao-brasil</comments>
+      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep050</guid>
+      <category><![CDATA[News]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_50.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Tonho e Nawarian comentam sobre a medida aprovada pelo TRF-1 que torna válido novamente o bloqueio de verbas em universidades e sobre a repatriação de fósseis extraviados ao Brasil.</itunes:subtitle>
+      <itunes:summary>Tonho e Nawarian comentam sobre a medida aprovada pelo TRF-1 que torna válido novamente o bloqueio de verbas em universidades e sobre a repatriação de fósseis extraviados ao Brasil.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/050/capa.png"/>
+    </item>
     <item>
       <title>Medo, Cultura, Sociedade e Vigotski</title>
       <description>O que são e como se manifestam as emoções, qual o efeito social e psicológico que elas têm sobre nós e que coragem e resiliência são na realidade papo furado.</description>
