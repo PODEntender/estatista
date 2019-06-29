@@ -5,6 +5,7 @@ category: Entrevista
 date: 2018-04-03
 redirects:
   - https://podentender.com/2018/04/manuscritos-do-mar-morto-demonologia-tupa-guerra.html
+  - https://podentender.com/2018/04/manuscritos-do-mar-morto-demonologia.html
   - http://podentender.com/?p=5364
 episode:
   number: '029'
