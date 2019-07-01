@@ -20,6 +20,12 @@ episode:
     title: 'Capa do episódio: missão brasileira à lua, novos equipamentos para a base da antártida e mosquitos contra Zika'
 tags:
   - podcast
+  - missao
+  - nasa
+  - astronomia
+  - astrofisica
+  - tonho
+  - dalton
 links:
   'Site da missão Garatéa-L': http://www.garatea.space/
   'Nóticia do site do MCTI sobre os novos equipamentos para a base brasileira na Antártida': http://www.mcti.gov.br/pagina-noticia/-/asset_publisher/IqV53KMvD5rY/content/primeiros-equipamentos-da-nova-base-de-pesquisas-na-antartica-chegam-em-dezembro?p_p_auth=sf9xYWZY&_101_INSTANCE_IqV53KMvD5rY_redirect=%2Finicio
