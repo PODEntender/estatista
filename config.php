@@ -19,6 +19,9 @@ $config = [
                 );
             },
             'sort' => ['-date'],
+            'sitemap' => [
+                'changeFrequency' => \PODEntender\SitemapGenerator\Url::FREQUENCY_MONTHLY,
+            ],
         ],
     ],
     'assets' => [
