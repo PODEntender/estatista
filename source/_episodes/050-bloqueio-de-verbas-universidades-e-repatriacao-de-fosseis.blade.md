@@ -9,7 +9,7 @@ episode:
   number: '050'
   date: 2019-06-17
   title: 'TRF-1 derruba suspensão do bloqueio de verbas nas universidades e repatriação de fósseis ao Brasil'
-  description: 'Tonho e Nawarian comentam sobre a medida aprovada pelo TRF-1 que torna válido novamente o bloqueio de verbas em universidades e sobre a repatriação de fósseis extraviados ao Brasil.'
+  description: 'Tonho e Nawarian comentam sobre a medida aprovada pelo TRF1 que torna válido novamente o bloqueio de verbas em universidades e sobre a repatriação de fósseis extraviados ao Brasil.'
   guid: 'https://podentender.com/ep050'
   audioStrategy: blubrry
   audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_50.mp3
