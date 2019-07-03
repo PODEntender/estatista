@@ -21,7 +21,7 @@
             </li>
             <li class="top-nav__item">
                 <!-- @todo -> add categories page -->
-                <a href="#" class="top-nav__link">
+                <a href="{{ $page->getBaseUrl() }}/categorias/todos/" class="top-nav__link">
                     Episódios
                 </a>
             </li>
