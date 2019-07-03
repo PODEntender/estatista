@@ -1,7 +1,7 @@
 <?php
 
-use Nawarian\JigsawSitemapPlugin\Listener\SitemapListener;
 use TightenCo\Jigsaw\Jigsaw;
+use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawGenerateSitemapAfterBuild;
 use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawPostProcessFilesAfterBuild;
 use PODEntender\Infrastructure\Application\StaticSite\FileProcessing\JigsawGenerateRssFeedAfterBuild;
 use PODEntender\Infrastructure\Application\StaticSite\JigsawDecoratePagesAfterCollections;
@@ -25,5 +25,5 @@ $events->afterBuild([
     JigsawGenerateRobotsTxtFileAfterBuild::class,
     JigsawPostProcessFilesAfterBuild::class,
     JigsawGenerateRssFeedAfterBuild::class,
-    SitemapListener::class,
+    JigsawGenerateSitemapAfterBuild::class
 ]);
