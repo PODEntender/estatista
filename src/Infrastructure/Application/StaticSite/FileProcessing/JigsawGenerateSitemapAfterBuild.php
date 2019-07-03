@@ -12,7 +12,7 @@ class JigsawGenerateSitemapAfterBuild implements JigsawEventHandler
     {
         $destinationPath = implode([
             $jigsaw->getDestinationPath(),
-            'sitemap-episodios.xml'
+            'sitemap.xml'
         ], DIRECTORY_SEPARATOR);
         $jigsawAdapter = $jigsaw->app->make(SitemapGenerator::class);
 
