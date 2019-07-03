@@ -18,7 +18,7 @@
         "symfony/dom-crawler": "^4.2",
         "symfony/css-selector": "^4.2",
         "phpspec/prophecy": "~1.0",
-        "podentender/sitemap-generator": "dev-master"
+        "podentender/sitemap-generator": "^0"
     },
     "autoload": {
         "psr-4": {
