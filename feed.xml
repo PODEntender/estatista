@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Wed, 07 Aug 2019 09:51:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 22:34:36 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>Recesso do Podcast</title>
+      <description>Quando a casa está bagunçada, a gente precisa dar uma parada para colocar as coisas em ordem. Chega mais nesse episódio, onde explicamos tudo o que está acontecendo.</description>
+      <link>https://podentender.com/episodio/052-recesso-do-podcast</link>
+      <comments>https://podentender.com/episodio/052-recesso-do-podcast</comments>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep052</guid>
+      <category><![CDATA[Drops]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_52.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Quando a casa está bagunçada, a gente precisa dar uma parada para colocar as coisas em ordem. Chega mais nesse episódio, onde explicamos tudo o que está acontecendo.</itunes:subtitle>
+      <itunes:summary>Quando a casa está bagunçada, a gente precisa dar uma parada para colocar as coisas em ordem. Chega mais nesse episódio, onde explicamos tudo o que está acontecendo.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/052/capa.jpg"/>
+    </item>
     <item>
       <title>Família no tratamento de transtorno de stress pós traumático e missões Titã e Dragonfly</title>
       <description>Carol e Nawarian falam sobre potencial tratamento de Transtorno de Stress Pós Traumático e sobre as missões Titã, Cassini e Dragonfly</description>
