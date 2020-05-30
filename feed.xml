@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sat, 30 May 2020 13:37:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 14:44:14 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>Voltamos</title>
+      <description>O Brasil nos obriga.</description>
+      <link>https://podentender.com/episodio/052-voltamos</link>
+      <comments>https://podentender.com/episodio/052-voltamos</comments>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep053</guid>
+      <category><![CDATA[Drops]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE_53.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>O Brasil nos obriga.</itunes:subtitle>
+      <itunes:summary>O Brasil nos obriga.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/053/53_capa_site.jpg"/>
+    </item>
     <item>
       <title>Recesso do Podcast</title>
       <description>Quando a casa está bagunçada, a gente precisa dar uma parada para colocar as coisas em ordem. Chega mais nesse episódio, onde explicamos tudo o que está acontecendo.</description>
