@@ -4,7 +4,7 @@ section: content
 category: Drops
 date: 2020-05-30
 episode:
-  number: '053'
+  number: '052'
   date: 2020-05-30
   title: 'Voltamos'
   description: 'O Brasil nos obriga.'
