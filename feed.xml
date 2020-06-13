@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sat, 13 Jun 2020 13:44:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 19:01:29 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>Urbanismo e Pandemias</title>
+      <description>Qual o impacto de pandemias no urbanismo e planejamento das cidades? Venha ouvir e descobrir.</description>
+      <link>https://podentender.com/episodio/054-urbanismo-e-pandemias</link>
+      <comments>https://podentender.com/episodio/054-urbanismo-e-pandemias</comments>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep054</guid>
+      <category><![CDATA[Drops]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE54.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Qual o impacto de pandemias no urbanismo e planejamento das cidades? Venha ouvir e descobrir.</itunes:subtitle>
+      <itunes:summary>Qual o impacto de pandemias no urbanismo e planejamento das cidades? Venha ouvir e descobrir.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/054/PODEntender_54.jpg"/>
+    </item>
     <item>
       <title>Voltamos</title>
       <description>O Brasil nos obriga.</description>
