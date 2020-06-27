@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sat, 27 Jun 2020 13:51:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 21:04:40 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>De schistosoma à Rute e Raquel </title>
+      <description>Isso mesmo, você vai ter que ouvir para entender.</description>
+      <link>https://podentender.com/episodio/055-de-schistosoma-a-rute-e-raquel</link>
+      <comments>https://podentender.com/episodio/055-de-schistosoma-a-rute-e-raquel</comments>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep055</guid>
+      <category><![CDATA[Entrevista]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE55.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>Isso mesmo, você vai ter que ouvir para entender.</itunes:subtitle>
+      <itunes:summary>Isso mesmo, você vai ter que ouvir para entender.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/055/PODEntender_55.jpg"/>
+    </item>
     <item>
       <title>Urbanismo e Pandemias</title>
       <description>Qual o impacto de pandemias no urbanismo e planejamento das cidades? Venha ouvir e descobrir.</description>
