@@ -4,7 +4,7 @@
     <title>PODEntender</title>
     <link>https://podentender.com</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sat, 11 Jul 2020 13:57:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2020 00:32:19 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
@@ -27,6 +27,22 @@
       <itunes:email>amdnsk@gmail.com</itunes:email>
     </itunes:owner>
     <googleplay:description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</googleplay:description>
+    <item>
+      <title>Back teve um filho</title>
+      <description>...e falamos sobre ele.</description>
+      <link>https://podentender.com/episodio/056-back-teve-um-filho</link>
+      <comments>https://podentender.com/episodio/056-back-teve-um-filho</comments>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/ep056</guid>
+      <category><![CDATA[Drops]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE56.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>...e falamos sobre ele.</itunes:subtitle>
+      <itunes:summary>...e falamos sobre ele.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/056/PODEntender_56.jpg"/>
+    </item>
     <item>
       <title>De schistosoma à Rute e Raquel </title>
       <description>Isso mesmo, você vai ter que ouvir para entender.</description>
@@ -332,22 +348,6 @@
       <itunes:image href="https://podentender.com/assets/images/episode/037/037-capa-16x9.jpg"/>
     </item>
     <item>
-      <title>Sobre saúde coletiva e racismo</title>
-      <description>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</description>
-      <link>https://podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</link>
-      <comments>https://podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</comments>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">https://podentender.com/?p=5491</guid>
-      <category><![CDATA[Entrevista]]></category>
-      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_36.mp3" length="0" type="audio/mpeg"/>
-      <itunes:subtitle>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</itunes:subtitle>
-      <itunes:summary>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</itunes:summary>
-      <itunes:author/>
-      <itunes:explicit>clean</itunes:explicit>
-      <itunes:duration>00:00:00</itunes:duration>
-      <itunes:image href="https://podentender.com/assets/images/episode/036/036-capa.jpg"/>
-    </item>
-    <item>
       <title>Sobre vacinação e saúde pública</title>
       <description>Está rolando neste mês a campanha de vacinação da Poliomielite, então é um momento oportuno para saber mais sobre a relação entre vacinação e saúde pública. Você já pensou na logística necessária para vacinar um país grande como o Brasil?</description>
       <link>https://podentender.com/episodio/035-sobre-vacinacao-e-saude-publica</link>
@@ -362,6 +362,22 @@
       <itunes:explicit>clean</itunes:explicit>
       <itunes:duration>00:00:00</itunes:duration>
       <itunes:image href="https://podentender.com/assets/images/episode/035/035-capa.jpg"/>
+    </item>
+    <item>
+      <title>Sobre saúde coletiva e racismo</title>
+      <description>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</description>
+      <link>https://podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</link>
+      <comments>https://podentender.com/episodio/036-sobre-saude-coletiva-e-racismo</comments>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://podentender.com/?p=5491</guid>
+      <category><![CDATA[Entrevista]]></category>
+      <enclosure url="https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_36.mp3" length="0" type="audio/mpeg"/>
+      <itunes:subtitle>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</itunes:subtitle>
+      <itunes:summary>O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.</itunes:summary>
+      <itunes:author/>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:image href="https://podentender.com/assets/images/episode/036/036-capa.jpg"/>
     </item>
     <item>
       <title>Sobre a simulação da ONU</title>
