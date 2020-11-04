@@ -10,7 +10,7 @@ episode:
   description: 'A doutora Maria Fernanda estudou como o medo e a vergonha influenciam na decisão das mulheres ao percorrer o que Montserrat Sargot definiu como Rota Crítica.'
   guid: 'https://podentender.com/ep048'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_48.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066494/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107034-44100-2-47641b4f194e7fb9.mp3
   disqus: 'https://podentender.com/ep048'
   cover:
     url: '/assets/images/episode/048/capa.png'

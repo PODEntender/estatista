@@ -12,7 +12,7 @@ episode:
   title: 'Sobre escravidão e direito de propriedade no Brasil'
   description: A noção de que pessoas não podem ser propriedade de outras é relativamente recente na história da humanidade. Por muito tempo, a escravidão foi a base da economia no Brasil e havia permissão legal para que pessoas brancas pudessem ser proprietárias de pessoas pretas. Mas sabemos muito pouco sobre como era a estrutura jurídica que dava suporte a esse direito de propriedade.
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_38.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066465/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106979-44100-2-363d11bd255304ca.mp3
   guid: 'https://podentender.com/?p=5429'
   disqus: '5429 http://podentender.com/?p=5429'
   cover:

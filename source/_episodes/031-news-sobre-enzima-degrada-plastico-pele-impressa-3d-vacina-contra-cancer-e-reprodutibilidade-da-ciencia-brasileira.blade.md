@@ -13,7 +13,7 @@ episode:
   description: Você sabia que uma vacina contra o câncer desenvolvida no Brasil foi testada com sucesso em cobáias? E que pesquisadores brasileiros trabalharam no melhoramento da eficiência de enzima que degrada plástico? E que uma pesquisadora brasileira trabalhou no desenvolvimento de pele impressa em 3D para substituir uso de animais em testes de cosméticos? Já ouviu falar da crise de reprodutibilidade da ciência e na iniciativa brasileira para verificar a reprodutibilidade de cientistas brasileiros?
   guid: 'https://podentender.com/?p=5451'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEnteder_31_NEWS.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066443/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107024-44100-2-7abbbdbd7714ea96.mp3
   disqus: '5451 http://podentender.com/?p=5451'
   cover:
     url: '/assets/images/episode/031/031-capa.png'

@@ -13,7 +13,7 @@ episode:
   description: O racismo é um mal que acompanha o Brasil há muitos séculos e as suas marcas podem ser encontradas em todas as esferas da sociedade. Algumas dessas marcas são difíceis de mensurar. No entanto, outras, como as diferenças entre os acessos aos serviços de saúde, poderiam ser medidas facilmente.
   guid: 'https://podentender.com/?p=5491'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_36.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106989-44100-2-32d64caa39d09d65.mp3
   disqus: '5491 http://podentender.com/?p=5491'
   cover:
     url: '/assets/images/episode/036/036-capa.jpg'

@@ -14,7 +14,7 @@ episode:
   description: Mês dos namorados, muito amor no ar, certo? Mas nem só de romance vive a ciência e precisamos discutir nosso relacionamento com a vida acadêmica. Às vezes o amor pela ciência fica abalado e o relacionamento precisa ser discutido. 
   guid: 'https://podentender.com/?p=5202'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_025_Discutindo_o_relacionamento_com_a_vida_academica.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066464/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107020-44100-2-d5e9530cfc0bd692.mp3
   disqus: '5202 http://dragoesdegaragem.com/podentender/?p=5202'
   cover:
     url: '/assets/images/episode/025/025-capa.png'

@@ -13,7 +13,7 @@ episode:
   description: Talvez você não tenha reparado, mas hoje é possível saber as posições dos átomos de moléculas que compõem os seres vivos.  
   guid: 'https://podentender.com/?p=4873'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_012_DROPS_historia_da_biologia_estrutural.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066452/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106996-44100-2-52b61d4bb5bfd42c.mp3
   disqus: '4953 http://podentender.com/?p=4873'
   cover:
     url: '/assets/images/episode/012/012-capa.jpg'

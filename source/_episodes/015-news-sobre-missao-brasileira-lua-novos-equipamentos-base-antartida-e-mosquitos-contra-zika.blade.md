@@ -13,7 +13,7 @@ episode:
   description: Saiba mais sobre Garatea-L, a primeira missão brasileira à lua, os novos equipamentos para a base brasileira de pesquisas na Antártida e mosquitos utilizados contra o ZIKA.
   guid: 'https://podentender.com/?p=4916'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_015_NEWS_.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066495/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107011-44100-2-b8c2f8ce343ef23a.mp3
   disqus: '4916 http://podentender.com/?p=4916'
   cover:
     url: '/assets/images/episode/015/015-capa.png'

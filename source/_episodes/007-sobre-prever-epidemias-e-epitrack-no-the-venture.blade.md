@@ -14,7 +14,7 @@ episode:
   description: Neste episódio, conheceremos a Epitrack, start-up pernambucana que cria plataformas de participação colaborativa (crowdsourcing) com o intuito de adquirir informações sobre a saúde dos usuários, auxiliando o acompanhamento de epidemias.
   guid: 'https://podentender.com/?p=10'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_007_DROPS_02_Prevendo_epidemias_e_Epitrack_no_The_Venture.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066462/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106997-44100-2-3a73906d80bbe163.mp3
   disqus: '10 http://podentender.com/2016/05/12/podentender-drops-002-sobre-prevendo-epidemias-e-epitrack-no-the-venture/'
   cover:
     url: '/assets/images/episode/007/007-capa.jpg'

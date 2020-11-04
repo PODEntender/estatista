@@ -13,7 +13,7 @@ episode:
   description: Venha descobrir como saber se uma mitocôndria está respirando, como usar a probabilidade ao seu favor, editar genes e modificar qualquer organismo com a ferramenta CRISPr/Cas9 e não se assuste com esse nome!
   guid: 'https://podentender.com/?p=5114'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_018_CRISPR_e_modificacao_de_genomas.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066459/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107056-44100-2-96c4d121108eb125.mp3
   disqus: '5114 http:\/\/dragoesdegaragem.com\/podentender\/?p=5114'
   cover:
     url: '/assets/images/episode/018/018-capa.png'

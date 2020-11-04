@@ -15,7 +15,7 @@ episode:
   description: 'Dalton e Níckolas comentam sobre o possível cancelamento das bolsas do CNPq até Outubro de 2019 devido a cortes no orçamento. Também falamos sobre a descoberta de aglomerados na Via Láctea pelo pesquisador Filipe Andrade da UFMG e acompanhamos a audiência pública no Congresso Nacional sobre o Acordo de Salvaguardas Tecnológicas (AST).'
   guid: 'https://podentender.com/?p=5905'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_47.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066473/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107014-44100-2-634edae3cb9ea3a2.mp3
   disqus: '5905 https://podentender.com/?p=5905'
   cover:
     url: '/assets/images/episode/047/capa.jpg'

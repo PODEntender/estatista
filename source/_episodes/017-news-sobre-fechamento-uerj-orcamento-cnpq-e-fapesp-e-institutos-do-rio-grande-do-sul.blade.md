@@ -14,7 +14,7 @@ episode:
   description: Saiba mais sobre o possivel fechamento da UERJ, os recentes problemas no orçamento do CNPq e da FAPESP e o fechamento de institutos de pesquisa do Rio Grande do Sul.
   guid: 'https://podentender.com/?p=5010'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_017_NEWS_fix.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107009-44100-2-1087ca5521f3932b.mp3
   disqus: '5010 http://dragoesdegaragem.com/podentender/?p=5010'
   cover:
     url: '/assets/images/episode/017/017-capa.png'

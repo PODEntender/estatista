@@ -13,7 +13,7 @@ episode:
   description: 'Neste episódio conversamos com Juliana Estradioto, estudante do ensino médio que com apenas 18 anos coleciona diversos prêmios, dentre eles o primeiro lugar na categoria Ensino Médio da 29ª edição do Prêmio Jovem Cientista.'
   guid: 'https://podentender.com/?p=5884'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_44.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107053-44100-2-15538d0dd52f379d.mp3
   disqus: '5884 https://podentender.com/?p=5884'
   cover:
     url: '/assets/images/episode/044/044-capa-16x9.jpg'

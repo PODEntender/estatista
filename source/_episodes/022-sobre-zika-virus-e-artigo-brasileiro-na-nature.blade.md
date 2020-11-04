@@ -14,7 +14,7 @@ episode:
   description: Qual a influência da pesquisa brasileira no avanço do conhecimento sobre o zika vírus (ZIKV)? Como demonstrar a estrutura de uma proteína pode ajudar a entender e combater esta doença? 
   guid: 'https://podentender.com/?p=5163'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_022_DROPS.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066484/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107054-44100-2-b0924af973b8a2c0.mp3
   disqus: '5163 http://dragoesdegaragem.com/podentender/?p=5163'
   cover:
     url: '/assets/images/episode/022/022-capa.png'

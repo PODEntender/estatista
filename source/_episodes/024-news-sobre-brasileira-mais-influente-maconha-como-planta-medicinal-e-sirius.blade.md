@@ -14,7 +14,7 @@ episode:
   description: Quer saber qual é a brasileira, cientista, que tem maior influência no mundo? Ou talvez descobrir que até o maior empreendimento científico brasileiro está correndo riscos? Ao menos, a ANVISA incluiu a Canabbis sativa na lista de plantas medicinais, e isso pode ser um grande avanço.
   guid: 'https://podentender.com/?p=5188'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_024_NEWS.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066446/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107013-44100-2-ce067254eefa73bd.mp3
   disqus: '5188 http://dragoesdegaragem.com/podentender/?p=5188'
   cover:
     url: '/assets/images/episode/024/024-capa.png'

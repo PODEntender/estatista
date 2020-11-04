@@ -10,7 +10,7 @@ episode:
   description: 'Qual o impacto de pandemias no urbanismo e planejamento das cidades? Venha ouvir e descobrir.'
   guid: 'https://podentender.com/ep054'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE54.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107026-44100-2-0b8fdeb661c87b01.mp3
   disqus: 'https://podentender.com/ep054'
   cover:
     url: '/assets/images/episode/054/PODEntender_54.jpg'

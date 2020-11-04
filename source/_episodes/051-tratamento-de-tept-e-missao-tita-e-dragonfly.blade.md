@@ -10,7 +10,7 @@ episode:
   description: 'Carol e Nawarian falam sobre potencial tratamento de Transtorno de Stress Pós Traumático e sobre as missões Titã, Cassini e Dragonfly'
   guid: 'https://podentender.com/ep051'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_51.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066437/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107012-44100-2-65cdf9a52d271401.mp3
   disqus: 'https://podentender.com/ep051'
   cover:
     url: '/assets/images/episode/051/capa.jpg'

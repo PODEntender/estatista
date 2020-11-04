@@ -10,7 +10,7 @@ episode:
   description: 'O que são e como se manifestam as emoções, qual o efeito social e psicológico que elas têm sobre nós e que coragem e resiliência são na realidade papo furado.'
   guid: 'https://podentender.com/ep049'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/p/content.blubrry.com/podentender/PODEntender_49.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107031-44100-2-4954c3454fcc9136.mp3
   disqus: 'https://podentender.com/ep049'
   cover:
     url: '/assets/images/episode/049/capa.png'

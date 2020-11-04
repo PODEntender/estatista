@@ -13,7 +13,7 @@ episode:
   description: Você já se questionou por que nós precisamos dormir? Neste episódio, discutimos sobre as 4 causas de Aristóteles e o que isso tem a ver com a barba e o sono.
   guid: 'https://podentender.com/?p=5633'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_41.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066479/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107043-44100-2-7a96c0e077277c5b.mp3
   disqus: '5633 https://podentender.com/?p=5633'
   cover:
     url: '/assets/images/episode/041/041-capa-16x9.jpg'

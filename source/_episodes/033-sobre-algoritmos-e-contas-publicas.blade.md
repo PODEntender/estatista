@@ -13,7 +13,7 @@ episode:
   description: Há pouco mais de uma década, monitorar o uso de dinheiro público exigia muito investimento e muitas horas de profissionais especializados, o que limitava a capacidade de controle social das contas públicas a um grupo muito pequeno de brasileiros e brasileiras. Mas com o avanço da tecnologia, uma parte significativa da população tem acesso a mais poder computacional do que a NASA precisou para mandar o homem à lua. 
   guid: 'https://podentender.com/?p=5426'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_33.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066524/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107075-44100-2-7deb735a94b7e88c.mp3
   disqus: '5426 http://podentender.com/?p=5426'
   cover:
     url: '/assets/images/episode/033/033-capa.jpg'

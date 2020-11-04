@@ -10,7 +10,7 @@ episode:
   description: 'Isso mesmo, você vai ter que ouvir para entender.'
   guid: 'https://podentender.com/ep055'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE55.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066466/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107021-44100-2-1dc7301b59be1c6c.mp3
   disqus: 'https://podentender.com/ep055'
   cover:
     url: '/assets/images/episode/055/PODEntender_55.jpg'

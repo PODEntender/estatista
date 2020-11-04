@@ -13,7 +13,7 @@ episode:
   description: Brasil foi aprovado para o fazer parte do grupo de elite da União Internacional de Matemática, pesquisadores brasileiros detectaram o vírus da febre amarela e um novo bloqueio de verbas do orçamento do Ministério de Ciência, Tecnologia e Comunicação foi feito.
   guid: 'https://podentender.com/?p=5227'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_28_NEWS.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066500/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107003-44100-2-f799e208d4773b0e.mp3
   disqus: '5227 http://dragoesdegaragem.com/podentender/?p=5227'
   cover:
     url: '/assets/images/episode/028/028-capa.png'

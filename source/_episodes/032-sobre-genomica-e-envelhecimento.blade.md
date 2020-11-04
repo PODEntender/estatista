@@ -13,7 +13,7 @@ episode:
   description: Pela primeira vez na história da humanidade temos um grande número de seres humanos vivendo cerca de 80 anos, mas nossos genes não foram selecionados para isso. Vamos descobrir como investigar o genoma dessas pessoas. 
   guid: 'https://podentender.com/?p=5425'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_32.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107049-44100-2-b67f7aacd7a48f74.mp3
   disqus: '5425 http://podentender.com/?p=5425'
   cover:
     url: '/assets/images/episode/032/032-capa.jpg'

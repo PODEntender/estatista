@@ -13,7 +13,7 @@ episode:
   description: Como o machismo influencia a vida acadêmica e o dia a dia de cientistas dentro de seus espaços de trabalho? Será que essa realidade é diferente das outras profissões?  Como enxergar e combater as agressões e a rotina assustadora e desnecessariamente mais difícil e presente na vida das mulheres.
   guid: 'https://podentender.com/?p=5146'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_020_machismo_na_ciencia_brasileira.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107101-44100-2-6841f83f6f6d1e13.mp3
   disqus: '5146 http://dragoesdegaragem.com/podentender/?p=5146'
   cover:
     url: '/assets/images/episode/020/020-capa.png'

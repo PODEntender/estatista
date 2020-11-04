@@ -13,7 +13,7 @@ episode:
   description: Como diferenciar pesquisa básica e aplicada? Em tempos de redução do financiamento para a ciência, que tipo de pesquisa deveria ser prioridade? O estado deveria investir em ciência básica?
   guid: 'https://podentender.com/?p=4926'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_016_DROPS_sobre_existe_diferenca_entre_ciencia_basica_e_ciencia_aplicada.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066448/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107004-44100-2-e3b8d154b4af32ec.mp3
   disqus: '4926 http://podentender.com/?p=4926'
   cover:
     url: '/assets/images/episode/016/016-capa.jpg'

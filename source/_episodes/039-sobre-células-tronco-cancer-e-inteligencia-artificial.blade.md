@@ -12,7 +12,7 @@ episode:
   title: 'Sobre células-tronco, câncer e inteligência artificial'
   description: Atualmente, já existem dados experimentais que permitem caracterizar semelhanças e diferenças entre células cancerígenas e células-tronco. Porém tal tarefa envolve um trabalho árduo de análise e classificação de centenas de amostras. Tathiane desenvolveu um modelo de aprendizado que permite o uso de inteligência artificial para identificar e quantificar características de células tronco em células cancerígenas.
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_39.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066478/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107048-44100-2-99a63b9e4e06dda2.mp3
   guid: 'https://podentender.com/?p=5592'
   disqus: '5592 https://podentender.com/?p=5592'
   cover:

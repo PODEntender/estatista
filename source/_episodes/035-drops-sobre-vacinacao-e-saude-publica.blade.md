@@ -13,7 +13,7 @@ episode:
   description: Está rolando neste mês a campanha de vacinação da Poliomielite, então é um momento oportuno para saber mais sobre a relação entre vacinação e saúde pública. Você já pensou na logística necessária para vacinar um país grande como o Brasil?
   guid: 'https://podentender.com/?p=5483'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_35.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066444/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107016-44100-2-830b209a2b911077.mp3
   disqus: '5483 http://podentender.com/?p=5483'
   cover:
     url: '/assets/images/episode/035/035-capa.jpg'

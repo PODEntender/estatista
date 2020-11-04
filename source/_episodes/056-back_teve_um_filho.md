@@ -10,7 +10,7 @@ episode:
   description: '...e falamos sobre ele.'
   guid: 'https://podentender.com/ep056'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE56.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066445/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107028-44100-2-e3b41c2ae2d6df7c.mp3
   disqus: 'https://podentender.com/ep056'
   cover:
     url: '/assets/images/episode/056/PODEntender_56.jpg'

@@ -14,7 +14,7 @@ episode:
   description: O que é Deep learning e como essa nova ferramenta funciona e pode revolucionar a forma como as máquinas realizam processos?
   guid: 'https://podentender.com/?p=5138'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_019_Deep_Learning.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107100-44100-2-90a37f1a2142f032.mp3
   disqus: '5138 http://dragoesdegaragem.com/podentender/?p=5138'
   cover:
     url: '/assets/images/episode/019/019-capa.png'

@@ -10,7 +10,7 @@ episode:
   description: 'O Brasil nos obriga.'
   guid: 'https://podentender.com/ep053'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PE_53.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066470/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107002-44100-2-6ab7641b9033119a.mp3
   disqus: 'https://podentender.com/ep053'
   cover:
     url: '/assets/images/episode/053/53_capa_site.jpg'

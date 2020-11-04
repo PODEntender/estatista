@@ -14,7 +14,7 @@ episode:
   description: Será que existe vida fora da terra? Se existir, ela poderia sobreviver as condições extremas que encontramos no nosso universo? Procurar como descobrir a resposta dessas e outras perguntas faz parte do dia-a-dia de Douglas Galante, pesquisador do Laboratório Nacional de Luz Síncrotron (LNLS) do Centro Nacional de Pesquisa em Energia e Materiais (CNPEM). 
   guid: 'https://podentender.com/?p=4900'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_014_sobre_astrobiologia.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066517/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107033-44100-2-e2bb9f399cca4570.mp3
   disqus: '4954 http://podentender.com/?p=4900'
   cover:
     url: '/assets/images/episode/014/014-capa.jpg'

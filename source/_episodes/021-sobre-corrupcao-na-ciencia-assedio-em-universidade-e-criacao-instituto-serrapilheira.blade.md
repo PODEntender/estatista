@@ -13,7 +13,7 @@ episode:
   description: Já pensou em como a ciência também é suscetível à corrupção? Ou como o assédio dentro dos espaços de universidade podem ser combatidos? Não perca a esperança na ciência e veja como a criação de um fundo privado ainda pode dar um respiro ao cenário brasileiro.
   guid: 'https://podentender.com/?p=5155'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_021_NEWS.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066453/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107006-44100-2-788de0fa2972482b.mp3
   disqus: '5155 http://dragoesdegaragem.com/podentender/?p=5155'
   cover:
     url: '/assets/images/episode/021/021-capa.png'

@@ -13,7 +13,7 @@ episode:
   description: 'Inclusão do período de licença maternidade e paternidade no currículo lattes. Marcos Pontes esclarece o AST (Acordo de Salvaguardas Tecnológicas).'
   guid: 'https://podentender.com/?p=5897'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_46.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066457/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107018-44100-2-adc6d80875df2269.mp3
   disqus: '5897 https://podentender.com/?p=5897'
   cover:
     url: '/assets/images/episode/046/capa.jpg'

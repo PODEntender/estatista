@@ -13,7 +13,7 @@ episode:
   description: 'Giovanna Merli pesquisou a relação das mulheres com o espaço urbano para descobrir como elas ocupam, interferem e se apropriam do espaço e como esse espaço poderia ser melhor.'
   guid: 'https://podentender.com/?p=5891'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_45.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107059-44100-2-80364b9e3b8e720b.mp3
   disqus: '5891 https://podentender.com/?p=5891'
   cover:
     url: '/assets/images/episode/045/045-capa.jpg'

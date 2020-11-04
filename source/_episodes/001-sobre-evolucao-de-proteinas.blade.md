@@ -14,7 +14,7 @@ episode:
   description: Por alguma razão, duas enzimas foram cruciais nesse processo e descobrir o que aconteceu ao longo da história evolutiva dessas enzimas é o trabalho do Dalton (Fabio Neves).
   guid: 'https://podentender.com/?p=16'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_001_sobre_evoluo_de_proteinas.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106993-48000-2-d2f0d2b3c42ce815.mp3
   disqus: '16 http://podentender.com/2016/01/12/podentender-001-sobre-evolucao-de-proteinas_12/'
   cover:
     url: '/assets/images/episode/001/001-capa.jpg'

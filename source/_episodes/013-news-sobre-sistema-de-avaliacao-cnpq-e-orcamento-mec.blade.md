@@ -13,7 +13,7 @@ episode:
   description: Comentamos sobre uma proposta de mudança no sistema de avaliação de projetos do CNPq e uma notícia de orçamento recuperado para o MEC.
   guid: 'https://podentender.com/?p=4893'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_013_NEWS_avaliacao_CNPq_orcamento_MEC.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066441/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107032-44100-2-c1ad00fdf349c5e7.mp3
   disqus: '4893 http://podentender.com/?p=4893'
   cover:
     url: '/assets/images/episode/013/013-capa.png'

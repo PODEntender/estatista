@@ -13,7 +13,7 @@ episode:
   description: Um dos fenômenos mais complexos que existem no universo é o nascimento de um novo ser vivo. Uma sinfonia molecular incrivelmente complexa ocorre todos os dias no nosso planeta para que uma célula seja capaz de se tornar uma criança com uma vida inteira pela frente.
   guid: 'https://podentender.com/?p=4855'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_011_sobre_Biologia_do_desenvolvimento.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066447/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106998-44100-2-fe6d321d305fd75e.mp3
   disqus: '4855 http://podentender.com/?p=4855'
   cover:
     url: '/assets/images/episode/011/011-capa.jpg'

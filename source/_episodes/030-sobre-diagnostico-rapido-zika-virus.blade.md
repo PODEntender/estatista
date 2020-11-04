@@ -13,7 +13,7 @@ episode:
   description: Como se faz o diagnóstico do Zika vírus? Como é o trabalho com famílias de crianças com microcefalia? Qual é o papel da Caravana do Coração nos projetos com Zika, Dengue e Chicungunha?
   guid: 'https://podentender.com/?p=5414'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_30_ZIKA_2.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106986-44100-2-bd4e2f70a8ea4045.mp3
   disqus: '5414 http://podentender.com/?p=5414'
   cover:
     url: '/assets/images/episode/030/030-capa.jpg'

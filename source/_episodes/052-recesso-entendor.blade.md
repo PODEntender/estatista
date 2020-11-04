@@ -10,7 +10,7 @@ episode:
   description: 'Quando a casa está bagunçada, a gente precisa dar uma parada para colocar as coisas em ordem. Chega mais nesse episódio, onde explicamos tudo o que está acontecendo.'
   guid: 'https://podentender.com/ep052'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_52.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066434/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125106992-44100-2-02bc865ed77a7f8f.mp3
   disqus: 'https://podentender.com/ep052'
   cover:
     url: '/assets/images/episode/052/capa.jpg'

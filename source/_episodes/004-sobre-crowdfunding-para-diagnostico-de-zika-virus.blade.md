@@ -14,7 +14,7 @@ episode:
   description: Uma equipe de pesquisadores lançou ma campanha de crowdfunding para desenvolver um método de diagnóstico do vírus.  
   guid: 'https://podentender.com/?p=13'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_004_DROPS_001_SOBRE_CROWNDFUNDING_PARA_DIAGNOSTICO_DO_ZIKA_v_02.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107001-44100-2-f50c8b5de44d956b.mp3
   disqus: '13 http://podentender.com/2016/03/31/podentender-drops-001-sobre-crowndfunding-para-diagnostico-de-zika-virus/'
   cover:
     url: '/assets/images/episode/004/004-capa.jpg'

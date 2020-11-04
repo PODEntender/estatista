@@ -13,7 +13,7 @@ episode:
   description: 'Tonho e Carol Lacerda: Marcos Pontes ao Jornal da Ciência comenta planos para o ano de 2019. Capes libera cursos de pós-graduação na modalidae EAD.'
   guid: 'https://podentender.com/?p=5864'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/s/content.blubrry.com/podentender/PODEntender_43.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066458/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107015-44100-2-f0d72e043fd2309d.mp3
   disqus: '5864 https://podentender.com/?p=5864'
   cover:
     url: '/assets/images/episode/043/043-capa.jpg'

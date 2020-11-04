@@ -12,7 +12,7 @@ episode:
   description: 'Tonho e Nawarian comentam sobre a medida aprovada pelo TRF1 que torna válido novamente o bloqueio de verbas em universidades e sobre a repatriação de fósseis extraviados ao Brasil.'
   guid: 'https://podentender.com/ep050'
   audioStrategy: blubrry
-  audioUrl: https://media.blubrry.com/podentender/content.blubrry.com/podentender/PODEntender_50.mp3
+  audioUrl: https://anchor.fm/s/3e84ad44/podcast/play/22066439/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-3%2F125107005-44100-2-be37031c9c08e040.mp3
   disqus: 'https://podentender.com/ep050'
   cover:
     url: '/assets/images/episode/050/capa.png'
