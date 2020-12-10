@@ -1,0 +1,30 @@
+language: php
+php:
+  - 7.2
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+install:
+  - composer install
+
+script:
+  - composer run build
+  - mv build_production/ .build/
+  - rm -rf * travis.yml .gitignore
+  - mv .build/* ./
+  - mv 404/index.html ./404.html
+  - rm -rf ./404/
+  - echo $CNAME > CNAME
+  - echo -e "plugins:\n  - jekyll-redirect-from" > _config.yml
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  verbose: true
+  target-branch: gh-pages
+  on:
+    branch: master
