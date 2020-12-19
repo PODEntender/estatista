@@ -2,26 +2,26 @@
 <rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>PODEntender</title>
-    <link>https://podentender.com</link>
+    <link>https://podentender.com.br</link>
     <description>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</description>
-    <lastBuildDate>Sat, 19 Dec 2020 15:24:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Dec 2020 17:54:22 +0000</lastBuildDate>
     <language>pt-BR</language>
     <generator>https://github.com/podentender/estatista</generator>
     <managingEditor>amdnsk@gmail.com (PODEntender)</managingEditor>
     <category>Science &amp; Medicine</category>
     <image>
       <title>PODEntender</title>
-      <url>https://podentender.com/assets/images/favcom.png</url>
-      <link>https://podentender.com</link>
+      <url>https://podentender.com.br/assets/images/favcom.png</url>
+      <link>https://podentender.com.br</link>
     </image>
-    <atom:link href="https://podentender.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://podentender.com.br/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:subtitle>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:subtitle>
     <itunes:summary>Podcast que tem como principal objetivo apresentar e a realidade da ciência e aproximar do público brasileiro.</itunes:summary>
     <itunes:author>PODEntender</itunes:author>
     <itunes:explicit>clean</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="Science &amp; Medicine"/>
-    <itunes:image href="https://podentender.com/assets/images/favcom.png"/>
+    <itunes:image href="https://podentender.com.br/assets/images/favcom.png"/>
     <itunes:owner>
       <itunes:name>PODEntender</itunes:name>
       <itunes:email>amdnsk@gmail.com</itunes:email>
