@@ -13,8 +13,8 @@ return [
     'managingEditor' => 'amdnsk@gmail.com (PODEntender)',
     'email' => 'amdnsk@gmail.com',
     'category' => 'Science & Medicine',
-    'imageUrl' => 'https://podentender.com/assets/images/favcom.png',
-    'feedUrl' => 'https://podentender.com/feed.xml',
-    'url' => 'https://podentender.com',
+    'imageUrl' => 'https://podentender.com.br/assets/images/favcom.png',
+    'feedUrl' => 'https://podentender.com.br/feed.xml',
+    'url' => 'https://podentender.com.br',
     'outputFilepath' => 'feed.xml',
 ];
