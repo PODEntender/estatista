@@ -23,6 +23,13 @@ $config = [
                 'changeFrequency' => \PODEntender\SitemapGenerator\Url::FREQUENCY_MONTHLY,
             ],
         ],
+        'authors' => [
+            'path' => function (\TightenCo\Jigsaw\PageVariable $page) {
+                $builder = new \PODEntender\Domain\Model\Author\AuthorSlugBuilder();
+
+                return $builder->build($page->author['uid']);
+            },
+        ],
     ],
     'assets' => [
         'logo' => '/assets/images/logo.png',

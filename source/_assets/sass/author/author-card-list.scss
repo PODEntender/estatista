@@ -1,0 +1,19 @@
+@import '../colors';
+@import '../font-sizes';
+@import '../mixins/media';
+
+.author-card-list {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+
+    @include mobile-only {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__list-item {
+    padding: 0 5px;
+  }
+}
